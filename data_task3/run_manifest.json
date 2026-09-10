@@ -198,13 +198,13 @@
     "figures_task3/fig2_target_recovery_washout.png": "0c535d4a8295c03223a214c54052cbcb7a8bd71f882679b0ed0856d2257f7eee",
     "figures_task3/fig3_gsh_reactivity_safety_radar.png": "712d12490124283df6ae25d0d57bfce8725536f0b0b816bb78378b6f23544f56",
     "figures_task3/fig4_warhead_lumo_reactivity_correlation.png": "b190fc6462dff8b819febc9ce63ada68f31192a420f9090642ede344145392ce",
-    "README.md": "4ee2bba20d43e006ba88b58ef05683ab801d2f764c864d7d8f5eca42e9651005",
+    "README.md": "007e9ab7dbc63809c6b0318e93d0e00bd8a8c67bf3f7f563b72d225268917f4e",
     "run_task3_covalent_kinetics_residence_time.py": "df145e9ef74e1b6f24cdbf3868b315484392e5d06d14f3014d19436d9cf046c4"
   },
   "repository_integration": {
     "repository": "https://github.com/songsiyi2006-chem/ai4pharm-lead-developability-suite",
     "base_commit": "aa7c77f790a285250c8b635739f4eabdc2324fc8",
-    "note": "Validated scientific outputs copied unchanged; Task 3 section appended to existing repository README. README checksum updated for the integrated file.",
+    "note": "Validated scientific outputs retained unchanged. Shared README now indexes Tasks 1-4; its checksum was refreshed during Task 4 integration.",
     "original_generated_README_sha256": "ecffc306b115f9cb7b400d65eef7f95cc1fa22246c696a29011b38f7e651cca1"
   }
 }

@@ -1,0 +1,117 @@
+{
+  "regression_tests_run": true,
+  "checks": [
+    {
+      "test": "IVIVE units: 8*45*1800*60e-6 = 38.88 L/h",
+      "passed": true
+    },
+    {
+      "test": "Analytic mass derivative including losses is zero",
+      "passed": true
+    },
+    {
+      "test": "Radau agrees with independent matrix exponential",
+      "passed": true
+    },
+    {
+      "test": "BDF agrees with Radau",
+      "passed": true
+    },
+    {
+      "test": "AUC ratio matches Fa*Fg*FH at Rb=0.6",
+      "passed": true
+    },
+    {
+      "test": "AUC ratio matches Fa*Fg*FH at Rb=1.0",
+      "passed": true
+    },
+    {
+      "test": "AUC ratio matches Fa*Fg*FH at Rb=1.4",
+      "passed": true
+    },
+    {
+      "test": "Zero hepatic clearance gives FH=1",
+      "passed": true
+    },
+    {
+      "test": "Fa=0 gives zero oral systemic exposure",
+      "passed": true
+    },
+    {
+      "test": "Periodic state residual is below tolerance",
+      "passed": true
+    },
+    {
+      "test": "Steady-state AUC per interval equals single-dose AUC infinity",
+      "passed": true
+    },
+    {
+      "test": "Zero dose has zero target coverage",
+      "passed": true
+    },
+    {
+      "test": "Very high scaled exposure has complete coverage",
+      "passed": true
+    },
+    {
+      "test": "Closed system conserves all active drug",
+      "passed": true
+    },
+    {
+      "test": "Large-Km nonlinear model approaches linear model",
+      "passed": true
+    },
+    {
+      "test": "Nonlinear model mass derivative is zero",
+      "passed": true
+    },
+    {
+      "test": "Nonlinear shooting satisfies each compartment periodic boundary",
+      "passed": true
+    },
+    {
+      "test": "Nonlinear periodic elimination equals absorbed input",
+      "passed": true
+    },
+    {
+      "test": "Saturable capacity failure is identified",
+      "passed": true
+    },
+    {
+      "test": "Invalid mw_g_mol is rejected",
+      "passed": true
+    },
+    {
+      "test": "Invalid fu_p is rejected",
+      "passed": true
+    },
+    {
+      "test": "Invalid rb is rejected",
+      "passed": true
+    },
+    {
+      "test": "Invalid fa is rejected",
+      "passed": true
+    },
+    {
+      "test": "Invalid km_unbound_mg_l is rejected",
+      "passed": true
+    },
+    {
+      "test": "Root-based coverage matches fine independent quadrature",
+      "passed": true
+    }
+  ],
+  "runtime_checks": [
+    "solver success",
+    "finite nonnegative amounts",
+    "mass conservation",
+    "finite AUC tail",
+    "periodic boundary when SS exists",
+    "dose feasibility and predecessor"
+  ],
+  "single_iv_max_mass_error_mg": 6.716902589687379e-10,
+  "single_oral_max_mass_error_mg": 6.986482503634761e-10,
+  "multidose_final_mass_error_mg": 7.019025360932574e-10,
+  "clinical_validation_performed": false
+}

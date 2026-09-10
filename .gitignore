@@ -47,3 +47,6 @@ desktop.ini
 
 # Curated Task 2 execution log accompanies its reproducibility manifest.
 !/run_task2.log
+
+# Per-run Git transport status is local metadata.
+task4_pbpk/git_delivery_status.json

@@ -1,0 +1,114 @@
+{
+  "regression_checks_passed": 25,
+  "figure_validation": [
+    {
+      "file": "fig1_pbpk_plasma_iv_vs_oral.png",
+      "pixels": [
+        3600,
+        1470
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "fig2_tissue_distribution_biodistribution.png",
+      "pixels": [
+        3000,
+        1650
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "fig3_multidose_steady_state_regimen.png",
+      "pixels": [
+        3300,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "file": "fig4_dose_titration_target_coverage.png",
+      "pixels": [
+        3600,
+        1620
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    }
+  ],
+  "nonlinear_end_to_end_run": {
+    "config_override": {
+      "km_unbound_mg_l": 0.1
+    },
+    "steady_state": {
+      "cmax_mg_l": 5.871450906661607,
+      "tmax_h": 0.39038348370265413,
+      "cmin_mg_l": 5.462143011997647,
+      "tmin_h": 5.703780494689572e-05,
+      "trough_predose_mg_l": 5.4621435424120515,
+      "status": "converged",
+      "dose_mg": 100,
+      "tau_h": 12,
+      "daily_dose_mg": 200.0,
+      "periodic_residual_relative": 4.633844342373013e-15,
+      "iterations": 0,
+      "auc_tau_mg_h_l": 67.16896697655969,
+      "shooting_evaluations": 13,
+      "coverage_24h_pct": 100.0,
+      "accumulation_ratio": 14.487411525100471
+    },
+    "dose_optimization": {
+      "selected_research_regimen": {
+        "regimen": "BID",
+        "dose_mg": 13.0,
+        "daily_dose_mg": 26.0,
+        "coverage_24h_pct": 100.0,
+        "cmax_ss_mg_l": 0.2868497583673591,
+        "ctrough_ss_mg_l": 0.23539160918069282,
+        "feasible": true,
+        "status": "converged",
+        "minimum_definition": "minimum on 1 mg per-administration lattice starting at 10 mg"
+      },
+      "minimum_by_regimen": [
+        {
+          "regimen": "QD",
+          "dose_mg": 26.0,
+          "daily_dose_mg": 26.0,
+          "coverage_24h_pct": 95.48838833353501,
+          "cmax_ss_mg_l": 0.3267983389574376,
+          "ctrough_ss_mg_l": 0.22270026983938382,
+          "feasible": true,
+          "status": "converged",
+          "minimum_definition": "minimum on 1 mg per-administration lattice starting at 10 mg"
+        },
+        {
+          "regimen": "BID",
+          "dose_mg": 13.0,
+          "daily_dose_mg": 26.0,
+          "coverage_24h_pct": 100.0,
+          "cmax_ss_mg_l": 0.2868497583673591,
+          "ctrough_ss_mg_l": 0.23539160918069282,
+          "feasible": true,
+          "status": "converged",
+          "minimum_definition": "minimum on 1 mg per-administration lattice starting at 10 mg"
+        }
+      ],
+      "objective": "minimum total daily dose; ties resolved by lower peak",
+      "dose_bounds_are_per_administration": true,
+      "toxicity_basis": "total mixed-venous plasma concentration (mg/L)",
+      "coverage_basis": "free mixed-venous plasma (nM), periodic steady state",
+      "clinical_recommendation": null
+    },
+    "oral_auc_0_inf_mg_h_l": 21.392846122951873
+  }
+}

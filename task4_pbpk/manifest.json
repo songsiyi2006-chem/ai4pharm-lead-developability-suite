@@ -1,0 +1,32 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.1",
+  "solver": "Radau",
+  "rtol": 1e-08,
+  "atol": 1e-10,
+  "script_sha256": "b4b184d3ec87f3b45c5a67e728dd628494c64d8a9e20e31c58c3e6b73ae1f62e",
+  "files_sha256": {
+    "compound_example.json": "eae67b0c1835d8b068abd96d667009326eb5644061a5e0069d081f10c2d668f9",
+    "dose_titration.csv": "77423a6ffa64ffae6efbf2ad5d0b5eb694bd36a6e8e5886885ece0eeb5629238",
+    "figures_task4/fig1_pbpk_plasma_iv_vs_oral.png": "739991a452ae0916c633b642b058fcb19758454ecaac41207f21b30a704c1b73",
+    "figures_task4/fig2_tissue_distribution_biodistribution.png": "c70b3c1f9366be7283381915b1e4cbc911b316d966c13b3e6adc7b649629c927",
+    "figures_task4/fig3_multidose_steady_state_regimen.png": "2ef432691d12ae5decfcf60711890bd1962715f72543495c2a19454dedb3c516",
+    "figures_task4/fig4_dose_titration_target_coverage.png": "d17c2331a95d47605a14c2e80acecaa4aadeea1504b2ee4663d1892771d703aa",
+    "multidose_bid_7days.csv": "3b11f043c4f1b80f3a66d21bc3fb6c8bfc26cd143f9919f91f61ca334a87e553",
+    "parameters_used.json": "eae67b0c1835d8b068abd96d667009326eb5644061a5e0069d081f10c2d668f9",
+    "PBPK_DOSE_PREDICTION_REPORT_EN.md": "2258356edb8ba08fe6bd5207732a0ff213ac198eb2d6bbdfd0ca2078fc2002dc",
+    "PBPK_DOSE_PREDICTION_REPORT_ZH.md": "922ca477f9247d38b8ff855e35a97b8c8d9be40620440ee192b6878329861696",
+    "README.md": "ec1d57eaf56da9202045a6cec460b1b0518c8f6c0a1c5a2b23c7e5b1a9aefc6e",
+    "release_verification.json": "352a53d713393c7b0bbdb2d9c13a6ddff33967b7c358861c5b77eb8bf18fed44",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "results_summary.json": "5340d98c585ed2d84ac1dfc3cd187b1346015880dd6304e88b44922658f8cafa",
+    "run_task4_pbpk_pharmacokinetics_dose_prediction.py": "b4b184d3ec87f3b45c5a67e728dd628494c64d8a9e20e31c58c3e6b73ae1f62e",
+    "sensitivity_analysis.csv": "2c78e5e1e0c08f4187b1f2f9b648d786a6af5af92c9f098b03bb26ce8d42ecee",
+    "single_iv.csv": "703c7e67166981b3c9ea01225fee85adeba511b57970d4554bb17f192cdb893b",
+    "single_oral.csv": "d411c862c4332706b3c39d24a19cb5234144795f48343891e9e98bb929932294",
+    "steady_state_bid.csv": "8d0b3fcc69d7160f460ecd3da2c6832b7fd662093b1f69d66b64f0e847e0f874",
+    "verification.json": "ffcf672eac854ad75ea3228002b4c88525403412716d4a8cc4c675ddbb7b9bff"
+  }
+}

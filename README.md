@@ -5,9 +5,9 @@
 ![License MIT](https://img.shields.io/badge/License-MIT-735CB0)
 ![Bio-CADD](https://img.shields.io/badge/Pharmacy-Bio--CADD-D2664B)
 
-**Phase 1: lead developability and ADMET. Phase 2: targeted protein degradation and ternary cooperativity. Phase 3: covalent inhibitor kinetics and residence time.**
+**Four-task suite: ADMET/MPO developability, targeted protein degradation, covalent inhibitor kinetics, and PBPK exposure and dose screening.**
 
-[Quick start](#quick-start) · [Workflow](#pharmaceutical-workflow) · [Benchmark](#benchmark-panel) · [Figures](#figures) · [Model card](MODEL_CARD.md) · [English report](DEVELOPABILITY_MPO_REPORT_EN.md) · [中文报告](DEVELOPABILITY_MPO_REPORT_ZH.md) · [Evidence](data/CLINICAL_EVIDENCE.md)
+[Task 4 PBPK](#task-4-pbpk-and-dose-screening) · [Quick start](#quick-start) · [Workflow](#pharmaceutical-workflow) · [Benchmark](#benchmark-panel) · [Figures](#figures) · [Model card](MODEL_CARD.md) · [English report](DEVELOPABILITY_MPO_REPORT_EN.md) · [中文报告](DEVELOPABILITY_MPO_REPORT_ZH.md) · [Evidence](data/CLINICAL_EVIDENCE.md)
 
 This repository provides an offline, reproducible assessment engine for 30 clinically relevant parent compounds. It combines continuous desirability scores, structural descriptors, explicitly exploratory ADMET estimates, and a bounded conformer workflow. Every structure has a PubChem CID, source URL, molecular formula, InChIKey, and retrieval timestamp.
 
@@ -20,6 +20,7 @@ This repository provides an offline, reproducible assessment engine for 30 clini
 | 1 · Lead developability | [MPO / ADMET engine](run_task1_mpo_admet_developability.py) | [EN](DEVELOPABILITY_MPO_REPORT_EN.md) · [中文](DEVELOPABILITY_MPO_REPORT_ZH.md) | [Task 1 results](results_task1/) |
 | 2 · Targeted protein degradation | [TPD ternary engine](run_task2_tpd_ternary_cooperativity.py) | [EN](TPD_TERNARY_COOPERATIVITY_REPORT_EN.md) · [中文](TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md) | [Task 2 data](data_task2/) · [Validation](validation_task2.json) |
 | 3 · Covalent inhibitor kinetics | [Covalent kinetics engine](run_task3_covalent_kinetics_residence_time.py) | [EN](COVALENT_DRUG_KINETICS_REPORT_EN.md) · [中文](COVALENT_DRUG_KINETICS_REPORT_ZH.md) | [Task 3 data](data_task3/) · [Validation](data_task3/validation.json) |
+| 4 · PBPK and dose screening | [PBPK / IVIVE engine](task4_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py) | [EN](task4_pbpk/PBPK_DOSE_PREDICTION_REPORT_EN.md) · [中文](task4_pbpk/PBPK_DOSE_PREDICTION_REPORT_ZH.md) | [Task 4 results](task4_pbpk/results_summary.json) · [Validation](task4_pbpk/verification.json) |
 
 ## Quick start
 
@@ -48,6 +49,26 @@ python run_task1_mpo_admet_developability.py --ionization-overrides ionization.j
 ```
 
 See [MODEL_CARD.md](MODEL_CARD.md) for the override schema, equations, units, normalization anchors, and failure behavior. Different sampling or 3D availability can affect volume, electrostatics, and therefore the exploratory ADMET scores. The run manifest records settings, versions, missingness, and artifact checksums. The reported pKa sensitivity envelope is a scenario range, not a statistical confidence interval.
+
+## Task 4: PBPK and dose screening
+
+The [standalone Task 4 script](task4_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py) connects microsomal IVIVE, a reduced seven-state PBPK model, single IV/oral dosing, repeated dosing, and QD/BID dose screening. Outputs include four 300-DPI figures, bilingual reports, editable inputs, concentration tables, sensitivity scenarios, and numerical verification records.
+
+```bash
+# From the repository root; results stay inside the Task 4 directory.
+python task4_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py --self-test --out task4_pbpk
+
+# Export an input template, then edit it for the selected compound.
+python task4_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py --write-example compound.json
+python task4_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py --config compound.json --out scratch/task4_custom
+```
+
+**Scientific scope:** the published example uses synthetic compound and toxicity inputs. Its seven states include a GI luminal depot; tissue partitioning uses a documented Poulin–Theil composition approximation with an ionization adaptation. These are research exposure scenarios, not validated clinical dose recommendations. Task 1 descriptors can be mapped into the JSON template, but a selected lead's measured binding, microsomal clearance and toxicology evidence are still required. Day 7 is checked against a separately computed periodic steady state, and AUC includes the tail beyond 48 hours. Optional saturable hepatic metabolism is enabled by supplying `km_unbound_mg_l`.
+
+- [Task 4 guide and input schema](task4_pbpk/README.md)
+- [English PBPK report](task4_pbpk/PBPK_DOSE_PREDICTION_REPORT_EN.md) / [中文 PBPK 报告](task4_pbpk/PBPK_DOSE_PREDICTION_REPORT_ZH.md)
+- [Results](task4_pbpk/results_summary.json) / [25 numerical checks](task4_pbpk/verification.json) / [Nonlinear and figure verification](task4_pbpk/release_verification.json)
+- [IV versus oral](task4_pbpk/figures_task4/fig1_pbpk_plasma_iv_vs_oral.png), [tissue distribution](task4_pbpk/figures_task4/fig2_tissue_distribution_biodistribution.png), [repeated doses](task4_pbpk/figures_task4/fig3_multidose_steady_state_regimen.png), [dose coverage](task4_pbpk/figures_task4/fig4_dose_titration_target_coverage.png)
 
 ## Pharmaceutical workflow
 

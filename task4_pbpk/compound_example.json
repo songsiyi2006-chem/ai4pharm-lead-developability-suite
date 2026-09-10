@@ -1,0 +1,80 @@
+{
+  "compound_name": "SYNTHETIC_LEAD_DEMO",
+  "synthetic_inputs": true,
+  "mw_g_mol": 450.0,
+  "clogp": 3.0,
+  "ionization": "base",
+  "pka_acid": null,
+  "pka_base": 7.8,
+  "fu_p": 0.1,
+  "rb": 1.0,
+  "clint_mic_ul_min_mg": 8.0,
+  "fu_mic": 1.0,
+  "mppgl_mg_g": 45.0,
+  "liver_mass_g": 1800.0,
+  "ka_h": 1.0,
+  "fa": 0.9,
+  "fg": 1.0,
+  "gfr_l_h": 7.5,
+  "km_unbound_mg_l": null,
+  "ic90_nm": 50.0,
+  "toxic_total_plasma_mg_l": 5.0,
+  "coverage_goal_pct": 90.0,
+  "dose_min_mg": 10.0,
+  "dose_max_mg": 800.0,
+  "dose_step_mg": 1.0,
+  "target_tissue": "rest",
+  "blood_volume_l": 5.0,
+  "volumes_l": {
+    "liver": 1.8,
+    "kidney": 0.31,
+    "brain": 1.4,
+    "lung": 0.5,
+    "rest": 60.99
+  },
+  "flows_l_h": {
+    "liver": 90.0,
+    "kidney": 66.0,
+    "brain": 45.0,
+    "rest": 159.0
+  },
+  "tissue_fractions": {
+    "liver": [
+      0.0138,
+      0.0303,
+      0.705
+    ],
+    "kidney": [
+      0.0121,
+      0.024,
+      0.783
+    ],
+    "brain": [
+      0.0391,
+      0.0533,
+      0.77
+    ],
+    "lung": [
+      0.003,
+      0.009,
+      0.811
+    ],
+    "rest": [
+      0.05,
+      0.015,
+      0.65
+    ]
+  },
+  "plasma_fractions": [
+    0.00147,
+    0.00083,
+    0.96
+  ],
+  "interstitial_protein_ratio": 0.5,
+  "kp_overrides": {},
+  "rtol": 1e-08,
+  "atol": 1e-10,
+  "steady_rtol": 1e-07,
+  "max_steady_cycles": 2000,
+  "max_tail_h": 100000.0
+}
