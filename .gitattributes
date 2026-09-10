@@ -3,3 +3,5 @@
 *.jpg binary
 *.zip binary
 *.svg -text whitespace=-blank-at-eol linguist-generated=true
+# Preserve generated Task 3 bytes so manifest SHA-256 checks survive checkout.
+data_task3/** -text whitespace=-blank-at-eol linguist-generated=true

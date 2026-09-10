@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "checks": [
+    "low-dose QSSA slope",
+    "saturating kinact",
+    "GSH half-life",
+    "protein half-life versus mean lifetime",
+    "reversible washout analytic limit",
+    "bound-state mean first passage",
+    "8 valid shared-core structures",
+    "MMFF converged conformers",
+    "finite frontier orbitals and atom populations",
+    "clamped target mass conservation",
+    "dynamic target and drug mass conservation",
+    "GSH ODE / analytic agreement",
+    "washout total target conservation",
+    "reduced turnover analytic recovery",
+    "four 300 DPI PNGs"
+  ],
+  "max_kobs_eigen_relative_error": 7.81326356946721e-08,
+  "quantum_backend_exercised": "eht",
+  "xtb_backend_validated_this_run": false
+}

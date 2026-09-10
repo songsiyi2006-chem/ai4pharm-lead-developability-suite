@@ -112,3 +112,32 @@ Scientific CSV/JSON results and final figures are intentionally versioned. Envir
 ## License and attribution
 
 Code and original documentation are MIT-licensed; see [LICENSE](LICENSE). PubChem structure provenance and third-party scientific references retain their attribution. The badges describe this project's tooling and topic and do not imply endorsement by Pfizer, RDKit, or any regulator.
+
+<!-- TASK3:BEGIN -->
+## Task 3 — Covalent inhibitor kinetics and residence time
+
+- [Standalone Python workflow](run_task3_covalent_kinetics_residence_time.py)
+- [English technical report](COVALENT_DRUG_KINETICS_REPORT_EN.md)
+- [中文技术报告](COVALENT_DRUG_KINETICS_REPORT_ZH.md)
+- [Four publication-resolution figures](figures_task3/)
+- [Results and parameter provenance](data_task3/warhead_results.csv)
+- [Numerical validation](data_task3/validation.json)
+- [Run manifest and file hashes](data_task3/run_manifest.json)
+
+```sh
+python -m pip install numpy scipy matplotlib rdkit pillow
+python run_task3_covalent_kinetics_residence_time.py
+python run_task3_covalent_kinetics_residence_time.py --self-test-only
+# Optional external xTB installation:
+python run_task3_covalent_kinetics_residence_time.py --quantum xtb --xtb xtb
+# Optional commit/push from an existing main checkout with origin:
+python run_task3_covalent_kinetics_residence_time.py --git-sync
+```
+
+Default outputs are written to the working-directory root, including
+`./figures_task3/`. Use `--output-dir PATH` for a separate output root.
+Orbital descriptors are calculated with EHT (or optional GFN2-xTB); kinetic inputs
+and the barrier scenario are illustrative and uncalibrated. The 30-minute GSH flag
+and shaded efficiency band are screening heuristics, not clinical/DILI predictions.
+The reports distinguish KD, kinetic KI, fitted KI, chemical residence and turnover.
+<!-- TASK3:END -->

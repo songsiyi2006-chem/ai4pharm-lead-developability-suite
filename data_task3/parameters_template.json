@@ -1,0 +1,84 @@
+{
+  "warheads": {
+    "W01": {
+      "kon_M_inv_s": 1000000.0,
+      "koff_s": 0.1,
+      "kinact_s": 0.003,
+      "krev_s": 0,
+      "barrier_baseline_kJ_mol": 77,
+      "kgsh_reverse_s": 0.0,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    },
+    "W02": {
+      "kon_M_inv_s": 800000.0,
+      "koff_s": 0.08,
+      "kinact_s": 0.002,
+      "krev_s": 0,
+      "barrier_baseline_kJ_mol": 80,
+      "kgsh_reverse_s": 0.0,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    },
+    "W03": {
+      "kon_M_inv_s": 600000.0,
+      "koff_s": 0.12,
+      "kinact_s": 0.012,
+      "krev_s": 0.0002,
+      "barrier_baseline_kJ_mol": 70,
+      "kgsh_reverse_s": 0.0003,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    },
+    "W04": {
+      "kon_M_inv_s": 500000.0,
+      "koff_s": 0.2,
+      "kinact_s": 0.018,
+      "krev_s": 0,
+      "barrier_baseline_kJ_mol": 69,
+      "kgsh_reverse_s": 0.0,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    },
+    "W05": {
+      "kon_M_inv_s": 400000.0,
+      "koff_s": 0.3,
+      "kinact_s": 0.008,
+      "krev_s": 0,
+      "barrier_baseline_kJ_mol": 72,
+      "kgsh_reverse_s": 0.0,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    },
+    "W06": {
+      "kon_M_inv_s": 200000.0,
+      "koff_s": 0.4,
+      "kinact_s": 0.0008,
+      "krev_s": 0,
+      "barrier_baseline_kJ_mol": 83,
+      "kgsh_reverse_s": 0.0,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    },
+    "W07": {
+      "kon_M_inv_s": 900000.0,
+      "koff_s": 0.06,
+      "kinact_s": 0.006,
+      "krev_s": 3e-05,
+      "barrier_baseline_kJ_mol": 76,
+      "kgsh_reverse_s": 0.0001,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    },
+    "W08": {
+      "kon_M_inv_s": 1200000.0,
+      "koff_s": 0.03,
+      "kinact_s": 0.003,
+      "krev_s": 5e-06,
+      "barrier_baseline_kJ_mol": 79,
+      "kgsh_reverse_s": 4e-05,
+      "kgsh_M_inv_s": null,
+      "provenance": "Illustrative scenario; no experimental calibration"
+    }
+  }
+}
