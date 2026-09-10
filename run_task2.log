@@ -1,0 +1,16 @@
+2026-09-10 14:20:33,161 | INFO | Starting Task 2 | parameters={'e_total_nm': 100.0, 't_total_nm': 100.0, 'kd_e_nm': 10.0, 'kd_t_nm': 100.0, 'vmax_nm_h': 12.0, 'km_nm': 10.0, 'hours': 24.0, 'basal_turnover_h': 0.0, 'points': 181, 'heatmap_points': 41, 'conformers': 100, 'seed': 20260910, 'compatible_low_a': 8.0, 'compatible_high_a': 12.0}
+2026-09-10 14:20:34,613 | INFO | alpha=0.01 | peak EPT=0.570646 nM | optimal total P=131.622781 nM | 80% window=70.72718733104728 to 236.32718626402263 nM
+2026-09-10 14:20:36,596 | INFO | alpha=1 | peak EPT=29.053551 nM | optimal total P=131.622777 nM | 80% window=68.34607138732979 to 275.13677200948536 nM
+2026-09-10 14:20:38,883 | INFO | alpha=10 | peak EPT=66.147685 nM | optimal total P=131.622777 nM | 80% window=69.28927605921176 to 439.60308279908907 nM
+2026-09-10 14:20:42,105 | INFO | alpha=100 | peak EPT=87.675477 nM | optimal total P=131.622777 nM | 80% window=73.62662350317267 to 1287.5338495465899 nM
+2026-09-10 14:20:42,128 | INFO | Generating and minimizing linker conformers
+2026-09-10 14:20:45,523 | INFO | Flexible PEG | n=100 | r=9.6715 +/- 0.9577 A | linker RMSF=0.7760 A | Rg=3.3518 A | illustrative compatibility=96.0%
+2026-09-10 14:20:45,937 | INFO | Rigid alkynyl | n=100 | r=9.6050 +/- 0.0000 A | linker RMSF=0.0000 A | Rg=3.2967 A | illustrative compatibility=100.0%
+2026-09-10 14:20:45,944 | INFO | Integrating target turnover with equilibrium recomputed at each step
+2026-09-10 14:21:03,919 | INFO | Synthetic assay alpha=0.01 | Dmax=14.45738% | ascending DC50=35.54068464633051 nM | hook-side crossing=423.91917381493124 nM
+2026-09-10 14:21:24,927 | INFO | Synthetic assay alpha=1 | Dmax=99.86792% | ascending DC50=5.638096321949269 nM | hook-side crossing=3328.343338759893 nM
+2026-09-10 14:21:47,913 | INFO | Synthetic assay alpha=10 | Dmax=99.99999% | ascending DC50=2.453485584774096 nM | hook-side crossing=32695.555301289398 nM
+2026-09-10 14:22:16,053 | INFO | Synthetic assay alpha=100 | Dmax=100.00000% | ascending DC50=2.1360907796751176 nM | hook-side crossing=326417.8771066183 nM
+2026-09-10 14:22:17,077 | INFO | HiBiT ascending Hill fit | DC50=2.24420 nM | h=1.9615 | RMSE=3.5418 percentage points
+2026-09-10 14:22:32,375 | INFO | VALIDATION PASS | max mass-balance error=3.23e-11 | root/Brent=2.14e-11 | batch/Brent=2.75e-13 | ODE tolerance difference=2.18e-13
+2026-09-10 14:22:32,383 | INFO | Complete | elapsed=119.22 seconds | output=C:\Users\HUIWEI\Documents\Codex\2026-09-10\phase-1-ai4pharm-lead-developability-multi-3\outputs | versions={'python': '3.14.6', 'numpy': '2.5.2', 'scipy': '1.18.1', 'matplotlib': '3.11.1', 'rdkit': '2026.03.5'}

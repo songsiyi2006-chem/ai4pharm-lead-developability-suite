@@ -1,0 +1,9 @@
+{
+  "alpha": 10.0,
+  "DC50_hill_nM": 2.2441982483354472,
+  "hill_slope": 1.9614647915562764,
+  "Dmax_fixed_pct": 99.99998656318662,
+  "fit_points": 101,
+  "rising_limb_RMSE_pct": 3.5417567670614494,
+  "note": "Conditional empirical rising-limb fit; Dmax fixed to mechanistic maximum; no descending-limb extrapolation"
+}

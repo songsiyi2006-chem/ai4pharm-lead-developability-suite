@@ -5,13 +5,21 @@
 ![License MIT](https://img.shields.io/badge/License-MIT-735CB0)
 ![Bio-CADD](https://img.shields.io/badge/Pharmacy-Bio--CADD-D2664B)
 
-**Phase 1: multi-parameter optimization, ADMET liabilities, and beyond-Rule-of-5 chemical space.**
+**Phase 1: lead developability and ADMET. Phase 2: targeted protein degradation and ternary cooperativity. Phase 3: covalent inhibitor kinetics and residence time.**
 
 [Quick start](#quick-start) · [Workflow](#pharmaceutical-workflow) · [Benchmark](#benchmark-panel) · [Figures](#figures) · [Model card](MODEL_CARD.md) · [English report](DEVELOPABILITY_MPO_REPORT_EN.md) · [中文报告](DEVELOPABILITY_MPO_REPORT_ZH.md) · [Evidence](data/CLINICAL_EVIDENCE.md)
 
 This repository provides an offline, reproducible assessment engine for 30 clinically relevant parent compounds. It combines continuous desirability scores, structural descriptors, explicitly exploratory ADMET estimates, and a bounded conformer workflow. Every structure has a PubChem CID, source URL, molecular formula, InChIKey, and retrieval timestamp.
 
 **Scientific scope:** the CNS-MPO transformations and ESOL coefficients come from published methods; RDKit descriptor substitution and assumed ionization affect their outputs. The hERG, Caco-2, HIA, pKa/logD, and oral ranking models are **unvalidated, transparent heuristics**. They are not calibrated clinical probabilities or substitutes for experimental assays. An absolute chameleonic hydrogen-bond index cannot be inferred from this gas-phase ensemble; that field is explicitly missing, alongside a separately named geometric proxy.
+
+## Task index
+
+| Task | Standalone driver | Reports | Results |
+|---|---|---|---|
+| 1 · Lead developability | [MPO / ADMET engine](run_task1_mpo_admet_developability.py) | [EN](DEVELOPABILITY_MPO_REPORT_EN.md) · [中文](DEVELOPABILITY_MPO_REPORT_ZH.md) | [Task 1 results](results_task1/) |
+| 2 · Targeted protein degradation | [TPD ternary engine](run_task2_tpd_ternary_cooperativity.py) | [EN](TPD_TERNARY_COOPERATIVITY_REPORT_EN.md) · [中文](TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md) | [Task 2 data](data_task2/) · [Validation](validation_task2.json) |
+| 3 · Covalent inhibitor kinetics | [Covalent kinetics engine](run_task3_covalent_kinetics_residence_time.py) | [EN](COVALENT_DRUG_KINETICS_REPORT_EN.md) · [中文](COVALENT_DRUG_KINETICS_REPORT_ZH.md) | [Task 3 data](data_task3/) · [Validation](data_task3/validation.json) |
 
 ## Quick start
 
@@ -112,6 +120,73 @@ Scientific CSV/JSON results and final figures are intentionally versioned. Envir
 ## License and attribution
 
 Code and original documentation are MIT-licensed; see [LICENSE](LICENSE). PubChem structure provenance and third-party scientific references retain their attribution. The badges describe this project's tooling and topic and do not imply endorsement by Pfizer, RDKit, or any regulator.
+
+<!-- TASK2-GENERATED-START -->
+## Task 2 · TPD ternary cooperativity engine
+
+单文件可复现的三元平衡、钩状效应、RDKit 连接子构象与合成降解实验。
+Reproducible mass-action equilibrium, linker ensembles and synthetic assay profiling.
+
+### Run Task 2
+
+```sh
+python -m pip install -r requirements.txt
+python run_task2_tpd_ternary_cooperativity.py
+```
+
+The root requirements support compatible dependency versions on Python 3.10+. `requirements_task2.txt` records exact versions from the delivered Python 3.14.6 run. Default output directory is the script's directory; set `--output-dir` to change it. All data are synthetic. No external file is required to generate the reports or figures. `--git-publish` stages only generated Task 2 files in an existing repository, creates the requested commit if needed, and pushes an already-configured upstream. It never invents a remote. A missing repository/upstream returns an explicit error after outputs are generated. Importing the script has no execution side effects.
+
+### Task 2 deliverables
+
+| Module | Artifact | Description |
+|---|---|---|
+| Driver | [Python script](run_task2_tpd_ternary_cooperativity.py) | All four modules, reporting, validation and optional publishing |
+| 中文报告 | [中文报告](TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md) | 推导、结果、假设与局限 |
+| English report | [English report](TPD_TERNARY_COOPERATIVITY_REPORT_EN.md) | Methods, results and interpretation |
+| Validation | [Validation JSON](validation_task2.json) | Independent solvers, mass balances, edge cases, ODE convergence |
+| Reproducibility | [Manifest](manifest_task2.json) / [Log](run_task2.log) | Versions, parameters, SHA256, terminal metrics |
+| Raw results | [Data directory](data_task2/) | Species, peaks, dose/time curves, readout replicates and SDF conformers |
+
+### Task 2 equilibrium master table
+
+| alpha | Peak EPT (nM) | Optimal total P (nM) | 80% low (nM) | 80% high (nM) |
+|---:|---:|---:|---:|---:|
+| 0.01 | 0.570646 | 131.623 | 70.7272 | 236.327 |
+| 1 | 29.0536 | 131.623 | 68.3461 | 275.137 |
+| 10 | 66.1477 | 131.623 | 69.2893 | 439.603 |
+| 100 | 87.6755 | 131.623 | 73.6266 | 1287.53 |
+
+### Task 2 synthetic degradation master table
+
+| alpha | Dmax (%) | DC50 rising (nM) | Half-max hook-side (nM) | Optimal endpoint dose (nM) |
+|---:|---:|---:|---:|---:|
+| 0.01 | 14.4574 | 35.5407 | 423.919 | 129.829 |
+| 1 | 99.8679 | 5.6381 | 3328.34 | 111.455 |
+| 10 | 100 | 2.45349 | 32695.6 | 110.723 |
+| 100 | 100 | 2.13609 | 326418 | 113.187 |
+
+### Task 2 linker master table
+
+| Linker | n | Mean r (A) | SD r (A) | Linker RMSF (A) | Mean Rg (A) | Compatible fraction |
+|---|---:|---:|---:|---:|---:|---:|
+| Flexible PEG | 100 | 9.6715 | 0.9577 | 0.7760 | 3.3518 | 96.00% |
+| Rigid alkynyl | 100 | 9.6050 | 0.0000 | 0.0000 | 3.2967 | 100.00% |
+
+### Task 2 scientific corrections
+
+The general exact total-P optimum is derived in both reports. The supplied square-root total-concentration expression is retained only for comparison. Alpha changes equilibrium peak height/window width, with an unchanged equilibrium peak dose in this network. The high-alpha scenario is not a universal molecular-glue model. Linkers use mapped attachment-point proxies; no real warheads or protein exit-vector orientations were supplied. RMSF and histogram widths are not binding entropy. DC50 uses the rising half-maximum crossing; the single Hill fit is restricted to that limb. Both immunoblot and luminescence data are synthetic.
+
+### Task 2 figure previews
+
+![Figure 1](figures_task2/fig1_ternary_hook_effect_curves.png)
+
+![Figure 2](figures_task2/fig2_cooperativity_alpha_heatmap.png)
+
+![Figure 3](figures_task2/fig3_linker_conformational_histogram.png)
+
+![Figure 4](figures_task2/fig4_synthetic_western_blot_hibit.png)
+
+<!-- TASK2-GENERATED-END -->
 
 <!-- TASK3:BEGIN -->
 ## Task 3 — Covalent inhibitor kinetics and residence time

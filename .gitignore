@@ -44,3 +44,6 @@ desktop.ini
 *.key
 
 # Curated data, results_task1/, and figures_task1/ are intentionally tracked.
+
+# Curated Task 2 execution log accompanies its reproducibility manifest.
+!/run_task2.log
