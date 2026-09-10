@@ -1,0 +1,46 @@
+# Python and environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+.venv/
+venv/
+env/
+.conda/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Scientific notebooks, temporary data, and local experiments
+.ipynb_checkpoints/
+*.tmp
+*.log
+*.bak
+*.h5
+*.hdf5
+*.parquet
+work/
+scratch/
+quick_run/
+expanded_run/
+private_data/
+
+# Editors, OS metadata, and credentials
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Curated data, results_task1/, and figures_task1/ are intentionally tracked.
