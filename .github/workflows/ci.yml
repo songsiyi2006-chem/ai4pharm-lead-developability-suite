@@ -24,3 +24,7 @@ jobs:
         run: python tools/validate_repository_layout.py --out work/layout_validation.json
       - name: Task 8-10 deliverable provenance and figure metadata
         run: python tools/validate_task8_10_delivery.py --out work/task8_10_validation.json
+      - name: Omnibus figures, source integrity and bilingual report coverage
+        run: python tools/validate_omnibus.py --out work/omnibus_validation.json
+      - name: Rebuild all ten omnibus figures from numerical archives
+        run: python run_ai4pharm_omnibus_suite.py --out work/omnibus_ci

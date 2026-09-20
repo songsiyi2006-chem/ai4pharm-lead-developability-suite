@@ -11,3 +11,8 @@
 /projects/**/*.pdb -text -whitespace linguist-generated=true
 /projects/**/*.npz binary linguist-generated=true
 /projects/**/TASK.md -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+
+# New calculation evidence keeps its recorded byte hashes across Git platforms.
+/data_omnibus/recompute/** -text whitespace=cr-at-eol,-blank-at-eof
+/data_omnibus/recompute/**/*.npz binary linguist-generated=true
+/docs/omnibus/TASK.md -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof

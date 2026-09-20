@@ -1,0 +1,121 @@
+{
+  "validator": "validate_omnibus",
+  "status": "passed",
+  "figure_count": 10,
+  "input_files": 38,
+  "figure_metadata": [
+    {
+      "task": 1,
+      "pixels": [
+        4680,
+        1710
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "task": 2,
+      "pixels": [
+        4680,
+        1710
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "task": 3,
+      "pixels": [
+        4680,
+        1710
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "task": 4,
+      "pixels": [
+        4680,
+        1710
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "task": 5,
+      "pixels": [
+        4680,
+        1710
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "task": 6,
+      "pixels": [
+        4050,
+        3030
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "task": 7,
+      "pixels": [
+        4860,
+        1800
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "task": 8,
+      "pixels": [
+        4710,
+        3120
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "task": 9,
+      "pixels": [
+        4860,
+        1800
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "task": 10,
+      "pixels": [
+        4860,
+        1860
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    }
+  ],
+  "artifact_hashes_checked": 77,
+  "errors": [],
+  "scope": "Artifact/source integrity, figure metadata and report coverage; not biological validation"
+}

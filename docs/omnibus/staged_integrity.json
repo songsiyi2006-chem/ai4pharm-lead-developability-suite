@@ -1,0 +1,812 @@
+{
+  "scope": "Actual staged Git blobs, not only working-tree files",
+  "checked": 134,
+  "status": "passed",
+  "old_project_or_archive_changes": [],
+  "checks": [
+    {
+      "path": "AI4PHARM_DECADE_TREATISE_EN.md",
+      "expected_sha256": "f6c24d1c2df8a51d6d0d7ae988816d718d1f53a2f869b5073d73aebf722ab0af",
+      "git_blob_sha256": "f6c24d1c2df8a51d6d0d7ae988816d718d1f53a2f869b5073d73aebf722ab0af",
+      "passed": true
+    },
+    {
+      "path": "AI4PHARM_DECADE_TREATISE_ZH.md",
+      "expected_sha256": "94378dd7f1a39b5d9dbd3e71ca5d60e7ac198385753d1473284731ad002769c0",
+      "git_blob_sha256": "94378dd7f1a39b5d9dbd3e71ca5d60e7ac198385753d1473284731ad002769c0",
+      "passed": true
+    },
+    {
+      "path": "README.md",
+      "expected_sha256": "c92c0b9438659c7539bad3f6564eef48856f72feefef3d2558c833a178137f56",
+      "git_blob_sha256": "c92c0b9438659c7539bad3f6564eef48856f72feefef3d2558c833a178137f56",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/figure_provenance.json",
+      "expected_sha256": "eb9d2dbc1f795f7fafdabed7afd61502e8328aa6b97a16abbf0a84d864d79256",
+      "git_blob_sha256": "eb9d2dbc1f795f7fafdabed7afd61502e8328aa6b97a16abbf0a84d864d79256",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/execution.json",
+      "expected_sha256": "846e046113fa70c9ce34fb7581fb8ca88ecfee05ebc7e1e82e8e4d5644ba1773",
+      "git_blob_sha256": "846e046113fa70c9ce34fb7581fb8ca88ecfee05ebc7e1e82e8e4d5644ba1773",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/logs/task01.txt",
+      "expected_sha256": "35f11eb74c9716c4134fc680687d0803c4306dbfe36f6c7ed7eb5af66ccff67a",
+      "git_blob_sha256": "35f11eb74c9716c4134fc680687d0803c4306dbfe36f6c7ed7eb5af66ccff67a",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/logs/task02.txt",
+      "expected_sha256": "f7195abf90295b07adea698be8b6b1da2a42dd47408ffaff1ccdd8eb2c432843",
+      "git_blob_sha256": "f7195abf90295b07adea698be8b6b1da2a42dd47408ffaff1ccdd8eb2c432843",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/logs/task03.txt",
+      "expected_sha256": "00abbc8f0ecc913d0238a2d5fe318576380f47cf5696e4c9b9adad6c979b485b",
+      "git_blob_sha256": "00abbc8f0ecc913d0238a2d5fe318576380f47cf5696e4c9b9adad6c979b485b",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/logs/task04.txt",
+      "expected_sha256": "aaaf0d9375448949ceccd38049e2ab1b47c2722592cc2d1c6ffe11011b7496ef",
+      "git_blob_sha256": "aaaf0d9375448949ceccd38049e2ab1b47c2722592cc2d1c6ffe11011b7496ef",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/logs/task05.txt",
+      "expected_sha256": "ff2a16f9db3932f5081387ad6b75cb5f8a858bad5a6519e50be681efebb7c8be",
+      "git_blob_sha256": "ff2a16f9db3932f5081387ad6b75cb5f8a858bad5a6519e50be681efebb7c8be",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/logs/task06.txt",
+      "expected_sha256": "fb5bd43ce91640f8a03619baf7743d3bda4a96a37a22ff10021104191a80b6c4",
+      "git_blob_sha256": "fb5bd43ce91640f8a03619baf7743d3bda4a96a37a22ff10021104191a80b6c4",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/logs/task07.txt",
+      "expected_sha256": "6e0cd09b3a799f2d695d6f65eb10f52a08dbb1253a785f1da8002dacac67bf6d",
+      "git_blob_sha256": "6e0cd09b3a799f2d695d6f65eb10f52a08dbb1253a785f1da8002dacac67bf6d",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/logs/task08.txt",
+      "expected_sha256": "c0cee52422a938ab70265cd06f69b0a7ba936ec5ee1c2d23ab674af39c771044",
+      "git_blob_sha256": "c0cee52422a938ab70265cd06f69b0a7ba936ec5ee1c2d23ab674af39c771044",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/logs/task09.txt",
+      "expected_sha256": "1ec75aea9108b9aa99df0de1ff2f026de4aaa93023b730601ade40659ffd1d13",
+      "git_blob_sha256": "1ec75aea9108b9aa99df0de1ff2f026de4aaa93023b730601ade40659ffd1d13",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/logs/task10.txt",
+      "expected_sha256": "c8faa9969c525d022ab9b168f2eda24f32e1bde2bcb20e65ee6c872d5cee9202",
+      "git_blob_sha256": "c8faa9969c525d022ab9b168f2eda24f32e1bde2bcb20e65ee6c872d5cee9202",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task01_lead_developability/results_task1/developability_results.csv",
+      "expected_sha256": "b2e80c8bcc41ef288003890521e7195a805f759aad304100551d2f4dca857f06",
+      "git_blob_sha256": "b2e80c8bcc41ef288003890521e7195a805f759aad304100551d2f4dca857f06",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task02_tpd/data_task2/affinity_cooperativity_heatmap.csv",
+      "expected_sha256": "9a4a29db5264f977cbe8cc00cbfde3c1150fed549284b5ef8fdb57d1dbe1ebd9",
+      "git_blob_sha256": "9a4a29db5264f977cbe8cc00cbfde3c1150fed549284b5ef8fdb57d1dbe1ebd9",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task02_tpd/data_task2/equilibrium_metrics.csv",
+      "expected_sha256": "d2f60c4e7f00a6a38283a22f9d7979c405fd8c93cd4a4c7de5bff1eea36ae3a4",
+      "git_blob_sha256": "d2f60c4e7f00a6a38283a22f9d7979c405fd8c93cd4a4c7de5bff1eea36ae3a4",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task02_tpd/data_task2/equilibrium_species.csv",
+      "expected_sha256": "7a4a871dcd14b62fd84a39994ea507cb23c2c68caf94ecab94d894d8301ff4a0",
+      "git_blob_sha256": "7a4a871dcd14b62fd84a39994ea507cb23c2c68caf94ecab94d894d8301ff4a0",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task02_tpd/data_task2/linker_conformers.csv",
+      "expected_sha256": "56bc54fbc6206208587f64c837292d53c0cd499f58cd50b658ef0f62e682ed17",
+      "git_blob_sha256": "56bc54fbc6206208587f64c837292d53c0cd499f58cd50b658ef0f62e682ed17",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task03_covalent_kinetics/data_task3/kobs_concentration.csv",
+      "expected_sha256": "a711603e19a91734da10cda1ce51ef001b2160f5565fa8446c29f36bd4e6542f",
+      "git_blob_sha256": "a711603e19a91734da10cda1ce51ef001b2160f5565fa8446c29f36bd4e6542f",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task03_covalent_kinetics/data_task3/warhead_results.csv",
+      "expected_sha256": "6cbf65faa4361709998c3ed4e1bd9196c5d7f5f2d997591fe83647a7a9e30289",
+      "git_blob_sha256": "6cbf65faa4361709998c3ed4e1bd9196c5d7f5f2d997591fe83647a7a9e30289",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task03_covalent_kinetics/data_task3/washout_trajectories.csv",
+      "expected_sha256": "c0b204f0a51051dfdbe0a795df4068aa96a129408ba5340624555a291fd81c05",
+      "git_blob_sha256": "c0b204f0a51051dfdbe0a795df4068aa96a129408ba5340624555a291fd81c05",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task04_pbpk/multidose_bid_7days.csv",
+      "expected_sha256": "f91006bef5fd82655962c51a3e4d9b3ea555526319078f53136f6bdc9ab78b60",
+      "git_blob_sha256": "f91006bef5fd82655962c51a3e4d9b3ea555526319078f53136f6bdc9ab78b60",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task04_pbpk/results_summary.json",
+      "expected_sha256": "240494ac4748df44ea0bc737f170d4b8803439398b1cebc5f6ee26978b8f1eb0",
+      "git_blob_sha256": "240494ac4748df44ea0bc737f170d4b8803439398b1cebc5f6ee26978b8f1eb0",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task04_pbpk/single_iv.csv",
+      "expected_sha256": "703c7e67166981b3c9ea01225fee85adeba511b57970d4554bb17f192cdb893b",
+      "git_blob_sha256": "703c7e67166981b3c9ea01225fee85adeba511b57970d4554bb17f192cdb893b",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task04_pbpk/single_oral.csv",
+      "expected_sha256": "d411c862c4332706b3c39d24a19cb5234144795f48343891e9e98bb929932294",
+      "git_blob_sha256": "d411c862c4332706b3c39d24a19cb5234144795f48343891e9e98bb929932294",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task04_pbpk/steady_state_bid.csv",
+      "expected_sha256": "8d0b3fcc69d7160f460ecd3da2c6832b7fd662093b1f69d66b64f0e847e0f874",
+      "git_blob_sha256": "8d0b3fcc69d7160f460ecd3da2c6832b7fd662093b1f69d66b64f0e847e0f874",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task05_cyp_ddi/results/conditional_risk_grid.csv",
+      "expected_sha256": "499e93d0cc6308f92b45f79e5d5105e115849d2e71cf59a6a910cab50bef3480",
+      "git_blob_sha256": "499e93d0cc6308f92b45f79e5d5105e115849d2e71cf59a6a910cab50bef3480",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task05_cyp_ddi/results/probe_pk_curves.csv",
+      "expected_sha256": "e87d1ce81bb6f2c0d37bcb33e406b7405173ce4cfa57e9115ebbad09af26ede4",
+      "git_blob_sha256": "e87d1ce81bb6f2c0d37bcb33e406b7405173ce4cfa57e9115ebbad09af26ede4",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task05_cyp_ddi/results/synthetic_preincubation.csv",
+      "expected_sha256": "fafb53711edd48670a19a8d9c1fa0747762ab877f773d8a8d79c0615973c6c63",
+      "git_blob_sha256": "fafb53711edd48670a19a8d9c1fa0747762ab877f773d8a8d79c0615973c6c63",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task06_asd/inputs/parameters.json",
+      "expected_sha256": "1c6838c7e683b1a74e31f4695290372fcc150c0adb859046146e9b1cff9e9f14",
+      "git_blob_sha256": "1c6838c7e683b1a74e31f4695290372fcc150c0adb859046146e9b1cff9e9f14",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task06_asd/results/concentration_mass_timeseries.csv",
+      "expected_sha256": "ecd3295903470e2a5528ac8c40752ef0f8386b705be04830d00ee2294b3369ae",
+      "git_blob_sha256": "ecd3295903470e2a5528ac8c40752ef0f8386b705be04830d00ee2294b3369ae",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task06_asd/results/phase_boundaries.csv",
+      "expected_sha256": "baaa01af041b4042cc9b6dab55dece674329bd26aaf93defbd600af815ba3c60",
+      "git_blob_sha256": "baaa01af041b4042cc9b6dab55dece674329bd26aaf93defbd600af815ba3c60",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task06_asd/results/summary.json",
+      "expected_sha256": "fb5bd43ce91640f8a03619baf7743d3bda4a96a37a22ff10021104191a80b6c4",
+      "git_blob_sha256": "fb5bd43ce91640f8a03619baf7743d3bda4a96a37a22ff10021104191a80b6c4",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task07_qsp/dose_synergy_matrix.csv",
+      "expected_sha256": "9c947addeeaed60a5d0446cfed2e56ace367fc17c5c0c6f75d6ea5cf418a8ece",
+      "git_blob_sha256": "9c947addeeaed60a5d0446cfed2e56ace367fc17c5c0c6f75d6ea5cf418a8ece",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task07_qsp/kaplan_meier.csv",
+      "expected_sha256": "cd6b449fcad1e57a3e417085ece6bf76aec8b9ae6e99da7d3ed94f9ea2bb7640",
+      "git_blob_sha256": "cd6b449fcad1e57a3e417085ece6bf76aec8b9ae6e99da7d3ed94f9ea2bb7640",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task07_qsp/progression_endpoints.csv",
+      "expected_sha256": "7072d7ca5590e5c0a6b2200da58db6af1d18254461c7873946d615e3a0ff95c2",
+      "git_blob_sha256": "7072d7ca5590e5c0a6b2200da58db6af1d18254461c7873946d615e3a0ff95c2",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task07_qsp/results_summary.json",
+      "expected_sha256": "0343891cb62adaa78a7e5531db86b1d0879d2026ded158ca31b911ab56692135",
+      "git_blob_sha256": "0343891cb62adaa78a7e5531db86b1d0879d2026ded158ca31b911ab56692135",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task07_qsp/trajectories.csv",
+      "expected_sha256": "0e4ec1967fbfbdebade2aa58cccf9ec33d1676a4f17ee24532a8db5259d76878",
+      "git_blob_sha256": "0e4ec1967fbfbdebade2aa58cccf9ec33d1676a4f17ee24532a8db5259d76878",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task08_adc/config.json",
+      "expected_sha256": "0951ec789a6ade14d01b9f6e416ce3f6daf4828a3b9dfdad0a87b15ac3ba5e68",
+      "git_blob_sha256": "0951ec789a6ade14d01b9f6e416ce3f6daf4828a3b9dfdad0a87b15ac3ba5e68",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task08_adc/data/cell_trafficking.csv",
+      "expected_sha256": "76d491dc36870299180d5bd53aeeb5b718d7e917c87c0fcae4718e373196f3ef",
+      "git_blob_sha256": "76d491dc36870299180d5bd53aeeb5b718d7e917c87c0fcae4718e373196f3ef",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task08_adc/data/dar_timecourses.csv",
+      "expected_sha256": "b8961a1ffcb67b4e000db4bbefbf34fc7ef3dcd3fb7c26b20c80ee98bde3ae11",
+      "git_blob_sha256": "b8961a1ffcb67b4e000db4bbefbf34fc7ef3dcd3fb7c26b20c80ee98bde3ae11",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task08_adc/data/hic_chromatogram.csv",
+      "expected_sha256": "0ab40271103f8c5e19d6456bcfb40880c0d7be05a5910895aba8a09c137606ac",
+      "git_blob_sha256": "0ab40271103f8c5e19d6456bcfb40880c0d7be05a5910895aba8a09c137606ac",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task08_adc/data/radial_timecourses.csv",
+      "expected_sha256": "766da60f9076f5e51b135002ba1e1c731b675f140500f2b60585425077dc8df3",
+      "git_blob_sha256": "766da60f9076f5e51b135002ba1e1c731b675f140500f2b60585425077dc8df3",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task09_cryoem_allostery/results/anm_prs.npz",
+      "expected_sha256": "92367ed849618b7cc15e764b6729a1781b32fb7165738a4d792610bb48c6bfb5",
+      "git_blob_sha256": "92367ed849618b7cc15e764b6729a1781b32fb7165738a4d792610bb48c6bfb5",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task09_cryoem_allostery/results/conformer_latent_trajectory.csv",
+      "expected_sha256": "ce76308c72cb1628488e961222e7ad3357a62b586092f613dba74cd2cb878b01",
+      "git_blob_sha256": "ce76308c72cb1628488e961222e7ad3357a62b586092f613dba74cd2cb878b01",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task09_cryoem_allostery/results/msm.json",
+      "expected_sha256": "b1319e37a371113aaea85292e8ae61ee93959ca313a0d94c21b8574a720cc073",
+      "git_blob_sha256": "b1319e37a371113aaea85292e8ae61ee93959ca313a0d94c21b8574a720cc073",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task09_cryoem_allostery/results/summary.json",
+      "expected_sha256": "72ac7876a5eb3ca99fa1ad09c06aafb909c84f51cebd97a1c56df9f63b899660",
+      "git_blob_sha256": "72ac7876a5eb3ca99fa1ad09c06aafb909c84f51cebd97a1c56df9f63b899660",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task10_rna_splicing/results/bpp_WT_model_37C.csv",
+      "expected_sha256": "2ef10a2388e145f5fb54d9703dcc1fa3fa395fb2333ddd8dbe4a0fa51196f9f8",
+      "git_blob_sha256": "2ef10a2388e145f5fb54d9703dcc1fa3fa395fb2333ddd8dbe4a0fa51196f9f8",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task10_rna_splicing/results/secondary_ensemble_summary.json",
+      "expected_sha256": "6daaeec28c235a2865a2516282466b04da87c32d46aa7658e63628d5ae4d5441",
+      "git_blob_sha256": "6daaeec28c235a2865a2516282466b04da87c32d46aa7658e63628d5ae4d5441",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task10_rna_splicing/results/splicing_mass_action.csv",
+      "expected_sha256": "6448b4c6d206d5e0d72c4f499461691ee5b20f50900df185d57b74afcd8163e1",
+      "git_blob_sha256": "6448b4c6d206d5e0d72c4f499461691ee5b20f50900df185d57b74afcd8163e1",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/projects/task10_rna_splicing/results/thermodynamic_cycles.csv",
+      "expected_sha256": "954190837bbae95ee2b0e7555b670f395ec5333cf960b6c1aa832944f9a2916d",
+      "git_blob_sha256": "954190837bbae95ee2b0e7555b670f395ec5333cf960b6c1aa832944f9a2916d",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/run_summary.json",
+      "expected_sha256": "f5e0380d5b3c1b948281d23fa2e11dfae10711017daee76ddc6a28747067561c",
+      "git_blob_sha256": "f5e0380d5b3c1b948281d23fa2e11dfae10711017daee76ddc6a28747067561c",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/recompute/selected_source_hashes.json",
+      "expected_sha256": "80cd40b0dbfd46104f72c50de1aff79aaff2a9cb0d637b5fca1c24ed0389a554",
+      "git_blob_sha256": "80cd40b0dbfd46104f72c50de1aff79aaff2a9cb0d637b5fca1c24ed0389a554",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/run_summary.json",
+      "expected_sha256": "545ee4112f0905fd0474682d240f471edb1c96222af289b381ba350dafb35dd4",
+      "git_blob_sha256": "545ee4112f0905fd0474682d240f471edb1c96222af289b381ba350dafb35dd4",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/source_hashes.json",
+      "expected_sha256": "9979998fe18a98b2ae5791640c0d5edd8473ed07a045bfddb3477f625ba19f52",
+      "git_blob_sha256": "9979998fe18a98b2ae5791640c0d5edd8473ed07a045bfddb3477f625ba19f52",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/task3_pareto_qssa.csv",
+      "expected_sha256": "3a087c7512bb4a7706f4c8947f73ed59b969563a3674bacdf991de9d80662d7a",
+      "git_blob_sha256": "3a087c7512bb4a7706f4c8947f73ed59b969563a3674bacdf991de9d80662d7a",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/task6_thermodynamic_plot_grid.csv",
+      "expected_sha256": "88e0dbb6ccebf94a0f62cac32fa2548f9055c68df49495bb6f3d2b1d9e7a3d7d",
+      "git_blob_sha256": "88e0dbb6ccebf94a0f62cac32fa2548f9055c68df49495bb6f3d2b1d9e7a3d7d",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/task7_tumor_quantiles.csv",
+      "expected_sha256": "42761f5ea187434ef9c6e6e9b8d340341b149f829d53caf6c2396a07a5745f31",
+      "git_blob_sha256": "42761f5ea187434ef9c6e6e9b8d340341b149f829d53caf6c2396a07a5745f31",
+      "passed": true
+    },
+    {
+      "path": "data_omnibus/task8_lysosomal_payload_flux.csv",
+      "expected_sha256": "60cc8e46f5eeb9351cd35d8fa6fcc2ac09831eef0e84847813b57fae9566b421",
+      "git_blob_sha256": "60cc8e46f5eeb9351cd35d8fa6fcc2ac09831eef0e84847813b57fae9566b421",
+      "passed": true
+    },
+    {
+      "path": "docs/omnibus/README.md",
+      "expected_sha256": "6c603989d9e1c26c59c1784e0a3daf5566b294641e394cce778c9f9a863bb9d6",
+      "git_blob_sha256": "6c603989d9e1c26c59c1784e0a3daf5566b294641e394cce778c9f9a863bb9d6",
+      "passed": true
+    },
+    {
+      "path": "docs/omnibus/TASK.md",
+      "expected_sha256": "44746c23b567d44c3b670f857227554ca1674a8298f8f80376cda0900720e6d7",
+      "git_blob_sha256": "44746c23b567d44c3b670f857227554ca1674a8298f8f80376cda0900720e6d7",
+      "passed": true
+    },
+    {
+      "path": "docs/omnibus/recompute_comparison.json",
+      "expected_sha256": "c774daab680b27651d84bea1232d48538c48d0607887fd586f02e4f4318179c6",
+      "git_blob_sha256": "c774daab680b27651d84bea1232d48538c48d0607887fd586f02e4f4318179c6",
+      "passed": true
+    },
+    {
+      "path": "docs/omnibus/unittest.txt",
+      "expected_sha256": "cbcd3a82561fcc90df84b3367702748eedd44bbe13c65665101de050bf508ee2",
+      "git_blob_sha256": "cbcd3a82561fcc90df84b3367702748eedd44bbe13c65665101de050bf508ee2",
+      "passed": true
+    },
+    {
+      "path": "docs/omnibus/visual_review.json",
+      "expected_sha256": "75b53c56d655ab2c243503f354662a5f366765d538c75d44005e33ffb1bda188",
+      "git_blob_sha256": "75b53c56d655ab2c243503f354662a5f366765d538c75d44005e33ffb1bda188",
+      "passed": true
+    },
+    {
+      "path": "figures_omnibus/fig_task10_rna_targeted_cadd.png",
+      "expected_sha256": "81c90dc39b35d043b4425b572d5cc3e97eeb321bf3d78c0214037d246d0881c3",
+      "git_blob_sha256": "81c90dc39b35d043b4425b572d5cc3e97eeb321bf3d78c0214037d246d0881c3",
+      "passed": true
+    },
+    {
+      "path": "figures_omnibus/fig_task1_developability_mpo.png",
+      "expected_sha256": "059a14e43f301ba0f089a57caca86ab0c032fde85c0305a7bcf7518cc6514dff",
+      "git_blob_sha256": "059a14e43f301ba0f089a57caca86ab0c032fde85c0305a7bcf7518cc6514dff",
+      "passed": true
+    },
+    {
+      "path": "figures_omnibus/fig_task2_tpd_hook_effect.png",
+      "expected_sha256": "449ea91e2c5a2ffeae8507a87126de59d2326323085e6192610f89828710a1d5",
+      "git_blob_sha256": "449ea91e2c5a2ffeae8507a87126de59d2326323085e6192610f89828710a1d5",
+      "passed": true
+    },
+    {
+      "path": "figures_omnibus/fig_task3_covalent_kinetics.png",
+      "expected_sha256": "17c9cd6667add2a77eb2d6828b72ea9b23a213aa1432fb1661bc914af3962006",
+      "git_blob_sha256": "17c9cd6667add2a77eb2d6828b72ea9b23a213aa1432fb1661bc914af3962006",
+      "passed": true
+    },
+    {
+      "path": "figures_omnibus/fig_task4_pbpk_pharmacokinetics.png",
+      "expected_sha256": "8d841d11dbd03a18fc531a97b6d1cc3207c6766a3eac81df80c699ebe761f2bd",
+      "git_blob_sha256": "8d841d11dbd03a18fc531a97b6d1cc3207c6766a3eac81df80c699ebe761f2bd",
+      "passed": true
+    },
+    {
+      "path": "figures_omnibus/fig_task5_cyp_ddi_mbi.png",
+      "expected_sha256": "2bfa4d1a3a88b62b5024a19366b513baee7b52eb01f6a69820ab4501d8f23959",
+      "git_blob_sha256": "2bfa4d1a3a88b62b5024a19366b513baee7b52eb01f6a69820ab4501d8f23959",
+      "passed": true
+    },
+    {
+      "path": "figures_omnibus/fig_task6_asd_supersaturation.png",
+      "expected_sha256": "1a0180ea4f7a8eb3558b0b5cc11c6ca7bdaa8256a3f2e5dbd64d80d6f154356f",
+      "git_blob_sha256": "1a0180ea4f7a8eb3558b0b5cc11c6ca7bdaa8256a3f2e5dbd64d80d6f154356f",
+      "passed": true
+    },
+    {
+      "path": "figures_omnibus/fig_task7_qsp_immuno_oncology.png",
+      "expected_sha256": "82383b702c4566f4b9ee4e30cd3a2748f915833fd315f1d1491e20aacb328600",
+      "git_blob_sha256": "82383b702c4566f4b9ee4e30cd3a2748f915833fd315f1d1491e20aacb328600",
+      "passed": true
+    },
+    {
+      "path": "figures_omnibus/fig_task8_adc_multiscale.png",
+      "expected_sha256": "9c4acb242f7416c5de6cf87880923d37f466e76f3a64afca5ba3b6c01be171fb",
+      "git_blob_sha256": "9c4acb242f7416c5de6cf87880923d37f466e76f3a64afca5ba3b6c01be171fb",
+      "passed": true
+    },
+    {
+      "path": "figures_omnibus/fig_task9_cryoem_allostery.png",
+      "expected_sha256": "4244f550cb836d6fe37d25dfc5d4b10dddcf60cb45d00863edee2a2ab6771c4d",
+      "git_blob_sha256": "4244f550cb836d6fe37d25dfc5d4b10dddcf60cb45d00863edee2a2ab6771c4d",
+      "passed": true
+    },
+    {
+      "path": "index.html",
+      "expected_sha256": "8c2f991b6a3aee0b59bfa28edac9974e4d6253d2c8928b28e87a9cdcf7bcd00a",
+      "git_blob_sha256": "8c2f991b6a3aee0b59bfa28edac9974e4d6253d2c8928b28e87a9cdcf7bcd00a",
+      "passed": true
+    },
+    {
+      "path": "omnibus/__init__.py",
+      "expected_sha256": "e13e87abbb75c54310b6571becf4abd101d21504bd91f9d64c9fea592a193260",
+      "git_blob_sha256": "e13e87abbb75c54310b6571becf4abd101d21504bd91f9d64c9fea592a193260",
+      "passed": true
+    },
+    {
+      "path": "omnibus/catalog.py",
+      "expected_sha256": "ee7f9d724f85146f971c6da483372101a2eedeabb49995565f3c8fcfc263b6c7",
+      "git_blob_sha256": "ee7f9d724f85146f971c6da483372101a2eedeabb49995565f3c8fcfc263b6c7",
+      "passed": true
+    },
+    {
+      "path": "omnibus/figures_1_5.py",
+      "expected_sha256": "f685fa1ad490f4ccdb9cf9d6f6bc4225be598e2406408eed4b9d2833d63780be",
+      "git_blob_sha256": "f685fa1ad490f4ccdb9cf9d6f6bc4225be598e2406408eed4b9d2833d63780be",
+      "passed": true
+    },
+    {
+      "path": "omnibus/figures_6_10.py",
+      "expected_sha256": "0e94ba37f83ae2b28bfae6ced41f1f1634ecdb2138e4417597a1a3ee5acc1027",
+      "git_blob_sha256": "0e94ba37f83ae2b28bfae6ced41f1f1634ecdb2138e4417597a1a3ee5acc1027",
+      "passed": true
+    },
+    {
+      "path": "omnibus/presentation.py",
+      "expected_sha256": "6eda1304956a3334786f45543f5a7c7b08ad4ad1454c7ec5889c4cb159697ea6",
+      "git_blob_sha256": "6eda1304956a3334786f45543f5a7c7b08ad4ad1454c7ec5889c4cb159697ea6",
+      "passed": true
+    },
+    {
+      "path": "projects/task01_lead_developability/results_task1/developability_results.csv",
+      "expected_sha256": "b2e80c8bcc41ef288003890521e7195a805f759aad304100551d2f4dca857f06",
+      "git_blob_sha256": "b2e80c8bcc41ef288003890521e7195a805f759aad304100551d2f4dca857f06",
+      "passed": true
+    },
+    {
+      "path": "projects/task01_lead_developability/run_task1_mpo_admet_developability.py",
+      "expected_sha256": "2d8e74cc974764d74c97437d33ac96c44ebbef0bf51e23fd3c34e46ab65f0287",
+      "git_blob_sha256": "2d8e74cc974764d74c97437d33ac96c44ebbef0bf51e23fd3c34e46ab65f0287",
+      "passed": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/affinity_cooperativity_heatmap.csv",
+      "expected_sha256": "9a4a29db5264f977cbe8cc00cbfde3c1150fed549284b5ef8fdb57d1dbe1ebd9",
+      "git_blob_sha256": "9a4a29db5264f977cbe8cc00cbfde3c1150fed549284b5ef8fdb57d1dbe1ebd9",
+      "passed": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/equilibrium_metrics.csv",
+      "expected_sha256": "d2f60c4e7f00a6a38283a22f9d7979c405fd8c93cd4a4c7de5bff1eea36ae3a4",
+      "git_blob_sha256": "d2f60c4e7f00a6a38283a22f9d7979c405fd8c93cd4a4c7de5bff1eea36ae3a4",
+      "passed": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/equilibrium_species.csv",
+      "expected_sha256": "7a4a871dcd14b62fd84a39994ea507cb23c2c68caf94ecab94d894d8301ff4a0",
+      "git_blob_sha256": "7a4a871dcd14b62fd84a39994ea507cb23c2c68caf94ecab94d894d8301ff4a0",
+      "passed": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/linker_conformers.csv",
+      "expected_sha256": "56bc54fbc6206208587f64c837292d53c0cd499f58cd50b658ef0f62e682ed17",
+      "git_blob_sha256": "56bc54fbc6206208587f64c837292d53c0cd499f58cd50b658ef0f62e682ed17",
+      "passed": true
+    },
+    {
+      "path": "projects/task02_tpd/run_task2_tpd_ternary_cooperativity.py",
+      "expected_sha256": "bbee25c68bc79ef45e288637e858f00bec8679c7976b6ae197848c2b7dc2b579",
+      "git_blob_sha256": "bbee25c68bc79ef45e288637e858f00bec8679c7976b6ae197848c2b7dc2b579",
+      "passed": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/kobs_concentration.csv",
+      "expected_sha256": "a711603e19a91734da10cda1ce51ef001b2160f5565fa8446c29f36bd4e6542f",
+      "git_blob_sha256": "a711603e19a91734da10cda1ce51ef001b2160f5565fa8446c29f36bd4e6542f",
+      "passed": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/warhead_results.csv",
+      "expected_sha256": "6cbf65faa4361709998c3ed4e1bd9196c5d7f5f2d997591fe83647a7a9e30289",
+      "git_blob_sha256": "6cbf65faa4361709998c3ed4e1bd9196c5d7f5f2d997591fe83647a7a9e30289",
+      "passed": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/washout_trajectories.csv",
+      "expected_sha256": "c0b204f0a51051dfdbe0a795df4068aa96a129408ba5340624555a291fd81c05",
+      "git_blob_sha256": "c0b204f0a51051dfdbe0a795df4068aa96a129408ba5340624555a291fd81c05",
+      "passed": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py",
+      "expected_sha256": "a3e59f8c8b66b2bb72c0525bcbe2b8a7df486d5440b6c8566cf0c682f77bc056",
+      "git_blob_sha256": "a3e59f8c8b66b2bb72c0525bcbe2b8a7df486d5440b6c8566cf0c682f77bc056",
+      "passed": true
+    },
+    {
+      "path": "projects/task04_pbpk/multidose_bid_7days.csv",
+      "expected_sha256": "3b11f043c4f1b80f3a66d21bc3fb6c8bfc26cd143f9919f91f61ca334a87e553",
+      "git_blob_sha256": "3b11f043c4f1b80f3a66d21bc3fb6c8bfc26cd143f9919f91f61ca334a87e553",
+      "passed": true
+    },
+    {
+      "path": "projects/task04_pbpk/results_summary.json",
+      "expected_sha256": "5340d98c585ed2d84ac1dfc3cd187b1346015880dd6304e88b44922658f8cafa",
+      "git_blob_sha256": "5340d98c585ed2d84ac1dfc3cd187b1346015880dd6304e88b44922658f8cafa",
+      "passed": true
+    },
+    {
+      "path": "projects/task04_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py",
+      "expected_sha256": "a1df617d87698cdd37e98862a288d09eaba890fc45172102304641959ce73262",
+      "git_blob_sha256": "a1df617d87698cdd37e98862a288d09eaba890fc45172102304641959ce73262",
+      "passed": true
+    },
+    {
+      "path": "projects/task04_pbpk/single_iv.csv",
+      "expected_sha256": "703c7e67166981b3c9ea01225fee85adeba511b57970d4554bb17f192cdb893b",
+      "git_blob_sha256": "703c7e67166981b3c9ea01225fee85adeba511b57970d4554bb17f192cdb893b",
+      "passed": true
+    },
+    {
+      "path": "projects/task04_pbpk/single_oral.csv",
+      "expected_sha256": "d411c862c4332706b3c39d24a19cb5234144795f48343891e9e98bb929932294",
+      "git_blob_sha256": "d411c862c4332706b3c39d24a19cb5234144795f48343891e9e98bb929932294",
+      "passed": true
+    },
+    {
+      "path": "projects/task04_pbpk/steady_state_bid.csv",
+      "expected_sha256": "8d0b3fcc69d7160f460ecd3da2c6832b7fd662093b1f69d66b64f0e847e0f874",
+      "git_blob_sha256": "8d0b3fcc69d7160f460ecd3da2c6832b7fd662093b1f69d66b64f0e847e0f874",
+      "passed": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/conditional_risk_grid.csv",
+      "expected_sha256": "499e93d0cc6308f92b45f79e5d5105e115849d2e71cf59a6a910cab50bef3480",
+      "git_blob_sha256": "499e93d0cc6308f92b45f79e5d5105e115849d2e71cf59a6a910cab50bef3480",
+      "passed": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/probe_pk_curves.csv",
+      "expected_sha256": "1e06e9a5284ccbbd93ba849ab3c60d981d18a51d35134ccb19dc1989434e3dca",
+      "git_blob_sha256": "1e06e9a5284ccbbd93ba849ab3c60d981d18a51d35134ccb19dc1989434e3dca",
+      "passed": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/synthetic_preincubation.csv",
+      "expected_sha256": "fafb53711edd48670a19a8d9c1fa0747762ab877f773d8a8d79c0615973c6c63",
+      "git_blob_sha256": "fafb53711edd48670a19a8d9c1fa0747762ab877f773d8a8d79c0615973c6c63",
+      "passed": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py",
+      "expected_sha256": "3e58cf164c233a9edc6735784c6a7f75aa4aaba679ca539666e3eb0ef8a3d2d7",
+      "git_blob_sha256": "3e58cf164c233a9edc6735784c6a7f75aa4aaba679ca539666e3eb0ef8a3d2d7",
+      "passed": true
+    },
+    {
+      "path": "projects/task06_asd/inputs/parameters.json",
+      "expected_sha256": "1c6838c7e683b1a74e31f4695290372fcc150c0adb859046146e9b1cff9e9f14",
+      "git_blob_sha256": "1c6838c7e683b1a74e31f4695290372fcc150c0adb859046146e9b1cff9e9f14",
+      "passed": true
+    },
+    {
+      "path": "projects/task06_asd/results/concentration_mass_timeseries.csv",
+      "expected_sha256": "5c26ad0913645d612324fd5b407e14a0d952ff9774a3af55f5de9ba2818d22e0",
+      "git_blob_sha256": "5c26ad0913645d612324fd5b407e14a0d952ff9774a3af55f5de9ba2818d22e0",
+      "passed": true
+    },
+    {
+      "path": "projects/task06_asd/results/phase_boundaries.csv",
+      "expected_sha256": "cc41ad8b2678a0f9dc3aa99309a2f26782a3bab431778ccb213bfa924c230269",
+      "git_blob_sha256": "cc41ad8b2678a0f9dc3aa99309a2f26782a3bab431778ccb213bfa924c230269",
+      "passed": true
+    },
+    {
+      "path": "projects/task06_asd/results/summary.json",
+      "expected_sha256": "bab0c06da41d40fde2512f4b53fdc6f0f091f0279f6b21bd60934fb679072019",
+      "git_blob_sha256": "bab0c06da41d40fde2512f4b53fdc6f0f091f0279f6b21bd60934fb679072019",
+      "passed": true
+    },
+    {
+      "path": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py",
+      "expected_sha256": "1ab4810796786cb61b09e041e1e0d20a95fd966ae3241157de7c188962f97207",
+      "git_blob_sha256": "1ab4810796786cb61b09e041e1e0d20a95fd966ae3241157de7c188962f97207",
+      "passed": true
+    },
+    {
+      "path": "projects/task07_qsp/dose_synergy_matrix.csv",
+      "expected_sha256": "8d1ac88c8da847f04643962a336cc97612f1cbf957bd13ea3034173eb94376cf",
+      "git_blob_sha256": "8d1ac88c8da847f04643962a336cc97612f1cbf957bd13ea3034173eb94376cf",
+      "passed": true
+    },
+    {
+      "path": "projects/task07_qsp/kaplan_meier.csv",
+      "expected_sha256": "494952236d9107d6aa96fa883738f8fb2b1f0c23283f067586c3d382b71024fd",
+      "git_blob_sha256": "494952236d9107d6aa96fa883738f8fb2b1f0c23283f067586c3d382b71024fd",
+      "passed": true
+    },
+    {
+      "path": "projects/task07_qsp/progression_endpoints.csv",
+      "expected_sha256": "50b399299174de05bc14e479e1734097e1247b831f15e8ba5a4255ee475ae609",
+      "git_blob_sha256": "50b399299174de05bc14e479e1734097e1247b831f15e8ba5a4255ee475ae609",
+      "passed": true
+    },
+    {
+      "path": "projects/task07_qsp/results_summary.json",
+      "expected_sha256": "e8ecfd053a513a000aacc6d51e8c8ca4220e544284a5a491255e002a6eece8c1",
+      "git_blob_sha256": "e8ecfd053a513a000aacc6d51e8c8ca4220e544284a5a491255e002a6eece8c1",
+      "passed": true
+    },
+    {
+      "path": "projects/task07_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py",
+      "expected_sha256": "72a4d365777c68f88845ec651eef2d2b98ec74a1f30c96a2bafaff1cc657de1f",
+      "git_blob_sha256": "72a4d365777c68f88845ec651eef2d2b98ec74a1f30c96a2bafaff1cc657de1f",
+      "passed": true
+    },
+    {
+      "path": "projects/task07_qsp/trajectories.csv",
+      "expected_sha256": "a404c139073b25712588ef2680b0ebc80f0c70c987c744e7d7de49bf7e65049c",
+      "git_blob_sha256": "a404c139073b25712588ef2680b0ebc80f0c70c987c744e7d7de49bf7e65049c",
+      "passed": true
+    },
+    {
+      "path": "projects/task08_adc/config.json",
+      "expected_sha256": "0951ec789a6ade14d01b9f6e416ce3f6daf4828a3b9dfdad0a87b15ac3ba5e68",
+      "git_blob_sha256": "0951ec789a6ade14d01b9f6e416ce3f6daf4828a3b9dfdad0a87b15ac3ba5e68",
+      "passed": true
+    },
+    {
+      "path": "projects/task08_adc/data/cell_trafficking.csv",
+      "expected_sha256": "2b842175d1971b163ff63e9195a9293bc9c6100b54469f6bf560387fe6512357",
+      "git_blob_sha256": "2b842175d1971b163ff63e9195a9293bc9c6100b54469f6bf560387fe6512357",
+      "passed": true
+    },
+    {
+      "path": "projects/task08_adc/data/dar_timecourses.csv",
+      "expected_sha256": "69e055aa62b58f8d39a531d893e890e1951b9cb6110140b3b7876c00b5963732",
+      "git_blob_sha256": "69e055aa62b58f8d39a531d893e890e1951b9cb6110140b3b7876c00b5963732",
+      "passed": true
+    },
+    {
+      "path": "projects/task08_adc/data/hic_chromatogram.csv",
+      "expected_sha256": "457ee6924657926cda53e0c40181a22ff86a1b674485cfb4938df4167fe712ce",
+      "git_blob_sha256": "457ee6924657926cda53e0c40181a22ff86a1b674485cfb4938df4167fe712ce",
+      "passed": true
+    },
+    {
+      "path": "projects/task08_adc/data/radial_timecourses.csv",
+      "expected_sha256": "d35e9a5a0735963765683fcead80c75f60e2ce0858d74b7f3619e3de7e6c4a52",
+      "git_blob_sha256": "d35e9a5a0735963765683fcead80c75f60e2ce0858d74b7f3619e3de7e6c4a52",
+      "passed": true
+    },
+    {
+      "path": "projects/task08_adc/run_task8_adc_dar_cleavage_bystander_dynamics.py",
+      "expected_sha256": "47df7fcaf4a16a54f6de711ee5224eedce825ab311a79539b96132a0a81c3fe5",
+      "git_blob_sha256": "47df7fcaf4a16a54f6de711ee5224eedce825ab311a79539b96132a0a81c3fe5",
+      "passed": true
+    },
+    {
+      "path": "projects/task09_cryoem_allostery/results/anm_prs.npz",
+      "expected_sha256": "80e3a2cc1aff0481ea2239c27f144dad9048bb3c8ff2b2ed5bb4eb99282dba50",
+      "git_blob_sha256": "80e3a2cc1aff0481ea2239c27f144dad9048bb3c8ff2b2ed5bb4eb99282dba50",
+      "passed": true
+    },
+    {
+      "path": "projects/task09_cryoem_allostery/results/conformer_latent_trajectory.csv",
+      "expected_sha256": "b552179a4d5987990beeeda863dbbd239cd6605e46e7c1702b14a2d4ba4e36d5",
+      "git_blob_sha256": "b552179a4d5987990beeeda863dbbd239cd6605e46e7c1702b14a2d4ba4e36d5",
+      "passed": true
+    },
+    {
+      "path": "projects/task09_cryoem_allostery/results/msm.json",
+      "expected_sha256": "71c0ab1548d934ed7a6f5f2481e4713cf0223487b49cab181480eafbb06184dd",
+      "git_blob_sha256": "71c0ab1548d934ed7a6f5f2481e4713cf0223487b49cab181480eafbb06184dd",
+      "passed": true
+    },
+    {
+      "path": "projects/task09_cryoem_allostery/results/summary.json",
+      "expected_sha256": "e937121af0297455ac12e3817d10abec054bd6b4e966cccd35f7dfcb7f2b80e8",
+      "git_blob_sha256": "e937121af0297455ac12e3817d10abec054bd6b4e966cccd35f7dfcb7f2b80e8",
+      "passed": true
+    },
+    {
+      "path": "projects/task09_cryoem_allostery/run_task9_cryoem_cryptic_pocket_allostery.py",
+      "expected_sha256": "14d244eceb5a44fa5e80562f5891fee623859cb89e22eaf065a6daffe606b759",
+      "git_blob_sha256": "14d244eceb5a44fa5e80562f5891fee623859cb89e22eaf065a6daffe606b759",
+      "passed": true
+    },
+    {
+      "path": "projects/task10_rna_splicing/results/bpp_WT_model_37C.csv",
+      "expected_sha256": "2ef10a2388e145f5fb54d9703dcc1fa3fa395fb2333ddd8dbe4a0fa51196f9f8",
+      "git_blob_sha256": "2ef10a2388e145f5fb54d9703dcc1fa3fa395fb2333ddd8dbe4a0fa51196f9f8",
+      "passed": true
+    },
+    {
+      "path": "projects/task10_rna_splicing/results/secondary_ensemble_summary.json",
+      "expected_sha256": "6daaeec28c235a2865a2516282466b04da87c32d46aa7658e63628d5ae4d5441",
+      "git_blob_sha256": "6daaeec28c235a2865a2516282466b04da87c32d46aa7658e63628d5ae4d5441",
+      "passed": true
+    },
+    {
+      "path": "projects/task10_rna_splicing/results/splicing_mass_action.csv",
+      "expected_sha256": "6448b4c6d206d5e0d72c4f499461691ee5b20f50900df185d57b74afcd8163e1",
+      "git_blob_sha256": "6448b4c6d206d5e0d72c4f499461691ee5b20f50900df185d57b74afcd8163e1",
+      "passed": true
+    },
+    {
+      "path": "projects/task10_rna_splicing/results/thermodynamic_cycles.csv",
+      "expected_sha256": "954190837bbae95ee2b0e7555b670f395ec5333cf960b6c1aa832944f9a2916d",
+      "git_blob_sha256": "954190837bbae95ee2b0e7555b670f395ec5333cf960b6c1aa832944f9a2916d",
+      "passed": true
+    },
+    {
+      "path": "projects/task10_rna_splicing/run_task10_rna_targeted_small_molecule_dynamics.py",
+      "expected_sha256": "77f6662ec2dc2d835c9cdde393af74097cd563bb3925fcc7174d8cc8630ae881",
+      "git_blob_sha256": "77f6662ec2dc2d835c9cdde393af74097cd563bb3925fcc7174d8cc8630ae881",
+      "passed": true
+    },
+    {
+      "path": "run_ai4pharm_omnibus_suite.py",
+      "expected_sha256": "ca8fe9607eec3cdd3e2921dc27400efbd9cff7e70bd2c918cb4ce13a62e10418",
+      "git_blob_sha256": "ca8fe9607eec3cdd3e2921dc27400efbd9cff7e70bd2c918cb4ce13a62e10418",
+      "passed": true
+    },
+    {
+      "path": "tests/test_omnibus.py",
+      "expected_sha256": "42f7854cd7d9c2fbe72e932620bd379dd68c04f6f1706f318b3f5b6679d1c16b",
+      "git_blob_sha256": "42f7854cd7d9c2fbe72e932620bd379dd68c04f6f1706f318b3f5b6679d1c16b",
+      "passed": true
+    },
+    {
+      "path": "tools/compare_omnibus_recompute.py",
+      "expected_sha256": "fe10eacbaf54868fa2982d3d52603ea60dc53e9df82295aa17628a5edb5c08a6",
+      "git_blob_sha256": "fe10eacbaf54868fa2982d3d52603ea60dc53e9df82295aa17628a5edb5c08a6",
+      "passed": true
+    },
+    {
+      "path": "tools/validate_omnibus.py",
+      "expected_sha256": "d297c78d762834db0187218d94797fe1a639a8e847fc9b5757d0ce3034e6a50c",
+      "git_blob_sha256": "d297c78d762834db0187218d94797fe1a639a8e847fc9b5757d0ce3034e6a50c",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+WARNING Illustrative benchmark, not external validation. pKa/logD and ADMET surrogates are uncalibrated; hERG is not overall safety. 3D geometry does not establish solvent exposure or absolute chameleonicity.
+INFO [01/30] Aspirin
+INFO [02/30] Diazepam
+INFO [03/30] Sildenafil
+INFO [04/30] Gefitinib
+INFO [05/30] Omeprazole
+INFO [06/30] Metoprolol
+INFO [07/30] Losartan
+INFO [08/30] Warfarin
+INFO [09/30] Fluconazole
+INFO [10/30] Captopril
+INFO [11/30] Terfenadine
+INFO [12/30] Astemizole
+INFO [13/30] Cisapride
+INFO [14/30] Cerivastatin
+INFO [15/30] Troglitazone
+INFO [16/30] Rofecoxib
+INFO [17/30] Nefazodone
+INFO [18/30] Benoxaprofen
+INFO [19/30] Ximelagatran
+INFO [20/30] Fialuridine
+INFO [21/30] Cyclosporine A
+WARNING Cyclosporine A: partial_convergence
+INFO [22/30] Venetoclax
+INFO [23/30] ARV-110
+INFO [24/30] Rifampicin
+INFO [25/30] Paclitaxel
+WARNING Paclitaxel: partial_convergence
+INFO [26/30] Tacrolimus
+INFO [27/30] Sirolimus
+WARNING Sirolimus: partial_convergence
+INFO [28/30] Erythromycin
+INFO [29/30] Azithromycin
+INFO [30/30] Daclatasvir
+WARNING Daclatasvir: partial_convergence
+INFO Completed 30 compounds. Outputs: C:\Users\HUIWEI\Documents\Codex\2026-09-20\https-github-com-songsiyi2006-chem-ai4chem\work\ai4pharm\work\omnibus_recompute_20260921\calculations\projects\task01_lead_developability

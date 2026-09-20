@@ -1,0 +1,318 @@
+[
+  {
+    "task": 1,
+    "file": "fig_task1_developability_mpo.png",
+    "sources": [
+      "projects/task01_lead_developability/results_task1/developability_results.csv"
+    ],
+    "panels": [
+      "CNS-MPO violin and all 30 compounds",
+      "Six fixed-anchor desirability axes for three named references",
+      "Molecular weight versus RDKit cLogP, area by Fsp3"
+    ],
+    "caveats": [
+      "Approximate ionization and unvalidated ADMET proxies",
+      "Descriptive selected cohorts, not a clinical classifier",
+      "No chameleonic adaptation inferred from these descriptors"
+    ],
+    "pixels": [
+      4680,
+      1710
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "sha256": "059a14e43f301ba0f089a57caca86ab0c032fde85c0305a7bcf7518cc6514dff",
+    "evidence_boundary": "结构身份与描述符有记录；ADMET 为未校准代理，气相构象不证明变色龙性。"
+  },
+  {
+    "task": 2,
+    "file": "fig_task2_tpd_hook_effect.png",
+    "sources": [
+      "projects/task02_tpd/data_task2/equilibrium_species.csv",
+      "projects/task02_tpd/data_task2/affinity_cooperativity_heatmap.csv",
+      "projects/task02_tpd/data_task2/linker_conformers.csv",
+      "projects/task02_tpd/data_task2/equilibrium_metrics.csv"
+    ],
+    "panels": [
+      "Finite-total EPT curves for four cooperativities",
+      "Peak ternary complex over the two-affinity grid at alpha=10",
+      "Two 100-conformer distance histograms"
+    ],
+    "caveats": [
+      "Hook effect is conditional, not a universal clinical response",
+      "Numerical optimum differs from the supplied approximate formula",
+      "ETKDG/MMFF sample counts are not Boltzmann weights"
+    ],
+    "pixels": [
+      4680,
+      1710
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "sha256": "449ea91e2c5a2ffeae8507a87126de59d2326323085e6192610f89828710a1d5",
+    "evidence_boundary": "平衡与合成降解情景；峰值不是临床最优剂量，连接子尚未包含真实蛋白出口向量。"
+  },
+  {
+    "task": 3,
+    "file": "fig_task3_covalent_kinetics.png",
+    "sources": [
+      "projects/task03_covalent_kinetics/data_task3/kobs_concentration.csv",
+      "projects/task03_covalent_kinetics/data_task3/washout_trajectories.csv",
+      "projects/task03_covalent_kinetics/data_task3/warhead_results.csv"
+    ],
+    "derived_data": [
+      "data_omnibus/task3_pareto_qssa.csv"
+    ],
+    "panels": [
+      "QSSA kobs hyperbolae and exact eigenvalue points for eight scenarios",
+      "Reversible and covalent washout at 24-hour turnover",
+      "Recomputed QSSA-efficiency / forward GSH half-life Pareto frontier"
+    ],
+    "caveats": [
+      "All kinetic values are illustrative",
+      "K_I,QSSA differs from binary K_D",
+      "Forward GSH half-life is not a clinical safety margin or DILI prediction"
+    ],
+    "pixels": [
+      4680,
+      1710
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "sha256": "17c9cd6667add2a77eb2d6828b72ea9b23a213aa1432fb1661bc914af3962006",
+    "evidence_boundary": "实际执行 EHT；速率参数为情景假设，GSH 筛查不等于 DILI 安全评价。"
+  },
+  {
+    "task": 4,
+    "file": "fig_task4_pbpk_pharmacokinetics.png",
+    "sources": [
+      "projects/task04_pbpk/single_iv.csv",
+      "projects/task04_pbpk/single_oral.csv",
+      "projects/task04_pbpk/multidose_bid_7days.csv",
+      "projects/task04_pbpk/steady_state_bid.csv",
+      "projects/task04_pbpk/results_summary.json"
+    ],
+    "panels": [
+      "100-mg IV and oral total plasma curves",
+      "Five oral total tissue concentration curves",
+      "Seven-day BID trajectory versus independently solved periodic steady state"
+    ],
+    "caveats": [
+      "Synthetic compound inputs",
+      "Poulin-Theil/logD partition approximation, not Rodgers-Rowland",
+      "Day 7 is not yet periodic steady state",
+      "No clinical dose recommendation"
+    ],
+    "pixels": [
+      4680,
+      1710
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "sha256": "8d841d11dbd03a18fc531a97b6d1cc3207c6766a3eac81df80c699ebe761f2bd",
+    "evidence_boundary": "简化分配模型与假设输入；第 7 天不自动等于稳态，剂量不是临床建议。"
+  },
+  {
+    "task": 5,
+    "file": "fig_task5_cyp_ddi_mbi.png",
+    "sources": [
+      "projects/task05_cyp_ddi/results/synthetic_preincubation.csv",
+      "projects/task05_cyp_ddi/results/probe_pk_curves.csv",
+      "projects/task05_cyp_ddi/results/conditional_risk_grid.csv"
+    ],
+    "panels": [
+      "Six noise-free preincubation curves for two MBI scenarios",
+      "Hypothetical day-14 midazolam dynamic PK under three perpetrators and control",
+      "Conditional M12-form screening matrix from archived assumptions"
+    ],
+    "caveats": [
+      "Drug names do not validate assumed numerical parameters",
+      "Conditional basic screen is not an FDA clinical risk classification",
+      "Screening ratios are not themselves AUCR",
+      "No inference of clinical safety below cutoffs"
+    ],
+    "pixels": [
+      4680,
+      1710
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "sha256": "2bfa4d1a3a88b62b5024a19366b513baee7b52eb01f6a69820ab4501d8f23959",
+    "evidence_boundary": "实际调用 Task 4；M12 形式筛查基于假设参数，不构成临床禁忌判定。"
+  },
+  {
+    "task": 6,
+    "file": "fig_task6_asd_supersaturation.png",
+    "sources": [
+      "projects/task06_asd/inputs/parameters.json",
+      "projects/task06_asd/results/phase_boundaries.csv",
+      "projects/task06_asd/results/concentration_mass_timeseries.csv",
+      "projects/task06_asd/results/summary.json"
+    ],
+    "panels": [
+      "FH mixing free energy",
+      "archived binodal/spinodal curves",
+      "dry Gordon–Taylor Tg",
+      "closed-vessel dissolution"
+    ],
+    "caveats": [
+      "Hypothetical API and carrier parameterization; no DSC or dissolution calibration.",
+      "HPMC-AS has no phase separation envelope in the computed range; absent boundaries are not zeros.",
+      "20% ASD is a prespecified candidate, not a demonstrated optimum."
+    ],
+    "derived_files": [
+      "data_omnibus/task6_thermodynamic_plot_grid.csv"
+    ],
+    "pixels": [
+      4050,
+      3030
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "sha256": "1a0180ea4f7a8eb3558b0b5cc11c6ca7bdaa8256a3f2e5dbd64d80d6f154356f",
+    "evidence_boundary": "假设聚合物与析晶参数；吸收增强为代理，VFT 适用域之外保留缺失。"
+  },
+  {
+    "task": 7,
+    "file": "fig_task7_qsp_immuno_oncology.png",
+    "sources": [
+      "projects/task07_qsp/trajectories.csv",
+      "projects/task07_qsp/dose_synergy_matrix.csv",
+      "projects/task07_qsp/kaplan_meier.csv",
+      "projects/task07_qsp/progression_endpoints.csv",
+      "projects/task07_qsp/results_summary.json"
+    ],
+    "panels": [
+      "matched 50-person tumor trajectories",
+      "nominal 6×6 Bliss surface",
+      "mass-threshold Kaplan–Meier with censor marks"
+    ],
+    "caveats": [
+      "Shading is the population 10–90% interval, not a confidence interval.",
+      "The same synthetic people are reused in four arms; 200 trajectories do not mean 200 unique people.",
+      "The mass endpoint is not clinical PFS."
+    ],
+    "derived_files": [
+      "data_omnibus/task7_tumor_quantiles.csv"
+    ],
+    "pixels": [
+      4860,
+      1800
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "sha256": "82383b702c4566f4b9ee4e30cd3a2748f915833fd315f1d1491e20aacb328600",
+    "evidence_boundary": "50 名配对虚拟个体；质量进展终点不等于临床 RECIST / PFS。"
+  },
+  {
+    "task": 8,
+    "file": "fig_task8_adc_multiscale.png",
+    "sources": [
+      "projects/task08_adc/config.json",
+      "projects/task08_adc/data/dar_timecourses.csv",
+      "projects/task08_adc/data/hic_chromatogram.csv",
+      "projects/task08_adc/data/cell_trafficking.csv",
+      "projects/task08_adc/data/radial_timecourses.csv"
+    ],
+    "panels": [
+      "four endpoint DAR distributions",
+      "DAR-resolved HIC",
+      "model-derived lysosomal flux",
+      "high/low permeability radial contours"
+    ],
+    "caveats": [
+      "Finite-linker mass conservation is retained; downstream mixture is not a purified DAR4 fraction.",
+      "HIC peaks and effective lysosomal rates are hypothetical.",
+      "Radial extracellular concentration is not a cytotoxicity contour."
+    ],
+    "derived_files": [
+      "data_omnibus/task8_lysosomal_payload_flux.csv"
+    ],
+    "pixels": [
+      4710,
+      3120
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "sha256": "9c4acb242f7416c5de6cf87880923d37f466e76f3a64afca5ba3b6c01be171fb",
+    "evidence_boundary": "合成 DAR/HIC 与反应扩散情景；阈值半径不是经实验验证的杀伤半径。"
+  },
+  {
+    "task": 9,
+    "file": "fig_task9_cryoem_allostery.png",
+    "sources": [
+      "projects/task09_cryoem_allostery/results/conformer_latent_trajectory.csv",
+      "projects/task09_cryoem_allostery/results/msm.json",
+      "projects/task09_cryoem_allostery/results/anm_prs.npz",
+      "projects/task09_cryoem_allostery/results/summary.json"
+    ],
+    "panels": [
+      "500 synthetic kernel-PCA coordinates",
+      "MSM state population free energies and bootstrap intervals",
+      "164×164 PRS matrix"
+    ],
+    "caveats": [
+      "T4 lysozyme is a structural method example, not an oncology target or experimental cryo-EM reconstruction.",
+      "Discrete population free energies do not identify transition-state barriers.",
+      "ROI-limited pocket volumes and the short inferred path do not satisfy requested large-pocket/30 Å claims."
+    ],
+    "derived_files": [],
+    "pixels": [
+      4860,
+      1800
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "sha256": "4244f550cb836d6fe37d25dfc5d4b10dddcf60cb45d00863edee2a2ab6771c4d",
+    "evidence_boundary": "公开晶体结构 + 合成轨迹；状态自由能不是活化势垒，ROI 截断保留未知。"
+  },
+  {
+    "task": 10,
+    "file": "fig_task10_rna_targeted_cadd.png",
+    "sources": [
+      "projects/task10_rna_splicing/results/bpp_WT_model_37C.csv",
+      "projects/task10_rna_splicing/results/secondary_ensemble_summary.json",
+      "projects/task10_rna_splicing/results/thermodynamic_cycles.csv",
+      "projects/task10_rna_splicing/results/splicing_mass_action.csv"
+    ],
+    "panels": [
+      "ViennaRNA WT-model BPP at 37 °C",
+      "four hypothesized free-energy cycles",
+      "WT/mutant eight-state U1 occupancy curves"
+    ],
+    "caveats": [
+      "The engineered hairpin replaces pseudouridine with uridine and tethers the experimental two-strand motif.",
+      "Ligand-family labels are hypothetical scenarios, not actual risdiplam/aminoglycoside measurements.",
+      "No mapping from equilibrium U1 occupancy to clinical exon inclusion is established."
+    ],
+    "derived_files": [],
+    "pixels": [
+      4860,
+      1860
+    ],
+    "dpi": [
+      299.9994,
+      299.9994
+    ],
+    "sha256": "81c90dc39b35d043b4425b572d5cc3e97eeb321bf3d78c0214037d246d0881c3",
+    "evidence_boundary": "ViennaRNA 计算 + 公开 NMR；工程化 RNA 和假设结合参数，U1 占有率不是临床剪接率。"
+  }
+]

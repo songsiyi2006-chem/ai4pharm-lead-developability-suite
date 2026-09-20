@@ -1,0 +1,230 @@
+{
+  "evidence": "public X-ray endpoints plus synthetic interpolation and assumed Markov time; not experimental cryo-EM/MD/drug discovery",
+  "conformers": 500,
+  "heavy_atoms": 1278,
+  "residues": 164,
+  "kernel_pca_bandwidth_A2": 0.02084333432145013,
+  "anchor_ca_rmsd_A": 0.6442360333190843,
+  "volume_range_A3": [
+    76.78125,
+    209.671875
+  ],
+  "uncalibrated_score_range": [
+    0.45128280616522265,
+    0.5115793317265658
+  ],
+  "high_volume_high_score_frames": 0,
+  "first_sampled_gate_q": null,
+  "threshold_indeterminate_frames": 135,
+  "exact_threshold_status": "not established; finite sampled geometries and unvalidated score",
+  "roi_boundary_contact_frames": 135,
+  "ca_adjacent_distance_range_A": [
+    3.419749282972558,
+    3.867489756283791
+  ],
+  "minimum_nonadjacent_ca_distance_A": 4.319541941791554,
+  "anm_zero_modes": 6,
+  "anm_pseudoinverse_residual": 1.150924124592676e-13,
+  "prs_force_convergence": [
+    {
+      "forces_per_residue": 64,
+      "relative_frobenius_error": 0.0696554387595651
+    },
+    {
+      "forces_per_residue": 256,
+      "relative_frobenius_error": 0.03653255325726821
+    },
+    {
+      "forces_per_residue": 1024,
+      "relative_frobenius_error": 0.013366331391356092
+    }
+  ],
+  "path_residue_ids": [
+    106,
+    11
+  ],
+  "path_length_A": 12.624657935960087,
+  "path_end_to_end_A": 12.624657935960087,
+  "path_end_to_end_above_30_A": false,
+  "mean_individual_density_peak": 1.158562721964061,
+  "ensemble_density_peak": 1.137300968170166,
+  "density_units": "atomic-number weighted Gaussian proxy / A^3; not calibrated electrostatic potential",
+  "density_population_weighting": "actual synthetic state counts / total frames",
+  "msm": {
+    "estimator": "symmetrized transition counts plus explicit diagonal/nearest-neighbor pseudocount; not reversible MLE",
+    "clock_status": "assumed synthetic; no MD or experimental chronology",
+    "generator_transition_matrix": [
+      [
+        0.9030637380754919,
+        0.09693626192450809,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.175,
+        0.7195281599593022,
+        0.10547184004069786,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.175,
+        0.7359085527258176,
+        0.08909144727418244,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.175,
+        0.7558351800007921,
+        0.06916481999920794
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.175,
+        0.825
+      ]
+    ],
+    "generator_stationary": [
+      0.47061046131498563,
+      0.2606812510996745,
+      0.1571116069576792,
+      0.07998457398532659,
+      0.031612106642333965
+    ],
+    "observed_counts": [
+      225,
+      129,
+      79,
+      61,
+      6
+    ],
+    "transition_counts": [
+      [
+        198.0,
+        27.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        26.0,
+        82.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        20.0,
+        48.0,
+        11.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        11.0,
+        48.0,
+        2.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        4.0
+      ]
+    ],
+    "estimated_transition_matrix": [
+      [
+        0.8802660753880266,
+        0.1197339246119734,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.2076923076923077,
+        0.6346153846153846,
+        0.1576923076923077,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.2546583850931677,
+        0.6024844720496895,
+        0.14285714285714285,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.184,
+        0.776,
+        0.04
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.35714285714285715,
+        0.6428571428571429
+      ]
+    ],
+    "estimated_stationary": [
+      0.44609297725024727,
+      0.2571711177052423,
+      0.15924826904055392,
+      0.12363996043521266,
+      0.013847675568743818
+    ],
+    "estimated_free_energies_kcal_mol": [
+      -0.0,
+      0.32633224279606904,
+      0.6102968096594343,
+      0.760249197474725,
+      2.0573506700937165
+    ],
+    "bootstrap_free_energy_95_interval": [
+      [
+        -0.0,
+        0.0
+      ],
+      [
+        0.028826532849901866,
+        0.5780724728534995
+      ],
+      [
+        0.18032501867209955,
+        1.1084464453138394
+      ],
+      [
+        0.0900622867567522,
+        1.5787256012022803
+      ],
+      [
+        1.1013202358549514,
+        3.334307429134833
+      ]
+    ],
+    "mfpt_closed_to_open_ns": 2630.06358744746,
+    "opening_rate_per_ns": 0.0003802189440486205,
+    "bootstrap_mfpt_95_interval_ns": [
+      1078.4541766969412,
+      10896.389935623289
+    ],
+    "bootstrap_replicates_missing_at_least_one_state": 22,
+    "bootstrap_replicates": 200,
+    "detailed_balance_max_error": 6.938893903907228e-18,
+    "stationarity_max_error": 1.734723475976807e-18,
+    "ck_lag2_frobenius_disagreement": 0.13175260954197746,
+    "opening_penalty_meets_requested_2_to_5": true
+  }
+}

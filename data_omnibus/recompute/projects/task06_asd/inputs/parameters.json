@@ -1,0 +1,132 @@
+{
+  "evidence_class": "hypothetical_parameterized_mechanistic_scenarios_not_experiment",
+  "seed": 20260920,
+  "drug": {
+    "name": "Hypothetical neutral poorly soluble API",
+    "molar_mass_g_mol": 390.0,
+    "density_g_cm3": 1.3,
+    "molar_volume_cm3_mol": 300.0,
+    "hansen_MPa_half": [
+      20.0,
+      9.0,
+      10.0
+    ],
+    "Tg_K": 318.15,
+    "N_segments": 1.0,
+    "crystalline_solubility_mg_ml": 0.01,
+    "amorphous_solubility_ratio": 10.0,
+    "water_sorption_a": 0.003
+  },
+  "polymers": [
+    {
+      "name": "HPMC-AS",
+      "hansen_MPa_half": [
+        18.5,
+        11.0,
+        12.0
+      ],
+      "density_g_cm3": 1.2,
+      "N_segments": 100.0,
+      "Tg_K": 395.15,
+      "Tg_evidence": "manufacturer typical 122 C; SHINETSU, not a batch measurement",
+      "water_sorption_a": 0.016
+    },
+    {
+      "name": "PVP-VA",
+      "hansen_MPa_half": [
+        18.0,
+        12.0,
+        7.0
+      ],
+      "density_g_cm3": 1.18,
+      "N_segments": 80.0,
+      "Tg_K": 374.15,
+      "Tg_evidence": "manufacturer typical 101 C; BASF_VA64, not a batch measurement",
+      "water_sorption_a": 0.035
+    },
+    {
+      "name": "Soluplus",
+      "hansen_MPa_half": [
+        18.0,
+        8.0,
+        8.0
+      ],
+      "density_g_cm3": 1.1,
+      "N_segments": 120.0,
+      "Tg_K": 343.15,
+      "Tg_evidence": "assumed 70 C for scenario, not verified from cited product page",
+      "water_sorption_a": 0.023
+    },
+    {
+      "name": "Eudragit L100",
+      "hansen_MPa_half": [
+        17.5,
+        12.0,
+        8.0
+      ],
+      "density_g_cm3": 1.25,
+      "N_segments": 150.0,
+      "Tg_K": 468.15,
+      "Tg_evidence": "assumed 195 C for scenario, not verified from cited product page",
+      "water_sorption_a": 0.012
+    }
+  ],
+  "parameter_provenance": "All numeric drug, Hansen, density, segment, sorption, VFT and kinetic values are analyst assumptions, except the two explicitly attributed typical polymer Tgs. Carrier names do not make these calibrated carrier predictions.",
+  "storage": {
+    "conditions": [
+      [
+        298.15,
+        0.6
+      ],
+      [
+        313.15,
+        0.75
+      ]
+    ],
+    "loadings": [
+      0.1,
+      0.2,
+      0.3,
+      0.5
+    ],
+    "water_Tg_K": 136.0,
+    "water_GT_K": 5.0,
+    "sorption_model": "q_dry=a*RH/(1-0.5*RH), a linear dry-mass blend of component coefficients",
+    "vft_Tg_minus_T0_K": 50.0,
+    "vft_log10_tau0_s": -14.0,
+    "vft_log10_tau_at_Tg_s": 2.0,
+    "induction_to_relaxation_ratio": 1000000.0,
+    "VFT_status": "hypothetical anchored curve; no measured relaxation or crystallization calibration"
+  },
+  "kinetics": {
+    "dose_mg": 100.0,
+    "volume_ml": 900.0,
+    "pH": 6.8,
+    "temperature_K": 310.15,
+    "medium": "assumed pH 6.8 intestinal-style medium; no specified bile salt composition or measured micellar partitioning; NOT a validated FaSSIF experiment",
+    "hours": 6.0,
+    "samples": 721,
+    "diffusivity_cm2_s": 5e-06,
+    "boundary_layer_cm": 0.005,
+    "area_cm2": {
+      "crystalline": 120.0,
+      "amorphous": 800.0,
+      "ASD": 650.0
+    },
+    "absorption_h_inv": 0.3,
+    "gamma0_J_m2": 0.004,
+    "gamma_increment_J_m2": 0.004,
+    "polymer_half_effect_mg_ml": 0.1,
+    "nucleation_h_inv": 5.0,
+    "growth_h_inv": 0.8,
+    "growth_inhibition_ml_mg": 8.0,
+    "site_loss_h_inv": 0.3,
+    "seed_floor": 0.002,
+    "induction_threshold_fraction_dose": 0.01,
+    "supersaturation_threshold": 1.05,
+    "solver": "DOP853",
+    "rtol": 2e-08,
+    "atol": 1e-10,
+    "max_step_h": 0.02
+  }
+}

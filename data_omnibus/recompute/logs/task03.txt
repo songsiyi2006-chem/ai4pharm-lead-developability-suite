@@ -1,0 +1,13 @@
+INFO: Starting Task 3; default kinetics and barrier estimates are illustrative.
+INFO: Electronic descriptors: W01 (eht)
+INFO: Electronic descriptors: W02 (eht)
+INFO: Electronic descriptors: W03 (eht)
+INFO: Electronic descriptors: W04 (eht)
+INFO: Electronic descriptors: W05 (eht)
+INFO: Electronic descriptors: W06 (eht)
+INFO: Electronic descriptors: W07 (eht)
+INFO: Electronic descriptors: W08 (eht)
+INFO: Integrating concentration series and fitting inactivation kinetics
+INFO: Integrating GSH conjugation, finite-drug exposure and washout
+INFO: Completed: C:\Users\HUIWEI\Documents\Codex\2026-09-20\https-github-com-songsiyi2006-chem-ai4chem\work\ai4pharm\work\omnibus_recompute_20260921\calculations\projects\task03_covalent_kinetics
+INFO: Validation passed; 4 figures at 300 DPI, 2 reports, 9 CSV tables and provenance saved.

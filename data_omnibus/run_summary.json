@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "mode": "archived",
+  "semantics": "Ten separately parameterized studies; only Task 4 to 5 is an executed inter-task model link",
+  "source_root": "repository_root",
+  "environment": {
+    "python": "3.14.6",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1",
+    "rdkit": "2026.3.5",
+    "pandas": "3.0.5",
+    "ViennaRNA": "not_installed_in_main_environment"
+  },
+  "numerical_threads": 1,
+  "execution": [],
+  "figure_count": 10,
+  "unique_figure_input_files": 38,
+  "clinical_validation": false
+}

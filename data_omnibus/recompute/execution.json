@@ -1,0 +1,146 @@
+[
+  {
+    "task": 1,
+    "status": "passed",
+    "returncode": 0,
+    "elapsed_seconds": 170.20523910000338,
+    "command": [
+      "C:\\Users\\HUIWEI\\miniconda3\\python.exe",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\projects\\task01_lead_developability\\run_task1_mpo_admet_developability.py",
+      "--output-dir",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\work\\omnibus_recompute_20260921\\calculations\\projects\\task01_lead_developability",
+      "--conformer-timeout",
+      "120"
+    ],
+    "log": "logs/task01.txt",
+    "driver_sha256": "2d8e74cc974764d74c97437d33ac96c44ebbef0bf51e23fd3c34e46ab65f0287"
+  },
+  {
+    "task": 2,
+    "status": "passed",
+    "returncode": 0,
+    "elapsed_seconds": 50.5486125999887,
+    "command": [
+      "C:\\Users\\HUIWEI\\miniconda3\\python.exe",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\projects\\task02_tpd\\run_task2_tpd_ternary_cooperativity.py",
+      "--output-dir",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\work\\omnibus_recompute_20260921\\calculations\\projects\\task02_tpd"
+    ],
+    "log": "logs/task02.txt",
+    "driver_sha256": "bbee25c68bc79ef45e288637e858f00bec8679c7976b6ae197848c2b7dc2b579"
+  },
+  {
+    "task": 3,
+    "status": "passed",
+    "returncode": 0,
+    "elapsed_seconds": 20.43206730001839,
+    "command": [
+      "C:\\Users\\HUIWEI\\miniconda3\\python.exe",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\projects\\task03_covalent_kinetics\\run_task3_covalent_kinetics_residence_time.py",
+      "--output-dir",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\work\\omnibus_recompute_20260921\\calculations\\projects\\task03_covalent_kinetics"
+    ],
+    "log": "logs/task03.txt",
+    "driver_sha256": "a3e59f8c8b66b2bb72c0525bcbe2b8a7df486d5440b6c8566cf0c682f77bc056"
+  },
+  {
+    "task": 4,
+    "status": "passed",
+    "returncode": 0,
+    "elapsed_seconds": 8.94870730000548,
+    "command": [
+      "C:\\Users\\HUIWEI\\miniconda3\\python.exe",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\projects\\task04_pbpk\\run_task4_pbpk_pharmacokinetics_dose_prediction.py",
+      "--out",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\work\\omnibus_recompute_20260921\\calculations\\projects\\task04_pbpk"
+    ],
+    "log": "logs/task04.txt",
+    "driver_sha256": "a1df617d87698cdd37e98862a288d09eaba890fc45172102304641959ce73262"
+  },
+  {
+    "task": 5,
+    "status": "passed",
+    "returncode": 0,
+    "elapsed_seconds": 32.699433200003114,
+    "command": [
+      "C:\\Users\\HUIWEI\\miniconda3\\python.exe",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\projects\\task05_cyp_ddi\\run_task5_cyp_ddi_mechanism_based_inhibition.py",
+      "--out",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\work\\omnibus_recompute_20260921\\calculations\\projects\\task05_cyp_ddi\\results"
+    ],
+    "log": "logs/task05.txt",
+    "driver_sha256": "3e58cf164c233a9edc6735784c6a7f75aa4aaba679ca539666e3eb0ef8a3d2d7"
+  },
+  {
+    "task": 6,
+    "status": "passed",
+    "returncode": 0,
+    "elapsed_seconds": 11.015522900008364,
+    "command": [
+      "C:\\Users\\HUIWEI\\miniconda3\\python.exe",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\projects\\task06_asd\\run_task6_asd_formulation_supersaturation_kinetics.py",
+      "--out",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\work\\omnibus_recompute_20260921\\calculations\\projects\\task06_asd"
+    ],
+    "log": "logs/task06.txt",
+    "driver_sha256": "1ab4810796786cb61b09e041e1e0d20a95fd966ae3241157de7c188962f97207"
+  },
+  {
+    "task": 7,
+    "status": "passed",
+    "returncode": 0,
+    "elapsed_seconds": 8.442652400000952,
+    "command": [
+      "C:\\Users\\HUIWEI\\miniconda3\\python.exe",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\projects\\task07_qsp\\run_task7_qsp_tumor_immune_pkpd_synergy.py",
+      "--out",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\work\\omnibus_recompute_20260921\\calculations\\projects\\task07_qsp"
+    ],
+    "log": "logs/task07.txt",
+    "driver_sha256": "72a4d365777c68f88845ec651eef2d2b98ec74a1f30c96a2bafaff1cc657de1f"
+  },
+  {
+    "task": 8,
+    "status": "passed",
+    "returncode": 0,
+    "elapsed_seconds": 5.996735900000203,
+    "command": [
+      "C:\\Users\\HUIWEI\\miniconda3\\python.exe",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\projects\\task08_adc\\run_task8_adc_dar_cleavage_bystander_dynamics.py",
+      "--out",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\work\\omnibus_recompute_20260921\\calculations\\projects\\task08_adc"
+    ],
+    "log": "logs/task08.txt",
+    "driver_sha256": "47df7fcaf4a16a54f6de711ee5224eedce825ab311a79539b96132a0a81c3fe5"
+  },
+  {
+    "task": 9,
+    "status": "passed",
+    "returncode": 0,
+    "elapsed_seconds": 28.745073300000513,
+    "command": [
+      "C:\\Users\\HUIWEI\\miniconda3\\python.exe",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\projects\\task09_cryoem_allostery\\run_task9_cryoem_cryptic_pocket_allostery.py",
+      "--out",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\work\\omnibus_recompute_20260921\\calculations\\projects\\task09_cryoem_allostery"
+    ],
+    "log": "logs/task09.txt",
+    "driver_sha256": "14d244eceb5a44fa5e80562f5891fee623859cb89e22eaf065a6daffe606b759"
+  },
+  {
+    "task": 10,
+    "status": "passed",
+    "returncode": 0,
+    "elapsed_seconds": 5.091273800004274,
+    "command": [
+      "C:\\Users\\HUIWEI\\miniconda3\\python.exe",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\projects\\task10_rna_splicing\\run_task10_rna_targeted_small_molecule_dynamics.py",
+      "--out",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\work\\omnibus_recompute_20260921\\calculations\\projects\\task10_rna_splicing\\results",
+      "--rna-library",
+      "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\work\\optional_rna_py314"
+    ],
+    "log": "logs/task10.txt",
+    "driver_sha256": "77f6662ec2dc2d835c9cdde393af74097cd563bb3925fcc7174d8cc8630ae881"
+  }
+]

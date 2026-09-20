@@ -1,0 +1,19 @@
+Research PBPK run; all default compound and toxicity inputs are synthetic.
+Integrating IV/oral doses and seven-day dosing...
+Screening QD/BID doses and parameter sensitivity...
+Writing bilingual reports and four 300-DPI figures...
+{
+  "output_directory": "C:\\Users\\HUIWEI\\Documents\\Codex\\2026-09-20\\https-github-com-songsiyi2006-chem-ai4chem\\work\\ai4pharm\\work\\omnibus_recompute_20260921\\calculations\\projects\\task04_pbpk",
+  "tests_passed": 0,
+  "selected_research_regimen": {
+    "regimen": "BID",
+    "dose_mg": 15.0,
+    "daily_dose_mg": 30.0,
+    "coverage_24h_pct": 90.44273777756997,
+    "cmax_ss_mg_l": 0.28021325823962867,
+    "ctrough_ss_mg_l": 0.22218849464690332,
+    "feasible": true,
+    "status": "converged",
+    "minimum_definition": "minimum on 1 mg per-administration lattice starting at 10 mg"
+  }
+}

@@ -1,0 +1,101 @@
+Completed Vehicle: 50/50 model progression events
+Completed Targeted: 43/50 model progression events
+Completed Anti-PD-1: 28/50 model progression events
+Completed Combination: 14/50 model progression events
+{
+  "evidence_type": "executed_synthetic_QSP_simulation",
+  "clinical_validation": false,
+  "n_unique_virtual_people": 50,
+  "n_paired_arm_trajectories": 200,
+  "horizon_day": 60.0,
+  "timepoints": 241,
+  "trajectory_rows": 48200,
+  "nominal_dose_matrix_size": [
+    6,
+    6
+  ],
+  "nominal_monotherapy_support_simulations": 78,
+  "grid_nfev": 3136,
+  "endpoint_day": 60.0,
+  "eob_endpoint_mean": 0.06825017474717597,
+  "eob_endpoint_sem": 0.00686359986883136,
+  "eob_nominal_matrix_min": 0.0,
+  "eob_nominal_matrix_max": 0.1600220721829005,
+  "loewe_interior_estimable": 9,
+  "loewe_interior_total": 25,
+  "arms": {
+    "Vehicle": {
+      "endpoint_mass_mean_mg": 347.15052949554644,
+      "endpoint_mass_sem_mg": 8.05133743431159,
+      "progression_events": 50,
+      "administratively_censored": 0,
+      "median_model_progression_day": 4.292205171983977
+    },
+    "Targeted": {
+      "endpoint_mass_mean_mg": 140.95931194130947,
+      "endpoint_mass_sem_mg": 6.153809578217708,
+      "progression_events": 43,
+      "administratively_censored": 7,
+      "median_model_progression_day": 4.627677050304223
+    },
+    "Anti-PD-1": {
+      "endpoint_mass_mean_mg": 84.19800483058242,
+      "endpoint_mass_sem_mg": 10.115380177356583,
+      "progression_events": 28,
+      "administratively_censored": 22,
+      "median_model_progression_day": 7.69764957745788
+    },
+    "Combination": {
+      "endpoint_mass_mean_mg": 7.743699635913495,
+      "endpoint_mass_sem_mg": 1.1794866417801253,
+      "progression_events": 14,
+      "administratively_censored": 36,
+      "median_model_progression_day": null
+    }
+  },
+  "survival_comparisons": {
+    "Targeted": {
+      "design": "paired counterfactual synthetic people; not a randomized clinical trial",
+      "logrank_score_combo": -20.931133655180183,
+      "paired_permutation_p": 0.000244140625,
+      "permutations": 4095,
+      "restricted_mean_delay_day": 31.492849480452286,
+      "paired_bootstrap_95pct_delay_day": [
+        24.28941158998244,
+        38.86159607483585
+      ],
+      "events_mono": 43,
+      "events_combo": 14,
+      "cox_hr_combo_vs_mono": 0.1949229379203838,
+      "cox_cluster_robust_95pct": [
+        0.11547949495445832,
+        0.32901903270790955
+      ],
+      "cox_status": "estimated_descriptive_cluster_robust",
+      "ph_assumption": "not validated; descriptive only",
+      "cox_log_hr": -1.6351509886784754
+    },
+    "Anti-PD-1": {
+      "design": "paired counterfactual synthetic people; not a randomized clinical trial",
+      "logrank_score_combo": -8.494186823766709,
+      "paired_permutation_p": 0.000244140625,
+      "permutations": 4095,
+      "restricted_mean_delay_day": 15.072919189276508,
+      "paired_bootstrap_95pct_delay_day": [
+        8.721919347316144,
+        22.371124695709153
+      ],
+      "events_mono": 28,
+      "events_combo": 14,
+      "cox_hr_combo_vs_mono": 0.4322812143245319,
+      "cox_cluster_robust_95pct": [
+        0.28625460727330165,
+        0.652800141936163
+      ],
+      "cox_status": "estimated_descriptive_cluster_robust",
+      "ph_assumption": "not validated; descriptive only",
+      "cox_log_hr": -0.8386789434354244
+    }
+  },
+  "interpretation": "Model-dependent interaction and mass-based progression; not true clinical synergy, RECIST PFS or treatment advice."
+}

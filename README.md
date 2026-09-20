@@ -1,8 +1,35 @@
-# AI4Pharm · Lead Developability Suite
+# AI4Pharm · 十维转化可开发性研究图谱
 
-从先导化合物可开发性到制剂、体内暴露与药效的十项可复现计算项目。
+**10 个计算项目 · 10 张 300 DPI 综合图 · 中英文总报告 · 本机 CPU 全流程**
 
-**先选择任务，再进入项目目录。** 每个项目的代码、输入、计算结果、图表和中英文技术报告集中保存；共享依赖、测试和维护工具统一放在根目录。
+从先导化合物性质、作用机制、体内暴露与制剂，到系统药理、ADC、结构变构和 RNA 靶向。每个项目的代码、输入、结果、图与原始技术报告集中保存；新增统一入口、可追溯综合图和跨项目数学总报告。
+
+[中文总报告](AI4PHARM_DECADE_TREATISE_ZH.md) · [English treatise](AI4PHARM_DECADE_TREATISE_EN.md) · [交互图谱文件](index.html) · [本次整合与复算记录](docs/omnibus/README.md)
+
+交互图谱提供阶段筛选、全文搜索、高清图放大和逐图来源。**下载或克隆仓库后，双击根目录 `index.html` 即可使用**；GitHub 文件页面显示 HTML 源码，不会直接运行交互。图谱不依赖外部 JavaScript 库。
+
+![ADC 工程综合图](figures_omnibus/fig_task8_adc_multiscale.png)
+
+## 快速开始
+
+在已有依赖的 Python 环境中，从仓库根目录运行；新环境可先执行 `python -m pip install -r requirements.txt`。
+
+```bash
+# 重新绘制全部综合图，生成交互页面、派生数据与 SHA256 溯源
+python run_ai4pharm_omnibus_suite.py --out work/omnibus
+
+# 使用本机 CPU 顺序重算全部十项，再生成新图谱；保留旧归档
+python run_ai4pharm_omnibus_suite.py --mode recompute --out work/omnibus_fresh
+
+# 软件回归、项目完整性及综合交付检查
+python -m unittest discover -s tests -v
+python tools/validate_repository_layout.py --out work/layout_validation.json
+python tools/validate_omnibus.py --out work/omnibus_validation.json
+```
+
+所有输出必须使用**新的目录**。入口将数值库限制为单线程，顺序启动项目进程；每项默认上限 1,800 秒，可用 `--task-timeout` 调整。出错或超时立即停止并保留日志。Task 1 按单分子预算进行构象生成，部分收敛与缺失会保留。Task 10 使用 ViennaRNA 2.7.2；已有隔离安装可用 `--rna-library PATH`，不需要重新安装。
+
+综合图默认读取冻结归档；`--mode recompute` 使用本次新计算结果。`--source-root PATH` 可重绘已有 `projects/` 输入树，**不会自动把任意输入树认证为执行过的复算**。输入哈希与执行状态分别记录。
 
 ## 项目导航
 
@@ -22,7 +49,13 @@
 ## 如何定位文件
 
 ```text
-projects/          十个项目；各自 README 是代码、数据、图表与报告的入口
+run_ai4pharm_omnibus_suite.py  十任务统一入口：归档绘图 / 本机重算
+AI4PHARM_DECADE_TREATISE_*.md 十章中英文数学、药理与证据总报告
+index.html         离线交互图谱：筛选、搜索、放大与来源导航
+figures_omnibus/    本次十张综合图，每图对应一个任务
+data_omnibus/       绘图派生表、来源哈希与本次精选复算数据
+projects/          十个原始项目；独立代码、数据、图表与报告
+omnibus/           统一绘图、目录与交互页面生成模块
 docs/              目录说明、科学解释、交付记录与历史档案
 tests/             跨项目统一回归测试
 tools/             目录、链接、产物与校验和检查工具
@@ -31,6 +64,23 @@ requirements.txt   全仓库共享依赖
 ```
 
 [详细目录与迁移说明](docs/REPOSITORY_LAYOUT.md) · [Task 5–7 计算交付](docs/TASK5_7_DELIVERY.md) · [Task 8–10 计算交付](docs/TASK8_10_DELIVERY.md) · [原任务中的公式与证据修正](docs/SCIENTIFIC_NOTES.md) · [历史记录](docs/archive/README.md)
+
+## 十张综合图
+
+| 任务 | 图表入口 | 核心面板 |
+|---|---|---|
+| 01 | [MPO 与 ADMET](figures_omnibus/fig_task1_developability_mpo.png) | 分组小提琴、六轴雷达、bRo5 空间 |
+| 02 | [三元协同性](figures_omnibus/fig_task2_tpd_hook_effect.png) | 钩状曲线、亲和力热图、连接子分布 |
+| 03 | [共价动力学](figures_omnibus/fig_task3_covalent_kinetics.png) | kobs、洗脱恢复、QSSA/GSH Pareto |
+| 04 | [PBPK](figures_omnibus/fig_task4_pbpk_pharmacokinetics.png) | IV/口服、组织分布、7 天 BID 与周期稳态 |
+| 05 | [CYP DDI](figures_omnibus/fig_task5_cyp_ddi_mbi.png) | 预孵育、假设探针 PK、条件筛查矩阵 |
+| 06 | [ASD 热力学](figures_omnibus/fig_task6_asd_supersaturation.png) | FH 混合/相界、Tg、过饱和 |
+| 07 | [肿瘤免疫 QSP](figures_omnibus/fig_task7_qsp_immuno_oncology.png) | 四组肿瘤、Bliss、质量进展 KM |
+| 08 | [ADC 多尺度工程](figures_omnibus/fig_task8_adc_multiscale.png) | DAR、HIC、释放通量、径向扩散 |
+| 09 | [构象与 PRS](figures_omnibus/fig_task9_cryoem_allostery.png) | 合成流形、状态自由能、PRS |
+| 10 | [RNA 结合与剪接代理](figures_omnibus/fig_task10_rna_targeted_cadd.png) | BPP、假设自由能、U1 占有率 |
+
+[逐图来源与解释](data_omnibus/figure_provenance.json) · [输入 SHA256](data_omnibus/source_hashes.json) · [综合产物清单](manifest_omnibus.json)
 
 ## 运行与复现
 

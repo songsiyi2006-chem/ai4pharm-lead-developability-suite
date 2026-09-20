@@ -1,0 +1,16 @@
+{
+  "evidence_status": "Mixed public experimental coordinates, physical descriptors, and uncalibrated equilibrium scenarios. Not clinical predictions.",
+  "rna_library": "2.7.2",
+  "partition_runs": 14,
+  "nmr_models_per_structure": {
+    "6HMI": 20,
+    "6HMO": 20
+  },
+  "geometry_rows": 560,
+  "dose_response_rows": 976,
+  "sensitivity_rows": 120,
+  "reference_mfe_structure": "..((((((((.....)).))))))..",
+  "reference_ensemble_free_energy_kcal_mol": -4.840478897094727,
+  "reference_max_entropy_bits": 0.9253970485582415,
+  "debye_length_A": 8.011064992584927
+}

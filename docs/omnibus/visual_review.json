@@ -1,0 +1,21 @@
+{
+  "status": "passed_for_reviewed_scope",
+  "figures": {
+    "coverage": "All ten final multipanel figures were visually inspected by their authoring agents; the primary agent additionally inspected the final RNA figure through the browser lightbox.",
+    "checks": ["labels and units", "titles and legends", "overlapping text", "evidence caveats", "300 DPI metadata"],
+    "repairs": ["Task 1 radar annotation and legend collision", "short wide figure title/subtitle overlap", "Task 9 PRS colorbar spacing"]
+  },
+  "browser": {
+    "surface": "Codex in-app browser, default desktop viewport, local HTTP only",
+    "checks": [
+      "Hero, task architecture and figure cards rendered",
+      "Structure filter displayed 2 of 10 tasks",
+      "CYP search displayed 1 of 10 tasks",
+      "Unmatched search displayed an empty state",
+      "Keyboard clear restored 10 of 10 tasks",
+      "Task 10 lightbox opened, rendered the high-resolution figure and closed"
+    ],
+    "limits": "No separate mobile-device, cross-browser or assistive-technology certification was performed. GitHub Pages was not configured."
+  },
+  "scientific_scope": "Visual and interaction review does not validate biological or clinical conclusions."
+}
