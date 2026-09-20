@@ -17,7 +17,7 @@ from matplotlib.figure import Figure
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from task7_qsp import run_task7_qsp_tumor_immune_pkpd_synergy as qsp
+from projects.task07_qsp import run_task7_qsp_tumor_immune_pkpd_synergy as qsp
 
 
 class QSPTests(unittest.TestCase):
@@ -130,12 +130,15 @@ class QSPTests(unittest.TestCase):
         self.assertIn("10 paired virtual people; administrative censoring at day 30", captions)
 
     def test_delivered_scientific_artifacts_and_dpi(self):
-        folder = ROOT / "task7_qsp"
+        folder = ROOT / "projects" / "task07_qsp"
         manifest = json.loads((folder / "manifest.json").read_text(encoding="utf-8"))
         for relative, digest in manifest["files_sha256"].items():
             with self.subTest(file=relative):
                 self.assertEqual(hashlib.sha256((folder / relative).read_bytes()).hexdigest(), digest)
-        self.assertEqual(hashlib.sha256(Path(qsp.__file__).read_bytes()).hexdigest(), manifest["script_sha256"])
+        script = Path(qsp.__file__)
+        expected_script = manifest.get("layout_migration", {}).get("current_sources_sha256", {}).get(
+            script.relative_to(ROOT).as_posix(), manifest["script_sha256"])
+        self.assertEqual(hashlib.sha256(script.read_bytes()).hexdigest(), expected_script)
         figures = list((folder / "figures_task7").glob("*.png"))
         self.assertEqual(len(figures), 4)
         for file in figures:

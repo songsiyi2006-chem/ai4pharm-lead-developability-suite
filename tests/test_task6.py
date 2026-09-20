@@ -7,7 +7,7 @@ import unittest
 
 import numpy as np
 
-SCRIPT = Path(__file__).resolve().parents[1]/"task6_asd"/"run_task6_asd_formulation_supersaturation_kinetics.py"
+SCRIPT = Path(__file__).resolve().parents[1]/"projects"/"task06_asd"/"run_task6_asd_formulation_supersaturation_kinetics.py"
 spec = importlib.util.spec_from_file_location("task6_model", SCRIPT)
 m = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(m)

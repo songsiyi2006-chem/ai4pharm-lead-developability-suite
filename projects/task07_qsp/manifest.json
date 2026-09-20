@@ -1,0 +1,32 @@
+{
+  "script_sha256": "72a4d365777c68f88845ec651eef2d2b98ec74a1f30c96a2bafaff1cc657de1f",
+  "files_sha256": {
+    "bliss_timecourse.csv": "1e63b7a628295c64d0416fc116a73a86896404665a4b3feab7163c5de9741d30",
+    "dose_synergy_matrix.csv": "8d1ac88c8da847f04643962a336cc97612f1cbf957bd13ea3034173eb94376cf",
+    "figures_task7/fig1_simeoni_tgi_monotherapy_vs_combo.png": "caab2d90c06bb40a11fec11dbf3d24ff1d64cd6ca480ef0a3c878431bcd589ae",
+    "figures_task7/fig2_ctl_immune_infiltration_dynamics.png": "9225b65fc6fc01324aeda06af0a18aa8ca29ed089fc8ae300572368c4813620b",
+    "figures_task7/fig3_bliss_synergy_matrix_heatmap.png": "e1a66d63b502ea065a7f97988c8e149466327888e05dd11a5c89477d0b47c7be",
+    "figures_task7/fig4_virtual_cohort_kaplan_meier_pfs.png": "c9ae20f095ff89317009f13b65131bf07baacdc566470fd09c1ca4ec7aaf5b5c",
+    "kaplan_meier.csv": "494952236d9107d6aa96fa883738f8fb2b1f0c23283f067586c3d382b71024fd",
+    "loewe_monotherapy_support.csv": "60b0ac7a7326aabdd21f07bf4be7b6f7618c1a52ae52f73742f8686d060ba856",
+    "parameters_used.json": "3ce2a3c7115627a40102842c044b80ecb1fd3949b2aa6577d88086dae5a85def",
+    "pk_exposure.csv": "a4a049601ba1eca945aa6ad4cb0c1baefc25304e67387a1f48a38a2cea850990",
+    "progression_endpoints.csv": "50b399299174de05bc14e479e1734097e1247b831f15e8ba5a4255ee475ae609",
+    "results_summary.json": "e8ecfd053a513a000aacc6d51e8c8ca4220e544284a5a491255e002a6eece8c1",
+    "run_log.json": "b526a589b2375e06a264586a320bf6570722e7c354dd74ee2628b4c5405a7ad6",
+    "sources.json": "2de4b9defbc2995b58309fad9e06b61b97d9eee4cccf1d1ca0e509659cf2fbeb",
+    "survival_statistics.json": "832ef73835c6d4b9a76a625edb80f06ba06c73b388d25db33369f03e00f96d47",
+    "trajectories.csv": "a404c139073b25712588ef2680b0ebc80f0c70c987c744e7d7de49bf7e65049c",
+    "verification.json": "ecfc69f6acaf6fc4821375cde4a880aff0b43a0f726e91f72ba551ff66eb0634",
+    "virtual_patients.csv": "787d0887f494e0542f8cff7db9c41627ab7ae2f1dab4d3adfb5512f7dc22e0ec"
+  },
+  "layout_migration": {
+    "baseline_commit": "3785df88d244bf276de7f9b6e4d1d74995b530b9",
+    "original_manifest_path": "task7_qsp/manifest.json",
+    "current_sources_sha256": {
+      "projects/task07_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py": "72a4d365777c68f88845ec651eef2d2b98ec74a1f30c96a2bafaff1cc657de1f"
+    },
+    "previous_file_hashes": {},
+    "note": "Directory/import/default-output and navigation changes only. Original script_sha256/run metadata retain scientific-execution provenance; current source hashes are not evidence of a full scientific rerun. Existing scientific results and figures are preserved byte-for-byte."
+  }
+}

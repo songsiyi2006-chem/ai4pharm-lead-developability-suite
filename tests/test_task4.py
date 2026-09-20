@@ -9,7 +9,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from task4_pbpk import run_task4_pbpk_pharmacokinetics_dose_prediction as pbpk
+from projects.task04_pbpk import run_task4_pbpk_pharmacokinetics_dose_prediction as pbpk
 
 
 class PBPKTests(unittest.TestCase):
@@ -21,14 +21,16 @@ class PBPKTests(unittest.TestCase):
                 self.assertTrue(check['passed'])
 
     def test_delivered_artifacts_match_manifest(self):
-        folder = ROOT / 'task4_pbpk'
+        folder = ROOT / 'projects' / 'task04_pbpk'
         manifest = json.loads((folder / 'manifest.json').read_text(encoding='utf-8'))
         for relative, digest in manifest['files_sha256'].items():
             with self.subTest(file=relative):
                 path = folder / relative
                 self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), digest)
         script = folder / 'run_task4_pbpk_pharmacokinetics_dose_prediction.py'
-        self.assertEqual(hashlib.sha256(script.read_bytes()).hexdigest(), manifest['script_sha256'])
+        expected_script = manifest.get('layout_migration', {}).get('current_sources_sha256', {}).get(
+            script.relative_to(ROOT).as_posix(), manifest['script_sha256'])
+        self.assertEqual(hashlib.sha256(script.read_bytes()).hexdigest(), expected_script)
         figures = list((folder / 'figures_task4').glob('*.png'))
         self.assertEqual(len(figures), 4)
         for path in figures:

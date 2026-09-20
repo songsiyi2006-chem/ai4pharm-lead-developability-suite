@@ -1,14 +1,16 @@
 # Task 5–7：计算实现与交付记录
 
-[返回七任务首页](../README.md) · [原始任务与公式修正](task5_7_prompts/README.md)
+[返回七任务首页](../README.md) · [原始任务与公式修正](SCIENTIFIC_NOTES.md)
 
-执行日期：2026-09-20。三个任务均提供可运行 Python 脚本、参数记录、计算数据、四张 300 DPI 图和中英文报告。此次没有新增湿实验、患者数据或临床模型标定。默认计算是明确标注的机制模拟；文献方法和少量已核实的材料信息不会自动使其成为药物或制剂的真实预测。
+计算执行日期：2026-09-20，对应提交 `3785df8`。本页导航已更新为新的项目目录；历史验收记录中的旧路径和哈希保留原始含义。当前迁移检查见 [目录整改记录](reorganization/README.md)。
+
+三个任务均提供可运行 Python 脚本、参数记录、计算数据、四张 300 DPI 图和中英文报告。此次没有新增湿实验、患者数据或临床模型标定。默认计算是明确标注的机制模拟；文献方法和少量已核实的材料信息不会自动使其成为药物或制剂的真实预测。
 
 | 项目 | 实际完成的计算 | 项目入口 |
 |---|---|---|
-| Task 5：CYP DDI/TDI | 6 个药物名称对应的假设参数情景、3 个 CYP 亚型、14 天 BID 给药及停药后 10 天；2 个探针在首日和第 14 天给药，共 24 组动态/静态比较；酶恢复、周转敏感性和较严求解容差复核 | [代码与结果](../task5_cyp_ddi/) · [中文](../task5_cyp_ddi/CYP_DDI_KINETICS_REPORT_ZH.md) · [EN](../task5_cyp_ddi/CYP_DDI_KINETICS_REPORT_EN.md) |
-| Task 6：ASD | 4 个聚合物情景、324 个热力学网格点、32 个储存条件/载药量组合、69 次溶出/吸收及敏感性 ODE 运行；求解共同切线与旋节线 | [代码与结果](../task6_asd/) · [中文](../task6_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md) · [EN](../task6_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md) |
-| Task 7：肿瘤免疫 QSP | 同一组 50 名虚拟患者的四方案配对模拟，60 天、48,200 行轨迹；6×6 剂量矩阵与用于单药求逆的 78 个剂量条件；Bliss、Loewe、KM、配对置换和描述性 Cox 分析 | [代码与结果](../task7_qsp/) · [中文](../task7_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md) · [EN](../task7_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md) |
+| Task 5：CYP DDI/TDI | 6 个药物名称对应的假设参数情景、3 个 CYP 亚型、14 天 BID 给药及停药后 10 天；2 个探针在首日和第 14 天给药，共 24 组动态/静态比较；酶恢复、周转敏感性和较严求解容差复核 | [代码与结果](../projects/task05_cyp_ddi/) · [中文](../projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_ZH.md) · [EN](../projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_EN.md) |
+| Task 6：ASD | 4 个聚合物情景、324 个热力学网格点、32 个储存条件/载药量组合、69 次溶出/吸收及敏感性 ODE 运行；求解共同切线与旋节线 | [代码与结果](../projects/task06_asd/) · [中文](../projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md) · [EN](../projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md) |
+| Task 7：肿瘤免疫 QSP | 同一组 50 名虚拟患者的四方案配对模拟，60 天、48,200 行轨迹；6×6 剂量矩阵与用于单药求逆的 78 个剂量条件；Bliss、Loewe、KM、配对置换和描述性 Cox 分析 | [代码与结果](../projects/task07_qsp/) · [中文](../projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md) · [EN](../projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md) |
 
 ## 需要怎样理解结果
 
@@ -23,9 +25,9 @@ Task 7 用相同随机个体在四个方案中作配对比较。模型中组合�
 从仓库根目录运行，使用已具备依赖的 Python。输出目录必须尚不存在，防止覆盖冻结结果：
 
 ```powershell
-python task5_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py --out work/task5_reproduce
-python task6_asd/run_task6_asd_formulation_supersaturation_kinetics.py --out work/task6_reproduce
-python task7_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py --out work/task7_reproduce
+python projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py --out work/task5_reproduce
+python projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py --out work/task6_reproduce
+python projects/task07_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py --out work/task7_reproduce
 python -m unittest discover -s tests -v
 ```
 
@@ -33,4 +35,4 @@ python -m unittest discover -s tests -v
 
 Windows 本次复用了已有 `chem-ai4s` Python 3.12 环境执行新计算；完整仓库测试使用含已有 seaborn 的 Miniconda base Python 3.14 环境。没有为此安装或替换环境。原有 Task 1–4 科学实现与结果保留，首页、导航和共享 README 哈希按新索引更新。
 
-数值检查、独立复跑、文件哈希、图像元数据和仓库完整性证据见 [task5_7_validation/summary.json](task5_7_validation/summary.json)。这是一份软件与示例计算交付，不代表临床或工业验收通过。
+数值检查、独立复跑、文件哈希、图像元数据和仓库完整性证据见 [原始验收记录](archive/task5_7_delivery_2026-09-20/validation/summary.json)。这是一份软件与示例计算交付，不代表临床或工业验收通过。

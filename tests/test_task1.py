@@ -15,7 +15,8 @@ from PIL import Image
 from rdkit import Chem
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
+PROJECT = ROOT / "projects/task01_lead_developability"
+sys.path.insert(0, str(PROJECT))
 import run_task1_mpo_admet_developability as task
 
 
@@ -62,7 +63,7 @@ class ChemistryTests(unittest.TestCase):
         cls.panel = task.load_panel()
 
     def test_panel_identity_and_frozen_copy(self):
-        self.assertEqual(self.panel, json.loads((ROOT / "data/reference_panel.json").read_text(encoding="utf-8")))
+        self.assertEqual(self.panel, json.loads((PROJECT / "data/reference_panel.json").read_text(encoding="utf-8")))
         self.assertEqual(len(self.panel), 30)
         for row in self.panel:
             mol = task.parse_molecule(row)
@@ -150,7 +151,7 @@ class EndToEndTests(unittest.TestCase):
     def test_offline_cli_and_publication_artifacts(self):
         with tempfile.TemporaryDirectory() as d:
             output = Path(d) / "output with spaces"
-            run = subprocess.run([sys.executable, str(ROOT / "run_task1_mpo_admet_developability.py"),
+            run = subprocess.run([sys.executable, str(PROJECT / "run_task1_mpo_admet_developability.py"),
                                   "--conformers", "0", "--output-dir", str(output)],
                                  capture_output=True, text=True, timeout=180)
             self.assertEqual(run.returncode, 0, run.stderr)
@@ -183,7 +184,7 @@ class EndToEndTests(unittest.TestCase):
         for arguments in (("--conformers", "-1"), ("--conformer-timeout", "nan"),
                           ("--strict-3d", "--conformers", "0")):
             with self.subTest(arguments=arguments):
-                run = subprocess.run([sys.executable, str(ROOT / "run_task1_mpo_admet_developability.py"), *arguments],
+                run = subprocess.run([sys.executable, str(PROJECT / "run_task1_mpo_admet_developability.py"), *arguments],
                                      capture_output=True, timeout=30)
                 self.assertNotEqual(run.returncode, 0)
 

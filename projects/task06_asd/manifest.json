@@ -1,0 +1,33 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "matplotlib": "3.11.1",
+  "script_sha256": "081afd9745dad98fa670e7afad3d2afee9ec6528a4585affdeffec786b1e3ebc",
+  "deterministic": true,
+  "files": {
+    "figures_task6/fig1_flory_huggins_miscibility_phase_diagram.png": "08936a9fccb63786e227725b49b8bc4880c3b36937c5d275d209d17110dba3b1",
+    "figures_task6/fig2_gordon_taylor_tg_depression.png": "6686bf9dc85b6ebdb1aab6eb09183300df3520dd2bc7156991ef2bc5dc7b1cd5",
+    "figures_task6/fig3_spring_and_parachute_dissolution.png": "cebb905951a04c5b7f2cb82f63eadc79ce215218b512185a8cb66a38ed207f1a",
+    "figures_task6/fig4_polymeric_precipitation_inhibition_efficiency.png": "8205400f51b4ef358a2b9a890aef2cfd35e75fdbf98a677120e303866606f359",
+    "inputs/parameters.json": "1c6838c7e683b1a74e31f4695290372fcc150c0adb859046146e9b1cff9e9f14",
+    "inputs/sources.json": "768072eba14f7a31acb50dd921daace9731b0746dab9090eaa34a8345f288b37",
+    "results/concentration_mass_timeseries.csv": "5c26ad0913645d612324fd5b407e14a0d952ff9774a3af55f5de9ba2818d22e0",
+    "results/formulation_summary.csv": "0fe1b0047c94e93a0da2b1eebf053a1f8ac54a8de71084da8b4b76d1bf4e28a8",
+    "results/loading_summary.csv": "51eb7390fbf66ecbabc4b7d2ce351686a5b4515be76adcbfe02b74615f68a5a4",
+    "results/phase_boundaries.csv": "cc41ad8b2678a0f9dc3aa99309a2f26782a3bab431778ccb213bfa924c230269",
+    "results/sensitivity_27_scenarios.csv": "2b592faf49326b2cd935f900d233a72c39d0b1f0623fbc8cc901e92825e6709d",
+    "results/solver_refinement.csv": "53eeca4099f51cefc684ce67f97771beade00ac2a4f8f26f5cc67beb0df5f691",
+    "results/storage_scenarios.csv": "739299c27799cf4e9451d1f09365178a2670ce0a99221bdfe71c30a5ebaf5f8e",
+    "results/summary.json": "bab0c06da41d40fde2512f4b53fdc6f0f091f0279f6b21bd60934fb679072019"
+  },
+  "layout_migration": {
+    "baseline_commit": "3785df88d244bf276de7f9b6e4d1d74995b530b9",
+    "original_manifest_path": "task6_asd/manifest.json",
+    "current_sources_sha256": {
+      "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py": "1ab4810796786cb61b09e041e1e0d20a95fd966ae3241157de7c188962f97207"
+    },
+    "previous_file_hashes": {},
+    "note": "Directory/import/default-output and navigation changes only. Original script_sha256/run metadata retain scientific-execution provenance; current source hashes are not evidence of a full scientific rerun. Existing scientific results and figures are preserved byte-for-byte."
+  }
+}

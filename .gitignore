@@ -46,7 +46,7 @@ desktop.ini
 # Curated data, results_task1/, and figures_task1/ are intentionally tracked.
 
 # Curated Task 2 execution log accompanies its reproducibility manifest.
-!/run_task2.log
+!/projects/task02_tpd/run_task2.log
 
 # Per-run Git transport status is local metadata.
-task4_pbpk/git_delivery_status.json
+projects/task04_pbpk/git_delivery_status.json

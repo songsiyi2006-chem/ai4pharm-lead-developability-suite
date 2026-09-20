@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-20",
+  "baseline_commit": "3785df88d244bf276de7f9b6e4d1d74995b530b9",
+  "unit_tests": {
+    "count": 56,
+    "result": "passed",
+    "python": "3.14.6",
+    "log": "unittest.txt"
+  },
+  "scope": "Project directory/import/default-output/documentation changes; no replacement of original scientific results",
+  "task3_core_self_checks": {
+    "count": 6,
+    "result": "passed",
+    "executed_by": "task01-03 migration reviewer"
+  },
+  "cli_checks": {
+    "task4_to_task7_help": "passed",
+    "task5_selftest": "11 passed",
+    "task6_selftest": "14 passed",
+    "task1_cli": "descriptor-only run within full tests passed"
+  },
+  "git_helper_checks": "Task2 and Task3 nested repository paths verified with mocked subprocess; no actual publishing performed by tests",
+  "scientific_scope_review": {
+    "method": "AST function/class comparison with baseline",
+    "changed_functions": {
+      "task1": [
+        "main: default output path"
+      ],
+      "task2": [
+        "git_publish: repository-relative path resolution"
+      ],
+      "task3": [
+        "parse_args: default output path",
+        "git_sync: repository-relative path resolution",
+        "update_readme: generated instructions"
+      ],
+      "task4": [
+        "reports: generated instructions",
+        "update_readme: generated instructions"
+      ],
+      "task5": [
+        "self_test: test-discovery location"
+      ],
+      "task6": [
+        "self_test: test-discovery location"
+      ],
+      "task7": []
+    },
+    "scientific_formulas_changed": false
+  },
+  "layout_check": "layout_validation.json",
+  "historical_calculation_records": "../archive/task5_7_delivery_2026-09-20/validation/summary.json",
+  "layout_result": {
+    "status": "passed",
+    "mapped_files": 190,
+    "preserved_artifacts": 130,
+    "local_links": 285,
+    "manifest_artifact_hashes": 134,
+    "current_source_hashes": 8
+  }
+}

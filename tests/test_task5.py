@@ -5,7 +5,7 @@ import unittest
 import numpy as np
 from scipy.integrate import solve_ivp
 
-P=Path(__file__).resolve().parents[1]/'task5_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py'
+P=Path(__file__).resolve().parents[1]/'projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py'
 spec=importlib.util.spec_from_file_location('task5_test_target',P)
 m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
 

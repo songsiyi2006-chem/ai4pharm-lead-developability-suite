@@ -1,0 +1,68 @@
+test_clinical_labels_cannot_leak_into_scores (test_task1.ChemistryTests.test_clinical_labels_cannot_leak_into_scores) ... ok
+test_duplicate_panel_is_rejected (test_task1.ChemistryTests.test_duplicate_panel_is_rejected) ... ok
+test_invalid_structures_and_identity_are_rejected (test_task1.ChemistryTests.test_invalid_structures_and_identity_are_rejected) ... [21:54:43] SMILES Parse Error: syntax error while parsing: not_a_smiles
+[21:54:43] SMILES Parse Error: check for mistakes around position 3:
+[21:54:43] not_a_smiles
+[21:54:43] ~~^
+[21:54:43] SMILES Parse Error: Failed parsing SMILES 'not_a_smiles' for input: 'not_a_smiles'
+ok
+test_ionization_direction_and_amide_exclusion (test_task1.ChemistryTests.test_ionization_direction_and_amide_exclusion) ... ok
+test_isolated_worker_timeout_is_explicit (test_task1.ChemistryTests.test_isolated_worker_timeout_is_explicit) ... ok
+test_negative_embedding_sentinel_does_not_reach_mmff (test_task1.ChemistryTests.test_negative_embedding_sentinel_does_not_reach_mmff) ... ok
+test_override_validation (test_task1.ChemistryTests.test_override_validation) ... ok
+test_panel_identity_and_frozen_copy (test_task1.ChemistryTests.test_panel_identity_and_frozen_copy) ... ok
+test_real_3d_geometry_reproducibility (test_task1.ChemistryTests.test_real_3d_geometry_reproducibility) ... ok
+test_bad_cli_does_not_succeed (test_task1.EndToEndTests.test_bad_cli_does_not_succeed) ... ok
+test_offline_cli_and_publication_artifacts (test_task1.EndToEndTests.test_offline_cli_and_publication_artifacts) ... ok
+test_custom_logp_variant_is_distinct (test_task1.NumericalTests.test_custom_logp_variant_is_distinct) ... ok
+test_esol_coefficients_and_units (test_task1.NumericalTests.test_esol_coefficients_and_units) ... ok
+test_interpolation_and_continuity (test_task1.NumericalTests.test_interpolation_and_continuity) ... ok
+test_original_mpo_best_and_worst (test_task1.NumericalTests.test_original_mpo_best_and_worst) ... ok
+test_stability_and_invalid_inputs (test_task1.NumericalTests.test_stability_and_invalid_inputs) ... ok
+test_delivered_artifacts_match_manifest (test_task4.PBPKTests.test_delivered_artifacts_match_manifest) ... ok
+test_numerical_invariants (test_task4.PBPKTests.test_numerical_invariants) ... ok
+test_bad_kinetics (test_task5.Task5Tests.test_bad_kinetics) ... ok
+test_classification_boundaries (test_task5.Task5Tests.test_classification_boundaries) ... ok
+test_constant_pbpk_analytic_auc (test_task5.Task5Tests.test_constant_pbpk_analytic_auc) ... ok
+test_enzyme_constant_exposure_analytic (test_task5.Task5Tests.test_enzyme_constant_exposure_analytic) ... ok
+test_m12_factor_five_not_old_factor_fifty (test_task5.Task5Tests.test_m12_factor_five_not_old_factor_fifty) ... ok
+test_modified_rhs_mass_conserved (test_task5.Task5Tests.test_modified_rhs_mass_conserved) ... ok
+test_no_inhibitor_limit_and_correct_direction (test_task5.Task5Tests.test_no_inhibitor_limit_and_correct_direction) ... ok
+test_recovery_analytic_and_censoring (test_task5.Task5Tests.test_recovery_analytic_and_censoring) ... ok
+test_static_complete_blockade_limit (test_task5.Task5Tests.test_static_complete_blockade_limit) ... ok
+test_task4_uninhibited_rhs_identical (test_task5.Task5Tests.test_task4_uninhibited_rhs_identical) ... ok
+test_units (test_task5.Task5Tests.test_units) ... ok
+test_GT_kelvin_endpoints_and_rh_sorption (test_task6.Task6PhysicsTests.test_GT_kelvin_endpoints_and_rh_sorption) ... ok
+test_absorption_proxy_is_integral_and_loading_changes_activity (test_task6.Task6PhysicsTests.test_absorption_proxy_is_integral_and_loading_changes_activity) ... ok
+test_binodal_matches_common_tangent_and_convex_envelope (test_task6.Task6PhysicsTests.test_binodal_matches_common_tangent_and_convex_envelope) ... ok
+test_chi_unit_conversion (test_task6.Task6PhysicsTests.test_chi_unit_conversion) ... ok
+test_closed_vessel_conserves_finite_dose (test_task6.Task6PhysicsTests.test_closed_vessel_conserves_finite_dose) ... ok
+test_cnt_dimensions_and_limit (test_task6.Task6PhysicsTests.test_cnt_dimensions_and_limit) ... ok
+test_configuration_rejects_ignored_segments_and_unphysical_values (test_task6.Task6PhysicsTests.test_configuration_rejects_ignored_segments_and_unphysical_values) ... ok
+test_critical_composition_orientation (test_task6.Task6PhysicsTests.test_critical_composition_orientation) ... ok
+test_crystal_cannot_supersaturate_and_absorption_monotone (test_task6.Task6PhysicsTests.test_crystal_cannot_supersaturate_and_absorption_monotone) ... ok
+test_invalid_inputs_rejected (test_task6.Task6PhysicsTests.test_invalid_inputs_rejected) ... ok
+test_mass_volume_roundtrip_and_density_effect (test_task6.Task6PhysicsTests.test_mass_volume_roundtrip_and_density_effect) ... ok
+test_subcritical_has_no_phase_boundary (test_task6.Task6PhysicsTests.test_subcritical_has_no_phase_boundary) ... ok
+test_vft_pole_is_undefined_not_shelf_life (test_task6.Task6PhysicsTests.test_vft_pole_is_undefined_not_shelf_life) ... ok
+test_volume_factor_dilutes_initial_concentration_rate (test_task6.Task6PhysicsTests.test_volume_factor_dilutes_initial_concentration_rate) ... ok
+test_cox_does_not_emit_zero_hr_for_no_combo_events (test_task7.QSPTests.test_cox_does_not_emit_zero_hr_for_no_combo_events) ... ok
+test_cox_identical_paired_observations_hr_one (test_task7.QSPTests.test_cox_identical_paired_observations_hr_one) ... ok
+test_custom_ten_people_thirty_days_outputs_and_figure_labels (test_task7.QSPTests.test_custom_ten_people_thirty_days_outputs_and_figure_labels) ... [repository]\projects\task07_qsp\run_task7_qsp_tumor_immune_pkpd_synergy.py:412: PendingDeprecationWarning: The set_bad function will be deprecated in a future version. Use cmap.with_extremes(bad=...) or Colormap(bad=...) instead.
+  cmap.set_bad("#D8D8D8")
+ok
+test_delivered_scientific_artifacts_and_dpi (test_task7.QSPTests.test_delivered_scientific_artifacts_and_dpi) ... ok
+test_infusion_total_auc (test_task7.QSPTests.test_infusion_total_auc) ... ok
+test_invalid_units_and_settings_rejected (test_task7.QSPTests.test_invalid_units_and_settings_rejected) ... ok
+test_loewe_exact_internal_knot_and_axes (test_task7.QSPTests.test_loewe_exact_internal_knot_and_axes) ... ok
+test_mean_cv_parameterization (test_task7.QSPTests.test_mean_cv_parameterization) ... ok
+test_numerical_invariants (test_task7.QSPTests.test_numerical_invariants) ... ok
+test_oral_auc_dose_over_clearance (test_task7.QSPTests.test_oral_auc_dose_over_clearance) ... ok
+test_paired_cohort_reproducibility (test_task7.QSPTests.test_paired_cohort_reproducibility) ... ok
+test_transit_chain_erlang_three_not_tau_total (test_task7.QSPTests.test_transit_chain_erlang_three_not_tau_total) ... ok
+test_valid_custom_baseline_and_zero_baseline (test_task7.QSPTests.test_valid_custom_baseline_and_zero_baseline) ... ok
+
+----------------------------------------------------------------------
+Ran 56 tests in 47.213s
+
+OK
