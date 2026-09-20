@@ -1,0 +1,44 @@
+{
+  "Targeted": {
+    "design": "paired counterfactual synthetic people; not a randomized clinical trial",
+    "logrank_score_combo": -20.931133655180183,
+    "paired_permutation_p": 0.000244140625,
+    "permutations": 4095,
+    "restricted_mean_delay_day": 31.492849480452286,
+    "paired_bootstrap_95pct_delay_day": [
+      24.289411589982446,
+      38.86159607483586
+    ],
+    "events_mono": 43,
+    "events_combo": 14,
+    "cox_hr_combo_vs_mono": 0.19492293792038387,
+    "cox_cluster_robust_95pct": [
+      0.11547949495445832,
+      0.3290190327079097
+    ],
+    "cox_status": "estimated_descriptive_cluster_robust",
+    "ph_assumption": "not validated; descriptive only",
+    "cox_log_hr": -1.635150988678475
+  },
+  "Anti-PD-1": {
+    "design": "paired counterfactual synthetic people; not a randomized clinical trial",
+    "logrank_score_combo": -8.494186823766709,
+    "paired_permutation_p": 0.000244140625,
+    "permutations": 4095,
+    "restricted_mean_delay_day": 15.072919189276508,
+    "paired_bootstrap_95pct_delay_day": [
+      8.721919347316145,
+      22.371124695709153
+    ],
+    "events_mono": 28,
+    "events_combo": 14,
+    "cox_hr_combo_vs_mono": 0.4322812143245322,
+    "cox_cluster_robust_95pct": [
+      0.28625460727330176,
+      0.6528001419361635
+    ],
+    "cox_status": "estimated_descriptive_cluster_robust",
+    "ph_assumption": "not validated; descriptive only",
+    "cox_log_hr": -0.8386789434354237
+  }
+}

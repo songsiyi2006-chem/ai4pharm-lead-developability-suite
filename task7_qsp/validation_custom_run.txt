@@ -1,0 +1,8 @@
+test_custom_ten_people_thirty_days_outputs_and_figure_labels (__main__.QSPTests.test_custom_ten_people_thirty_days_outputs_and_figure_labels) ... [repository]\task7_qsp\run_task7_qsp_tumor_immune_pkpd_synergy.py:412: PendingDeprecationWarning: The set_bad function will be deprecated in a future version. Use cmap.with_extremes(bad=...) or Colormap(bad=...) instead.
+  cmap.set_bad("#D8D8D8")
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 5.346s
+
+OK

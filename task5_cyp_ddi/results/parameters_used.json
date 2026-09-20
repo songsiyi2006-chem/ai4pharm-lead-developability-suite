@@ -1,0 +1,962 @@
+{
+  "compound_panel": [
+    {
+      "name": "Ketoconazole",
+      "mw_g_mol": 531.43,
+      "dose_mg": 200.0,
+      "fu_p": 0.04,
+      "clint_mic_ul_min_mg": 12.0,
+      "ki_uM": [
+        0.03,
+        8.0,
+        8.0
+      ],
+      "kinact_h": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "KI_uM": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "CYP3A reversible-inhibitor archetype",
+      "evidence": "synthetic_scenario",
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "qgut_l_h": 18.0,
+      "fu_gut": 1.0
+    },
+    {
+      "name": "Clarithromycin",
+      "mw_g_mol": 747.95,
+      "dose_mg": 500.0,
+      "fu_p": 0.15,
+      "clint_mic_ul_min_mg": 25.0,
+      "ki_uM": [
+        8.0,
+        80.0,
+        80.0
+      ],
+      "kinact_h": [
+        0.45,
+        0.0,
+        0.0
+      ],
+      "KI_uM": [
+        2.0,
+        1.0,
+        1.0
+      ],
+      "role": "CYP3A time-dependent-inhibitor archetype",
+      "evidence": "synthetic_scenario",
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "qgut_l_h": 18.0,
+      "fu_gut": 1.0
+    },
+    {
+      "name": "Ritonavir",
+      "mw_g_mol": 720.94,
+      "dose_mg": 100.0,
+      "fu_p": 0.02,
+      "clint_mic_ul_min_mg": 15.0,
+      "ki_uM": [
+        0.025,
+        1.0,
+        20.0
+      ],
+      "kinact_h": [
+        0.8,
+        0.02,
+        0.0
+      ],
+      "KI_uM": [
+        0.15,
+        3.0,
+        1.0
+      ],
+      "role": "CYP3A mixed-inhibition archetype",
+      "evidence": "synthetic_scenario",
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "qgut_l_h": 18.0,
+      "fu_gut": 1.0
+    },
+    {
+      "name": "Fluconazole",
+      "mw_g_mol": 306.27,
+      "dose_mg": 100.0,
+      "fu_p": 0.2,
+      "clint_mic_ul_min_mg": 10.0,
+      "ki_uM": [
+        2.0,
+        30.0,
+        0.5
+      ],
+      "kinact_h": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "KI_uM": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "moderate CYP3A/CYP2C9 qualitative anchor",
+      "evidence": "synthetic_scenario",
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "qgut_l_h": 18.0,
+      "fu_gut": 1.0
+    },
+    {
+      "name": "Quinidine",
+      "mw_g_mol": 324.42,
+      "dose_mg": 200.0,
+      "fu_p": 0.15,
+      "clint_mic_ul_min_mg": 25.0,
+      "ki_uM": [
+        15.0,
+        0.02,
+        30.0
+      ],
+      "kinact_h": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "KI_uM": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "CYP2D6 reversible-inhibitor archetype",
+      "evidence": "synthetic_scenario",
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "qgut_l_h": 18.0,
+      "fu_gut": 1.0
+    },
+    {
+      "name": "Amoxicillin",
+      "mw_g_mol": 365.4,
+      "dose_mg": 250.0,
+      "fu_p": 0.2,
+      "clint_mic_ul_min_mg": 15.0,
+      "ki_uM": [
+        1000000000000.0,
+        1000000000000.0,
+        1000000000000.0
+      ],
+      "kinact_h": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "KI_uM": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "assumed near-zero CYP-inhibition control; no clinical exclusion claim",
+      "evidence": "synthetic_scenario",
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "qgut_l_h": 18.0,
+      "fu_gut": 1.0
+    }
+  ],
+  "probe_scenarios": [
+    {
+      "name": "Midazolam",
+      "dose_mg": 2.0,
+      "mw_g_mol": 325.77,
+      "fu_p": 0.05,
+      "clint_mic_ul_min_mg": 150.0,
+      "ka_h": 1.5,
+      "fa": 0.95,
+      "fg": 0.5,
+      "hepatic_intrinsic_fractions": [
+        0.9,
+        0.0,
+        0.0
+      ],
+      "gut_fractions": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Metoprolol",
+      "dose_mg": 50.0,
+      "mw_g_mol": 267.37,
+      "fu_p": 0.2,
+      "clint_mic_ul_min_mg": 100.0,
+      "ka_h": 1.2,
+      "fa": 0.95,
+      "fg": 1.0,
+      "hepatic_intrinsic_fractions": [
+        0.0,
+        0.9,
+        0.0
+      ],
+      "gut_fractions": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "hepatic_kdeg_h": [
+    0.019,
+    0.025,
+    0.02
+  ],
+  "gut_kdeg_h": [
+    0.03,
+    0.04,
+    0.03
+  ],
+  "dose_times_h": [
+    0.0,
+    12.0,
+    24.0,
+    36.0,
+    48.0,
+    60.0,
+    72.0,
+    84.0,
+    96.0,
+    108.0,
+    120.0,
+    132.0,
+    144.0,
+    156.0,
+    168.0,
+    180.0,
+    192.0,
+    204.0,
+    216.0,
+    228.0,
+    240.0,
+    252.0,
+    264.0,
+    276.0,
+    288.0,
+    300.0,
+    312.0,
+    324.0
+  ],
+  "last_dose_h": 324.0,
+  "end_h": 564.0,
+  "numeric_evidence": "synthetic_except_user_probe_doses",
+  "all_tissue_kp_overrides": 1.0,
+  "rtol": 2e-07,
+  "atol": 1e-09,
+  "full_task4_configs": {
+    "Ketoconazole": {
+      "compound_name": "Ketoconazole_SYNTHETIC",
+      "synthetic_inputs": true,
+      "mw_g_mol": 531.43,
+      "clogp": 3.0,
+      "ionization": "base",
+      "pka_acid": null,
+      "pka_base": 7.8,
+      "fu_p": 0.04,
+      "rb": 1.0,
+      "clint_mic_ul_min_mg": 12.0,
+      "fu_mic": 1.0,
+      "mppgl_mg_g": 45.0,
+      "liver_mass_g": 1800.0,
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "km_unbound_mg_l": null,
+      "ic90_nm": 50.0,
+      "toxic_total_plasma_mg_l": 5.0,
+      "coverage_goal_pct": 90.0,
+      "dose_min_mg": 10.0,
+      "dose_max_mg": 800.0,
+      "dose_step_mg": 1.0,
+      "target_tissue": "rest",
+      "blood_volume_l": 5.0,
+      "volumes_l": {
+        "liver": 1.8,
+        "kidney": 0.31,
+        "brain": 1.4,
+        "lung": 0.5,
+        "rest": 60.99
+      },
+      "flows_l_h": {
+        "liver": 90.0,
+        "kidney": 66.0,
+        "brain": 45.0,
+        "rest": 159.0
+      },
+      "tissue_fractions": {
+        "liver": [
+          0.0138,
+          0.0303,
+          0.705
+        ],
+        "kidney": [
+          0.0121,
+          0.024,
+          0.783
+        ],
+        "brain": [
+          0.0391,
+          0.0533,
+          0.77
+        ],
+        "lung": [
+          0.003,
+          0.009,
+          0.811
+        ],
+        "rest": [
+          0.05,
+          0.015,
+          0.65
+        ]
+      },
+      "plasma_fractions": [
+        0.00147,
+        0.00083,
+        0.96
+      ],
+      "interstitial_protein_ratio": 0.5,
+      "kp_overrides": {
+        "liver": 1.0,
+        "kidney": 1.0,
+        "brain": 1.0,
+        "lung": 1.0,
+        "rest": 1.0
+      },
+      "rtol": 1e-08,
+      "atol": 1e-10,
+      "steady_rtol": 1e-07,
+      "max_steady_cycles": 2000,
+      "max_tail_h": 100000.0
+    },
+    "Clarithromycin": {
+      "compound_name": "Clarithromycin_SYNTHETIC",
+      "synthetic_inputs": true,
+      "mw_g_mol": 747.95,
+      "clogp": 3.0,
+      "ionization": "base",
+      "pka_acid": null,
+      "pka_base": 7.8,
+      "fu_p": 0.15,
+      "rb": 1.0,
+      "clint_mic_ul_min_mg": 25.0,
+      "fu_mic": 1.0,
+      "mppgl_mg_g": 45.0,
+      "liver_mass_g": 1800.0,
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "km_unbound_mg_l": null,
+      "ic90_nm": 50.0,
+      "toxic_total_plasma_mg_l": 5.0,
+      "coverage_goal_pct": 90.0,
+      "dose_min_mg": 10.0,
+      "dose_max_mg": 800.0,
+      "dose_step_mg": 1.0,
+      "target_tissue": "rest",
+      "blood_volume_l": 5.0,
+      "volumes_l": {
+        "liver": 1.8,
+        "kidney": 0.31,
+        "brain": 1.4,
+        "lung": 0.5,
+        "rest": 60.99
+      },
+      "flows_l_h": {
+        "liver": 90.0,
+        "kidney": 66.0,
+        "brain": 45.0,
+        "rest": 159.0
+      },
+      "tissue_fractions": {
+        "liver": [
+          0.0138,
+          0.0303,
+          0.705
+        ],
+        "kidney": [
+          0.0121,
+          0.024,
+          0.783
+        ],
+        "brain": [
+          0.0391,
+          0.0533,
+          0.77
+        ],
+        "lung": [
+          0.003,
+          0.009,
+          0.811
+        ],
+        "rest": [
+          0.05,
+          0.015,
+          0.65
+        ]
+      },
+      "plasma_fractions": [
+        0.00147,
+        0.00083,
+        0.96
+      ],
+      "interstitial_protein_ratio": 0.5,
+      "kp_overrides": {
+        "liver": 1.0,
+        "kidney": 1.0,
+        "brain": 1.0,
+        "lung": 1.0,
+        "rest": 1.0
+      },
+      "rtol": 1e-08,
+      "atol": 1e-10,
+      "steady_rtol": 1e-07,
+      "max_steady_cycles": 2000,
+      "max_tail_h": 100000.0
+    },
+    "Ritonavir": {
+      "compound_name": "Ritonavir_SYNTHETIC",
+      "synthetic_inputs": true,
+      "mw_g_mol": 720.94,
+      "clogp": 3.0,
+      "ionization": "base",
+      "pka_acid": null,
+      "pka_base": 7.8,
+      "fu_p": 0.02,
+      "rb": 1.0,
+      "clint_mic_ul_min_mg": 15.0,
+      "fu_mic": 1.0,
+      "mppgl_mg_g": 45.0,
+      "liver_mass_g": 1800.0,
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "km_unbound_mg_l": null,
+      "ic90_nm": 50.0,
+      "toxic_total_plasma_mg_l": 5.0,
+      "coverage_goal_pct": 90.0,
+      "dose_min_mg": 10.0,
+      "dose_max_mg": 800.0,
+      "dose_step_mg": 1.0,
+      "target_tissue": "rest",
+      "blood_volume_l": 5.0,
+      "volumes_l": {
+        "liver": 1.8,
+        "kidney": 0.31,
+        "brain": 1.4,
+        "lung": 0.5,
+        "rest": 60.99
+      },
+      "flows_l_h": {
+        "liver": 90.0,
+        "kidney": 66.0,
+        "brain": 45.0,
+        "rest": 159.0
+      },
+      "tissue_fractions": {
+        "liver": [
+          0.0138,
+          0.0303,
+          0.705
+        ],
+        "kidney": [
+          0.0121,
+          0.024,
+          0.783
+        ],
+        "brain": [
+          0.0391,
+          0.0533,
+          0.77
+        ],
+        "lung": [
+          0.003,
+          0.009,
+          0.811
+        ],
+        "rest": [
+          0.05,
+          0.015,
+          0.65
+        ]
+      },
+      "plasma_fractions": [
+        0.00147,
+        0.00083,
+        0.96
+      ],
+      "interstitial_protein_ratio": 0.5,
+      "kp_overrides": {
+        "liver": 1.0,
+        "kidney": 1.0,
+        "brain": 1.0,
+        "lung": 1.0,
+        "rest": 1.0
+      },
+      "rtol": 1e-08,
+      "atol": 1e-10,
+      "steady_rtol": 1e-07,
+      "max_steady_cycles": 2000,
+      "max_tail_h": 100000.0
+    },
+    "Fluconazole": {
+      "compound_name": "Fluconazole_SYNTHETIC",
+      "synthetic_inputs": true,
+      "mw_g_mol": 306.27,
+      "clogp": 3.0,
+      "ionization": "base",
+      "pka_acid": null,
+      "pka_base": 7.8,
+      "fu_p": 0.2,
+      "rb": 1.0,
+      "clint_mic_ul_min_mg": 10.0,
+      "fu_mic": 1.0,
+      "mppgl_mg_g": 45.0,
+      "liver_mass_g": 1800.0,
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "km_unbound_mg_l": null,
+      "ic90_nm": 50.0,
+      "toxic_total_plasma_mg_l": 5.0,
+      "coverage_goal_pct": 90.0,
+      "dose_min_mg": 10.0,
+      "dose_max_mg": 800.0,
+      "dose_step_mg": 1.0,
+      "target_tissue": "rest",
+      "blood_volume_l": 5.0,
+      "volumes_l": {
+        "liver": 1.8,
+        "kidney": 0.31,
+        "brain": 1.4,
+        "lung": 0.5,
+        "rest": 60.99
+      },
+      "flows_l_h": {
+        "liver": 90.0,
+        "kidney": 66.0,
+        "brain": 45.0,
+        "rest": 159.0
+      },
+      "tissue_fractions": {
+        "liver": [
+          0.0138,
+          0.0303,
+          0.705
+        ],
+        "kidney": [
+          0.0121,
+          0.024,
+          0.783
+        ],
+        "brain": [
+          0.0391,
+          0.0533,
+          0.77
+        ],
+        "lung": [
+          0.003,
+          0.009,
+          0.811
+        ],
+        "rest": [
+          0.05,
+          0.015,
+          0.65
+        ]
+      },
+      "plasma_fractions": [
+        0.00147,
+        0.00083,
+        0.96
+      ],
+      "interstitial_protein_ratio": 0.5,
+      "kp_overrides": {
+        "liver": 1.0,
+        "kidney": 1.0,
+        "brain": 1.0,
+        "lung": 1.0,
+        "rest": 1.0
+      },
+      "rtol": 1e-08,
+      "atol": 1e-10,
+      "steady_rtol": 1e-07,
+      "max_steady_cycles": 2000,
+      "max_tail_h": 100000.0
+    },
+    "Quinidine": {
+      "compound_name": "Quinidine_SYNTHETIC",
+      "synthetic_inputs": true,
+      "mw_g_mol": 324.42,
+      "clogp": 3.0,
+      "ionization": "base",
+      "pka_acid": null,
+      "pka_base": 7.8,
+      "fu_p": 0.15,
+      "rb": 1.0,
+      "clint_mic_ul_min_mg": 25.0,
+      "fu_mic": 1.0,
+      "mppgl_mg_g": 45.0,
+      "liver_mass_g": 1800.0,
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "km_unbound_mg_l": null,
+      "ic90_nm": 50.0,
+      "toxic_total_plasma_mg_l": 5.0,
+      "coverage_goal_pct": 90.0,
+      "dose_min_mg": 10.0,
+      "dose_max_mg": 800.0,
+      "dose_step_mg": 1.0,
+      "target_tissue": "rest",
+      "blood_volume_l": 5.0,
+      "volumes_l": {
+        "liver": 1.8,
+        "kidney": 0.31,
+        "brain": 1.4,
+        "lung": 0.5,
+        "rest": 60.99
+      },
+      "flows_l_h": {
+        "liver": 90.0,
+        "kidney": 66.0,
+        "brain": 45.0,
+        "rest": 159.0
+      },
+      "tissue_fractions": {
+        "liver": [
+          0.0138,
+          0.0303,
+          0.705
+        ],
+        "kidney": [
+          0.0121,
+          0.024,
+          0.783
+        ],
+        "brain": [
+          0.0391,
+          0.0533,
+          0.77
+        ],
+        "lung": [
+          0.003,
+          0.009,
+          0.811
+        ],
+        "rest": [
+          0.05,
+          0.015,
+          0.65
+        ]
+      },
+      "plasma_fractions": [
+        0.00147,
+        0.00083,
+        0.96
+      ],
+      "interstitial_protein_ratio": 0.5,
+      "kp_overrides": {
+        "liver": 1.0,
+        "kidney": 1.0,
+        "brain": 1.0,
+        "lung": 1.0,
+        "rest": 1.0
+      },
+      "rtol": 1e-08,
+      "atol": 1e-10,
+      "steady_rtol": 1e-07,
+      "max_steady_cycles": 2000,
+      "max_tail_h": 100000.0
+    },
+    "Amoxicillin": {
+      "compound_name": "Amoxicillin_SYNTHETIC",
+      "synthetic_inputs": true,
+      "mw_g_mol": 365.4,
+      "clogp": 3.0,
+      "ionization": "base",
+      "pka_acid": null,
+      "pka_base": 7.8,
+      "fu_p": 0.2,
+      "rb": 1.0,
+      "clint_mic_ul_min_mg": 15.0,
+      "fu_mic": 1.0,
+      "mppgl_mg_g": 45.0,
+      "liver_mass_g": 1800.0,
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "km_unbound_mg_l": null,
+      "ic90_nm": 50.0,
+      "toxic_total_plasma_mg_l": 5.0,
+      "coverage_goal_pct": 90.0,
+      "dose_min_mg": 10.0,
+      "dose_max_mg": 800.0,
+      "dose_step_mg": 1.0,
+      "target_tissue": "rest",
+      "blood_volume_l": 5.0,
+      "volumes_l": {
+        "liver": 1.8,
+        "kidney": 0.31,
+        "brain": 1.4,
+        "lung": 0.5,
+        "rest": 60.99
+      },
+      "flows_l_h": {
+        "liver": 90.0,
+        "kidney": 66.0,
+        "brain": 45.0,
+        "rest": 159.0
+      },
+      "tissue_fractions": {
+        "liver": [
+          0.0138,
+          0.0303,
+          0.705
+        ],
+        "kidney": [
+          0.0121,
+          0.024,
+          0.783
+        ],
+        "brain": [
+          0.0391,
+          0.0533,
+          0.77
+        ],
+        "lung": [
+          0.003,
+          0.009,
+          0.811
+        ],
+        "rest": [
+          0.05,
+          0.015,
+          0.65
+        ]
+      },
+      "plasma_fractions": [
+        0.00147,
+        0.00083,
+        0.96
+      ],
+      "interstitial_protein_ratio": 0.5,
+      "kp_overrides": {
+        "liver": 1.0,
+        "kidney": 1.0,
+        "brain": 1.0,
+        "lung": 1.0,
+        "rest": 1.0
+      },
+      "rtol": 1e-08,
+      "atol": 1e-10,
+      "steady_rtol": 1e-07,
+      "max_steady_cycles": 2000,
+      "max_tail_h": 100000.0
+    },
+    "Midazolam": {
+      "compound_name": "Midazolam_SYNTHETIC",
+      "synthetic_inputs": true,
+      "mw_g_mol": 325.77,
+      "clogp": 3.0,
+      "ionization": "base",
+      "pka_acid": null,
+      "pka_base": 7.8,
+      "fu_p": 0.05,
+      "rb": 1.0,
+      "clint_mic_ul_min_mg": 150.0,
+      "fu_mic": 1.0,
+      "mppgl_mg_g": 45.0,
+      "liver_mass_g": 1800.0,
+      "ka_h": 1.5,
+      "fa": 0.95,
+      "fg": 0.5,
+      "gfr_l_h": 7.5,
+      "km_unbound_mg_l": null,
+      "ic90_nm": 50.0,
+      "toxic_total_plasma_mg_l": 5.0,
+      "coverage_goal_pct": 90.0,
+      "dose_min_mg": 10.0,
+      "dose_max_mg": 800.0,
+      "dose_step_mg": 1.0,
+      "target_tissue": "rest",
+      "blood_volume_l": 5.0,
+      "volumes_l": {
+        "liver": 1.8,
+        "kidney": 0.31,
+        "brain": 1.4,
+        "lung": 0.5,
+        "rest": 60.99
+      },
+      "flows_l_h": {
+        "liver": 90.0,
+        "kidney": 66.0,
+        "brain": 45.0,
+        "rest": 159.0
+      },
+      "tissue_fractions": {
+        "liver": [
+          0.0138,
+          0.0303,
+          0.705
+        ],
+        "kidney": [
+          0.0121,
+          0.024,
+          0.783
+        ],
+        "brain": [
+          0.0391,
+          0.0533,
+          0.77
+        ],
+        "lung": [
+          0.003,
+          0.009,
+          0.811
+        ],
+        "rest": [
+          0.05,
+          0.015,
+          0.65
+        ]
+      },
+      "plasma_fractions": [
+        0.00147,
+        0.00083,
+        0.96
+      ],
+      "interstitial_protein_ratio": 0.5,
+      "kp_overrides": {
+        "liver": 1.0,
+        "kidney": 1.0,
+        "brain": 1.0,
+        "lung": 1.0,
+        "rest": 1.0
+      },
+      "rtol": 1e-08,
+      "atol": 1e-10,
+      "steady_rtol": 1e-07,
+      "max_steady_cycles": 2000,
+      "max_tail_h": 100000.0
+    },
+    "Metoprolol": {
+      "compound_name": "Metoprolol_SYNTHETIC",
+      "synthetic_inputs": true,
+      "mw_g_mol": 267.37,
+      "clogp": 3.0,
+      "ionization": "base",
+      "pka_acid": null,
+      "pka_base": 7.8,
+      "fu_p": 0.2,
+      "rb": 1.0,
+      "clint_mic_ul_min_mg": 100.0,
+      "fu_mic": 1.0,
+      "mppgl_mg_g": 45.0,
+      "liver_mass_g": 1800.0,
+      "ka_h": 1.2,
+      "fa": 0.95,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "km_unbound_mg_l": null,
+      "ic90_nm": 50.0,
+      "toxic_total_plasma_mg_l": 5.0,
+      "coverage_goal_pct": 90.0,
+      "dose_min_mg": 10.0,
+      "dose_max_mg": 800.0,
+      "dose_step_mg": 1.0,
+      "target_tissue": "rest",
+      "blood_volume_l": 5.0,
+      "volumes_l": {
+        "liver": 1.8,
+        "kidney": 0.31,
+        "brain": 1.4,
+        "lung": 0.5,
+        "rest": 60.99
+      },
+      "flows_l_h": {
+        "liver": 90.0,
+        "kidney": 66.0,
+        "brain": 45.0,
+        "rest": 159.0
+      },
+      "tissue_fractions": {
+        "liver": [
+          0.0138,
+          0.0303,
+          0.705
+        ],
+        "kidney": [
+          0.0121,
+          0.024,
+          0.783
+        ],
+        "brain": [
+          0.0391,
+          0.0533,
+          0.77
+        ],
+        "lung": [
+          0.003,
+          0.009,
+          0.811
+        ],
+        "rest": [
+          0.05,
+          0.015,
+          0.65
+        ]
+      },
+      "plasma_fractions": [
+        0.00147,
+        0.00083,
+        0.96
+      ],
+      "interstitial_protein_ratio": 0.5,
+      "kp_overrides": {
+        "liver": 1.0,
+        "kidney": 1.0,
+        "brain": 1.0,
+        "lung": 1.0,
+        "rest": 1.0
+      },
+      "rtol": 1e-08,
+      "atol": 1e-10,
+      "steady_rtol": 1e-07,
+      "max_steady_cycles": 2000,
+      "max_tail_h": 100000.0
+    }
+  }
+}

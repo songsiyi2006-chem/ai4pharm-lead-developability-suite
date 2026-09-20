@@ -1,0 +1,14 @@
+{
+  "review_date": "2026-09-20",
+  "method": "Each generated PNG opened and visually inspected after computation; scientific SHA256 unchanged after the configuration-boundary correction and rerun.",
+  "figures_reviewed": 4,
+  "checks": [
+    "All axes and legends legible; no cropped text or overlap detected",
+    "Synthetic evidence and endpoint limitations visible",
+    "Tumor and immune plots display cohort mean and SEM",
+    "Bliss and genuine Loewe results shown separately; unsupported cells marked NA",
+    "Kaplan-Meier plot includes administrative censoring and descriptive HR limitations",
+    "Pillow tests verify all four PNG metadata values are 300 DPI within 0.02"
+  ],
+  "status": "passed"
+}

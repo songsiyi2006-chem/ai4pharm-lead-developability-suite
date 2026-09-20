@@ -1,0 +1,54 @@
+[
+  {
+    "id": "SHINETSU",
+    "url": "https://www.setylose.com/fileadmin/download_pfmd/49.pdf",
+    "type": "manufacturer primary brochure",
+    "locator": "Shin-Etsu AQOAT page, Tg table",
+    "supports": "HPMCAS Tg 122 C, DSC second heating 10 C/min; grades have different opening pH",
+    "accessed": "2026-09-20"
+  },
+  {
+    "id": "BASF_VA64",
+    "url": "https://download.basf.com/p1/EN_StaticDocuments_6145/en/Technical_Information_Technical_Information_English.pdf",
+    "type": "manufacturer primary technical information",
+    "locator": "page 13, melt extrusion",
+    "supports": "Kollidon VA 64 Tg 101 C; ASD carrier; hygroscopicity context",
+    "accessed": "2026-09-20"
+  },
+  {
+    "id": "BASF_SOLUPLUS",
+    "url": "https://pharmaceutical.basf.com/global/en/pharma-solutions/products/soluplus",
+    "type": "manufacturer primary product page",
+    "supports": "Carrier identity and solubilizer/matrix roles; not numerical Tg or Hansen parameters",
+    "accessed": "2026-09-20"
+  },
+  {
+    "id": "EVONIK",
+    "url": "https://www.evonik.com/en/products/hc/pr_52000884.html",
+    "type": "manufacturer primary product page",
+    "supports": "EUDRAGIT L100 identity and release above pH 6.0; not numerical Tg",
+    "accessed": "2026-09-20"
+  },
+  {
+    "id": "FH_EXPERIMENT",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31430958/",
+    "type": "original research",
+    "supports": "Measured AAPS boundaries and composition/temperature dependent chi; warns against universal constant-Hansen chi",
+    "accessed": "2026-09-20"
+  },
+  {
+    "id": "FH_THERMAL",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21416468/",
+    "type": "original research",
+    "supports": "Thermal phase diagram modelling and experimental validation in a specific drug/copovidone system",
+    "accessed": "2026-09-20"
+  },
+  {
+    "id": "FREE_DRUG",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5972073/",
+    "doi": "10.1016/j.jconrel.2018.04.014",
+    "type": "original research",
+    "supports": "Polymer mixing can reduce amorphous chemical potential and maximum free concentration; free drug drives passive transport",
+    "accessed": "2026-09-20"
+  }
+]

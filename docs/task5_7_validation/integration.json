@@ -1,0 +1,577 @@
+{
+  "base_commit": "ced2ff75baa0810b1a61db54a9386b1af81b3664",
+  "preexisting_files_preserved": 98,
+  "permitted_existing_metadata_changes": [
+    ".gitattributes",
+    "README.md",
+    "manifest_task2.json"
+  ],
+  "new_python_sources_parsed": [
+    "task5_cyp_ddi\\run_task5_cyp_ddi_mechanism_based_inhibition.py",
+    "task6_asd\\run_task6_asd_formulation_supersaturation_kinetics.py",
+    "task7_qsp\\run_task7_qsp_tumor_immune_pkpd_synergy.py"
+  ],
+  "figure_metadata": [
+    {
+      "path": "task5_cyp_ddi/results/figures_task5/fig1_cyp_inactivation_curves.png",
+      "sha256": "5b33fdccd550e133cba1a981f66af97a414106410ccdb4ede495d3cae7d4ef4f",
+      "dpi": [
+        300,
+        300
+      ]
+    },
+    {
+      "path": "task5_cyp_ddi/results/figures_task5/fig2_dynamic_ddi_midazolam_pk.png",
+      "sha256": "aa0cb8c4285d5ddbac158ddb8b9509d3b69f12c185529e20629baed4a507f390",
+      "dpi": [
+        300,
+        300
+      ]
+    },
+    {
+      "path": "task5_cyp_ddi/results/figures_task5/fig3_fda_ddi_risk_heatmap.png",
+      "sha256": "2b41ec0c807ac19275e217fa5c205d3ff33edc863a3211d10184ca6e51673cfe",
+      "dpi": [
+        300,
+        300
+      ]
+    },
+    {
+      "path": "task5_cyp_ddi/results/figures_task5/fig4_cyp3a4_resynthesis_timeline.png",
+      "sha256": "c2d2e9847c1dcf4df028cc5b761f257c739e29152fd30ff6402d30a7e09b0f9d",
+      "dpi": [
+        300,
+        300
+      ]
+    },
+    {
+      "path": "task6_asd/figures_task6/fig1_flory_huggins_miscibility_phase_diagram.png",
+      "sha256": "08936a9fccb63786e227725b49b8bc4880c3b36937c5d275d209d17110dba3b1",
+      "dpi": [
+        300,
+        300
+      ]
+    },
+    {
+      "path": "task6_asd/figures_task6/fig2_gordon_taylor_tg_depression.png",
+      "sha256": "6686bf9dc85b6ebdb1aab6eb09183300df3520dd2bc7156991ef2bc5dc7b1cd5",
+      "dpi": [
+        300,
+        300
+      ]
+    },
+    {
+      "path": "task6_asd/figures_task6/fig3_spring_and_parachute_dissolution.png",
+      "sha256": "cebb905951a04c5b7f2cb82f63eadc79ce215218b512185a8cb66a38ed207f1a",
+      "dpi": [
+        300,
+        300
+      ]
+    },
+    {
+      "path": "task6_asd/figures_task6/fig4_polymeric_precipitation_inhibition_efficiency.png",
+      "sha256": "8205400f51b4ef358a2b9a890aef2cfd35e75fdbf98a677120e303866606f359",
+      "dpi": [
+        300,
+        300
+      ]
+    },
+    {
+      "path": "task7_qsp/figures_task7/fig1_simeoni_tgi_monotherapy_vs_combo.png",
+      "sha256": "caab2d90c06bb40a11fec11dbf3d24ff1d64cd6ca480ef0a3c878431bcd589ae",
+      "dpi": [
+        300,
+        300
+      ]
+    },
+    {
+      "path": "task7_qsp/figures_task7/fig2_ctl_immune_infiltration_dynamics.png",
+      "sha256": "9225b65fc6fc01324aeda06af0a18aa8ca29ed089fc8ae300572368c4813620b",
+      "dpi": [
+        300,
+        300
+      ]
+    },
+    {
+      "path": "task7_qsp/figures_task7/fig3_bliss_synergy_matrix_heatmap.png",
+      "sha256": "e1a66d63b502ea065a7f97988c8e149466327888e05dd11a5c89477d0b47c7be",
+      "dpi": [
+        300,
+        300
+      ]
+    },
+    {
+      "path": "task7_qsp/figures_task7/fig4_virtual_cohort_kaplan_meier_pfs.png",
+      "sha256": "c9ae20f095ff89317009f13b65131bf07baacdc566470fd09c1ca4ec7aaf5b5c",
+      "dpi": [
+        300,
+        300
+      ]
+    }
+  ],
+  "local_markdown_links_checked": 181,
+  "broken_links": [],
+  "manifest_artifacts_verified": [
+    {
+      "path": "task5_cyp_ddi/results/basic_regulatory_screen.csv",
+      "sha256": "d07cba14771f29c07e70a8ae94e2b589235a91efb2bc002def5f6e0cd77a5cf6"
+    },
+    {
+      "path": "task5_cyp_ddi/results/conditional_risk_grid.csv",
+      "sha256": "499e93d0cc6308f92b45f79e5d5105e115849d2e71cf59a6a910cab50bef3480"
+    },
+    {
+      "path": "task5_cyp_ddi/results/dynamic_static_comparison.csv",
+      "sha256": "2ad7c855cd7eb9b892db6cf0f3cbd14f4bdf4e3fea9a7c68e3f59bc3eae85303"
+    },
+    {
+      "path": "task5_cyp_ddi/results/enzyme_and_inhibitor_trajectories.csv",
+      "sha256": "8528cace2931eedb0e52a8702054c3cb39bf3f5b405541cf29dcf527816125ab"
+    },
+    {
+      "path": "task5_cyp_ddi/results/figures_task5/fig1_cyp_inactivation_curves.png",
+      "sha256": "5b33fdccd550e133cba1a981f66af97a414106410ccdb4ede495d3cae7d4ef4f"
+    },
+    {
+      "path": "task5_cyp_ddi/results/figures_task5/fig2_dynamic_ddi_midazolam_pk.png",
+      "sha256": "aa0cb8c4285d5ddbac158ddb8b9509d3b69f12c185529e20629baed4a507f390"
+    },
+    {
+      "path": "task5_cyp_ddi/results/figures_task5/fig3_fda_ddi_risk_heatmap.png",
+      "sha256": "2b41ec0c807ac19275e217fa5c205d3ff33edc863a3211d10184ca6e51673cfe"
+    },
+    {
+      "path": "task5_cyp_ddi/results/figures_task5/fig4_cyp3a4_resynthesis_timeline.png",
+      "sha256": "c2d2e9847c1dcf4df028cc5b761f257c739e29152fd30ff6402d30a7e09b0f9d"
+    },
+    {
+      "path": "task5_cyp_ddi/results/literature_parameter_reference.csv",
+      "sha256": "6a7b92ab07986b275a750e138c57d0e2af1c85441bbde59efb378954e77c5dc7"
+    },
+    {
+      "path": "task5_cyp_ddi/results/literature_parameter_response.csv",
+      "sha256": "8a0cc465b87e099bf3c8691d782d17c9430f1cddf93d593875bce43e8d5e75b3"
+    },
+    {
+      "path": "task5_cyp_ddi/results/parameter_provenance.csv",
+      "sha256": "8db32b301d4a786a9426476e7a96dbb1ed2c65f5f1af3845fd2117ae8f826f9f"
+    },
+    {
+      "path": "task5_cyp_ddi/results/parameters_used.json",
+      "sha256": "6ef49353f04580fa960f09f5f0206e5db156e7ff8fe690f8d34cd2af2e58b650"
+    },
+    {
+      "path": "task5_cyp_ddi/results/probe_pk_curves.csv",
+      "sha256": "1e06e9a5284ccbbd93ba849ab3c60d981d18a51d35134ccb19dc1989434e3dca"
+    },
+    {
+      "path": "task5_cyp_ddi/results/results_summary.json",
+      "sha256": "dac2c343a317c282744609fcd6d4cd2e1c9119048306c3900295e53cbd06d193"
+    },
+    {
+      "path": "task5_cyp_ddi/results/sources.json",
+      "sha256": "5434f680827a47a99f3834f8710adc6a358c59baebfb1576c66fa21830ddd4d8"
+    },
+    {
+      "path": "task5_cyp_ddi/results/synthetic_kinetic_recovery.csv",
+      "sha256": "294ef1865147592dd5f5d1e99e317ce9ab2433a6e35eb79c87856373919e97f7"
+    },
+    {
+      "path": "task5_cyp_ddi/results/synthetic_preincubation.csv",
+      "sha256": "fafb53711edd48670a19a8d9c1fa0747762ab877f773d8a8d79c0615973c6c63"
+    },
+    {
+      "path": "task5_cyp_ddi/results/turnover_sensitivity.csv",
+      "sha256": "454b04417a8e13fcd52a77adcaa1c2aaf9f5289683180f8d0e3e36f962aea97b"
+    },
+    {
+      "path": "task5_cyp_ddi/results/washout_recovery.csv",
+      "sha256": "a3e65f7ab27bb6c2c4d7845667ce33cb5f26a6727b8889e91cc088b5c067eaec"
+    },
+    {
+      "path": "task6_asd/figures_task6/fig1_flory_huggins_miscibility_phase_diagram.png",
+      "sha256": "08936a9fccb63786e227725b49b8bc4880c3b36937c5d275d209d17110dba3b1"
+    },
+    {
+      "path": "task6_asd/figures_task6/fig2_gordon_taylor_tg_depression.png",
+      "sha256": "6686bf9dc85b6ebdb1aab6eb09183300df3520dd2bc7156991ef2bc5dc7b1cd5"
+    },
+    {
+      "path": "task6_asd/figures_task6/fig3_spring_and_parachute_dissolution.png",
+      "sha256": "cebb905951a04c5b7f2cb82f63eadc79ce215218b512185a8cb66a38ed207f1a"
+    },
+    {
+      "path": "task6_asd/figures_task6/fig4_polymeric_precipitation_inhibition_efficiency.png",
+      "sha256": "8205400f51b4ef358a2b9a890aef2cfd35e75fdbf98a677120e303866606f359"
+    },
+    {
+      "path": "task6_asd/inputs/parameters.json",
+      "sha256": "1c6838c7e683b1a74e31f4695290372fcc150c0adb859046146e9b1cff9e9f14"
+    },
+    {
+      "path": "task6_asd/inputs/sources.json",
+      "sha256": "768072eba14f7a31acb50dd921daace9731b0746dab9090eaa34a8345f288b37"
+    },
+    {
+      "path": "task6_asd/results/concentration_mass_timeseries.csv",
+      "sha256": "5c26ad0913645d612324fd5b407e14a0d952ff9774a3af55f5de9ba2818d22e0"
+    },
+    {
+      "path": "task6_asd/results/formulation_summary.csv",
+      "sha256": "0fe1b0047c94e93a0da2b1eebf053a1f8ac54a8de71084da8b4b76d1bf4e28a8"
+    },
+    {
+      "path": "task6_asd/results/loading_summary.csv",
+      "sha256": "51eb7390fbf66ecbabc4b7d2ce351686a5b4515be76adcbfe02b74615f68a5a4"
+    },
+    {
+      "path": "task6_asd/results/phase_boundaries.csv",
+      "sha256": "cc41ad8b2678a0f9dc3aa99309a2f26782a3bab431778ccb213bfa924c230269"
+    },
+    {
+      "path": "task6_asd/results/sensitivity_27_scenarios.csv",
+      "sha256": "2b592faf49326b2cd935f900d233a72c39d0b1f0623fbc8cc901e92825e6709d"
+    },
+    {
+      "path": "task6_asd/results/solver_refinement.csv",
+      "sha256": "53eeca4099f51cefc684ce67f97771beade00ac2a4f8f26f5cc67beb0df5f691"
+    },
+    {
+      "path": "task6_asd/results/storage_scenarios.csv",
+      "sha256": "739299c27799cf4e9451d1f09365178a2670ce0a99221bdfe71c30a5ebaf5f8e"
+    },
+    {
+      "path": "task6_asd/results/summary.json",
+      "sha256": "bab0c06da41d40fde2512f4b53fdc6f0f091f0279f6b21bd60934fb679072019"
+    },
+    {
+      "path": "task7_qsp/bliss_timecourse.csv",
+      "sha256": "1e63b7a628295c64d0416fc116a73a86896404665a4b3feab7163c5de9741d30"
+    },
+    {
+      "path": "task7_qsp/dose_synergy_matrix.csv",
+      "sha256": "8d1ac88c8da847f04643962a336cc97612f1cbf957bd13ea3034173eb94376cf"
+    },
+    {
+      "path": "task7_qsp/figures_task7/fig1_simeoni_tgi_monotherapy_vs_combo.png",
+      "sha256": "caab2d90c06bb40a11fec11dbf3d24ff1d64cd6ca480ef0a3c878431bcd589ae"
+    },
+    {
+      "path": "task7_qsp/figures_task7/fig2_ctl_immune_infiltration_dynamics.png",
+      "sha256": "9225b65fc6fc01324aeda06af0a18aa8ca29ed089fc8ae300572368c4813620b"
+    },
+    {
+      "path": "task7_qsp/figures_task7/fig3_bliss_synergy_matrix_heatmap.png",
+      "sha256": "e1a66d63b502ea065a7f97988c8e149466327888e05dd11a5c89477d0b47c7be"
+    },
+    {
+      "path": "task7_qsp/figures_task7/fig4_virtual_cohort_kaplan_meier_pfs.png",
+      "sha256": "c9ae20f095ff89317009f13b65131bf07baacdc566470fd09c1ca4ec7aaf5b5c"
+    },
+    {
+      "path": "task7_qsp/kaplan_meier.csv",
+      "sha256": "494952236d9107d6aa96fa883738f8fb2b1f0c23283f067586c3d382b71024fd"
+    },
+    {
+      "path": "task7_qsp/loewe_monotherapy_support.csv",
+      "sha256": "60b0ac7a7326aabdd21f07bf4be7b6f7618c1a52ae52f73742f8686d060ba856"
+    },
+    {
+      "path": "task7_qsp/parameters_used.json",
+      "sha256": "3ce2a3c7115627a40102842c044b80ecb1fd3949b2aa6577d88086dae5a85def"
+    },
+    {
+      "path": "task7_qsp/pk_exposure.csv",
+      "sha256": "a4a049601ba1eca945aa6ad4cb0c1baefc25304e67387a1f48a38a2cea850990"
+    },
+    {
+      "path": "task7_qsp/progression_endpoints.csv",
+      "sha256": "50b399299174de05bc14e479e1734097e1247b831f15e8ba5a4255ee475ae609"
+    },
+    {
+      "path": "task7_qsp/results_summary.json",
+      "sha256": "e8ecfd053a513a000aacc6d51e8c8ca4220e544284a5a491255e002a6eece8c1"
+    },
+    {
+      "path": "task7_qsp/run_log.json",
+      "sha256": "b526a589b2375e06a264586a320bf6570722e7c354dd74ee2628b4c5405a7ad6"
+    },
+    {
+      "path": "task7_qsp/sources.json",
+      "sha256": "2de4b9defbc2995b58309fad9e06b61b97d9eee4cccf1d1ca0e509659cf2fbeb"
+    },
+    {
+      "path": "task7_qsp/survival_statistics.json",
+      "sha256": "832ef73835c6d4b9a76a625edb80f06ba06c73b388d25db33369f03e00f96d47"
+    },
+    {
+      "path": "task7_qsp/trajectories.csv",
+      "sha256": "a404c139073b25712588ef2680b0ebc80f0c70c987c744e7d7de49bf7e65049c"
+    },
+    {
+      "path": "task7_qsp/verification.json",
+      "sha256": "ecfc69f6acaf6fc4821375cde4a880aff0b43a0f726e91f72ba551ff66eb0634"
+    },
+    {
+      "path": "task7_qsp/virtual_patients.csv",
+      "sha256": "787d0887f494e0542f8cff7db9c41627ab7ae2f1dab4d3adfb5512f7dc22e0ec"
+    }
+  ],
+  "independent_reproduction_comparisons": [
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "basic_regulatory_screen.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "conditional_risk_grid.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "dynamic_static_comparison.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "enzyme_and_inhibitor_trajectories.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "figures_task5/fig1_cyp_inactivation_curves.png",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "figures_task5/fig2_dynamic_ddi_midazolam_pk.png",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "figures_task5/fig3_fda_ddi_risk_heatmap.png",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "figures_task5/fig4_cyp3a4_resynthesis_timeline.png",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "literature_parameter_reference.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "literature_parameter_response.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "parameter_provenance.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "parameters_used.json",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "probe_pk_curves.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "results_summary.json",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "sources.json",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "synthetic_kinetic_recovery.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "synthetic_preincubation.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "turnover_sensitivity.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task5_cyp_ddi",
+      "artifact": "washout_recovery.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task6_asd",
+      "artifact": "figures_task6/fig1_flory_huggins_miscibility_phase_diagram.png",
+      "byte_identical": true
+    },
+    {
+      "task": "task6_asd",
+      "artifact": "figures_task6/fig2_gordon_taylor_tg_depression.png",
+      "byte_identical": true
+    },
+    {
+      "task": "task6_asd",
+      "artifact": "figures_task6/fig3_spring_and_parachute_dissolution.png",
+      "byte_identical": true
+    },
+    {
+      "task": "task6_asd",
+      "artifact": "figures_task6/fig4_polymeric_precipitation_inhibition_efficiency.png",
+      "byte_identical": true
+    },
+    {
+      "task": "task6_asd",
+      "artifact": "inputs/parameters.json",
+      "byte_identical": true
+    },
+    {
+      "task": "task6_asd",
+      "artifact": "inputs/sources.json",
+      "byte_identical": true
+    },
+    {
+      "task": "task6_asd",
+      "artifact": "results/concentration_mass_timeseries.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task6_asd",
+      "artifact": "results/formulation_summary.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task6_asd",
+      "artifact": "results/loading_summary.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task6_asd",
+      "artifact": "results/phase_boundaries.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task6_asd",
+      "artifact": "results/sensitivity_27_scenarios.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task6_asd",
+      "artifact": "results/solver_refinement.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task6_asd",
+      "artifact": "results/storage_scenarios.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task6_asd",
+      "artifact": "results/summary.json",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "bliss_timecourse.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "dose_synergy_matrix.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "figures_task7/fig1_simeoni_tgi_monotherapy_vs_combo.png",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "figures_task7/fig2_ctl_immune_infiltration_dynamics.png",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "figures_task7/fig3_bliss_synergy_matrix_heatmap.png",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "figures_task7/fig4_virtual_cohort_kaplan_meier_pfs.png",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "kaplan_meier.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "loewe_monotherapy_support.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "parameters_used.json",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "pk_exposure.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "progression_endpoints.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "results_summary.json",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "sources.json",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "survival_statistics.json",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "trajectories.csv",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "verification.json",
+      "byte_identical": true
+    },
+    {
+      "task": "task7_qsp",
+      "artifact": "virtual_patients.csv",
+      "byte_identical": true
+    }
+  ],
+  "excluded_from_reproduction_equality": [
+    "run_log.json: wall-clock timing differs",
+    "manifest.json: derived timing-log hash differs"
+  ],
+  "scope": "Structural, provenance and optional byte-for-byte reproduction checks; numerical checks and visual review recorded separately"
+}

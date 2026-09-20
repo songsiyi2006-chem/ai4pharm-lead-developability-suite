@@ -1,0 +1,72 @@
+{
+  "execution_date": "2026-09-20",
+  "status": "passed",
+  "scope": "Executed synthetic mechanistic calculations, software regression, source/artifact provenance and visual inspection; no clinical or industrial validation",
+  "baseline_commit": "ced2ff75baa0810b1a61db54a9386b1af81b3664",
+  "unit_tests": {
+    "total": 56,
+    "legacy": 18,
+    "task5": 11,
+    "task6": 14,
+    "task7": 13,
+    "result": "passed",
+    "log": "full_unittest.txt"
+  },
+  "legacy_task3_selftest": {
+    "count": 6,
+    "result": "passed",
+    "log": "legacy_task3_selftest.txt"
+  },
+  "legacy_task2_sha256_entries_verified": 25,
+  "runtimes": {
+    "new_calculations": {
+      "python": "3.12.14",
+      "numpy": "2.4.6",
+      "scipy": "1.18.0",
+      "matplotlib": "3.11.1"
+    },
+    "combined_tests": {
+      "python": "3.14.6",
+      "numpy": "2.5.2",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.1"
+    },
+    "environment_choice": "Existing environments reused; full tests use existing Miniconda base because legacy Task1 requires seaborn, absent from chemistry venv. No installation performed."
+  },
+  "independent_reproduction": {
+    "task5": "work/reproduce_task5",
+    "task6": "work/reproduce_task6",
+    "task7": "work/reproduce_task7_final",
+    "comparison": "Each frozen manifest artifact compared byte-for-byte except wall-clock run_log.json; details in integration.json"
+  },
+  "visual_review": {
+    "figures_total": 12,
+    "all_reviewed_by_task_authors": true,
+    "root_independent_spot_review": [
+      "task5_cyp_ddi/results/figures_task5/fig3_fda_ddi_risk_heatmap.png",
+      "task6_asd/figures_task6/fig3_spring_and_parachute_dissolution.png",
+      "task7_qsp/figures_task7/fig4_virtual_cohort_kaplan_meier_pfs.png"
+    ],
+    "dpi": 300,
+    "findings": "No blocking clipping, overlap or evidence-label problem in reviewed delivered figures"
+  },
+  "cross_review": {
+    "task5": "PBPK flux accounting, M12 inhibition formulas, matched finite AUC windows and censored abundance recovery reviewed",
+    "task6": "FH common tangent, VFT domain, CNT units, mass conservation and absorption-proxy interpretation reviewed",
+    "task7": "Paired Bliss, supported Loewe inverse, paired survival inference and endpoint labeling reviewed",
+    "resolved_findings": [
+      "QSP custom CTL baseline equilibrium check now uses the input baseline; zero baseline handled explicitly",
+      "QSP custom cohort and horizon now control figure labels and endpoint fields; 10-person/30-day complete-run test passed",
+      "ASD reference drug segment count Nd=1 is enforced rather than silently ignoring edited values"
+    ]
+  },
+  "known_limits": [
+    "Default compound, formulation and cohort values are principally assumptions, not measured clinical calibration data",
+    "DDI literature supplement contains published model estimates, not new assays",
+    "ASD uptake ratio is an absorption-sink proxy; 12 VFT scenarios are outside the formula domain",
+    "QSP model progression is not RECIST or clinical PFS; 16 of 25 interior Loewe points lack supported inverses"
+  ],
+  "logs_note": "Repository absolute paths replaced by [repository] in public terminal logs; scientific values unchanged",
+  "files": "delivery_files_sha256.json",
+  "integration": "integration.json"
+}

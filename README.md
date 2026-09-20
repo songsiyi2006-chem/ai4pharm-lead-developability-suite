@@ -5,7 +5,9 @@
 ![License MIT](https://img.shields.io/badge/License-MIT-735CB0)
 ![Bio-CADD](https://img.shields.io/badge/Pharmacy-Bio--CADD-D2664B)
 
-**Four-task suite: ADMET/MPO developability, targeted protein degradation, covalent inhibitor kinetics, and PBPK exposure and dose screening.**
+**Seven-task suite: lead developability, targeted degradation, covalent kinetics, PBPK, CYP interactions, ASD formulation, and tumor–immune QSP.**
+
+New: [Tasks 5–7 delivery and evidence](docs/TASK5_7_DELIVERY.md) · [Original task briefs and scientific corrections](docs/task5_7_prompts/README.md). Each new task keeps its driver, inputs, bilingual reports, figures, and results together in its own directory. Drug-named scenarios and virtual cohorts are simulations, not validated clinical predictions.
 
 [Task 4 PBPK](#task-4-pbpk-and-dose-screening) · [Quick start](#quick-start) · [Workflow](#pharmaceutical-workflow) · [Benchmark](#benchmark-panel) · [Figures](#figures) · [Model card](MODEL_CARD.md) · [English report](DEVELOPABILITY_MPO_REPORT_EN.md) · [中文报告](DEVELOPABILITY_MPO_REPORT_ZH.md) · [Evidence](data/CLINICAL_EVIDENCE.md)
 
@@ -21,6 +23,21 @@ This repository provides an offline, reproducible assessment engine for 30 clini
 | 2 · Targeted protein degradation | [TPD ternary engine](run_task2_tpd_ternary_cooperativity.py) | [EN](TPD_TERNARY_COOPERATIVITY_REPORT_EN.md) · [中文](TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md) | [Task 2 data](data_task2/) · [Validation](validation_task2.json) |
 | 3 · Covalent inhibitor kinetics | [Covalent kinetics engine](run_task3_covalent_kinetics_residence_time.py) | [EN](COVALENT_DRUG_KINETICS_REPORT_EN.md) · [中文](COVALENT_DRUG_KINETICS_REPORT_ZH.md) | [Task 3 data](data_task3/) · [Validation](data_task3/validation.json) |
 | 4 · PBPK and dose screening | [PBPK / IVIVE engine](task4_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py) | [EN](task4_pbpk/PBPK_DOSE_PREDICTION_REPORT_EN.md) · [中文](task4_pbpk/PBPK_DOSE_PREDICTION_REPORT_ZH.md) | [Task 4 results](task4_pbpk/results_summary.json) · [Validation](task4_pbpk/verification.json) |
+| 5 · CYP DDI and time-dependent inhibition | [CYP DDI engine](task5_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py) | [EN](task5_cyp_ddi/CYP_DDI_KINETICS_REPORT_EN.md) · [中文](task5_cyp_ddi/CYP_DDI_KINETICS_REPORT_ZH.md) | [Task 5 project](task5_cyp_ddi/) |
+| 6 · ASD formulation and supersaturation | [ASD engine](task6_asd/run_task6_asd_formulation_supersaturation_kinetics.py) | [EN](task6_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md) · [中文](task6_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md) | [Task 6 project](task6_asd/) |
+| 7 · Tumor–immune QSP and combination effects | [QSP engine](task7_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py) | [EN](task7_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md) · [中文](task7_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md) | [Task 7 project](task7_qsp/) |
+
+```mermaid
+flowchart LR
+    A[1 Lead developability] -. measured parameters .-> D[4 PBPK exposure]
+    B[2 Targeted degradation] -. calibrated target response .-> G[7 Tumor–immune QSP]
+    C[3 Covalent kinetics] -. calibrated kinetic inputs .-> G
+    D --> E[5 CYP DDI: shared PBPK implementation]
+    F[6 ASD dissolution and absorption scenarios] -. future measured input .-> D
+    D -. future calibrated exposure input .-> G
+```
+
+The solid Task 4 → 5 connection denotes implemented code reuse. Dashed links denote future calibration interfaces; Task 6 absorption and Task 7 PK/PD assumptions are not already validated or automatically coupled into Task 4.
 
 ## Quick start
 

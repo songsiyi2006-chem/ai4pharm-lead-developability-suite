@@ -1,0 +1,4 @@
+compound,parameter,value,unit,site,table,source_url,doi,evidence,limitation
+Clarithromycin,KI,5.3,uM,liver_and_gut,2,https://pmc.ncbi.nlm.nih.gov/articles/PMC2812061/,10.1124/dmd.109.028746,published_in_vivo_model_estimate_not_measured_in_vitro_kinetics,Point estimates only; binding convention not reinterpreted as unbound; not transplanted into Task5 PBPK
+Clarithromycin,kinact,0.4,h^-1,liver,2,https://pmc.ncbi.nlm.nih.gov/articles/PMC2812061/,10.1124/dmd.109.028746,published_in_vivo_model_estimate_not_measured_in_vitro_kinetics,Point estimates only; binding convention not reinterpreted as unbound; not transplanted into Task5 PBPK
+Clarithromycin,kinact,4.0,h^-1,gut,2,https://pmc.ncbi.nlm.nih.gov/articles/PMC2812061/,10.1124/dmd.109.028746,published_in_vivo_model_estimate_not_measured_in_vitro_kinetics,Point estimates only; binding convention not reinterpreted as unbound; not transplanted into Task5 PBPK

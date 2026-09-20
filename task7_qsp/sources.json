@@ -1,0 +1,31 @@
+{
+  "accessed_date": "2026-09-20",
+  "sources": [
+    {
+      "id": "simeoni2004",
+      "doi": "10.1158/0008-5472.CAN-03-2524",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14871843/",
+      "role": "Preclinical growth/transit architecture; no parameter values imported."
+    },
+    {
+      "id": "recist2009",
+      "doi": "10.1016/j.ejca.2008.10.026",
+      "url": "https://recist.eortc.org/recist-1-1/",
+      "role": "Endpoint distinction: diameter sum, nadir, absolute 5 mm and new lesions."
+    },
+    {
+      "id": "loewe2018",
+      "doi": "10.3389/fphar.2018.00031",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5808155/",
+      "role": "Dose equivalence and Loewe consistency constraints."
+    },
+    {
+      "id": "bliss2019",
+      "doi": "10.1371/journal.pone.0224137",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0224137",
+      "role": "Bliss reference and uncertainty; positive score alone is not clinical proof."
+    }
+  ],
+  "clinical_data": null,
+  "experimental_data": null
+}

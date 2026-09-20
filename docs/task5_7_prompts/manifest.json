@@ -1,0 +1,20 @@
+{
+  "source": "User-provided task attachments; exact original bytes",
+  "files": [
+    {
+      "path": "TASK5_ORIGINAL.md",
+      "bytes": 5819,
+      "sha256": "ce1ee2bf43e800f35ac39dbcf5a42c278feb9429f95e9bb7c077a98d2c92a9b3"
+    },
+    {
+      "path": "TASK6_ORIGINAL.md",
+      "bytes": 7098,
+      "sha256": "4cb77a63be17fa01fc3237e21127091f01c76a426cc58e3f966d192e46816927"
+    },
+    {
+      "path": "TASK7_ORIGINAL.md",
+      "bytes": 7057,
+      "sha256": "4a9ff8d2f5a4503c546dee61ddb291a3d1fc8dcf9d184d978c0f8a406093a613"
+    }
+  ]
+}

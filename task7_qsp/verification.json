@@ -1,0 +1,83 @@
+{
+  "checks": [
+    {
+      "test": "simeoni_asymptotic_linear_rate",
+      "passed": true
+    },
+    {
+      "test": "transit_mass_balance",
+      "passed": true
+    },
+    {
+      "test": "untreated_ctl_baseline_equilibrium",
+      "passed": true
+    },
+    {
+      "test": "finite_infusion_zero_initial_positive_end",
+      "passed": true
+    },
+    {
+      "test": "equal_absorption_elimination_limit_finite",
+      "passed": true
+    },
+    {
+      "test": "loewe_dose_equivalence_identity",
+      "passed": true
+    },
+    {
+      "test": "loewe_extrapolation_prohibited",
+      "passed": true
+    },
+    {
+      "test": "progression_crossing_and_censoring",
+      "passed": true
+    },
+    {
+      "test": "km_tied_death_before_censoring",
+      "passed": true
+    },
+    {
+      "test": "paired_logrank_identical_arms_null",
+      "passed": true
+    },
+    {
+      "test": "nominal_solver_and_grid_refinement",
+      "passed": true,
+      "details": [
+        {
+          "arm": "Vehicle",
+          "endpoint_day": 60.0,
+          "relative_endpoint_mass_error": 9.66170719633978e-16,
+          "coarse_progression_day": 4.26784203743269,
+          "fine_progression_day": 4.2678858677752265,
+          "event_time_difference_day": 4.383034253674367e-05
+        },
+        {
+          "arm": "Targeted",
+          "endpoint_day": 60.0,
+          "relative_endpoint_mass_error": 9.353490395806104e-08,
+          "coarse_progression_day": 4.6360408728629405,
+          "fine_progression_day": 4.635451322932432,
+          "event_time_difference_day": 0.0005895499305088592
+        },
+        {
+          "arm": "Anti-PD-1",
+          "endpoint_day": 60.0,
+          "relative_endpoint_mass_error": 1.0696647116320457e-06,
+          "coarse_progression_day": 6.20530900806716,
+          "fine_progression_day": 6.204934129999758,
+          "event_time_difference_day": 0.00037487806740177376
+        },
+        {
+          "arm": "Combination",
+          "endpoint_day": 60.0,
+          "relative_endpoint_mass_error": 9.721460901970848e-07,
+          "coarse_progression_day": 60.0,
+          "fine_progression_day": 60.0,
+          "event_time_difference_day": 0.0
+        }
+      ]
+    }
+  ],
+  "scope": "numerical/software only; not biological or clinical validation"
+}

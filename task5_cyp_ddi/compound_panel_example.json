@@ -1,0 +1,184 @@
+{
+  "compound_panel": [
+    {
+      "name": "Ketoconazole",
+      "mw_g_mol": 531.43,
+      "dose_mg": 200.0,
+      "fu_p": 0.04,
+      "clint_mic_ul_min_mg": 12.0,
+      "ki_uM": [
+        0.03,
+        8.0,
+        8.0
+      ],
+      "kinact_h": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "KI_uM": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "CYP3A reversible-inhibitor archetype",
+      "evidence": "synthetic_scenario",
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "qgut_l_h": 18.0,
+      "fu_gut": 1.0
+    },
+    {
+      "name": "Clarithromycin",
+      "mw_g_mol": 747.95,
+      "dose_mg": 500.0,
+      "fu_p": 0.15,
+      "clint_mic_ul_min_mg": 25.0,
+      "ki_uM": [
+        8.0,
+        80.0,
+        80.0
+      ],
+      "kinact_h": [
+        0.45,
+        0.0,
+        0.0
+      ],
+      "KI_uM": [
+        2.0,
+        1.0,
+        1.0
+      ],
+      "role": "CYP3A time-dependent-inhibitor archetype",
+      "evidence": "synthetic_scenario",
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "qgut_l_h": 18.0,
+      "fu_gut": 1.0
+    },
+    {
+      "name": "Ritonavir",
+      "mw_g_mol": 720.94,
+      "dose_mg": 100.0,
+      "fu_p": 0.02,
+      "clint_mic_ul_min_mg": 15.0,
+      "ki_uM": [
+        0.025,
+        1.0,
+        20.0
+      ],
+      "kinact_h": [
+        0.8,
+        0.02,
+        0.0
+      ],
+      "KI_uM": [
+        0.15,
+        3.0,
+        1.0
+      ],
+      "role": "CYP3A mixed-inhibition archetype",
+      "evidence": "synthetic_scenario",
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "qgut_l_h": 18.0,
+      "fu_gut": 1.0
+    },
+    {
+      "name": "Fluconazole",
+      "mw_g_mol": 306.27,
+      "dose_mg": 100.0,
+      "fu_p": 0.2,
+      "clint_mic_ul_min_mg": 10.0,
+      "ki_uM": [
+        2.0,
+        30.0,
+        0.5
+      ],
+      "kinact_h": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "KI_uM": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "moderate CYP3A/CYP2C9 qualitative anchor",
+      "evidence": "synthetic_scenario",
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "qgut_l_h": 18.0,
+      "fu_gut": 1.0
+    },
+    {
+      "name": "Quinidine",
+      "mw_g_mol": 324.42,
+      "dose_mg": 200.0,
+      "fu_p": 0.15,
+      "clint_mic_ul_min_mg": 25.0,
+      "ki_uM": [
+        15.0,
+        0.02,
+        30.0
+      ],
+      "kinact_h": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "KI_uM": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "CYP2D6 reversible-inhibitor archetype",
+      "evidence": "synthetic_scenario",
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "qgut_l_h": 18.0,
+      "fu_gut": 1.0
+    },
+    {
+      "name": "Amoxicillin",
+      "mw_g_mol": 365.4,
+      "dose_mg": 250.0,
+      "fu_p": 0.2,
+      "clint_mic_ul_min_mg": 15.0,
+      "ki_uM": [
+        1000000000000.0,
+        1000000000000.0,
+        1000000000000.0
+      ],
+      "kinact_h": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "KI_uM": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "role": "assumed near-zero CYP-inhibition control; no clinical exclusion claim",
+      "evidence": "synthetic_scenario",
+      "ka_h": 1.0,
+      "fa": 0.9,
+      "fg": 1.0,
+      "gfr_l_h": 7.5,
+      "qgut_l_h": 18.0,
+      "fu_gut": 1.0
+    }
+  ]
+}

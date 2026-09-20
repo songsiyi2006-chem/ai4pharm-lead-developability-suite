@@ -1,0 +1,139 @@
+entity,parameter,isoform,value,evidence,source,limitation
+Ketoconazole,mw_g_mol,,531.43,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,dose_mg,,200.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,fu_p,,0.04,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,clint_mic_ul_min_mg,,12.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,ki_uM,CYP3A4,0.03,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,ki_uM,CYP2D6,8.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,ki_uM,CYP2C9,8.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,kinact_h,CYP3A4,0.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,kinact_h,CYP2D6,0.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,kinact_h,CYP2C9,0.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,KI_uM,CYP3A4,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,KI_uM,CYP2D6,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,KI_uM,CYP2C9,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,ka_h,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,fa,,0.9,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,fg,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,gfr_l_h,,7.5,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,qgut_l_h,,18.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ketoconazole,fu_gut,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,mw_g_mol,,747.95,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,dose_mg,,500.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,fu_p,,0.15,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,clint_mic_ul_min_mg,,25.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,ki_uM,CYP3A4,8.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,ki_uM,CYP2D6,80.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,ki_uM,CYP2C9,80.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,kinact_h,CYP3A4,0.45,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,kinact_h,CYP2D6,0.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,kinact_h,CYP2C9,0.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,KI_uM,CYP3A4,2.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,KI_uM,CYP2D6,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,KI_uM,CYP2C9,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,ka_h,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,fa,,0.9,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,fg,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,gfr_l_h,,7.5,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,qgut_l_h,,18.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Clarithromycin,fu_gut,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,mw_g_mol,,720.94,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,dose_mg,,100.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,fu_p,,0.02,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,clint_mic_ul_min_mg,,15.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,ki_uM,CYP3A4,0.025,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,ki_uM,CYP2D6,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,ki_uM,CYP2C9,20.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,kinact_h,CYP3A4,0.8,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,kinact_h,CYP2D6,0.02,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,kinact_h,CYP2C9,0.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,KI_uM,CYP3A4,0.15,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,KI_uM,CYP2D6,3.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,KI_uM,CYP2C9,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,ka_h,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,fa,,0.9,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,fg,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,gfr_l_h,,7.5,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,qgut_l_h,,18.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Ritonavir,fu_gut,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,mw_g_mol,,306.27,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,dose_mg,,100.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,fu_p,,0.2,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,clint_mic_ul_min_mg,,10.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,ki_uM,CYP3A4,2.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,ki_uM,CYP2D6,30.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,ki_uM,CYP2C9,0.5,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,kinact_h,CYP3A4,0.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,kinact_h,CYP2D6,0.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,kinact_h,CYP2C9,0.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,KI_uM,CYP3A4,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,KI_uM,CYP2D6,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,KI_uM,CYP2C9,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,ka_h,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,fa,,0.9,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,fg,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,gfr_l_h,,7.5,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,qgut_l_h,,18.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Fluconazole,fu_gut,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,mw_g_mol,,324.42,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,dose_mg,,200.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,fu_p,,0.15,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,clint_mic_ul_min_mg,,25.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,ki_uM,CYP3A4,15.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,ki_uM,CYP2D6,0.02,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,ki_uM,CYP2C9,30.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,kinact_h,CYP3A4,0.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,kinact_h,CYP2D6,0.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,kinact_h,CYP2C9,0.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,KI_uM,CYP3A4,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,KI_uM,CYP2D6,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,KI_uM,CYP2C9,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,ka_h,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,fa,,0.9,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,fg,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,gfr_l_h,,7.5,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,qgut_l_h,,18.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Quinidine,fu_gut,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,mw_g_mol,,365.4,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,dose_mg,,250.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,fu_p,,0.2,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,clint_mic_ul_min_mg,,15.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,ki_uM,CYP3A4,1000000000000.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,ki_uM,CYP2D6,1000000000000.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,ki_uM,CYP2C9,1000000000000.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,kinact_h,CYP3A4,0.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,kinact_h,CYP2D6,0.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,kinact_h,CYP2C9,0.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,KI_uM,CYP3A4,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,KI_uM,CYP2D6,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,KI_uM,CYP2C9,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,ka_h,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,fa,,0.9,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,fg,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,gfr_l_h,,7.5,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,qgut_l_h,,18.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Amoxicillin,fu_gut,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,Drug name does not validate this numeric value
+Midazolam,dose_mg,,2.0,user_specified,user_task_prompt,No clinical PK calibration
+Midazolam,mw_g_mol,,325.77,synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+Midazolam,fu_p,,0.05,synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+Midazolam,clint_mic_ul_min_mg,,150.0,synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+Midazolam,ka_h,,1.5,synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+Midazolam,fa,,0.95,synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+Midazolam,fg,,0.5,synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+Midazolam,hepatic_intrinsic_fractions,,"[0.9, 0.0, 0.0]",synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+Midazolam,gut_fractions,,"[1.0, 0.0, 0.0]",synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+Metoprolol,dose_mg,,50.0,user_specified,user_task_prompt,No clinical PK calibration
+Metoprolol,mw_g_mol,,267.37,synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+Metoprolol,fu_p,,0.2,synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+Metoprolol,clint_mic_ul_min_mg,,100.0,synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+Metoprolol,ka_h,,1.2,synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+Metoprolol,fa,,0.95,synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+Metoprolol,fg,,1.0,synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+Metoprolol,hepatic_intrinsic_fractions,,"[0.0, 0.9, 0.0]",synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+Metoprolol,gut_fractions,,"[0.0, 0.0, 0.0]",synthetic_scenario_assumption,analyst_defined_not_extracted,No clinical PK calibration
+enzyme,hepatic_kdeg_h,CYP3A4,0.019,user_example_assumption,user_task_prompt,Not individually measured turnover
+enzyme,gut_kdeg_h,CYP3A4,0.03,synthetic_scenario_assumption,analyst_defined_not_extracted,Not individually measured turnover
+enzyme,hepatic_kdeg_h,CYP2D6,0.025,synthetic_scenario_assumption,analyst_defined_not_extracted,Not individually measured turnover
+enzyme,gut_kdeg_h,CYP2D6,0.04,synthetic_scenario_assumption,analyst_defined_not_extracted,Not individually measured turnover
+enzyme,hepatic_kdeg_h,CYP2C9,0.02,synthetic_scenario_assumption,analyst_defined_not_extracted,Not individually measured turnover
+enzyme,gut_kdeg_h,CYP2C9,0.03,synthetic_scenario_assumption,analyst_defined_not_extracted,Not individually measured turnover

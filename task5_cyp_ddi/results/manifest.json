@@ -1,0 +1,24 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "basic_regulatory_screen.csv": "d07cba14771f29c07e70a8ae94e2b589235a91efb2bc002def5f6e0cd77a5cf6",
+    "conditional_risk_grid.csv": "499e93d0cc6308f92b45f79e5d5105e115849d2e71cf59a6a910cab50bef3480",
+    "dynamic_static_comparison.csv": "2ad7c855cd7eb9b892db6cf0f3cbd14f4bdf4e3fea9a7c68e3f59bc3eae85303",
+    "enzyme_and_inhibitor_trajectories.csv": "8528cace2931eedb0e52a8702054c3cb39bf3f5b405541cf29dcf527816125ab",
+    "figures_task5/fig1_cyp_inactivation_curves.png": "5b33fdccd550e133cba1a981f66af97a414106410ccdb4ede495d3cae7d4ef4f",
+    "figures_task5/fig2_dynamic_ddi_midazolam_pk.png": "aa0cb8c4285d5ddbac158ddb8b9509d3b69f12c185529e20629baed4a507f390",
+    "figures_task5/fig3_fda_ddi_risk_heatmap.png": "2b41ec0c807ac19275e217fa5c205d3ff33edc863a3211d10184ca6e51673cfe",
+    "figures_task5/fig4_cyp3a4_resynthesis_timeline.png": "c2d2e9847c1dcf4df028cc5b761f257c739e29152fd30ff6402d30a7e09b0f9d",
+    "literature_parameter_reference.csv": "6a7b92ab07986b275a750e138c57d0e2af1c85441bbde59efb378954e77c5dc7",
+    "literature_parameter_response.csv": "8a0cc465b87e099bf3c8691d782d17c9430f1cddf93d593875bce43e8d5e75b3",
+    "parameter_provenance.csv": "8db32b301d4a786a9426476e7a96dbb1ed2c65f5f1af3845fd2117ae8f826f9f",
+    "parameters_used.json": "6ef49353f04580fa960f09f5f0206e5db156e7ff8fe690f8d34cd2af2e58b650",
+    "probe_pk_curves.csv": "1e06e9a5284ccbbd93ba849ab3c60d981d18a51d35134ccb19dc1989434e3dca",
+    "results_summary.json": "dac2c343a317c282744609fcd6d4cd2e1c9119048306c3900295e53cbd06d193",
+    "sources.json": "5434f680827a47a99f3834f8710adc6a358c59baebfb1576c66fa21830ddd4d8",
+    "synthetic_kinetic_recovery.csv": "294ef1865147592dd5f5d1e99e317ce9ab2433a6e35eb79c87856373919e97f7",
+    "synthetic_preincubation.csv": "fafb53711edd48670a19a8d9c1fa0747762ab877f773d8a8d79c0615973c6c63",
+    "turnover_sensitivity.csv": "454b04417a8e13fcd52a77adcaa1c2aaf9f5289683180f8d0e3e36f962aea97b",
+    "washout_recovery.csv": "a3e65f7ab27bb6c2c4d7845667ce33cb5f26a6727b8889e91cc088b5c067eaec"
+  }
+}

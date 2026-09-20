@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 6.471457799983909,
+  "arm_integration": [
+    {
+      "arm": "Vehicle",
+      "n": 50,
+      "nfev": 2320,
+      "elapsed_seconds": 0.2376726999937091
+    },
+    {
+      "arm": "Targeted",
+      "n": 50,
+      "nfev": 3142,
+      "elapsed_seconds": 0.3153071000124328
+    },
+    {
+      "arm": "Anti-PD-1",
+      "n": 50,
+      "nfev": 2368,
+      "elapsed_seconds": 0.2367219000007026
+    },
+    {
+      "arm": "Combination",
+      "n": 50,
+      "nfev": 3172,
+      "elapsed_seconds": 0.3077754999976605
+    }
+  ],
+  "python": "3.12.14",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "matplotlib": "3.11.1"
+}

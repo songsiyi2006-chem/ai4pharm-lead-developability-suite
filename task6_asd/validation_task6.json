@@ -1,0 +1,51 @@
+{
+  "test_count": 14,
+  "test_result": "passed",
+  "command": "python task6_asd/run_task6_asd_formulation_supersaturation_kinetics.py --self-test",
+  "config_roundtrip": "exported configuration ingested by final full run; example identical",
+  "generated_hashes_verified": 14,
+  "script_hash_verified": true,
+  "figures": [
+    {
+      "width": 4800,
+      "height": 2400,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "file": "figures_task6/fig1_flory_huggins_miscibility_phase_diagram.png",
+      "visual_review": "all panels inspected; readable labels; no clipping"
+    },
+    {
+      "width": 3600,
+      "height": 1500,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "file": "figures_task6/fig2_gordon_taylor_tg_depression.png",
+      "visual_review": "all panels inspected; readable labels; no clipping"
+    },
+    {
+      "width": 3600,
+      "height": 1500,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "file": "figures_task6/fig3_spring_and_parachute_dissolution.png",
+      "visual_review": "all panels inspected; readable labels; no clipping"
+    },
+    {
+      "width": 3600,
+      "height": 1500,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "file": "figures_task6/fig4_polymeric_precipitation_inhibition_efficiency.png",
+      "visual_review": "all panels inspected; readable labels; no clipping"
+    }
+  ],
+  "scope": "numerical implementation checks, not scientific parameter or clinical validation"
+}

@@ -1,0 +1,37 @@
+{
+  "access_date": "2026-09-20",
+  "sources": [
+    {
+      "id": "FDA_M12_2024",
+      "url": "https://www.fda.gov/media/161199/download",
+      "supports": "basic screens and inhibition-only mechanistic static model; not numeric compound inputs"
+    },
+    {
+      "id": "FDA_CYP_TABLE",
+      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers",
+      "supports": "qualitative inhibitor/substrate examples; no numeric Ki or PK values inferred"
+    },
+    {
+      "id": "Quinney2010",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2812061/",
+      "doi": "10.1124/dmd.109.028746",
+      "supports": "Table 2 published clarithromycin model estimates; separate transfer-function calculation"
+    },
+    {
+      "id": "Rock2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25274602/",
+      "doi": "10.1124/mol.114.094862",
+      "supports": "experimental ritonavir-derived CYP3A4 apoprotein Lys257 adduct"
+    },
+    {
+      "id": "Lin2013",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3781371/",
+      "supports": "ritonavir heme alteration in a reconstituted enzyme system"
+    },
+    {
+      "id": "Bergamottin2012",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3336797/",
+      "supports": "furan bioactivation and CYP3A4 covalent residue modification"
+    }
+  ]
+}

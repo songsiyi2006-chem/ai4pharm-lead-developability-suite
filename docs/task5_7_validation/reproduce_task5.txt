@@ -1,0 +1,42 @@
+Computing Ketoconazole
+Computing Clarithromycin
+Computing Ritonavir
+Computing Fluconazole
+Computing Quinidine
+Computing Amoxicillin
+Computing numerical sensitivity and turnover scenarios
+{
+  "evidence": "executed_synthetic_mechanistic_scenarios_not_clinical_predictions",
+  "compounds": 6,
+  "isoforms": [
+    "CYP3A4",
+    "CYP2D6",
+    "CYP2C9"
+  ],
+  "dose_count": 28,
+  "main_probe_comparisons": 24,
+  "washout_entries": 36,
+  "main_perpetrator_mass_error_mg": 2.5826727778621716e-07,
+  "max_probe_mass_error_mg": 3.114875823939656e-08,
+  "max_probe_residual_fraction": 4.931049664896479e-15,
+  "tighter_solver_clarithromycin_midazolam_auc_relative_change": 8.60117331802357e-08,
+  "task4_derivative_imported": true,
+  "task4_sha256": "b4b184d3ec87f3b45c5a67e728dd628494c64d8a9e20e31c58c3e6b73ae1f62e",
+  "script_sha256": "7cd78780cce049ca331d2a52430df8674d12cb9b28bdc57bd39104ac1512d09b",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1"
+  },
+  "limits": [
+    "No measured numeric compound input or fitted clinical PK",
+    "No self-inhibition, induction, inhibitory metabolites or transporter kinetics",
+    "Gut concentration is a flow-based proxy, not a new validated gut-wall model",
+    "Two probes are independent hypothetical administrations, not a validated cocktail",
+    "Day 14 is not automatically claimed to be steady state",
+    "AUC is finite horizon, with residual drug fractions reported",
+    "Recovery is enzyme abundance, not combined reversible-inhibition clearance recovery",
+    "Basic screens are not AUCR and no below-cutoff result is a clinical safety claim"
+  ]
+}

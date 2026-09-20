@@ -1,0 +1,3 @@
+compound,true_kinact_h,fit_kinact_h,true_KI_uM,fit_KI_uM,evidence
+Clarithromycin,0.45,0.449999999999992,2.0,1.9999999999998355,noise_free_parameter_recovery_not_measurement
+Ritonavir,0.8,0.7999999999999997,0.15,0.14999999999999988,noise_free_parameter_recovery_not_measurement

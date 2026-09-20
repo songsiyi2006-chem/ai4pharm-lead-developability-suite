@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "low-dose QSSA slope",
+    "saturating kinact",
+    "GSH half-life",
+    "protein half-life versus mean lifetime",
+    "reversible washout analytic limit",
+    "bound-state mean first passage"
+  ]
+}
