@@ -1,0 +1,2868 @@
+{
+  "validator": "validate_task8_10_delivery",
+  "scope": "Requested files, source syntax, figure metadata, links and SHA256; not scientific validation",
+  "projects": [
+    {
+      "project": "task08_adc",
+      "required_files": [
+        {
+          "path": "projects/task08_adc/README.md",
+          "sha256": "00351aad154ffe4c50329f7330df44f3215dd5c612491c09529b170deba20457"
+        },
+        {
+          "path": "projects/task08_adc/TASK.md",
+          "sha256": "490c30309762bcdc4c9bed25a8453cfd27d4aed822b5957380557941172df2cf"
+        },
+        {
+          "path": "projects/task08_adc/run_task8_adc_dar_cleavage_bystander_dynamics.py",
+          "sha256": "47df7fcaf4a16a54f6de711ee5224eedce825ab311a79539b96132a0a81c3fe5"
+        },
+        {
+          "path": "projects/task08_adc/manifest.json",
+          "sha256": "91e61514c0e0075dd15a7555e5479d46418ebfd8a6945097d77d299c3e7aee7b"
+        },
+        {
+          "path": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md",
+          "sha256": "aca8fbfd2b603d21271822bbdae8c87dcbbada409a9d8a5bec04bc87f2894e32"
+        },
+        {
+          "path": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md",
+          "sha256": "4961906e561794c78784467abe29f9537ec103fb10ac99a79379c856185dfb79"
+        },
+        {
+          "path": "projects/task08_adc/figures_task8/fig1_adc_conjugation_dar_distribution.png",
+          "sha256": "d23cfa65dcc766a825023e6e9a81a53b18cddff11971e17da63e556b701c069f"
+        },
+        {
+          "path": "projects/task08_adc/figures_task8/fig2_analytical_hic_chromatogram_twin.png",
+          "sha256": "688a30eff28098e86228eb6e11c2d2e92c6fca49302521162cf16047f3d760d4"
+        },
+        {
+          "path": "projects/task08_adc/figures_task8/fig3_intracellular_lysosomal_release_ode.png",
+          "sha256": "042ad94fdedebf19505e13f57c1a16fa0e4b2374d85cb32cb4e46fe963834917"
+        },
+        {
+          "path": "projects/task08_adc/figures_task8/fig4_bystander_killing_spatiotemporal_contour.png",
+          "sha256": "d1ca556b6ebb793d4cbe489f22a9d46b95590dcb47bb2571511edd70da86b966"
+        }
+      ],
+      "numerical_data_files": [
+        "projects/task08_adc/data/cell_trafficking.csv",
+        "projects/task08_adc/data/dar_timecourses.csv",
+        "projects/task08_adc/data/gillespie_replicates.csv",
+        "projects/task08_adc/data/hic_chromatogram.csv",
+        "projects/task08_adc/data/radial_timecourses.csv",
+        "projects/task08_adc/data/tissue_mass_ledger.csv",
+        "projects/task08_adc/parameter_provenance.csv"
+      ]
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "required_files": [
+        {
+          "path": "projects/task09_cryoem_allostery/README.md",
+          "sha256": "cb8cf7ab0436e72149859031190732b5ea34b63d957d02e0c32e1da7d5790c90"
+        },
+        {
+          "path": "projects/task09_cryoem_allostery/TASK.md",
+          "sha256": "78eabe18cecad8e7a80d6d84c5a14d31bc8f741180c8d90cb8e0ad8aaa6c367b"
+        },
+        {
+          "path": "projects/task09_cryoem_allostery/run_task9_cryoem_cryptic_pocket_allostery.py",
+          "sha256": "14d244eceb5a44fa5e80562f5891fee623859cb89e22eaf065a6daffe606b759"
+        },
+        {
+          "path": "projects/task09_cryoem_allostery/manifest.json",
+          "sha256": "56892d7d96459975541cb5ba0b56ba540d15b2d619a60ece712fccfdfa42e330"
+        },
+        {
+          "path": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+          "sha256": "c3727924e84ce22dfe51a5077f32cce31582cfc96ec9f43b23738174b1e3fc9a"
+        },
+        {
+          "path": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+          "sha256": "17ea509320429a53995d02d0b7eb84c3658b4581c54de45591294c4c11cb0f43"
+        },
+        {
+          "path": "projects/task09_cryoem_allostery/figures_task9/fig1_cryoem_latent_conformational_manifold.png",
+          "sha256": "e7660b913c87e91e0bbbb8b6f8e32d6be42ec308194fb2734caf6ce97d3085a1"
+        },
+        {
+          "path": "projects/task09_cryoem_allostery/figures_task9/fig2_msm_free_energy_pathway.png",
+          "sha256": "33e24c6afebdbbd4eb8204419c9c4d4ae49c4df0d074ed0841b5a77bfcb19786"
+        },
+        {
+          "path": "projects/task09_cryoem_allostery/figures_task9/fig3_dynamic_pocket_volume_druggability.png",
+          "sha256": "28e64a59ca9288a3f763e32dbfc2e8ce5b41569e54589f4796992fe2476bb952"
+        },
+        {
+          "path": "projects/task09_cryoem_allostery/figures_task9/fig4_prs_allosteric_network_matrix.png",
+          "sha256": "41ec311e6bf6a5da96ddb43bd13c0758fdc801e54e6d128d0d1db2f883709acc"
+        }
+      ],
+      "numerical_data_files": [
+        "projects/task09_cryoem_allostery/results/allosteric_path.csv",
+        "projects/task09_cryoem_allostery/results/anm_prs.npz",
+        "projects/task09_cryoem_allostery/results/conformer_latent_trajectory.csv",
+        "projects/task09_cryoem_allostery/results/msm_bootstrap.csv",
+        "projects/task09_cryoem_allostery/results/pocket_geometry.csv",
+        "projects/task09_cryoem_allostery/results/synthetic_conformers.npz",
+        "projects/task09_cryoem_allostery/results/synthetic_density_maps.npz"
+      ]
+    },
+    {
+      "project": "task10_rna_splicing",
+      "required_files": [
+        {
+          "path": "projects/task10_rna_splicing/README.md",
+          "sha256": "668f4a2c060954f8c07bb9031b9c177734040fa1f0f26ddccc80b43225439197"
+        },
+        {
+          "path": "projects/task10_rna_splicing/TASK.md",
+          "sha256": "badeea1ef1cb153c21ecea08aa64a56ed8ad7a93d762066f59be0334ec00dcfd"
+        },
+        {
+          "path": "projects/task10_rna_splicing/run_task10_rna_targeted_small_molecule_dynamics.py",
+          "sha256": "77f6662ec2dc2d835c9cdde393af74097cd563bb3925fcc7174d8cc8630ae881"
+        },
+        {
+          "path": "projects/task10_rna_splicing/manifest.json",
+          "sha256": "055b03f0f48894de9748bfc78aa3209db3223e911b0d953425b50b8029b4bbfa"
+        },
+        {
+          "path": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_ZH.md",
+          "sha256": "2065a1f6edb1180af2d2301bc9c6f8215bba5967d7a8d812003e3e5f369beedd"
+        },
+        {
+          "path": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_EN.md",
+          "sha256": "2f6342f313802d57a9fecde7e831eb4990c0ed060469d1f2b11a15f44d4ae64d"
+        },
+        {
+          "path": "projects/task10_rna_splicing/figures_task10/fig1_rna_secondary_basepair_entropy_map.png",
+          "sha256": "2be1ae05854e6081b4c6b1f7b494c98da7791ace46c21765cc185de553190910"
+        },
+        {
+          "path": "projects/task10_rna_splicing/figures_task10/fig2_rna_3d_groove_electrostatic_cleft.png",
+          "sha256": "492ac4d8f176fd7e829d410257451e007c66ace8316f1584b085a5a8cb975875"
+        },
+        {
+          "path": "projects/task10_rna_splicing/figures_task10/fig3_coupled_thermodynamic_binding_cycle.png",
+          "sha256": "52cf4e66cbba8b6f2b4f1d62f9f5cecb6a15a8dd2992eea794f30d6a993db8cf"
+        },
+        {
+          "path": "projects/task10_rna_splicing/figures_task10/fig4_alternative_splicing_exon_inclusion.png",
+          "sha256": "07990c90c87f4c34dc0fdd51ff66258daf43d2a57ceac37e0bdd06eb9c888dcd"
+        }
+      ],
+      "numerical_data_files": [
+        "projects/task10_rna_splicing/results/assumption_sensitivity.csv",
+        "projects/task10_rna_splicing/results/base_edge_annotations.csv",
+        "projects/task10_rna_splicing/results/bpp_WT_model_20C.csv",
+        "projects/task10_rna_splicing/results/bpp_WT_model_25C.csv",
+        "projects/task10_rna_splicing/results/bpp_WT_model_30C.csv",
+        "projects/task10_rna_splicing/results/bpp_WT_model_37C.csv",
+        "projects/task10_rna_splicing/results/bpp_WT_model_42C.csv",
+        "projects/task10_rna_splicing/results/bpp_WT_model_50C.csv",
+        "projects/task10_rna_splicing/results/bpp_WT_model_60C.csv",
+        "projects/task10_rna_splicing/results/bpp_mutant_model_20C.csv",
+        "projects/task10_rna_splicing/results/bpp_mutant_model_25C.csv",
+        "projects/task10_rna_splicing/results/bpp_mutant_model_30C.csv",
+        "projects/task10_rna_splicing/results/bpp_mutant_model_37C.csv",
+        "projects/task10_rna_splicing/results/bpp_mutant_model_42C.csv",
+        "projects/task10_rna_splicing/results/bpp_mutant_model_50C.csv",
+        "projects/task10_rna_splicing/results/bpp_mutant_model_60C.csv",
+        "projects/task10_rna_splicing/results/bulge_stacking_geometry.csv",
+        "projects/task10_rna_splicing/results/groove_geometry.csv",
+        "projects/task10_rna_splicing/results/secondary_position_statistics.csv",
+        "projects/task10_rna_splicing/results/splicing_mass_action.csv",
+        "projects/task10_rna_splicing/results/thermodynamic_cycles.csv"
+      ]
+    }
+  ],
+  "figure_metadata": [
+    {
+      "path": "projects/task08_adc/figures_task8/fig1_adc_conjugation_dar_distribution.png",
+      "sha256": "d23cfa65dcc766a825023e6e9a81a53b18cddff11971e17da63e556b701c069f",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        3600,
+        1440
+      ]
+    },
+    {
+      "path": "projects/task08_adc/figures_task8/fig2_analytical_hic_chromatogram_twin.png",
+      "sha256": "688a30eff28098e86228eb6e11c2d2e92c6fca49302521162cf16047f3d760d4",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        3600,
+        1440
+      ]
+    },
+    {
+      "path": "projects/task08_adc/figures_task8/fig3_intracellular_lysosomal_release_ode.png",
+      "sha256": "042ad94fdedebf19505e13f57c1a16fa0e4b2374d85cb32cb4e46fe963834917",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        3600,
+        2400
+      ]
+    },
+    {
+      "path": "projects/task08_adc/figures_task8/fig4_bystander_killing_spatiotemporal_contour.png",
+      "sha256": "d1ca556b6ebb793d4cbe489f22a9d46b95590dcb47bb2571511edd70da86b966",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        3600,
+        2400
+      ]
+    },
+    {
+      "path": "projects/task09_cryoem_allostery/figures_task9/fig1_cryoem_latent_conformational_manifold.png",
+      "sha256": "e7660b913c87e91e0bbbb8b6f8e32d6be42ec308194fb2734caf6ce97d3085a1",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        3590,
+        2396
+      ]
+    },
+    {
+      "path": "projects/task09_cryoem_allostery/figures_task9/fig2_msm_free_energy_pathway.png",
+      "sha256": "33e24c6afebdbbd4eb8204419c9c4d4ae49c4df0d074ed0841b5a77bfcb19786",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        4200,
+        1455
+      ]
+    },
+    {
+      "path": "projects/task09_cryoem_allostery/figures_task9/fig3_dynamic_pocket_volume_druggability.png",
+      "sha256": "28e64a59ca9288a3f763e32dbfc2e8ce5b41569e54589f4796992fe2476bb952",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        3600,
+        2399
+      ]
+    },
+    {
+      "path": "projects/task09_cryoem_allostery/figures_task9/fig4_prs_allosteric_network_matrix.png",
+      "sha256": "41ec311e6bf6a5da96ddb43bd13c0758fdc801e54e6d128d0d1db2f883709acc",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        3786,
+        1763
+      ]
+    },
+    {
+      "path": "projects/task10_rna_splicing/figures_task10/fig1_rna_secondary_basepair_entropy_map.png",
+      "sha256": "2be1ae05854e6081b4c6b1f7b494c98da7791ace46c21765cc185de553190910",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        3600,
+        1440
+      ]
+    },
+    {
+      "path": "projects/task10_rna_splicing/figures_task10/fig2_rna_3d_groove_electrostatic_cleft.png",
+      "sha256": "492ac4d8f176fd7e829d410257451e007c66ace8316f1584b085a5a8cb975875",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        3900,
+        2400
+      ]
+    },
+    {
+      "path": "projects/task10_rna_splicing/figures_task10/fig3_coupled_thermodynamic_binding_cycle.png",
+      "sha256": "52cf4e66cbba8b6f2b4f1d62f9f5cecb6a15a8dd2992eea794f30d6a993db8cf",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        3600,
+        1500
+      ]
+    },
+    {
+      "path": "projects/task10_rna_splicing/figures_task10/fig4_alternative_splicing_exon_inclusion.png",
+      "sha256": "07990c90c87f4c34dc0fdd51ff66258daf43d2a57ceac37e0bdd06eb9c888dcd",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        3600,
+        1500
+      ]
+    }
+  ],
+  "manifests": [
+    {
+      "project": "task08_adc",
+      "manifest": "projects/task08_adc/manifest.json",
+      "artifact_hashes_checked": 23,
+      "current_source_hashes_checked": 1
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "manifest": "projects/task09_cryoem_allostery/manifest.json",
+      "artifact_hashes_checked": 29,
+      "current_source_hashes_checked": 1
+    },
+    {
+      "project": "task10_rna_splicing",
+      "manifest": "projects/task10_rna_splicing/manifest.json",
+      "artifact_hashes_checked": 40,
+      "current_source_hashes_checked": 1
+    }
+  ],
+  "markdown": {
+    "documents_checked": [
+      "README.md",
+      "docs/README.md",
+      "docs/REPOSITORY_LAYOUT.md",
+      "docs/SCIENTIFIC_NOTES.md",
+      "docs/TASK5_7_DELIVERY.md",
+      "docs/TASK8_10_DELIVERY.md",
+      "docs/reorganization/README.md",
+      "docs/task8_10_validation/README.md",
+      "projects/README.md",
+      "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_EN.md",
+      "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_ZH.md",
+      "projects/task01_lead_developability/MODEL_CARD.md",
+      "projects/task01_lead_developability/README.md",
+      "projects/task01_lead_developability/VALIDATION.md",
+      "projects/task01_lead_developability/data/CLINICAL_EVIDENCE.md",
+      "projects/task02_tpd/README.md",
+      "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_EN.md",
+      "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md",
+      "projects/task03_covalent_kinetics/COVALENT_DRUG_KINETICS_REPORT_EN.md",
+      "projects/task03_covalent_kinetics/COVALENT_DRUG_KINETICS_REPORT_ZH.md",
+      "projects/task03_covalent_kinetics/README.md",
+      "projects/task04_pbpk/PBPK_DOSE_PREDICTION_REPORT_EN.md",
+      "projects/task04_pbpk/PBPK_DOSE_PREDICTION_REPORT_ZH.md",
+      "projects/task04_pbpk/README.md",
+      "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_EN.md",
+      "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_ZH.md",
+      "projects/task05_cyp_ddi/README.md",
+      "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+      "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+      "projects/task06_asd/README.md",
+      "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md",
+      "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md",
+      "projects/task07_qsp/README.md",
+      "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md",
+      "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md",
+      "projects/task08_adc/README.md",
+      "projects/task08_adc/SOURCES.md",
+      "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+      "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+      "projects/task09_cryoem_allostery/README.md",
+      "projects/task10_rna_splicing/README.md",
+      "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_EN.md",
+      "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_ZH.md",
+      "projects/task10_rna_splicing/SOURCES.md"
+    ],
+    "local_links_checked": 433,
+    "links": [
+      {
+        "document": "README.md",
+        "target": "projects/task01_lead_developability/",
+        "resolved": "projects/task01_lead_developability"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_ZH.md",
+        "resolved": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_ZH.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_EN.md",
+        "resolved": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_EN.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task02_tpd/",
+        "resolved": "projects/task02_tpd"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md",
+        "resolved": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_EN.md",
+        "resolved": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_EN.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task03_covalent_kinetics/",
+        "resolved": "projects/task03_covalent_kinetics"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task03_covalent_kinetics/COVALENT_DRUG_KINETICS_REPORT_ZH.md",
+        "resolved": "projects/task03_covalent_kinetics/COVALENT_DRUG_KINETICS_REPORT_ZH.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task03_covalent_kinetics/COVALENT_DRUG_KINETICS_REPORT_EN.md",
+        "resolved": "projects/task03_covalent_kinetics/COVALENT_DRUG_KINETICS_REPORT_EN.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task04_pbpk/",
+        "resolved": "projects/task04_pbpk"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task04_pbpk/PBPK_DOSE_PREDICTION_REPORT_ZH.md",
+        "resolved": "projects/task04_pbpk/PBPK_DOSE_PREDICTION_REPORT_ZH.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task04_pbpk/PBPK_DOSE_PREDICTION_REPORT_EN.md",
+        "resolved": "projects/task04_pbpk/PBPK_DOSE_PREDICTION_REPORT_EN.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task05_cyp_ddi/",
+        "resolved": "projects/task05_cyp_ddi"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_ZH.md",
+        "resolved": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_ZH.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_EN.md",
+        "resolved": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_EN.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task06_asd/",
+        "resolved": "projects/task06_asd"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "resolved": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "resolved": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task07_qsp/",
+        "resolved": "projects/task07_qsp"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md",
+        "resolved": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md",
+        "resolved": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task08_adc/",
+        "resolved": "projects/task08_adc"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md",
+        "resolved": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md",
+        "resolved": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task09_cryoem_allostery/",
+        "resolved": "projects/task09_cryoem_allostery"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "resolved": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "resolved": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task10_rna_splicing/",
+        "resolved": "projects/task10_rna_splicing"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_ZH.md",
+        "resolved": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_ZH.md"
+      },
+      {
+        "document": "README.md",
+        "target": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_EN.md",
+        "resolved": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_EN.md"
+      },
+      {
+        "document": "README.md",
+        "target": "docs/REPOSITORY_LAYOUT.md",
+        "resolved": "docs/REPOSITORY_LAYOUT.md"
+      },
+      {
+        "document": "README.md",
+        "target": "docs/TASK5_7_DELIVERY.md",
+        "resolved": "docs/TASK5_7_DELIVERY.md"
+      },
+      {
+        "document": "README.md",
+        "target": "docs/TASK8_10_DELIVERY.md",
+        "resolved": "docs/TASK8_10_DELIVERY.md"
+      },
+      {
+        "document": "README.md",
+        "target": "docs/SCIENTIFIC_NOTES.md",
+        "resolved": "docs/SCIENTIFIC_NOTES.md"
+      },
+      {
+        "document": "README.md",
+        "target": "docs/archive/README.md",
+        "resolved": "docs/archive/README.md"
+      },
+      {
+        "document": "README.md",
+        "target": "docs/reorganization/README.md",
+        "resolved": "docs/reorganization/README.md"
+      },
+      {
+        "document": "README.md",
+        "target": "LICENSE",
+        "resolved": "LICENSE"
+      },
+      {
+        "document": "docs/README.md",
+        "target": "../README.md",
+        "resolved": "README.md"
+      },
+      {
+        "document": "docs/README.md",
+        "target": "../projects/",
+        "resolved": "projects"
+      },
+      {
+        "document": "docs/README.md",
+        "target": "REPOSITORY_LAYOUT.md",
+        "resolved": "docs/REPOSITORY_LAYOUT.md"
+      },
+      {
+        "document": "docs/README.md",
+        "target": "TASK5_7_DELIVERY.md",
+        "resolved": "docs/TASK5_7_DELIVERY.md"
+      },
+      {
+        "document": "docs/README.md",
+        "target": "TASK8_10_DELIVERY.md",
+        "resolved": "docs/TASK8_10_DELIVERY.md"
+      },
+      {
+        "document": "docs/README.md",
+        "target": "SCIENTIFIC_NOTES.md",
+        "resolved": "docs/SCIENTIFIC_NOTES.md"
+      },
+      {
+        "document": "docs/README.md",
+        "target": "reorganization/README.md",
+        "resolved": "docs/reorganization/README.md"
+      },
+      {
+        "document": "docs/README.md",
+        "target": "archive/README.md",
+        "resolved": "docs/archive/README.md"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "target": "../README.md",
+        "resolved": "README.md"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "target": "../projects/",
+        "resolved": "projects"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "target": "reorganization/README.md",
+        "resolved": "docs/reorganization/README.md"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "target": "../projects/task01_lead_developability/",
+        "resolved": "projects/task01_lead_developability"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "target": "../projects/task02_tpd/",
+        "resolved": "projects/task02_tpd"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "target": "../projects/task03_covalent_kinetics/",
+        "resolved": "projects/task03_covalent_kinetics"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "target": "../projects/task04_pbpk/",
+        "resolved": "projects/task04_pbpk"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "target": "../projects/task05_cyp_ddi/",
+        "resolved": "projects/task05_cyp_ddi"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "target": "../projects/task06_asd/",
+        "resolved": "projects/task06_asd"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "target": "../projects/task07_qsp/",
+        "resolved": "projects/task07_qsp"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "target": "../projects/task08_adc/",
+        "resolved": "projects/task08_adc"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "target": "../projects/task09_cryoem_allostery/",
+        "resolved": "projects/task09_cryoem_allostery"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "target": "../projects/task10_rna_splicing/",
+        "resolved": "projects/task10_rna_splicing"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "target": "reorganization/path_map.json",
+        "resolved": "docs/reorganization/path_map.json"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "target": "archive/README.md",
+        "resolved": "docs/archive/README.md"
+      },
+      {
+        "document": "docs/SCIENTIFIC_NOTES.md",
+        "target": "../projects/task05_cyp_ddi/TASK.md",
+        "resolved": "projects/task05_cyp_ddi/TASK.md"
+      },
+      {
+        "document": "docs/SCIENTIFIC_NOTES.md",
+        "target": "../projects/task06_asd/TASK.md",
+        "resolved": "projects/task06_asd/TASK.md"
+      },
+      {
+        "document": "docs/SCIENTIFIC_NOTES.md",
+        "target": "../projects/task07_qsp/TASK.md",
+        "resolved": "projects/task07_qsp/TASK.md"
+      },
+      {
+        "document": "docs/SCIENTIFIC_NOTES.md",
+        "target": "../projects/task08_adc/TASK.md",
+        "resolved": "projects/task08_adc/TASK.md"
+      },
+      {
+        "document": "docs/SCIENTIFIC_NOTES.md",
+        "target": "../projects/task09_cryoem_allostery/TASK.md",
+        "resolved": "projects/task09_cryoem_allostery/TASK.md"
+      },
+      {
+        "document": "docs/SCIENTIFIC_NOTES.md",
+        "target": "../projects/task10_rna_splicing/TASK.md",
+        "resolved": "projects/task10_rna_splicing/TASK.md"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "target": "../README.md",
+        "resolved": "README.md"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "target": "SCIENTIFIC_NOTES.md",
+        "resolved": "docs/SCIENTIFIC_NOTES.md"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "target": "reorganization/README.md",
+        "resolved": "docs/reorganization/README.md"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "target": "../projects/task05_cyp_ddi/",
+        "resolved": "projects/task05_cyp_ddi"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "target": "../projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_ZH.md",
+        "resolved": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_ZH.md"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "target": "../projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_EN.md",
+        "resolved": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_EN.md"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "target": "../projects/task06_asd/",
+        "resolved": "projects/task06_asd"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "target": "../projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "resolved": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "target": "../projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "resolved": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "target": "../projects/task07_qsp/",
+        "resolved": "projects/task07_qsp"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "target": "../projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md",
+        "resolved": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "target": "../projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md",
+        "resolved": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "target": "archive/task5_7_delivery_2026-09-20/validation/summary.json",
+        "resolved": "docs/archive/task5_7_delivery_2026-09-20/validation/summary.json"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "../README.md",
+        "resolved": "README.md"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "../projects/",
+        "resolved": "projects"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "SCIENTIFIC_NOTES.md",
+        "resolved": "docs/SCIENTIFIC_NOTES.md"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "../projects/task08_adc/",
+        "resolved": "projects/task08_adc"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "../projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md",
+        "resolved": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "../projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md",
+        "resolved": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "../projects/task09_cryoem_allostery/",
+        "resolved": "projects/task09_cryoem_allostery"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "../projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "resolved": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "../projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "resolved": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "../projects/task10_rna_splicing/",
+        "resolved": "projects/task10_rna_splicing"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "../projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_ZH.md",
+        "resolved": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_ZH.md"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "../projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_EN.md",
+        "resolved": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_EN.md"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "../projects/task08_adc/data/",
+        "resolved": "projects/task08_adc/data"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "../projects/task09_cryoem_allostery/results/summary.json",
+        "resolved": "projects/task09_cryoem_allostery/results/summary.json"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "../projects/task10_rna_splicing/results/results_summary.json",
+        "resolved": "projects/task10_rna_splicing/results/results_summary.json"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "target": "task8_10_validation/README.md",
+        "resolved": "docs/task8_10_validation/README.md"
+      },
+      {
+        "document": "docs/reorganization/README.md",
+        "target": "../../README.md",
+        "resolved": "README.md"
+      },
+      {
+        "document": "docs/reorganization/README.md",
+        "target": "../REPOSITORY_LAYOUT.md",
+        "resolved": "docs/REPOSITORY_LAYOUT.md"
+      },
+      {
+        "document": "docs/reorganization/README.md",
+        "target": "path_map.json",
+        "resolved": "docs/reorganization/path_map.json"
+      },
+      {
+        "document": "docs/reorganization/README.md",
+        "target": "validation.json",
+        "resolved": "docs/reorganization/validation.json"
+      },
+      {
+        "document": "docs/reorganization/README.md",
+        "target": "unittest.txt",
+        "resolved": "docs/reorganization/unittest.txt"
+      },
+      {
+        "document": "docs/reorganization/README.md",
+        "target": "layout_validation.json",
+        "resolved": "docs/reorganization/layout_validation.json"
+      },
+      {
+        "document": "docs/reorganization/README.md",
+        "target": "../../tools/validate_repository_layout.py",
+        "resolved": "tools/validate_repository_layout.py"
+      },
+      {
+        "document": "docs/reorganization/README.md",
+        "target": "../../tools/validate_task5_7_delivery.py",
+        "resolved": "tools/validate_task5_7_delivery.py"
+      },
+      {
+        "document": "docs/task8_10_validation/README.md",
+        "target": "../TASK8_10_DELIVERY.md",
+        "resolved": "docs/TASK8_10_DELIVERY.md"
+      },
+      {
+        "document": "docs/task8_10_validation/README.md",
+        "target": "../../README.md",
+        "resolved": "README.md"
+      },
+      {
+        "document": "docs/task8_10_validation/README.md",
+        "target": "summary.json",
+        "resolved": "docs/task8_10_validation/summary.json"
+      },
+      {
+        "document": "docs/task8_10_validation/README.md",
+        "target": "unittest.txt",
+        "resolved": "docs/task8_10_validation/unittest.txt"
+      },
+      {
+        "document": "docs/task8_10_validation/README.md",
+        "target": "reproductions.json",
+        "resolved": "docs/task8_10_validation/reproductions.json"
+      },
+      {
+        "document": "docs/task8_10_validation/README.md",
+        "target": "layout.json",
+        "resolved": "docs/task8_10_validation/layout.json"
+      },
+      {
+        "document": "docs/task8_10_validation/README.md",
+        "target": "delivery.json",
+        "resolved": "docs/task8_10_validation/delivery.json"
+      },
+      {
+        "document": "docs/task8_10_validation/README.md",
+        "target": "prior_artifacts.json",
+        "resolved": "docs/task8_10_validation/prior_artifacts.json"
+      },
+      {
+        "document": "docs/task8_10_validation/README.md",
+        "target": "staged_integrity.json",
+        "resolved": "docs/task8_10_validation/staged_integrity.json"
+      },
+      {
+        "document": "projects/README.md",
+        "target": "../README.md",
+        "resolved": "README.md"
+      },
+      {
+        "document": "projects/README.md",
+        "target": "task01_lead_developability/",
+        "resolved": "projects/task01_lead_developability"
+      },
+      {
+        "document": "projects/README.md",
+        "target": "task02_tpd/",
+        "resolved": "projects/task02_tpd"
+      },
+      {
+        "document": "projects/README.md",
+        "target": "task03_covalent_kinetics/",
+        "resolved": "projects/task03_covalent_kinetics"
+      },
+      {
+        "document": "projects/README.md",
+        "target": "task04_pbpk/",
+        "resolved": "projects/task04_pbpk"
+      },
+      {
+        "document": "projects/README.md",
+        "target": "task05_cyp_ddi/",
+        "resolved": "projects/task05_cyp_ddi"
+      },
+      {
+        "document": "projects/README.md",
+        "target": "task06_asd/",
+        "resolved": "projects/task06_asd"
+      },
+      {
+        "document": "projects/README.md",
+        "target": "task07_qsp/",
+        "resolved": "projects/task07_qsp"
+      },
+      {
+        "document": "projects/README.md",
+        "target": "task08_adc/",
+        "resolved": "projects/task08_adc"
+      },
+      {
+        "document": "projects/README.md",
+        "target": "task09_cryoem_allostery/",
+        "resolved": "projects/task09_cryoem_allostery"
+      },
+      {
+        "document": "projects/README.md",
+        "target": "task10_rna_splicing/",
+        "resolved": "projects/task10_rna_splicing"
+      },
+      {
+        "document": "projects/README.md",
+        "target": "../tests/",
+        "resolved": "tests"
+      },
+      {
+        "document": "projects/README.md",
+        "target": "../docs/",
+        "resolved": "docs"
+      },
+      {
+        "document": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_EN.md",
+        "target": "DEVELOPABILITY_MPO_REPORT_ZH.md",
+        "resolved": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_ZH.md"
+      },
+      {
+        "document": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_EN.md",
+        "target": "MODEL_CARD.md",
+        "resolved": "projects/task01_lead_developability/MODEL_CARD.md"
+      },
+      {
+        "document": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_EN.md",
+        "target": "results_task1/developability_results.csv",
+        "resolved": "projects/task01_lead_developability/results_task1/developability_results.csv"
+      },
+      {
+        "document": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_EN.md",
+        "target": "MODEL_CARD.md",
+        "resolved": "projects/task01_lead_developability/MODEL_CARD.md"
+      },
+      {
+        "document": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_EN.md",
+        "target": "figures_task1/fig1_mpo_distribution_violin.png",
+        "resolved": "projects/task01_lead_developability/figures_task1/fig1_mpo_distribution_violin.png"
+      },
+      {
+        "document": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_EN.md",
+        "target": "VALIDATION.md",
+        "resolved": "projects/task01_lead_developability/VALIDATION.md"
+      },
+      {
+        "document": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_ZH.md",
+        "target": "DEVELOPABILITY_MPO_REPORT_EN.md",
+        "resolved": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_EN.md"
+      },
+      {
+        "document": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_ZH.md",
+        "target": "MODEL_CARD.md",
+        "resolved": "projects/task01_lead_developability/MODEL_CARD.md"
+      },
+      {
+        "document": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_ZH.md",
+        "target": "results_task1/developability_results.csv",
+        "resolved": "projects/task01_lead_developability/results_task1/developability_results.csv"
+      },
+      {
+        "document": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_ZH.md",
+        "target": "MODEL_CARD.md",
+        "resolved": "projects/task01_lead_developability/MODEL_CARD.md"
+      },
+      {
+        "document": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_ZH.md",
+        "target": "figures_task1/fig1_mpo_distribution_violin.png",
+        "resolved": "projects/task01_lead_developability/figures_task1/fig1_mpo_distribution_violin.png"
+      },
+      {
+        "document": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_ZH.md",
+        "target": "VALIDATION.md",
+        "resolved": "projects/task01_lead_developability/VALIDATION.md"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "../../README.md",
+        "resolved": "README.md"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "run_task1_mpo_admet_developability.py",
+        "resolved": "projects/task01_lead_developability/run_task1_mpo_admet_developability.py"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "data/reference_panel.json",
+        "resolved": "projects/task01_lead_developability/data/reference_panel.json"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "data/CLINICAL_EVIDENCE.md",
+        "resolved": "projects/task01_lead_developability/data/CLINICAL_EVIDENCE.md"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "MODEL_CARD.md",
+        "resolved": "projects/task01_lead_developability/MODEL_CARD.md"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "DEVELOPABILITY_MPO_REPORT_ZH.md",
+        "resolved": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_ZH.md"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "DEVELOPABILITY_MPO_REPORT_EN.md",
+        "resolved": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_EN.md"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "results_task1/developability_results.json",
+        "resolved": "projects/task01_lead_developability/results_task1/developability_results.json"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "results_task1/developability_results.csv",
+        "resolved": "projects/task01_lead_developability/results_task1/developability_results.csv"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "results_task1/group_summary.csv",
+        "resolved": "projects/task01_lead_developability/results_task1/group_summary.csv"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "results_task1/run_manifest.json",
+        "resolved": "projects/task01_lead_developability/results_task1/run_manifest.json"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "VALIDATION.md",
+        "resolved": "projects/task01_lead_developability/VALIDATION.md"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "figures_task1/",
+        "resolved": "projects/task01_lead_developability/figures_task1"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "../../tests/test_task1.py",
+        "resolved": "tests/test_task1.py"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "../../requirements.txt",
+        "resolved": "requirements.txt"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "requirements-observed.txt",
+        "resolved": "projects/task01_lead_developability/requirements-observed.txt"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "figures_task1/fig1_mpo_distribution_violin.png",
+        "resolved": "projects/task01_lead_developability/figures_task1/fig1_mpo_distribution_violin.png"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "figures_task1/fig2_admet_radar_profiles.png",
+        "resolved": "projects/task01_lead_developability/figures_task1/fig2_admet_radar_profiles.png"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "figures_task1/fig3_bro5_chemical_space_landscape.png",
+        "resolved": "projects/task01_lead_developability/figures_task1/fig3_bro5_chemical_space_landscape.png"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "target": "../../LICENSE",
+        "resolved": "LICENSE"
+      },
+      {
+        "document": "projects/task01_lead_developability/VALIDATION.md",
+        "target": "../../tests/test_task1.py",
+        "resolved": "tests/test_task1.py"
+      },
+      {
+        "document": "projects/task01_lead_developability/VALIDATION.md",
+        "target": "results_task1/run_manifest.json",
+        "resolved": "projects/task01_lead_developability/results_task1/run_manifest.json"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "../../README.md",
+        "resolved": "README.md"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "run_task2_tpd_ternary_cooperativity.py",
+        "resolved": "projects/task02_tpd/run_task2_tpd_ternary_cooperativity.py"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "manifest_task2.json",
+        "resolved": "projects/task02_tpd/manifest_task2.json"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md",
+        "resolved": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "TPD_TERNARY_COOPERATIVITY_REPORT_EN.md",
+        "resolved": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_EN.md"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "data_task2/equilibrium_species.csv",
+        "resolved": "projects/task02_tpd/data_task2/equilibrium_species.csv"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "data_task2/equilibrium_metrics.csv",
+        "resolved": "projects/task02_tpd/data_task2/equilibrium_metrics.csv"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "data_task2/affinity_cooperativity_heatmap.csv",
+        "resolved": "projects/task02_tpd/data_task2/affinity_cooperativity_heatmap.csv"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "data_task2/degradation_timecourses.csv",
+        "resolved": "projects/task02_tpd/data_task2/degradation_timecourses.csv"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "data_task2/degradation_metrics.csv",
+        "resolved": "projects/task02_tpd/data_task2/degradation_metrics.csv"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "data_task2/synthetic_hibit_replicates.csv",
+        "resolved": "projects/task02_tpd/data_task2/synthetic_hibit_replicates.csv"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "data_task2/synthetic_western_lanes.csv",
+        "resolved": "projects/task02_tpd/data_task2/synthetic_western_lanes.csv"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "data_task2/linker_summary.csv",
+        "resolved": "projects/task02_tpd/data_task2/linker_summary.csv"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "data_task2/linker_conformers.csv",
+        "resolved": "projects/task02_tpd/data_task2/linker_conformers.csv"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "data_task2/flexible_peg_conformers.sdf",
+        "resolved": "projects/task02_tpd/data_task2/flexible_peg_conformers.sdf"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "data_task2/rigid_alkynyl_conformers.sdf",
+        "resolved": "projects/task02_tpd/data_task2/rigid_alkynyl_conformers.sdf"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "figures_task2/",
+        "resolved": "projects/task02_tpd/figures_task2"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "validation_task2.json",
+        "resolved": "projects/task02_tpd/validation_task2.json"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "../../requirements.txt",
+        "resolved": "requirements.txt"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "requirements_task2.txt",
+        "resolved": "projects/task02_tpd/requirements_task2.txt"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "figures_task2/fig1_ternary_hook_effect_curves.png",
+        "resolved": "projects/task02_tpd/figures_task2/fig1_ternary_hook_effect_curves.png"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "figures_task2/fig2_cooperativity_alpha_heatmap.png",
+        "resolved": "projects/task02_tpd/figures_task2/fig2_cooperativity_alpha_heatmap.png"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "figures_task2/fig3_linker_conformational_histogram.png",
+        "resolved": "projects/task02_tpd/figures_task2/fig3_linker_conformational_histogram.png"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "target": "figures_task2/fig4_synthetic_western_blot_hibit.png",
+        "resolved": "projects/task02_tpd/figures_task2/fig4_synthetic_western_blot_hibit.png"
+      },
+      {
+        "document": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_EN.md",
+        "target": "figures_task2/fig1_ternary_hook_effect_curves.png",
+        "resolved": "projects/task02_tpd/figures_task2/fig1_ternary_hook_effect_curves.png"
+      },
+      {
+        "document": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_EN.md",
+        "target": "figures_task2/fig2_cooperativity_alpha_heatmap.png",
+        "resolved": "projects/task02_tpd/figures_task2/fig2_cooperativity_alpha_heatmap.png"
+      },
+      {
+        "document": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_EN.md",
+        "target": "figures_task2/fig3_linker_conformational_histogram.png",
+        "resolved": "projects/task02_tpd/figures_task2/fig3_linker_conformational_histogram.png"
+      },
+      {
+        "document": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_EN.md",
+        "target": "figures_task2/fig4_synthetic_western_blot_hibit.png",
+        "resolved": "projects/task02_tpd/figures_task2/fig4_synthetic_western_blot_hibit.png"
+      },
+      {
+        "document": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md",
+        "target": "figures_task2/fig1_ternary_hook_effect_curves.png",
+        "resolved": "projects/task02_tpd/figures_task2/fig1_ternary_hook_effect_curves.png"
+      },
+      {
+        "document": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md",
+        "target": "figures_task2/fig2_cooperativity_alpha_heatmap.png",
+        "resolved": "projects/task02_tpd/figures_task2/fig2_cooperativity_alpha_heatmap.png"
+      },
+      {
+        "document": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md",
+        "target": "figures_task2/fig3_linker_conformational_histogram.png",
+        "resolved": "projects/task02_tpd/figures_task2/fig3_linker_conformational_histogram.png"
+      },
+      {
+        "document": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md",
+        "target": "figures_task2/fig4_synthetic_western_blot_hibit.png",
+        "resolved": "projects/task02_tpd/figures_task2/fig4_synthetic_western_blot_hibit.png"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/COVALENT_DRUG_KINETICS_REPORT_EN.md",
+        "target": "data_task3/parameters_template.json",
+        "resolved": "projects/task03_covalent_kinetics/data_task3/parameters_template.json"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "../../README.md",
+        "resolved": "README.md"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "run_task3_covalent_kinetics_residence_time.py",
+        "resolved": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "data_task3/parameters_template.json",
+        "resolved": "projects/task03_covalent_kinetics/data_task3/parameters_template.json"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "COVALENT_DRUG_KINETICS_REPORT_ZH.md",
+        "resolved": "projects/task03_covalent_kinetics/COVALENT_DRUG_KINETICS_REPORT_ZH.md"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "COVALENT_DRUG_KINETICS_REPORT_EN.md",
+        "resolved": "projects/task03_covalent_kinetics/COVALENT_DRUG_KINETICS_REPORT_EN.md"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "data_task3/warhead_results.csv",
+        "resolved": "projects/task03_covalent_kinetics/data_task3/warhead_results.csv"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "data_task3/residence_summary.csv",
+        "resolved": "projects/task03_covalent_kinetics/data_task3/residence_summary.csv"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "data_task3/atomic_frontier_descriptors.csv",
+        "resolved": "projects/task03_covalent_kinetics/data_task3/atomic_frontier_descriptors.csv"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "data_task3/structures/",
+        "resolved": "projects/task03_covalent_kinetics/data_task3/structures"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "data_task3/kobs_concentration.csv",
+        "resolved": "projects/task03_covalent_kinetics/data_task3/kobs_concentration.csv"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "data_task3/clamped_concentration_trajectories.csv",
+        "resolved": "projects/task03_covalent_kinetics/data_task3/clamped_concentration_trajectories.csv"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "data_task3/dynamic_drug_exposure.csv",
+        "resolved": "projects/task03_covalent_kinetics/data_task3/dynamic_drug_exposure.csv"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "data_task3/gsh_conjugation.csv",
+        "resolved": "projects/task03_covalent_kinetics/data_task3/gsh_conjugation.csv"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "data_task3/washout_trajectories.csv",
+        "resolved": "projects/task03_covalent_kinetics/data_task3/washout_trajectories.csv"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "data_task3/reduced_turnover_trajectories.csv",
+        "resolved": "projects/task03_covalent_kinetics/data_task3/reduced_turnover_trajectories.csv"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "figures_task3/",
+        "resolved": "projects/task03_covalent_kinetics/figures_task3"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "data_task3/validation.json",
+        "resolved": "projects/task03_covalent_kinetics/data_task3/validation.json"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "data_task3/run_manifest.json",
+        "resolved": "projects/task03_covalent_kinetics/data_task3/run_manifest.json"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "data_task3/lfer_regression.json",
+        "resolved": "projects/task03_covalent_kinetics/data_task3/lfer_regression.json"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "../../requirements.txt",
+        "resolved": "requirements.txt"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "figures_task3/fig1_kobs_concentration_hyperbola.png",
+        "resolved": "projects/task03_covalent_kinetics/figures_task3/fig1_kobs_concentration_hyperbola.png"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "figures_task3/fig2_target_recovery_washout.png",
+        "resolved": "projects/task03_covalent_kinetics/figures_task3/fig2_target_recovery_washout.png"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "figures_task3/fig3_gsh_reactivity_safety_radar.png",
+        "resolved": "projects/task03_covalent_kinetics/figures_task3/fig3_gsh_reactivity_safety_radar.png"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "target": "figures_task3/fig4_warhead_lumo_reactivity_correlation.png",
+        "resolved": "projects/task03_covalent_kinetics/figures_task3/fig4_warhead_lumo_reactivity_correlation.png"
+      },
+      {
+        "document": "projects/task04_pbpk/README.md",
+        "target": "../../README.md",
+        "resolved": "README.md"
+      },
+      {
+        "document": "projects/task04_pbpk/README.md",
+        "target": "../README.md",
+        "resolved": "projects/README.md"
+      },
+      {
+        "document": "projects/task04_pbpk/README.md",
+        "target": "run_task4_pbpk_pharmacokinetics_dose_prediction.py",
+        "resolved": "projects/task04_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py"
+      },
+      {
+        "document": "projects/task04_pbpk/README.md",
+        "target": "PBPK_DOSE_PREDICTION_REPORT_ZH.md",
+        "resolved": "projects/task04_pbpk/PBPK_DOSE_PREDICTION_REPORT_ZH.md"
+      },
+      {
+        "document": "projects/task04_pbpk/README.md",
+        "target": "PBPK_DOSE_PREDICTION_REPORT_EN.md",
+        "resolved": "projects/task04_pbpk/PBPK_DOSE_PREDICTION_REPORT_EN.md"
+      },
+      {
+        "document": "projects/task04_pbpk/README.md",
+        "target": "parameters_used.json",
+        "resolved": "projects/task04_pbpk/parameters_used.json"
+      },
+      {
+        "document": "projects/task04_pbpk/README.md",
+        "target": "compound_example.json",
+        "resolved": "projects/task04_pbpk/compound_example.json"
+      },
+      {
+        "document": "projects/task04_pbpk/README.md",
+        "target": "results_summary.json",
+        "resolved": "projects/task04_pbpk/results_summary.json"
+      },
+      {
+        "document": "projects/task04_pbpk/README.md",
+        "target": "verification.json",
+        "resolved": "projects/task04_pbpk/verification.json"
+      },
+      {
+        "document": "projects/task04_pbpk/README.md",
+        "target": "../task05_cyp_ddi/README.md",
+        "resolved": "projects/task05_cyp_ddi/README.md"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_EN.md",
+        "target": "results/figures_task5/fig2_dynamic_ddi_midazolam_pk.png",
+        "resolved": "projects/task05_cyp_ddi/results/figures_task5/fig2_dynamic_ddi_midazolam_pk.png"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_EN.md",
+        "target": "results/figures_task5/fig4_cyp3a4_resynthesis_timeline.png",
+        "resolved": "projects/task05_cyp_ddi/results/figures_task5/fig4_cyp3a4_resynthesis_timeline.png"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_EN.md",
+        "target": "README.md",
+        "resolved": "projects/task05_cyp_ddi/README.md"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_ZH.md",
+        "target": "results/figures_task5/fig2_dynamic_ddi_midazolam_pk.png",
+        "resolved": "projects/task05_cyp_ddi/results/figures_task5/fig2_dynamic_ddi_midazolam_pk.png"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_ZH.md",
+        "target": "results/figures_task5/fig4_cyp3a4_resynthesis_timeline.png",
+        "resolved": "projects/task05_cyp_ddi/results/figures_task5/fig4_cyp3a4_resynthesis_timeline.png"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_ZH.md",
+        "target": "README.md",
+        "resolved": "projects/task05_cyp_ddi/README.md"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "../../README.md",
+        "resolved": "README.md"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "../README.md",
+        "resolved": "projects/README.md"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "../task04_pbpk/README.md",
+        "resolved": "projects/task04_pbpk/README.md"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "TASK.md",
+        "resolved": "projects/task05_cyp_ddi/TASK.md"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "CYP_DDI_KINETICS_REPORT_ZH.md",
+        "resolved": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_ZH.md"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "CYP_DDI_KINETICS_REPORT_EN.md",
+        "resolved": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_EN.md"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "run_task5_cyp_ddi_mechanism_based_inhibition.py",
+        "resolved": "projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "compound_panel_example.json",
+        "resolved": "projects/task05_cyp_ddi/compound_panel_example.json"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "results/results_summary.json",
+        "resolved": "projects/task05_cyp_ddi/results/results_summary.json"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "results/parameter_provenance.csv",
+        "resolved": "projects/task05_cyp_ddi/results/parameter_provenance.csv"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "results/literature_parameter_reference.csv",
+        "resolved": "projects/task05_cyp_ddi/results/literature_parameter_reference.csv"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "results/literature_parameter_response.csv",
+        "resolved": "projects/task05_cyp_ddi/results/literature_parameter_response.csv"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "results/dynamic_static_comparison.csv",
+        "resolved": "projects/task05_cyp_ddi/results/dynamic_static_comparison.csv"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "results/washout_recovery.csv",
+        "resolved": "projects/task05_cyp_ddi/results/washout_recovery.csv"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "results/turnover_sensitivity.csv",
+        "resolved": "projects/task05_cyp_ddi/results/turnover_sensitivity.csv"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "results/figures_task5/",
+        "resolved": "projects/task05_cyp_ddi/results/figures_task5"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "results/sources.json",
+        "resolved": "projects/task05_cyp_ddi/results/sources.json"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "target": "results/manifest.json",
+        "resolved": "projects/task05_cyp_ddi/results/manifest.json"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "figures_task6/fig1_flory_huggins_miscibility_phase_diagram.png",
+        "resolved": "projects/task06_asd/figures_task6/fig1_flory_huggins_miscibility_phase_diagram.png"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "figures_task6/fig2_gordon_taylor_tg_depression.png",
+        "resolved": "projects/task06_asd/figures_task6/fig2_gordon_taylor_tg_depression.png"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "figures_task6/fig3_spring_and_parachute_dissolution.png",
+        "resolved": "projects/task06_asd/figures_task6/fig3_spring_and_parachute_dissolution.png"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "figures_task6/fig4_polymeric_precipitation_inhibition_efficiency.png",
+        "resolved": "projects/task06_asd/figures_task6/fig4_polymeric_precipitation_inhibition_efficiency.png"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "run_task6_asd_formulation_supersaturation_kinetics.py",
+        "resolved": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "inputs/parameters.json",
+        "resolved": "projects/task06_asd/inputs/parameters.json"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "inputs/sources.json",
+        "resolved": "projects/task06_asd/inputs/sources.json"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "results/summary.json",
+        "resolved": "projects/task06_asd/results/summary.json"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "results/phase_boundaries.csv",
+        "resolved": "projects/task06_asd/results/phase_boundaries.csv"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "results/storage_scenarios.csv",
+        "resolved": "projects/task06_asd/results/storage_scenarios.csv"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "results/concentration_mass_timeseries.csv",
+        "resolved": "projects/task06_asd/results/concentration_mass_timeseries.csv"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "results/formulation_summary.csv",
+        "resolved": "projects/task06_asd/results/formulation_summary.csv"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "results/loading_summary.csv",
+        "resolved": "projects/task06_asd/results/loading_summary.csv"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "results/sensitivity_27_scenarios.csv",
+        "resolved": "projects/task06_asd/results/sensitivity_27_scenarios.csv"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "results/solver_refinement.csv",
+        "resolved": "projects/task06_asd/results/solver_refinement.csv"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "target": "manifest.json",
+        "resolved": "projects/task06_asd/manifest.json"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "figures_task6/fig1_flory_huggins_miscibility_phase_diagram.png",
+        "resolved": "projects/task06_asd/figures_task6/fig1_flory_huggins_miscibility_phase_diagram.png"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "figures_task6/fig2_gordon_taylor_tg_depression.png",
+        "resolved": "projects/task06_asd/figures_task6/fig2_gordon_taylor_tg_depression.png"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "figures_task6/fig3_spring_and_parachute_dissolution.png",
+        "resolved": "projects/task06_asd/figures_task6/fig3_spring_and_parachute_dissolution.png"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "figures_task6/fig4_polymeric_precipitation_inhibition_efficiency.png",
+        "resolved": "projects/task06_asd/figures_task6/fig4_polymeric_precipitation_inhibition_efficiency.png"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "run_task6_asd_formulation_supersaturation_kinetics.py",
+        "resolved": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "inputs/parameters.json",
+        "resolved": "projects/task06_asd/inputs/parameters.json"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "inputs/sources.json",
+        "resolved": "projects/task06_asd/inputs/sources.json"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "results/summary.json",
+        "resolved": "projects/task06_asd/results/summary.json"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "results/phase_boundaries.csv",
+        "resolved": "projects/task06_asd/results/phase_boundaries.csv"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "results/storage_scenarios.csv",
+        "resolved": "projects/task06_asd/results/storage_scenarios.csv"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "results/concentration_mass_timeseries.csv",
+        "resolved": "projects/task06_asd/results/concentration_mass_timeseries.csv"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "results/formulation_summary.csv",
+        "resolved": "projects/task06_asd/results/formulation_summary.csv"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "results/loading_summary.csv",
+        "resolved": "projects/task06_asd/results/loading_summary.csv"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "results/sensitivity_27_scenarios.csv",
+        "resolved": "projects/task06_asd/results/sensitivity_27_scenarios.csv"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "results/solver_refinement.csv",
+        "resolved": "projects/task06_asd/results/solver_refinement.csv"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "target": "manifest.json",
+        "resolved": "projects/task06_asd/manifest.json"
+      },
+      {
+        "document": "projects/task06_asd/README.md",
+        "target": "../../README.md",
+        "resolved": "README.md"
+      },
+      {
+        "document": "projects/task06_asd/README.md",
+        "target": "../README.md",
+        "resolved": "projects/README.md"
+      },
+      {
+        "document": "projects/task06_asd/README.md",
+        "target": "TASK.md",
+        "resolved": "projects/task06_asd/TASK.md"
+      },
+      {
+        "document": "projects/task06_asd/README.md",
+        "target": "ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "resolved": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md"
+      },
+      {
+        "document": "projects/task06_asd/README.md",
+        "target": "ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "resolved": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md"
+      },
+      {
+        "document": "projects/task06_asd/README.md",
+        "target": "results/summary.json",
+        "resolved": "projects/task06_asd/results/summary.json"
+      },
+      {
+        "document": "projects/task06_asd/README.md",
+        "target": "inputs/parameters.json",
+        "resolved": "projects/task06_asd/inputs/parameters.json"
+      },
+      {
+        "document": "projects/task06_asd/README.md",
+        "target": "inputs/sources.json",
+        "resolved": "projects/task06_asd/inputs/sources.json"
+      },
+      {
+        "document": "projects/task06_asd/README.md",
+        "target": "figures_task6/",
+        "resolved": "projects/task06_asd/figures_task6"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md",
+        "target": "parameters_used.json",
+        "resolved": "projects/task07_qsp/parameters_used.json"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md",
+        "target": "results_summary.json",
+        "resolved": "projects/task07_qsp/results_summary.json"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md",
+        "target": "figures_task7/fig1_simeoni_tgi_monotherapy_vs_combo.png",
+        "resolved": "projects/task07_qsp/figures_task7/fig1_simeoni_tgi_monotherapy_vs_combo.png"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md",
+        "target": "figures_task7/fig2_ctl_immune_infiltration_dynamics.png",
+        "resolved": "projects/task07_qsp/figures_task7/fig2_ctl_immune_infiltration_dynamics.png"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md",
+        "target": "figures_task7/fig3_bliss_synergy_matrix_heatmap.png",
+        "resolved": "projects/task07_qsp/figures_task7/fig3_bliss_synergy_matrix_heatmap.png"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md",
+        "target": "figures_task7/fig4_virtual_cohort_kaplan_meier_pfs.png",
+        "resolved": "projects/task07_qsp/figures_task7/fig4_virtual_cohort_kaplan_meier_pfs.png"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md",
+        "target": "README.md",
+        "resolved": "projects/task07_qsp/README.md"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md",
+        "target": "manifest.json",
+        "resolved": "projects/task07_qsp/manifest.json"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md",
+        "target": "run_log.json",
+        "resolved": "projects/task07_qsp/run_log.json"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md",
+        "target": "parameters_used.json",
+        "resolved": "projects/task07_qsp/parameters_used.json"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md",
+        "target": "results_summary.json",
+        "resolved": "projects/task07_qsp/results_summary.json"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md",
+        "target": "figures_task7/fig1_simeoni_tgi_monotherapy_vs_combo.png",
+        "resolved": "projects/task07_qsp/figures_task7/fig1_simeoni_tgi_monotherapy_vs_combo.png"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md",
+        "target": "figures_task7/fig2_ctl_immune_infiltration_dynamics.png",
+        "resolved": "projects/task07_qsp/figures_task7/fig2_ctl_immune_infiltration_dynamics.png"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md",
+        "target": "figures_task7/fig3_bliss_synergy_matrix_heatmap.png",
+        "resolved": "projects/task07_qsp/figures_task7/fig3_bliss_synergy_matrix_heatmap.png"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md",
+        "target": "figures_task7/fig4_virtual_cohort_kaplan_meier_pfs.png",
+        "resolved": "projects/task07_qsp/figures_task7/fig4_virtual_cohort_kaplan_meier_pfs.png"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md",
+        "target": "README.md",
+        "resolved": "projects/task07_qsp/README.md"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md",
+        "target": "manifest.json",
+        "resolved": "projects/task07_qsp/manifest.json"
+      },
+      {
+        "document": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md",
+        "target": "run_log.json",
+        "resolved": "projects/task07_qsp/run_log.json"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "../../README.md",
+        "resolved": "README.md"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "../README.md",
+        "resolved": "projects/README.md"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "TASK.md",
+        "resolved": "projects/task07_qsp/TASK.md"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "run_task7_qsp_tumor_immune_pkpd_synergy.py",
+        "resolved": "projects/task07_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md",
+        "resolved": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "QSP_IMMUNO_ONCOLOGY_REPORT_EN.md",
+        "resolved": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "parameters_used.json",
+        "resolved": "projects/task07_qsp/parameters_used.json"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "sources.json",
+        "resolved": "projects/task07_qsp/sources.json"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "virtual_patients.csv",
+        "resolved": "projects/task07_qsp/virtual_patients.csv"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "trajectories.csv",
+        "resolved": "projects/task07_qsp/trajectories.csv"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "results_summary.json",
+        "resolved": "projects/task07_qsp/results_summary.json"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "survival_statistics.json",
+        "resolved": "projects/task07_qsp/survival_statistics.json"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "dose_synergy_matrix.csv",
+        "resolved": "projects/task07_qsp/dose_synergy_matrix.csv"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "bliss_timecourse.csv",
+        "resolved": "projects/task07_qsp/bliss_timecourse.csv"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "loewe_monotherapy_support.csv",
+        "resolved": "projects/task07_qsp/loewe_monotherapy_support.csv"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "pk_exposure.csv",
+        "resolved": "projects/task07_qsp/pk_exposure.csv"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "verification.json",
+        "resolved": "projects/task07_qsp/verification.json"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "run_log.json",
+        "resolved": "projects/task07_qsp/run_log.json"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "manifest.json",
+        "resolved": "projects/task07_qsp/manifest.json"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "figures_task7/",
+        "resolved": "projects/task07_qsp/figures_task7"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "target": "validation_custom_run.txt",
+        "resolved": "projects/task07_qsp/validation_custom_run.txt"
+      },
+      {
+        "document": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md",
+        "target": "SOURCES.md",
+        "resolved": "projects/task08_adc/SOURCES.md"
+      },
+      {
+        "document": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md",
+        "target": "parameter_provenance.csv",
+        "resolved": "projects/task08_adc/parameter_provenance.csv"
+      },
+      {
+        "document": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md",
+        "target": "SOURCES.md",
+        "resolved": "projects/task08_adc/SOURCES.md"
+      },
+      {
+        "document": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md",
+        "target": "data/",
+        "resolved": "projects/task08_adc/data"
+      },
+      {
+        "document": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md",
+        "target": "summary.json",
+        "resolved": "projects/task08_adc/summary.json"
+      },
+      {
+        "document": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md",
+        "target": "sensitivity.json",
+        "resolved": "projects/task08_adc/sensitivity.json"
+      },
+      {
+        "document": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md",
+        "target": "SOURCES.md",
+        "resolved": "projects/task08_adc/SOURCES.md"
+      },
+      {
+        "document": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md",
+        "target": "parameter_provenance.csv",
+        "resolved": "projects/task08_adc/parameter_provenance.csv"
+      },
+      {
+        "document": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md",
+        "target": "SOURCES.md",
+        "resolved": "projects/task08_adc/SOURCES.md"
+      },
+      {
+        "document": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md",
+        "target": "data/",
+        "resolved": "projects/task08_adc/data"
+      },
+      {
+        "document": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md",
+        "target": "summary.json",
+        "resolved": "projects/task08_adc/summary.json"
+      },
+      {
+        "document": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md",
+        "target": "sensitivity.json",
+        "resolved": "projects/task08_adc/sensitivity.json"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "TASK.md",
+        "resolved": "projects/task08_adc/TASK.md"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "run_task8_adc_dar_cleavage_bystander_dynamics.py",
+        "resolved": "projects/task08_adc/run_task8_adc_dar_cleavage_bystander_dynamics.py"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md",
+        "resolved": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md",
+        "resolved": "projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "config.json",
+        "resolved": "projects/task08_adc/config.json"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "parameter_provenance.csv",
+        "resolved": "projects/task08_adc/parameter_provenance.csv"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "SOURCES.md",
+        "resolved": "projects/task08_adc/SOURCES.md"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "summary.json",
+        "resolved": "projects/task08_adc/summary.json"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "sensitivity.json",
+        "resolved": "projects/task08_adc/sensitivity.json"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "data/",
+        "resolved": "projects/task08_adc/data"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "verification.json",
+        "resolved": "projects/task08_adc/verification.json"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "run_metadata.json",
+        "resolved": "projects/task08_adc/run_metadata.json"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "manifest.json",
+        "resolved": "projects/task08_adc/manifest.json"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "figures_task8/",
+        "resolved": "projects/task08_adc/figures_task8"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "figures_task8/fig1_adc_conjugation_dar_distribution.png",
+        "resolved": "projects/task08_adc/figures_task8/fig1_adc_conjugation_dar_distribution.png"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "figures_task8/fig2_analytical_hic_chromatogram_twin.png",
+        "resolved": "projects/task08_adc/figures_task8/fig2_analytical_hic_chromatogram_twin.png"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "figures_task8/fig3_intracellular_lysosomal_release_ode.png",
+        "resolved": "projects/task08_adc/figures_task8/fig3_intracellular_lysosomal_release_ode.png"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "target": "figures_task8/fig4_bystander_killing_spatiotemporal_contour.png",
+        "resolved": "projects/task08_adc/figures_task8/fig4_bystander_killing_spatiotemporal_contour.png"
+      },
+      {
+        "document": "projects/task08_adc/SOURCES.md",
+        "target": "config.json",
+        "resolved": "projects/task08_adc/config.json"
+      },
+      {
+        "document": "projects/task08_adc/SOURCES.md",
+        "target": "parameter_provenance.csv",
+        "resolved": "projects/task08_adc/parameter_provenance.csv"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "results/synthetic_conformers.npz",
+        "resolved": "projects/task09_cryoem_allostery/results/synthetic_conformers.npz"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "results/conformer_latent_trajectory.csv",
+        "resolved": "projects/task09_cryoem_allostery/results/conformer_latent_trajectory.csv"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "results/synthetic_density_maps.npz",
+        "resolved": "projects/task09_cryoem_allostery/results/synthetic_density_maps.npz"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "results/msm.json",
+        "resolved": "projects/task09_cryoem_allostery/results/msm.json"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "results/msm_bootstrap.csv",
+        "resolved": "projects/task09_cryoem_allostery/results/msm_bootstrap.csv"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "results/pocket_geometry.csv",
+        "resolved": "projects/task09_cryoem_allostery/results/pocket_geometry.csv"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "results/grid_convergence.json",
+        "resolved": "projects/task09_cryoem_allostery/results/grid_convergence.json"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "results/roi_sensitivity.json",
+        "resolved": "projects/task09_cryoem_allostery/results/roi_sensitivity.json"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "results/anm_prs.npz",
+        "resolved": "projects/task09_cryoem_allostery/results/anm_prs.npz"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "results/allosteric_path.csv",
+        "resolved": "projects/task09_cryoem_allostery/results/allosteric_path.csv"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "results/summary.json",
+        "resolved": "projects/task09_cryoem_allostery/results/summary.json"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "verification.json",
+        "resolved": "projects/task09_cryoem_allostery/verification.json"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "manifest.json",
+        "resolved": "projects/task09_cryoem_allostery/manifest.json"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "figures_task9/fig1_cryoem_latent_conformational_manifold.png",
+        "resolved": "projects/task09_cryoem_allostery/figures_task9/fig1_cryoem_latent_conformational_manifold.png"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "figures_task9/fig2_msm_free_energy_pathway.png",
+        "resolved": "projects/task09_cryoem_allostery/figures_task9/fig2_msm_free_energy_pathway.png"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "figures_task9/fig3_dynamic_pocket_volume_druggability.png",
+        "resolved": "projects/task09_cryoem_allostery/figures_task9/fig3_dynamic_pocket_volume_druggability.png"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "target": "figures_task9/fig4_prs_allosteric_network_matrix.png",
+        "resolved": "projects/task09_cryoem_allostery/figures_task9/fig4_prs_allosteric_network_matrix.png"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "results/synthetic_conformers.npz",
+        "resolved": "projects/task09_cryoem_allostery/results/synthetic_conformers.npz"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "results/conformer_latent_trajectory.csv",
+        "resolved": "projects/task09_cryoem_allostery/results/conformer_latent_trajectory.csv"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "results/synthetic_density_maps.npz",
+        "resolved": "projects/task09_cryoem_allostery/results/synthetic_density_maps.npz"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "results/msm.json",
+        "resolved": "projects/task09_cryoem_allostery/results/msm.json"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "results/msm_bootstrap.csv",
+        "resolved": "projects/task09_cryoem_allostery/results/msm_bootstrap.csv"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "results/pocket_geometry.csv",
+        "resolved": "projects/task09_cryoem_allostery/results/pocket_geometry.csv"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "results/grid_convergence.json",
+        "resolved": "projects/task09_cryoem_allostery/results/grid_convergence.json"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "results/roi_sensitivity.json",
+        "resolved": "projects/task09_cryoem_allostery/results/roi_sensitivity.json"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "results/anm_prs.npz",
+        "resolved": "projects/task09_cryoem_allostery/results/anm_prs.npz"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "results/allosteric_path.csv",
+        "resolved": "projects/task09_cryoem_allostery/results/allosteric_path.csv"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "results/summary.json",
+        "resolved": "projects/task09_cryoem_allostery/results/summary.json"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "verification.json",
+        "resolved": "projects/task09_cryoem_allostery/verification.json"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "manifest.json",
+        "resolved": "projects/task09_cryoem_allostery/manifest.json"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "figures_task9/fig1_cryoem_latent_conformational_manifold.png",
+        "resolved": "projects/task09_cryoem_allostery/figures_task9/fig1_cryoem_latent_conformational_manifold.png"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "figures_task9/fig2_msm_free_energy_pathway.png",
+        "resolved": "projects/task09_cryoem_allostery/figures_task9/fig2_msm_free_energy_pathway.png"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "figures_task9/fig3_dynamic_pocket_volume_druggability.png",
+        "resolved": "projects/task09_cryoem_allostery/figures_task9/fig3_dynamic_pocket_volume_druggability.png"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "target": "figures_task9/fig4_prs_allosteric_network_matrix.png",
+        "resolved": "projects/task09_cryoem_allostery/figures_task9/fig4_prs_allosteric_network_matrix.png"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/README.md",
+        "target": "../README.md",
+        "resolved": "projects/README.md"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/README.md",
+        "target": "TASK.md",
+        "resolved": "projects/task09_cryoem_allostery/TASK.md"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/README.md",
+        "target": "CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+        "resolved": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/README.md",
+        "target": "CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+        "resolved": "projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/README.md",
+        "target": "run_task9_cryoem_cryptic_pocket_allostery.py",
+        "resolved": "projects/task09_cryoem_allostery/run_task9_cryoem_cryptic_pocket_allostery.py"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/README.md",
+        "target": "inputs/",
+        "resolved": "projects/task09_cryoem_allostery/inputs"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/README.md",
+        "target": "results/",
+        "resolved": "projects/task09_cryoem_allostery/results"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/README.md",
+        "target": "figures_task9/",
+        "resolved": "projects/task09_cryoem_allostery/figures_task9"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/README.md",
+        "target": "verification.json",
+        "resolved": "projects/task09_cryoem_allostery/verification.json"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/README.md",
+        "target": "manifest.json",
+        "resolved": "projects/task09_cryoem_allostery/manifest.json"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "target": "RNA_TARGETED_CADD_REPORT_ZH.md",
+        "resolved": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_ZH.md"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "target": "RNA_TARGETED_CADD_REPORT_EN.md",
+        "resolved": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_EN.md"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "target": "run_task10_rna_targeted_small_molecule_dynamics.py",
+        "resolved": "projects/task10_rna_splicing/run_task10_rna_targeted_small_molecule_dynamics.py"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "target": "TASK.md",
+        "resolved": "projects/task10_rna_splicing/TASK.md"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "target": "SOURCES.md",
+        "resolved": "projects/task10_rna_splicing/SOURCES.md"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "target": "inputs/example_config.json",
+        "resolved": "projects/task10_rna_splicing/inputs/example_config.json"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "target": "results/results_summary.json",
+        "resolved": "projects/task10_rna_splicing/results/results_summary.json"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "target": "results/verification.json",
+        "resolved": "projects/task10_rna_splicing/results/verification.json"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "target": "figures_task10/",
+        "resolved": "projects/task10_rna_splicing/figures_task10"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "target": "manifest.json",
+        "resolved": "projects/task10_rna_splicing/manifest.json"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "target": "../README.md",
+        "resolved": "projects/README.md"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "target": "../../README.md",
+        "resolved": "README.md"
+      },
+      {
+        "document": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_EN.md",
+        "target": "figures_task10/fig1_rna_secondary_basepair_entropy_map.png",
+        "resolved": "projects/task10_rna_splicing/figures_task10/fig1_rna_secondary_basepair_entropy_map.png"
+      },
+      {
+        "document": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_EN.md",
+        "target": "figures_task10/fig2_rna_3d_groove_electrostatic_cleft.png",
+        "resolved": "projects/task10_rna_splicing/figures_task10/fig2_rna_3d_groove_electrostatic_cleft.png"
+      },
+      {
+        "document": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_EN.md",
+        "target": "figures_task10/fig3_coupled_thermodynamic_binding_cycle.png",
+        "resolved": "projects/task10_rna_splicing/figures_task10/fig3_coupled_thermodynamic_binding_cycle.png"
+      },
+      {
+        "document": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_EN.md",
+        "target": "figures_task10/fig4_alternative_splicing_exon_inclusion.png",
+        "resolved": "projects/task10_rna_splicing/figures_task10/fig4_alternative_splicing_exon_inclusion.png"
+      },
+      {
+        "document": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_EN.md",
+        "target": "README.md",
+        "resolved": "projects/task10_rna_splicing/README.md"
+      },
+      {
+        "document": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_EN.md",
+        "target": "SOURCES.md",
+        "resolved": "projects/task10_rna_splicing/SOURCES.md"
+      },
+      {
+        "document": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_EN.md",
+        "target": "results/verification.json",
+        "resolved": "projects/task10_rna_splicing/results/verification.json"
+      },
+      {
+        "document": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_ZH.md",
+        "target": "figures_task10/fig1_rna_secondary_basepair_entropy_map.png",
+        "resolved": "projects/task10_rna_splicing/figures_task10/fig1_rna_secondary_basepair_entropy_map.png"
+      },
+      {
+        "document": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_ZH.md",
+        "target": "figures_task10/fig2_rna_3d_groove_electrostatic_cleft.png",
+        "resolved": "projects/task10_rna_splicing/figures_task10/fig2_rna_3d_groove_electrostatic_cleft.png"
+      },
+      {
+        "document": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_ZH.md",
+        "target": "figures_task10/fig3_coupled_thermodynamic_binding_cycle.png",
+        "resolved": "projects/task10_rna_splicing/figures_task10/fig3_coupled_thermodynamic_binding_cycle.png"
+      },
+      {
+        "document": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_ZH.md",
+        "target": "figures_task10/fig4_alternative_splicing_exon_inclusion.png",
+        "resolved": "projects/task10_rna_splicing/figures_task10/fig4_alternative_splicing_exon_inclusion.png"
+      },
+      {
+        "document": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_ZH.md",
+        "target": "README.md",
+        "resolved": "projects/task10_rna_splicing/README.md"
+      },
+      {
+        "document": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_ZH.md",
+        "target": "SOURCES.md",
+        "resolved": "projects/task10_rna_splicing/SOURCES.md"
+      },
+      {
+        "document": "projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_ZH.md",
+        "target": "results/verification.json",
+        "resolved": "projects/task10_rna_splicing/results/verification.json"
+      },
+      {
+        "document": "projects/task10_rna_splicing/SOURCES.md",
+        "target": "inputs/example_config.json",
+        "resolved": "projects/task10_rna_splicing/inputs/example_config.json"
+      }
+    ],
+    "python_cli_script_references": [
+      {
+        "document": "README.md",
+        "script": "projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py",
+        "resolved": "projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py"
+      },
+      {
+        "document": "README.md",
+        "script": "projects/task01_lead_developability/run_task1_mpo_admet_developability.py",
+        "resolved": "projects/task01_lead_developability/run_task1_mpo_admet_developability.py"
+      },
+      {
+        "document": "README.md",
+        "script": "tools/validate_repository_layout.py",
+        "resolved": "tools/validate_repository_layout.py"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "script": "projects/task01_lead_developability/run_task1_mpo_admet_developability.py",
+        "resolved": "projects/task01_lead_developability/run_task1_mpo_admet_developability.py"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "script": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py",
+        "resolved": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "script": "projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py",
+        "resolved": "projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py"
+      },
+      {
+        "document": "docs/REPOSITORY_LAYOUT.md",
+        "script": "tools/validate_repository_layout.py",
+        "resolved": "tools/validate_repository_layout.py"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "script": "projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py",
+        "resolved": "projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "script": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py",
+        "resolved": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py"
+      },
+      {
+        "document": "docs/TASK5_7_DELIVERY.md",
+        "script": "projects/task07_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py",
+        "resolved": "projects/task07_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "script": "tools/validate_repository_layout.py",
+        "resolved": "tools/validate_repository_layout.py"
+      },
+      {
+        "document": "docs/TASK8_10_DELIVERY.md",
+        "script": "tools/validate_task8_10_delivery.py",
+        "resolved": "tools/validate_task8_10_delivery.py"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "script": "projects/task01_lead_developability/run_task1_mpo_admet_developability.py",
+        "resolved": "projects/task01_lead_developability/run_task1_mpo_admet_developability.py"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "script": "projects/task01_lead_developability/run_task1_mpo_admet_developability.py",
+        "resolved": "projects/task01_lead_developability/run_task1_mpo_admet_developability.py"
+      },
+      {
+        "document": "projects/task01_lead_developability/README.md",
+        "script": "projects/task01_lead_developability/run_task1_mpo_admet_developability.py",
+        "resolved": "projects/task01_lead_developability/run_task1_mpo_admet_developability.py"
+      },
+      {
+        "document": "projects/task01_lead_developability/VALIDATION.md",
+        "script": "projects/task01_lead_developability/run_task1_mpo_admet_developability.py",
+        "resolved": "projects/task01_lead_developability/run_task1_mpo_admet_developability.py"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "script": "projects/task02_tpd/run_task2_tpd_ternary_cooperativity.py",
+        "resolved": "projects/task02_tpd/run_task2_tpd_ternary_cooperativity.py"
+      },
+      {
+        "document": "projects/task02_tpd/README.md",
+        "script": "projects/task02_tpd/run_task2_tpd_ternary_cooperativity.py",
+        "resolved": "projects/task02_tpd/run_task2_tpd_ternary_cooperativity.py"
+      },
+      {
+        "document": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_EN.md",
+        "script": "projects/task02_tpd/run_task2_tpd_ternary_cooperativity.py",
+        "resolved": "projects/task02_tpd/run_task2_tpd_ternary_cooperativity.py"
+      },
+      {
+        "document": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md",
+        "script": "projects/task02_tpd/run_task2_tpd_ternary_cooperativity.py",
+        "resolved": "projects/task02_tpd/run_task2_tpd_ternary_cooperativity.py"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/COVALENT_DRUG_KINETICS_REPORT_EN.md",
+        "script": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py",
+        "resolved": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/COVALENT_DRUG_KINETICS_REPORT_ZH.md",
+        "script": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py",
+        "resolved": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "script": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py",
+        "resolved": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "script": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py",
+        "resolved": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "script": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py",
+        "resolved": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py"
+      },
+      {
+        "document": "projects/task03_covalent_kinetics/README.md",
+        "script": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py",
+        "resolved": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py"
+      },
+      {
+        "document": "projects/task04_pbpk/PBPK_DOSE_PREDICTION_REPORT_EN.md",
+        "script": "projects/task04_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py",
+        "resolved": "projects/task04_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py"
+      },
+      {
+        "document": "projects/task04_pbpk/PBPK_DOSE_PREDICTION_REPORT_ZH.md",
+        "script": "projects/task04_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py",
+        "resolved": "projects/task04_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py"
+      },
+      {
+        "document": "projects/task04_pbpk/README.md",
+        "script": "projects/task04_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py",
+        "resolved": "projects/task04_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py"
+      },
+      {
+        "document": "projects/task04_pbpk/README.md",
+        "script": "projects/task04_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py",
+        "resolved": "projects/task04_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py"
+      },
+      {
+        "document": "projects/task04_pbpk/README.md",
+        "script": "projects/task04_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py",
+        "resolved": "projects/task04_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "script": "projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py",
+        "resolved": "projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "script": "projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py",
+        "resolved": "projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py"
+      },
+      {
+        "document": "projects/task05_cyp_ddi/README.md",
+        "script": "projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py",
+        "resolved": "projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "script": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py",
+        "resolved": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+        "script": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py",
+        "resolved": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "script": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py",
+        "resolved": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py"
+      },
+      {
+        "document": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+        "script": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py",
+        "resolved": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py"
+      },
+      {
+        "document": "projects/task06_asd/README.md",
+        "script": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py",
+        "resolved": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py"
+      },
+      {
+        "document": "projects/task06_asd/README.md",
+        "script": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py",
+        "resolved": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py"
+      },
+      {
+        "document": "projects/task06_asd/README.md",
+        "script": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py",
+        "resolved": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py"
+      },
+      {
+        "document": "projects/task06_asd/README.md",
+        "script": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py",
+        "resolved": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "script": "projects/task07_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py",
+        "resolved": "projects/task07_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "script": "projects/task07_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py",
+        "resolved": "projects/task07_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "script": "projects/task07_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py",
+        "resolved": "projects/task07_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py"
+      },
+      {
+        "document": "projects/task07_qsp/README.md",
+        "script": "projects/task07_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py",
+        "resolved": "projects/task07_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "script": "projects/task08_adc/run_task8_adc_dar_cleavage_bystander_dynamics.py",
+        "resolved": "projects/task08_adc/run_task8_adc_dar_cleavage_bystander_dynamics.py"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "script": "projects/task08_adc/run_task8_adc_dar_cleavage_bystander_dynamics.py",
+        "resolved": "projects/task08_adc/run_task8_adc_dar_cleavage_bystander_dynamics.py"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "script": "projects/task08_adc/run_task8_adc_dar_cleavage_bystander_dynamics.py",
+        "resolved": "projects/task08_adc/run_task8_adc_dar_cleavage_bystander_dynamics.py"
+      },
+      {
+        "document": "projects/task08_adc/README.md",
+        "script": "projects/task08_adc/run_task8_adc_dar_cleavage_bystander_dynamics.py",
+        "resolved": "projects/task08_adc/run_task8_adc_dar_cleavage_bystander_dynamics.py"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/README.md",
+        "script": "projects/task09_cryoem_allostery/run_task9_cryoem_cryptic_pocket_allostery.py",
+        "resolved": "projects/task09_cryoem_allostery/run_task9_cryoem_cryptic_pocket_allostery.py"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/README.md",
+        "script": "projects/task09_cryoem_allostery/run_task9_cryoem_cryptic_pocket_allostery.py",
+        "resolved": "projects/task09_cryoem_allostery/run_task9_cryoem_cryptic_pocket_allostery.py"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/README.md",
+        "script": "projects/task09_cryoem_allostery/run_task9_cryoem_cryptic_pocket_allostery.py",
+        "resolved": "projects/task09_cryoem_allostery/run_task9_cryoem_cryptic_pocket_allostery.py"
+      },
+      {
+        "document": "projects/task09_cryoem_allostery/README.md",
+        "script": "projects/task09_cryoem_allostery/run_task9_cryoem_cryptic_pocket_allostery.py",
+        "resolved": "projects/task09_cryoem_allostery/run_task9_cryoem_cryptic_pocket_allostery.py"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "script": "projects/task10_rna_splicing/run_task10_rna_targeted_small_molecule_dynamics.py",
+        "resolved": "projects/task10_rna_splicing/run_task10_rna_targeted_small_molecule_dynamics.py"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "script": "projects/task10_rna_splicing/run_task10_rna_targeted_small_molecule_dynamics.py",
+        "resolved": "projects/task10_rna_splicing/run_task10_rna_targeted_small_molecule_dynamics.py"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "script": "projects/task10_rna_splicing/run_task10_rna_targeted_small_molecule_dynamics.py",
+        "resolved": "projects/task10_rna_splicing/run_task10_rna_targeted_small_molecule_dynamics.py"
+      },
+      {
+        "document": "projects/task10_rna_splicing/README.md",
+        "script": "projects/task10_rna_splicing/run_task10_rna_targeted_small_molecule_dynamics.py",
+        "resolved": "projects/task10_rna_splicing/run_task10_rna_targeted_small_molecule_dynamics.py"
+      }
+    ],
+    "excluded_frozen_documents": [
+      "docs/archive/README.md",
+      "docs/archive/pre_reorganization_2026-09-20/README.md",
+      "projects/task05_cyp_ddi/TASK.md",
+      "projects/task06_asd/TASK.md",
+      "projects/task07_qsp/TASK.md",
+      "projects/task08_adc/TASK.md",
+      "projects/task09_cryoem_allostery/TASK.md",
+      "projects/task10_rna_splicing/TASK.md"
+    ]
+  },
+  "status": "passed",
+  "errors": []
+}

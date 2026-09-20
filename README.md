@@ -1,6 +1,6 @@
 # AI4Pharm · Lead Developability Suite
 
-从先导化合物可开发性到制剂、体内暴露与药效的七项可复现计算项目。
+从先导化合物可开发性到制剂、体内暴露与药效的十项可复现计算项目。
 
 **先选择任务，再进入项目目录。** 每个项目的代码、输入、计算结果、图表和中英文技术报告集中保存；共享依赖、测试和维护工具统一放在根目录。
 
@@ -15,11 +15,14 @@
 | 05 · CYP 药物相互作用 | 可逆抑制、TDI、酶恢复及 Task 4 PBPK 联动 | [task05_cyp_ddi](projects/task05_cyp_ddi/) | [中文](projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_ZH.md) · [EN](projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_EN.md) |
 | 06 · ASD 制剂 | 相容性、玻璃化转变、过饱和、析晶与吸收代理 | [task06_asd](projects/task06_asd/) | [中文](projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md) · [EN](projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md) |
 | 07 · 肿瘤免疫 QSP | 四方案动态模拟、Bliss/Loewe 与配对虚拟队列 | [task07_qsp](projects/task07_qsp/) | [中文](projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md) · [EN](projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md) |
+| 08 · ADC 工程 | DAR 分布、HIC、细胞内释放与旁观者扩散 | [task08_adc](projects/task08_adc/) | [中文](projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md) · [EN](projects/task08_adc/ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md) |
+| 09 · 构象与变构 | 合成构象、模拟密度、MSM、口袋几何与 PRS | [task09_cryoem_allostery](projects/task09_cryoem_allostery/) | [中文](projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md) · [EN](projects/task09_cryoem_allostery/CRYOEM_CRYPTIC_POCKET_REPORT_EN.md) |
+| 10 · RNA 剪接 | 配分函数、NMR 几何、结合与 U1 耦合热力学 | [task10_rna_splicing](projects/task10_rna_splicing/) | [中文](projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_ZH.md) · [EN](projects/task10_rna_splicing/RNA_TARGETED_CADD_REPORT_EN.md) |
 
 ## 如何定位文件
 
 ```text
-projects/          七个项目；各自 README 是代码、数据、图表与报告的入口
+projects/          十个项目；各自 README 是代码、数据、图表与报告的入口
 docs/              目录说明、科学解释、交付记录与历史档案
 tests/             跨项目统一回归测试
 tools/             目录、链接、产物与校验和检查工具
@@ -27,7 +30,7 @@ requirements.txt   全仓库共享依赖
 .github/           持续集成配置
 ```
 
-[详细目录与迁移说明](docs/REPOSITORY_LAYOUT.md) · [Task 5–7 计算交付](docs/TASK5_7_DELIVERY.md) · [原任务中的公式与证据修正](docs/SCIENTIFIC_NOTES.md) · [历史记录](docs/archive/README.md)
+[详细目录与迁移说明](docs/REPOSITORY_LAYOUT.md) · [Task 5–7 计算交付](docs/TASK5_7_DELIVERY.md) · [Task 8–10 计算交付](docs/TASK8_10_DELIVERY.md) · [原任务中的公式与证据修正](docs/SCIENTIFIC_NOTES.md) · [历史记录](docs/archive/README.md)
 
 ## 运行与复现
 
@@ -45,6 +48,8 @@ python -m unittest discover -s tests -v
 python tools/validate_repository_layout.py --out work/layout_validation.json
 ```
 
+Task 10 使用 ViennaRNA 2.7.2 执行 RNA 最近邻热力学配分函数计算，已列入共享依赖；公开结构输入随项目保存，正常复算无需联网。
+
 各项目 README 提供完整运行命令。复算请显式指定新的 `work/` 输出目录，以保留已归档的计算。`work/` 不进入版本控制。Task 5 需要相邻 Task 4 模块，其他任务的依赖与运行限制见各自说明。
 
 ## 项目关系与证据范围
@@ -57,10 +62,16 @@ flowchart LR
     F[06 ASD 制剂] -. 待建立体内外关联 .-> D
     D --> E[05 CYP 相互作用]
     D -. 待校准暴露 .-> G
+    H[08 ADC 工程] -. 待校准组织药效 .-> G
+    I[09 构象与变构]
+    J[10 RNA 剪接]
 ```
 
 实线表示 Task 5 已实际调用 Task 4 的 PBPK 代码；虚线表示后续需要实测数据与校准的衔接方向。
 
 仓库区分文献事实、实际执行的计算、假设参数与待验证结论。多数动力学、制剂与虚拟人群参数属于明确标注的机制演示，不能视为经过验证的临床预测；Task 1 的 ADMET 代理指标也不是临床概率。本次目录调整保留原始科学数据和图表，迁移证据见 [整改记录](docs/reorganization/README.md)。
+
+
+新增任务中，公开 X 射线/NMR 结构属于结构证据；合成构象轨迹、模拟 cryo-EM 密度、DAR/扩散参数及剪接响应假设分别标注。它们不等同于实验重构、已验证成药性或临床给药窗口。
 
 Code and original documentation: [MIT License](LICENSE). Third-party sources retain their attribution. No regulatory or institutional endorsement is implied.

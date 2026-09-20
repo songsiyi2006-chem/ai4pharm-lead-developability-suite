@@ -1,0 +1,26 @@
+[
+  {
+    "parameter": "diffusion_um2_h",
+    "factor": 0.5,
+    "bystander_survival": 0.9642580682937907,
+    "threshold_radius_um": 31.25
+  },
+  {
+    "parameter": "diffusion_um2_h",
+    "factor": 2.0,
+    "bystander_survival": 0.9606727516926007,
+    "threshold_radius_um": null
+  },
+  {
+    "parameter": "extracellular_clearance_h",
+    "factor": 0.5,
+    "bystander_survival": 0.9545308177518855,
+    "threshold_radius_um": 23.75
+  },
+  {
+    "parameter": "extracellular_clearance_h",
+    "factor": 2.0,
+    "bystander_survival": 0.9656087629247219,
+    "threshold_radius_um": 21.25
+  }
+]

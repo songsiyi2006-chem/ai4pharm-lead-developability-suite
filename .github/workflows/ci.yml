@@ -22,3 +22,5 @@ jobs:
         run: python projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py --self-test-only
       - name: Project layout, links and scientific artifact preservation
         run: python tools/validate_repository_layout.py --out work/layout_validation.json
+      - name: Task 8-10 deliverable provenance and figure metadata
+        run: python tools/validate_task8_10_delivery.py --out work/task8_10_validation.json

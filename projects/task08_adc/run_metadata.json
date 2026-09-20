@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "matplotlib": "3.11.1",
+  "elapsed_seconds": 10.539016199996695,
+  "script_sha256": "47df7fcaf4a16a54f6de711ee5224eedce825ab311a79539b96132a0a81c3fe5"
+}

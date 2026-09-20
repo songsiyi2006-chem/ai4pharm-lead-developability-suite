@@ -1,0 +1,143 @@
+[
+  {
+    "ligand": "Risdiplam-like model",
+    "site": "WT scenario",
+    "baseline_proxy_percent": 4.724686424248754,
+    "asymptotic_proxy_percent": 93.27944671572762,
+    "grid_max_proxy_percent": 93.26637144471478,
+    "ec50_total_M": 1.7881640851893065e-06,
+    "ec50_status": "estimated",
+    "response_direction_on_grid": "monotonic_increasing",
+    "half_dynamic_range_crossings": [
+      {
+        "total_l_M": 1.7881640851893065e-06,
+        "direction": "up"
+      }
+    ],
+    "illustrative_selectivity_grid_bands": [
+      {
+        "min_M": 1.8478497974222908e-05,
+        "max_M": 0.01,
+        "grid_points": 42,
+        "right_censored_at_grid_max": true
+      }
+    ],
+    "band_status": "Contiguous qualifying sampled points only; no interpolation or clinical window"
+  },
+  {
+    "ligand": "Risdiplam-like model",
+    "site": "mutant scenario",
+    "baseline_proxy_percent": 1.6271068122609231,
+    "asymptotic_proxy_percent": 7.222993798387856,
+    "grid_max_proxy_percent": 6.040470801022541,
+    "ec50_total_M": 0.0026872068078620573,
+    "ec50_status": "estimated",
+    "response_direction_on_grid": "monotonic_increasing",
+    "half_dynamic_range_crossings": [
+      {
+        "total_l_M": 0.0026872068078620573,
+        "direction": "up"
+      }
+    ],
+    "illustrative_selectivity_grid_bands": [],
+    "band_status": "Contiguous qualifying sampled points only; no interpolation or clinical window"
+  },
+  {
+    "ligand": "Aminoglycoside-like model",
+    "site": "WT scenario",
+    "baseline_proxy_percent": 4.7246864242487545,
+    "asymptotic_proxy_percent": 51.693468662181665,
+    "grid_max_proxy_percent": 51.03752163391726,
+    "ec50_total_M": 0.00013963522102536935,
+    "ec50_status": "estimated",
+    "response_direction_on_grid": "monotonic_increasing",
+    "half_dynamic_range_crossings": [
+      {
+        "total_l_M": 0.00013963522102536935,
+        "direction": "up"
+      }
+    ],
+    "illustrative_selectivity_grid_bands": [],
+    "band_status": "Contiguous qualifying sampled points only; no interpolation or clinical window"
+  },
+  {
+    "ligand": "Aminoglycoside-like model",
+    "site": "mutant scenario",
+    "baseline_proxy_percent": 1.6271068122609231,
+    "asymptotic_proxy_percent": 2.2061098282674956,
+    "grid_max_proxy_percent": 1.9825299890757972,
+    "ec50_total_M": null,
+    "ec50_status": "not_applicable_nonmonotonic",
+    "response_direction_on_grid": "nonmonotonic",
+    "half_dynamic_range_crossings": [
+      {
+        "total_l_M": 0.006733433943554555,
+        "direction": "up"
+      }
+    ],
+    "illustrative_selectivity_grid_bands": [],
+    "band_status": "Contiguous qualifying sampled points only; no interpolation or clinical window"
+  },
+  {
+    "ligand": "Inactive mismatch model",
+    "site": "WT scenario",
+    "baseline_proxy_percent": 4.724686424248754,
+    "asymptotic_proxy_percent": 4.724686424248755,
+    "grid_max_proxy_percent": 4.724686424248755,
+    "ec50_total_M": null,
+    "ec50_status": "not_applicable_flat",
+    "response_direction_on_grid": "flat",
+    "half_dynamic_range_crossings": [],
+    "illustrative_selectivity_grid_bands": [],
+    "band_status": "Contiguous qualifying sampled points only; no interpolation or clinical window"
+  },
+  {
+    "ligand": "Inactive mismatch model",
+    "site": "mutant scenario",
+    "baseline_proxy_percent": 1.6271068122609231,
+    "asymptotic_proxy_percent": 1.6271068122609231,
+    "grid_max_proxy_percent": 1.6271068122609236,
+    "ec50_total_M": null,
+    "ec50_status": "not_applicable_flat",
+    "response_direction_on_grid": "flat",
+    "half_dynamic_range_crossings": [],
+    "illustrative_selectivity_grid_bands": [],
+    "band_status": "Contiguous qualifying sampled points only; no interpolation or clinical window"
+  },
+  {
+    "ligand": "Flexible bis-intercalator model",
+    "site": "WT scenario",
+    "baseline_proxy_percent": 4.724686424248753,
+    "asymptotic_proxy_percent": 80.13613046434514,
+    "grid_max_proxy_percent": 76.51643190885899,
+    "ec50_total_M": 0.0004730486270906043,
+    "ec50_status": "estimated",
+    "response_direction_on_grid": "monotonic_increasing",
+    "half_dynamic_range_crossings": [
+      {
+        "total_l_M": 0.0004730486270906043,
+        "direction": "up"
+      }
+    ],
+    "illustrative_selectivity_grid_bands": [],
+    "band_status": "Contiguous qualifying sampled points only; no interpolation or clinical window"
+  },
+  {
+    "ligand": "Flexible bis-intercalator model",
+    "site": "mutant scenario",
+    "baseline_proxy_percent": 1.627106812260923,
+    "asymptotic_proxy_percent": 1.5279769116570328,
+    "grid_max_proxy_percent": 1.627106812260923,
+    "ec50_total_M": null,
+    "ec50_status": "not_applicable_nonmonotonic",
+    "response_direction_on_grid": "nonmonotonic",
+    "half_dynamic_range_crossings": [
+      {
+        "total_l_M": 0.00015767214051179383,
+        "direction": "down"
+      }
+    ],
+    "illustrative_selectivity_grid_bands": [],
+    "band_status": "Contiguous qualifying sampled points only; no interpolation or clinical window"
+  }
+]

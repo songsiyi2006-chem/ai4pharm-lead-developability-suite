@@ -1,0 +1,21 @@
+{
+  "retrieved_date": "2026-09-20",
+  "source_status": "public experimental X-ray endpoints; synthetic intermediates",
+  "license": "wwPDB coordinate data CC0 1.0",
+  "citation_doi": "10.1073/pnas.1500806112",
+  "selection": "chain A, alternate A plus blank; common protein heavy atoms only; bound 3GZ defines ROI center then excluded",
+  "structures": [
+    {
+      "pdb_id": "4W51",
+      "url": "https://files.rcsb.org/download/4W51.pdb",
+      "bytes": 153333,
+      "sha256": "c29fb4231e260cf91f9aea321f3241233e2dda3653b79eabbf23d8dc6127f4f1"
+    },
+    {
+      "pdb_id": "4W59",
+      "url": "https://files.rcsb.org/download/4W59.pdb",
+      "bytes": 161919,
+      "sha256": "dd415575f529c94a93e869ed9a770be22f80b39fdc4f441eda3442c7f1df378e"
+    }
+  ]
+}

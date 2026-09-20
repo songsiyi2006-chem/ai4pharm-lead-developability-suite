@@ -1,7 +1,7 @@
 """Read-only current-layout checks for Tasks 5-7 and optional local reproductions.
 
 The 2026-09-20 delivery under docs/archive is historical evidence and is never
-rewritten. Use validate_repository_layout.py for all seven projects and migration
+rewritten. Use validate_repository_layout.py for the full catalog and migration
 byte preservation. --out names a FILE, not the historical validation directory.
 """
 from pathlib import Path
@@ -17,7 +17,7 @@ from validate_repository_layout import (
     check_project_manifests, error, inventory, load_json, relative, sha, write_report,
 )
 
-TASKS = PROJECTS[4:]
+TASKS = PROJECTS[4:7]
 
 
 def inspect(reproductions=None):
@@ -54,7 +54,7 @@ def inspect(reproductions=None):
         result["manifests"] = check_project_manifests(errors, TASKS)
         comparisons = []
         if reproductions:
-            for project, spec, output in zip(TASKS, MANIFESTS[4:], reproductions):
+            for project, spec, output in zip(TASKS, MANIFESTS[4:7], reproductions):
                 manifest_name, key, artifact_base, _ = spec
                 folder = ROOT / "projects" / project
                 generated = bounded_path(ROOT, output)

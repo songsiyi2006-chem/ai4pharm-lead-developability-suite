@@ -1,0 +1,31 @@
+{
+  "seed": 20260920,
+  "n_conformers": 500,
+  "temperature_K": 298.15,
+  "lag_ns": 10.0,
+  "assumed_state_free_energies_kcal_mol": [
+    0,
+    0.35,
+    0.65,
+    1.05,
+    1.6
+  ],
+  "jump_probability": 0.35,
+  "reversible_edge_pseudocount": 0.5,
+  "bootstrap_replicates": 200,
+  "grid_spacing_A": 0.75,
+  "roi_halfwidth_A": 9.0,
+  "pocket_probe_A": 1.0,
+  "sasa_probe_A": 1.4,
+  "sasa_sphere_points": 96,
+  "density_voxel_A": 1.0,
+  "density_psf_fwhm_A": 2.5,
+  "synthetic_loop_displacement_A": 0.25,
+  "anm_cutoff_A": 13.0,
+  "prs_force_counts": [
+    64,
+    256,
+    1024
+  ],
+  "active_site_residue": 11
+}

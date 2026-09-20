@@ -1,0 +1,170 @@
+[
+  {
+    "sequence": "AUACUUACCUGUUCGGGAGUAAGUCU",
+    "temperature_C": 20,
+    "mfe_structure": "..((((((((.....)).))))))..",
+    "mfe_kcal_mol": -7.340000152587891,
+    "ensemble_free_energy_kcal_mol": -7.510546684265137,
+    "partition_kT_kcal_mol": 0.5825388855,
+    "log_partition": 12.892781703008112,
+    "variant": "WT_model",
+    "flexible_positions_above_1p2_bits": []
+  },
+  {
+    "sequence": "AUACUUACCUGUUCGGGAGUAAGUCU",
+    "temperature_C": 25,
+    "mfe_structure": "..((((((((.....)).))))))..",
+    "mfe_kcal_mol": -6.53000020980835,
+    "ensemble_free_energy_kcal_mol": -6.720853805541992,
+    "partition_kT_kcal_mol": 0.5924747355,
+    "log_partition": 11.343696874888925,
+    "variant": "WT_model",
+    "flexible_positions_above_1p2_bits": []
+  },
+  {
+    "sequence": "AUACUUACCUGUUCGGGAGUAAGUCU",
+    "temperature_C": 30,
+    "mfe_structure": "..((((((((.....)).))))))..",
+    "mfe_kcal_mol": -5.690000057220459,
+    "ensemble_free_energy_kcal_mol": -5.923335552215576,
+    "partition_kT_kcal_mol": 0.6024105855,
+    "log_partition": 9.832721560327853,
+    "variant": "WT_model",
+    "flexible_positions_above_1p2_bits": []
+  },
+  {
+    "sequence": "AUACUUACCUGUUCGGGAGUAAGUCU",
+    "temperature_C": 37,
+    "mfe_structure": "..((((((((.....)).))))))..",
+    "mfe_kcal_mol": -4.630000114440918,
+    "ensemble_free_energy_kcal_mol": -4.840478897094727,
+    "partition_kT_kcal_mol": 0.6163207755,
+    "log_partition": 7.8538304881379535,
+    "variant": "WT_model",
+    "flexible_positions_above_1p2_bits": []
+  },
+  {
+    "sequence": "AUACUUACCUGUUCGGGAGUAAGUCU",
+    "temperature_C": 42,
+    "mfe_structure": "..((((((((.....)).))))))..",
+    "mfe_kcal_mol": -3.7899999618530273,
+    "ensemble_free_energy_kcal_mol": -4.062872409820557,
+    "partition_kT_kcal_mol": 0.6262566255,
+    "log_partition": 6.487551978514847,
+    "variant": "WT_model",
+    "flexible_positions_above_1p2_bits": []
+  },
+  {
+    "sequence": "AUACUUACCUGUUCGGGAGUAAGUCU",
+    "temperature_C": 50,
+    "mfe_structure": "..((((((((.....)).))))))..",
+    "mfe_kcal_mol": -2.509999990463257,
+    "ensemble_free_energy_kcal_mol": -2.840641736984253,
+    "partition_kT_kcal_mol": 0.6421539855,
+    "log_partition": 4.423614586418,
+    "variant": "WT_model",
+    "flexible_positions_above_1p2_bits": []
+  },
+  {
+    "sequence": "AUACUUACCUGUUCGGGAGUAAGUCU",
+    "temperature_C": 60,
+    "mfe_structure": "..((((((((.....)).))))))..",
+    "mfe_kcal_mol": -0.9100000262260437,
+    "ensemble_free_energy_kcal_mol": -1.4539681673049927,
+    "partition_kT_kcal_mol": 0.6620256855,
+    "log_partition": 2.1962413228829214,
+    "variant": "WT_model",
+    "flexible_positions_above_1p2_bits": [
+      3,
+      8,
+      9,
+      10,
+      16,
+      17,
+      19
+    ]
+  },
+  {
+    "sequence": "AUACUUACCUGUUCGGGCGUAAGUCU",
+    "temperature_C": 20,
+    "mfe_structure": "..((((((((.....)).))))))..",
+    "mfe_kcal_mol": -7.340000152587891,
+    "ensemble_free_energy_kcal_mol": -7.478329181671143,
+    "partition_kT_kcal_mol": 0.5825388855,
+    "log_partition": 12.837476377654008,
+    "variant": "mutant_model",
+    "flexible_positions_above_1p2_bits": []
+  },
+  {
+    "sequence": "AUACUUACCUGUUCGGGCGUAAGUCU",
+    "temperature_C": 25,
+    "mfe_structure": "..((((((((.....)).))))))..",
+    "mfe_kcal_mol": -6.53000020980835,
+    "ensemble_free_energy_kcal_mol": -6.688714981079102,
+    "partition_kT_kcal_mol": 0.5924747355,
+    "log_partition": 11.289451820142805,
+    "variant": "mutant_model",
+    "flexible_positions_above_1p2_bits": []
+  },
+  {
+    "sequence": "AUACUUACCUGUUCGGGCGUAAGUCU",
+    "temperature_C": 30,
+    "mfe_structure": "..((((((((.....)).))))))..",
+    "mfe_kcal_mol": -5.690000057220459,
+    "ensemble_free_energy_kcal_mol": -5.8917155265808105,
+    "partition_kT_kcal_mol": 0.6024105855,
+    "log_partition": 9.780232400283428,
+    "variant": "mutant_model",
+    "flexible_positions_above_1p2_bits": []
+  },
+  {
+    "sequence": "AUACUUACCUGUUCGGGCGUAAGUCU",
+    "temperature_C": 37,
+    "mfe_structure": "..((((((((.....)).))))))..",
+    "mfe_kcal_mol": -4.630000114440918,
+    "ensemble_free_energy_kcal_mol": -4.810649871826172,
+    "partition_kT_kcal_mol": 0.6163207755,
+    "log_partition": 7.805431948847508,
+    "variant": "mutant_model",
+    "flexible_positions_above_1p2_bits": []
+  },
+  {
+    "sequence": "AUACUUACCUGUUCGGGCGUAAGUCU",
+    "temperature_C": 42,
+    "mfe_structure": "..((((((((.....)).))))))..",
+    "mfe_kcal_mol": -3.7899999618530273,
+    "ensemble_free_energy_kcal_mol": -4.035634994506836,
+    "partition_kT_kcal_mol": 0.6262566255,
+    "log_partition": 6.444059559904545,
+    "variant": "mutant_model",
+    "flexible_positions_above_1p2_bits": []
+  },
+  {
+    "sequence": "AUACUUACCUGUUCGGGCGUAAGUCU",
+    "temperature_C": 50,
+    "mfe_structure": "..((((((((.....)).))))))..",
+    "mfe_kcal_mol": -2.509999990463257,
+    "ensemble_free_energy_kcal_mol": -2.821396589279175,
+    "partition_kT_kcal_mol": 0.6421539855,
+    "log_partition": 4.3936449091448875,
+    "variant": "mutant_model",
+    "flexible_positions_above_1p2_bits": []
+  },
+  {
+    "sequence": "AUACUUACCUGUUCGGGCGUAAGUCU",
+    "temperature_C": 60,
+    "mfe_structure": "..((((((((.....)).))))))..",
+    "mfe_kcal_mol": -0.9100000262260437,
+    "ensemble_free_energy_kcal_mol": -1.449839472770691,
+    "partition_kT_kcal_mol": 0.6620256855,
+    "log_partition": 2.1900048661642013,
+    "variant": "mutant_model",
+    "flexible_positions_above_1p2_bits": [
+      9,
+      10,
+      16,
+      17,
+      24
+    ]
+  }
+]

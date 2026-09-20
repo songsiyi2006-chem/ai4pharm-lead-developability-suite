@@ -1,0 +1,122 @@
+[
+  {
+    "name": "finite_linker_stoichiometry",
+    "error": 1.7763568394002505e-15,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  {
+    "name": "antibody_probability",
+    "error": 2.220446049250313e-16,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "name": "dar_fraction_positivity",
+    "error": 0.0,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "name": "zero_conjugation_limit",
+    "error": 0.0,
+    "tolerance": 1e-12,
+    "passed": true
+  },
+  {
+    "name": "unreduced_no_conjugation",
+    "error": 0.0,
+    "tolerance": 1e-12,
+    "passed": true
+  },
+  {
+    "name": "constant_reagent_binomial_limit",
+    "error": 4.007905118896815e-13,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "name": "adc_relative_error",
+    "error": 7.098423613540787e-14,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  {
+    "name": "receptor_relative_error",
+    "error": 4.2584724724292753e-13,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  {
+    "name": "payload_relative_error",
+    "error": 7.099631149637436e-14,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  {
+    "name": "cell_species_positivity",
+    "error": 0.0,
+    "tolerance": 1e-05,
+    "passed": true
+  },
+  {
+    "name": "zero_cleavage_zero_payload",
+    "error": 0.0,
+    "tolerance": 1e-09,
+    "passed": true
+  },
+  {
+    "name": "closed_finite_volume_column_balance",
+    "error": 4.440892098500626e-16,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "name": "uniform_concentration_equilibrium",
+    "error": 1.391867328437999e-16,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "name": "High permeability_tissue_mass_balance",
+    "error": 1.3627550456985367e-14,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  {
+    "name": "High permeability_tissue_positivity",
+    "error": 0,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  {
+    "name": "Low permeability_tissue_mass_balance",
+    "error": 4.199157355979432e-15,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  {
+    "name": "Low permeability_tissue_positivity",
+    "error": 0,
+    "tolerance": 1e-08,
+    "passed": true
+  },
+  {
+    "name": "time_step_halving_survival_absolute_change",
+    "error": 7.0451044967834164e-06,
+    "tolerance": 0.01,
+    "passed": true
+  },
+  {
+    "name": "spatial_doubling_at_fine_time_survival_absolute_change",
+    "error": 2.1217277295093595e-06,
+    "tolerance": 0.01,
+    "passed": true
+  },
+  {
+    "name": "spatial_concentration_profile_refinement",
+    "error": 0.0032057539528484295,
+    "tolerance": 0.02,
+    "passed": true
+  }
+]

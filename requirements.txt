@@ -1,7 +1,8 @@
 rdkit>=2024.3.1,<2027
-numpy>=1.26,<3
+numpy>=2.0,<3
 pandas>=2.2,<4
 matplotlib>=3.8,<4
 seaborn>=0.13.2,<0.14
 scipy>=1.12,<2
 pillow>=10,<13
+ViennaRNA==2.7.2

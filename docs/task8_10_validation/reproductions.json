@@ -1,0 +1,405 @@
+{
+  "scope": "Separate execution of frozen drivers using the same Python and numerical-library versions; every generated artifact except wall-clock metadata compared with the delivered copy",
+  "source_hashes": [
+    {
+      "project": "task08_adc",
+      "original": "47df7fcaf4a16a54f6de711ee5224eedce825ab311a79539b96132a0a81c3fe5",
+      "reproduced": "47df7fcaf4a16a54f6de711ee5224eedce825ab311a79539b96132a0a81c3fe5",
+      "equal": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "original": "14d244eceb5a44fa5e80562f5891fee623859cb89e22eaf065a6daffe606b759",
+      "reproduced": "14d244eceb5a44fa5e80562f5891fee623859cb89e22eaf065a6daffe606b759",
+      "equal": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "original": "77f6662ec2dc2d835c9cdde393af74097cd563bb3925fcc7174d8cc8630ae881",
+      "reproduced": "77f6662ec2dc2d835c9cdde393af74097cd563bb3925fcc7174d8cc8630ae881",
+      "equal": true
+    }
+  ],
+  "comparisons": [
+    {
+      "project": "task08_adc",
+      "artifact": "config.json",
+      "byte_identical": true
+    },
+    {
+      "project": "task08_adc",
+      "artifact": "data/cell_trafficking.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task08_adc",
+      "artifact": "data/dar_timecourses.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task08_adc",
+      "artifact": "data/gillespie_replicates.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task08_adc",
+      "artifact": "data/hic_chromatogram.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task08_adc",
+      "artifact": "data/radial_timecourses.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task08_adc",
+      "artifact": "data/tissue_mass_ledger.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task08_adc",
+      "artifact": "figures_task8/fig1_adc_conjugation_dar_distribution.png",
+      "byte_identical": true
+    },
+    {
+      "project": "task08_adc",
+      "artifact": "figures_task8/fig2_analytical_hic_chromatogram_twin.png",
+      "byte_identical": true
+    },
+    {
+      "project": "task08_adc",
+      "artifact": "figures_task8/fig3_intracellular_lysosomal_release_ode.png",
+      "byte_identical": true
+    },
+    {
+      "project": "task08_adc",
+      "artifact": "figures_task8/fig4_bystander_killing_spatiotemporal_contour.png",
+      "byte_identical": true
+    },
+    {
+      "project": "task08_adc",
+      "artifact": "sensitivity.json",
+      "byte_identical": true
+    },
+    {
+      "project": "task08_adc",
+      "artifact": "summary.json",
+      "byte_identical": true
+    },
+    {
+      "project": "task08_adc",
+      "artifact": "verification.json",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "CRYOEM_CRYPTIC_POCKET_REPORT_EN.md",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "CRYOEM_CRYPTIC_POCKET_REPORT_ZH.md",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "figures_task9/fig1_cryoem_latent_conformational_manifold.png",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "figures_task9/fig2_msm_free_energy_pathway.png",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "figures_task9/fig3_dynamic_pocket_volume_druggability.png",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "figures_task9/fig4_prs_allosteric_network_matrix.png",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "inputs/4W51.pdb",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "inputs/4W59.pdb",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "inputs/config.json",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "inputs/provenance.json",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "results/allosteric_path.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "results/anm_prs.npz",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "results/conformer_latent_trajectory.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "results/grid_convergence.json",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "results/msm.json",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "results/msm_bootstrap.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "results/pocket_geometry.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "results/roi_sensitivity.json",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "results/summary.json",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "results/synthetic_conformers.npz",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "results/synthetic_density_maps.npz",
+      "byte_identical": true
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "verification.json",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "assumption_sensitivity.csv",
+      "artifact": "results/assumption_sensitivity.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "base_edge_annotations.csv",
+      "artifact": "results/base_edge_annotations.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "bpp_mutant_model_20C.csv",
+      "artifact": "results/bpp_mutant_model_20C.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "bpp_mutant_model_25C.csv",
+      "artifact": "results/bpp_mutant_model_25C.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "bpp_mutant_model_30C.csv",
+      "artifact": "results/bpp_mutant_model_30C.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "bpp_mutant_model_37C.csv",
+      "artifact": "results/bpp_mutant_model_37C.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "bpp_mutant_model_42C.csv",
+      "artifact": "results/bpp_mutant_model_42C.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "bpp_mutant_model_50C.csv",
+      "artifact": "results/bpp_mutant_model_50C.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "bpp_mutant_model_60C.csv",
+      "artifact": "results/bpp_mutant_model_60C.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "bpp_WT_model_20C.csv",
+      "artifact": "results/bpp_WT_model_20C.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "bpp_WT_model_25C.csv",
+      "artifact": "results/bpp_WT_model_25C.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "bpp_WT_model_30C.csv",
+      "artifact": "results/bpp_WT_model_30C.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "bpp_WT_model_37C.csv",
+      "artifact": "results/bpp_WT_model_37C.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "bpp_WT_model_42C.csv",
+      "artifact": "results/bpp_WT_model_42C.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "bpp_WT_model_50C.csv",
+      "artifact": "results/bpp_WT_model_50C.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "bpp_WT_model_60C.csv",
+      "artifact": "results/bpp_WT_model_60C.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "bulge_stacking_geometry.csv",
+      "artifact": "results/bulge_stacking_geometry.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "figures_task10/fig1_rna_secondary_basepair_entropy_map.png",
+      "artifact": "figures_task10/fig1_rna_secondary_basepair_entropy_map.png",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "figures_task10/fig2_rna_3d_groove_electrostatic_cleft.png",
+      "artifact": "figures_task10/fig2_rna_3d_groove_electrostatic_cleft.png",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "figures_task10/fig3_coupled_thermodynamic_binding_cycle.png",
+      "artifact": "figures_task10/fig3_coupled_thermodynamic_binding_cycle.png",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "figures_task10/fig4_alternative_splicing_exon_inclusion.png",
+      "artifact": "figures_task10/fig4_alternative_splicing_exon_inclusion.png",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "groove_geometry.csv",
+      "artifact": "results/groove_geometry.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "inputs/config.json",
+      "artifact": "results/inputs/config.json",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "results_summary.json",
+      "artifact": "results/results_summary.json",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "secondary_ensemble_summary.json",
+      "artifact": "results/secondary_ensemble_summary.json",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "secondary_position_statistics.csv",
+      "artifact": "results/secondary_position_statistics.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "splicing_endpoints.json",
+      "artifact": "results/splicing_endpoints.json",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "splicing_mass_action.csv",
+      "artifact": "results/splicing_mass_action.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "thermodynamic_cycles.csv",
+      "artifact": "results/thermodynamic_cycles.csv",
+      "byte_identical": true
+    },
+    {
+      "project": "task10_rna_splicing",
+      "generated_artifact": "verification.json",
+      "artifact": "results/verification.json",
+      "byte_identical": true
+    }
+  ],
+  "exclusions": [
+    {
+      "project": "task08_adc",
+      "artifact": "run_metadata.json",
+      "reason": "Wall-clock runtime varies"
+    },
+    {
+      "project": "task09_cryoem_allostery",
+      "artifact": "run_log.json",
+      "reason": "Wall-clock runtime varies"
+    },
+    {
+      "project": "task10_rna_splicing",
+      "artifact": "run_log.json",
+      "reason": "Wall-clock runtime varies"
+    }
+  ],
+  "passed": true,
+  "comparison_count": 66,
+  "manifest_note": "Generated manifest is the comparison inventory, not itself a compared artifact; publication adds reports/provenance and Task10 arranges tables under results/."
+}

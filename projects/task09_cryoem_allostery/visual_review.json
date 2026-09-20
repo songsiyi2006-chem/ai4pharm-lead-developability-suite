@@ -1,0 +1,14 @@
+{
+  "status": "reviewed",
+  "coverage": "all four figures viewed individually after final redraw",
+  "checks": [
+    "shared density color range and physical axis labels",
+    "MSM statistics legible with white background",
+    "ROI-truncated geometry identified in orange",
+    "PRS direction labels and 3D labels uncropped"
+  ],
+  "limitations": [
+    "PRS path has two residues only; real long-range pathway not established",
+    "density plots are proxies and cannot demonstrate experimental loop disappearance"
+  ]
+}

@@ -8,4 +8,6 @@
 /docs/archive/** -text whitespace=cr-at-eol,-blank-at-eof
 /projects/**/*.svg -text whitespace=-blank-at-eol linguist-generated=true
 /projects/**/*.sdf -whitespace linguist-generated=true
+/projects/**/*.pdb -text -whitespace linguist-generated=true
+/projects/**/*.npz binary linguist-generated=true
 /projects/**/TASK.md -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof

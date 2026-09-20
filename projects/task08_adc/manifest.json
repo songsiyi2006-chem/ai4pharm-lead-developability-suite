@@ -1,0 +1,30 @@
+{
+  "schema": "task8-project-v1",
+  "script_sha256": "47df7fcaf4a16a54f6de711ee5224eedce825ab311a79539b96132a0a81c3fe5",
+  "files_sha256": {
+    "ADC_TRANSLATIONAL_ENGINEERING_REPORT_EN.md": "4961906e561794c78784467abe29f9537ec103fb10ac99a79379c856185dfb79",
+    "ADC_TRANSLATIONAL_ENGINEERING_REPORT_ZH.md": "aca8fbfd2b603d21271822bbdae8c87dcbbada409a9d8a5bec04bc87f2894e32",
+    "config.json": "0951ec789a6ade14d01b9f6e416ce3f6daf4828a3b9dfdad0a87b15ac3ba5e68",
+    "parameter_provenance.csv": "1169f479546998032da3258daf845e60028eea87e918248d6500527fe00ece30",
+    "README.md": "00351aad154ffe4c50329f7330df44f3215dd5c612491c09529b170deba20457",
+    "run_metadata.json": "c0a8b79577e1090b5f67c1f7ac153289911f69e006ab139bfd02e5484b5775dc",
+    "run_task8_adc_dar_cleavage_bystander_dynamics.py": "47df7fcaf4a16a54f6de711ee5224eedce825ab311a79539b96132a0a81c3fe5",
+    "sensitivity.json": "771bf13bcac3ae36a5839cf9e0f056530439dcb32f2f03398c9200db84241d2b",
+    "SOURCES.md": "ef6f6a390f5437ec197500a25e88a21181a2bf862bc839a36d36d4349d3bb9e3",
+    "summary.json": "355147c0b95bd145dcb5afa14982d3fb316b38839880954a002d022c8ab05491",
+    "TASK.md": "490c30309762bcdc4c9bed25a8453cfd27d4aed822b5957380557941172df2cf",
+    "verification.json": "93c013d22388d11e8ad02e742530fb08bc30788602325ee6eb488a0a44064a30",
+    "__init__.py": "bea8a402fc24705adc348498be17290be3eaab2b4d54434948b197ea5bf9e1a4",
+    "data/cell_trafficking.csv": "2b842175d1971b163ff63e9195a9293bc9c6100b54469f6bf560387fe6512357",
+    "data/dar_timecourses.csv": "69e055aa62b58f8d39a531d893e890e1951b9cb6110140b3b7876c00b5963732",
+    "data/gillespie_replicates.csv": "a8708e98118b79cc35039373a9d9dccab9567abad12bc33c1baef63f92336c5a",
+    "data/hic_chromatogram.csv": "457ee6924657926cda53e0c40181a22ff86a1b674485cfb4938df4167fe712ce",
+    "data/radial_timecourses.csv": "d35e9a5a0735963765683fcead80c75f60e2ce0858d74b7f3619e3de7e6c4a52",
+    "data/tissue_mass_ledger.csv": "80542fb0f3f98c723b14ad69eb405c8dccb98b80c35c6efae3efa2a8158f9c71",
+    "figures_task8/fig1_adc_conjugation_dar_distribution.png": "d23cfa65dcc766a825023e6e9a81a53b18cddff11971e17da63e556b701c069f",
+    "figures_task8/fig2_analytical_hic_chromatogram_twin.png": "688a30eff28098e86228eb6e11c2d2e92c6fca49302521162cf16047f3d760d4",
+    "figures_task8/fig3_intracellular_lysosomal_release_ode.png": "042ad94fdedebf19505e13f57c1a16fa0e4b2374d85cb32cb4e46fe963834917",
+    "figures_task8/fig4_bystander_killing_spatiotemporal_contour.png": "d1ca556b6ebb793d4cbe489f22a9d46b95590dcb47bb2571511edd70da86b966"
+  },
+  "notes": "Exact bytes. Reports and provenance added after numerical run. Transient run folders are excluded."
+}

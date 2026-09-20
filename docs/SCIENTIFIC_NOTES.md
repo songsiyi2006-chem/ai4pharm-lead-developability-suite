@@ -1,10 +1,13 @@
-# Task 5–7 原始任务与实现说明
+# Task 5–10 原始任务与实现说明
 
-三份原始任务附件已按任务分别保存为项目内的 TASK.md。它们记录原始需求，不作为已校验的公式、临床证据或项目结果。
+原始任务附件已按任务分别保存为项目内的 TASK.md。它们记录原始需求，不作为已校验的公式、临床证据或项目结果。
 
 - [Task 5 原始任务](../projects/task05_cyp_ddi/TASK.md)：CYP DDI/TDI。
 - [Task 6 原始任务](../projects/task06_asd/TASK.md)：ASD 相行为与过饱和。
 - [Task 7 原始任务](../projects/task07_qsp/TASK.md)：肿瘤免疫 QSP 与组合效应。
+- [Task 8 原始任务](../projects/task08_adc/TASK.md)：ADC 偶联、细胞内释放与旁观者扩散。
+- [Task 9 原始任务](../projects/task09_cryoem_allostery/TASK.md)：合成构象、模拟密度、MSM、口袋与 PRS。
+- [Task 10 原始任务](../projects/task10_rna_splicing/TASK.md)：RNA 配分函数、几何与剪接热力学。
 
 实现对应任务目录中的脚本与双语报告。需要修正的原始表述如下：
 
@@ -21,3 +24,19 @@
 DDI 筛查依据核对了 [FDA ICH M12 最终指南](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/m12-drug-interaction-studies)及 [FDA 抑制剂分类说明](https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems)。真实 RECIST 的目标病灶进展涉及相对研究期最小径线和的增加及绝对增加条件，参见 [EORTC RECIST 1.1](https://recist.eortc.org/recist-1-1/)。更完整的模型公式、来源、参数和限制在各任务报告中逐项说明。
 
 原始任务中的“无 bug”“临床预测”“优化制剂”等目标不被当作已经成立的验收结论。交付记录只报告实际执行的计算、测试、图表检查和当前证据边界。
+
+## Task 8–10 的方法和解释边界
+
+| 原始任务中的问题 | 实现与解释原则 |
+|---|---|
+| 将 DAR 4 称为普遍临床最优；HIC 图只列偶数 DAR | DAR 0–8 全部保留；DAR 4 收集窗只作所设方法下的纯度/收率分析，不推出通用最优载药数 |
+| 将 Val-Cit 连接子释放专属于 Cathepsin B；把越过 IC50 的半径等同于杀伤半径 | 溶酶体蛋白水解用有效酶切参数；浓度阈值、细胞损伤代理与真实细胞死亡证据分开报告 |
+| 用 500 个合成构象直接推断真实转变频率或 cryo-EM 重构分辨率 | 结构起点、合成轨迹、假定时间标尺与密度核宽分别标注；2.5 Å 核宽不是经 FSC 验证的实验分辨率 |
+| 把五态平衡概率的 −RT ln π 曲线直接称为活化势垒 | 宏态自由能差是布居代价；转变动力学依赖另行指定的合成过程，不由插值坐标或两个晶体结构唯一确定 |
+| 要求预定的 2–5 kcal/mol、500 Å³ 口袋或超过 30 Å 通路；给出非有界“成药性概率” | 保留实际数值和未达到阈值的结果；几何评分属于未标定描述符，ANM/PRS 路径属于接触网络中的机械耦合假设 |
+| 对含刚体零模的 ANM Hessian 直接求逆 | 以显式零模处理后的伪逆计算线性响应；网络耦合不能单独证明变构因果关系 |
+| RNA 位置熵忽略不配对态；把假设翻转自由能当作二级结构算法输出 | 最近邻配分函数输出配对概率，位置熵计入不配对概率；三级结构翻转代价单独标注假设来源 |
+| 把平衡构象选择公式直接视为诱导契合动力学证据 | KD,eff = KD / pcompetent 仅在指定状态模型下成立；平衡数据不足以识别结合的先后顺序 |
+| 把 U1A 与 U1-C 等同；用平衡占有率直接预测临床外显子包含率和安全剂量 | 明确结构所含 RNA/蛋白和配体身份；U1 耦合输出是简化占有率代理，真实剪接、转录组脱靶和临床剂量需另行测量与校准 |
+
+各任务报告逐项给出公式、单位、公开来源、参数假设和计算结果。程序通过测试只支持指定数值与软件不变量，不使假设参数升级为实验事实。

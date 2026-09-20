@@ -1,0 +1,10 @@
+{
+  "all_finite_coordinates": true,
+  "probabilities_normalized": true,
+  "detailed_balance": true,
+  "six_rigid_modes": true,
+  "pseudoinverse_identity": true,
+  "raw_formula_not_claimed_bounded": true,
+  "synthetic_clock_explicit": true,
+  "random_force_relative_error_below_0_12": true
+}

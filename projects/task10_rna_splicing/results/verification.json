@@ -1,0 +1,16 @@
+{
+  "enumerated_structure_count": 5,
+  "partition_log_absolute_error": 3.7060797208887664e-09,
+  "partition_enumeration_pass": true,
+  "unpairable_sequence_pass": true,
+  "finite_pool_mass_balance_pass": true,
+  "ligand_depletion_pass": true,
+  "zero_u1_pass": true,
+  "thermodynamic_cycle_ratio_error": 0.0,
+  "thermodynamic_cycle_pass": true,
+  "no_ligand_baseline_pass": true,
+  "all_passed": true,
+  "max_ligand_mass_error_M": 1.734723475976807e-18,
+  "max_u1_mass_error_M": 2.4246318115154347e-20,
+  "max_probability_normalization_error": 0.0
+}

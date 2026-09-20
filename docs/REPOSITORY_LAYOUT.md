@@ -10,7 +10,7 @@
 4. 共享依赖位于根目录 `requirements.txt`；项目锁定的历史依赖快照随项目保存。
 5. `tests/`、`tools/`、`.github/` 为仓库公共设施。`docs/archive/` 保存历史证据，`work/` 只用于本地复算。
 
-## 七个项目
+## 十个项目
 
 | 当前目录 | 原位置 | 主要文件 |
 |---|---|---|
@@ -21,12 +21,15 @@
 | [task05_cyp_ddi](../projects/task05_cyp_ddi/) | `task5_cyp_ddi/` | CYP 代码、六药输入、`results/`、双语报告与 `TASK.md` |
 | [task06_asd](../projects/task06_asd/) | `task6_asd/` | ASD 代码、`inputs/`、`results/`、图表、双语报告与 `TASK.md` |
 | [task07_qsp](../projects/task07_qsp/) | `task7_qsp/` | QSP 代码、虚拟队列、轨迹、图表、双语报告与 `TASK.md` |
+| [task08_adc](../projects/task08_adc/) | 本次新增 | ADC 代码、DAR/HIC/细胞释放/扩散结果、图表及双语报告 |
+| [task09_cryoem_allostery](../projects/task09_cryoem_allostery/) | 本次新增 | 公开蛋白结构、合成系综与密度、MSM/几何/PRS、双语报告 |
+| [task10_rna_splicing](../projects/task10_rna_splicing/) | 本次新增 | 公开 RNA 结构、配分函数/几何/热力学结果、图表及双语报告 |
 
-完整的逐文件旧→新映射保存在 [path_map.json](reorganization/path_map.json)。旧路径不再作为运行入口，不保留重复的源码副本。
+完整的逐文件旧→新映射保存在 [path_map.json](reorganization/path_map.json)。该历史映射覆盖迁移时的 Task 1–7；Task 8–10 是随后新增项目。旧路径不再作为运行入口，不保留重复的源码副本。
 
 ## 运行路径
 
-命令统一从仓库根目录执行。各项目 README 的示例为新的计算显式指定 `work/` 下的输出目录，避免覆盖冻结结果。Task 1、Task 2、Task 3 的 `--output-dir` 默认值是脚本所属项目目录；建议复算时仍显式指定新目录。Task 5–7 要求新的输出位置。
+命令统一从仓库根目录执行。各项目 README 的示例为新的计算显式指定 `work/` 下的输出目录，避免覆盖冻结结果。Task 1、Task 2、Task 3 的 `--output-dir` 默认值是脚本所属项目目录；建议复算时仍显式指定新目录。Task 5–10 要求新的输出位置。
 
 ```bash
 python projects/task01_lead_developability/run_task1_mpo_admet_developability.py --conformers 0 --output-dir work/task01_quick
@@ -42,4 +45,6 @@ Task 5 的导入路径已指向 `projects/task04_pbpk/`。从单个项目目录�
 
 科学结果和图表按原始字节迁移，本次没有用新假设替换已有计算。旧首页、原始清单和验收日志保存在 [archive](archive/README.md)，里面的路径、代码哈希和测试计数描述当时的提交。
 
-当前项目清单中的 `layout_migration` 记录迁移基线、当前代码哈希和发生变更的文档/代码原哈希。原 `script_sha256` 仍表示生成科学结果时的代码，不能被当作本次重新计算的证明。当前文件校验和已适配新目录。
+Task 1–7 项目清单中的 `layout_migration` 记录迁移基线、当前代码哈希和发生变更的文档/代码原哈希。其原 `script_sha256` 仍表示生成科学结果时的代码，不能被当作本次重新计算的证明。当前文件校验和已适配新目录。
+
+Task 8–10 直接按新目录组织；清单中的 `script_sha256` 对应各自实际执行的驱动脚本，`files_sha256` 记录项目内产物。它们不使用旧迁移记录伪装为历史项目。

@@ -1,0 +1,73 @@
+{
+  "execution_date": "2026-09-20",
+  "status": "passed",
+  "baseline_commit": "1748a84560e8bae0a6f86b9a1a95b6bb8d19d684",
+  "scope": "Actual CPU execution, numerical/software checks, public-input provenance and visual review; not experimental, clinical or industrial qualification",
+  "unit_tests": {
+    "total": 96,
+    "preexisting": 56,
+    "task8": 12,
+    "task9": 14,
+    "task10": 14,
+    "passed": true,
+    "log": "unittest.txt"
+  },
+  "independent_reproduction": {
+    "passed": true,
+    "files_byte_identical": 66,
+    "record": "reproductions.json"
+  },
+  "previous_project_files_byte_identical": 170,
+  "runtime": {
+    "calculations": "Existing chem-ai4s Python 3.12.14, NumPy 2.4.6, SciPy 1.18.0, Matplotlib 3.11.1",
+    "full_tests": "Existing Miniconda Python 3.14.6, NumPy 2.5.2, SciPy 1.18.1",
+    "ViennaRNA": "2.7.2 official PyPI binary wheel in ignored isolated work directories; existing environments preserved"
+  },
+  "visual_review": {
+    "total_figures": 12,
+    "dpi": 300,
+    "all_figures_reviewed_by_authors": true,
+    "root_independent_review": {
+      "task8": [
+        1,
+        4
+      ],
+      "task9": [
+        1,
+        2,
+        4
+      ],
+      "task10": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "resolved_findings": [
+      "ADC threshold contour label clipping",
+      "PRS axis-label clipping",
+      "MSM text obscured by bar color",
+      "Comparable density panels now share color limits"
+    ]
+  },
+  "resolved_numerical_findings": [
+    "ADC custom horizon labels",
+    "Unknown full pocket volume/gate for boundary contact; 9 ROI sensitivity calculations retained",
+    "RNA author residue numbering and internal partition-function thermal constant",
+    "RNA exact infinite-ligand finite-U1 limit",
+    "Nonmonotonic response crossing retention and piecewise selectivity-grid bands with right censoring",
+    "Inactive mutant remains uncoupled"
+  ],
+  "limits": [
+    "ADC rate, retention, transport and effect parameters are hypotheses, not measured drug-specific predictions",
+    "Task9 uses X-ray anchors with synthetic coordinates and time; 135 pocket frames are truncated/indeterminate and the path is 12.625 A",
+    "RNA secondary hairpin differs from the native duplex; four binding models and the U1-inclusion mapping are hypothetical; no clinical dose window"
+  ],
+  "records": [
+    "layout.json",
+    "delivery.json",
+    "prior_artifacts.json",
+    "staged_integrity.json"
+  ]
+}

@@ -1,4 +1,4 @@
-"""Read-only validation of this repository's seven-project migration.
+"""Read-only validation of the project catalog and original seven-project migration.
 
 Only the explicitly requested JSON report is written. No scientific computation,
 network access, Git mutation, or change to archived evidence is performed.
@@ -18,7 +18,9 @@ ROOT = Path(__file__).resolve().parents[1]
 BASELINE = "3785df88d244bf276de7f9b6e4d1d74995b530b9"
 PATH_MAP = ROOT / "docs/reorganization/path_map.json"
 PROJECTS = ("task01_lead_developability", "task02_tpd", "task03_covalent_kinetics",
-            "task04_pbpk", "task05_cyp_ddi", "task06_asd", "task07_qsp")
+            "task04_pbpk", "task05_cyp_ddi", "task06_asd", "task07_qsp",
+            "task08_adc", "task09_cryoem_allostery", "task10_rna_splicing")
+MIGRATED_PROJECTS = PROJECTS[:7]
 # Manifest within project, artifact map, artifact base, driver.
 MANIFESTS = (
     ("results_task1/run_manifest.json", "artifacts", ".", "run_task1_mpo_admet_developability.py"),
@@ -28,6 +30,9 @@ MANIFESTS = (
     ("results/manifest.json", "files", "results", "run_task5_cyp_ddi_mechanism_based_inhibition.py"),
     ("manifest.json", "files", ".", "run_task6_asd_formulation_supersaturation_kinetics.py"),
     ("manifest.json", "files_sha256", ".", "run_task7_qsp_tumor_immune_pkpd_synergy.py"),
+    ("manifest.json", "files_sha256", ".", "run_task8_adc_dar_cleavage_bystander_dynamics.py"),
+    ("manifest.json", "files_sha256", ".", "run_task9_cryoem_cryptic_pocket_allostery.py"),
+    ("manifest.json", "files_sha256", ".", "run_task10_rna_targeted_small_molecule_dynamics.py"),
 )
 SCIENCE_SUFFIXES = {".csv", ".png", ".svg", ".sdf", ".xyz"}
 SCIENCE_JSON_NAMES = {
@@ -289,11 +294,17 @@ def check_project_manifests(errors, selected=PROJECTS):
                 error(errors, "manifest_artifact_hash_mismatch", path=relative(target), expected=expected, actual=actual)
         migration = manifest.get("layout_migration", {})
         sources = migration.get("current_sources_sha256")
+        if project not in MIGRATED_PROJECTS:
+            # New projects record the source that actually produced their run.
+            sources = {relative(folder / driver): manifest.get("script_sha256")}
+            if not isinstance(sources[relative(folder / driver)], str):
+                error(errors, "manifest_execution_source_hash_missing", manifest=relative(path))
+                continue
         if not isinstance(sources, dict) or not sources:
             error(errors, "manifest_current_sources_missing", manifest=relative(path),
                   note="Original script_sha256 remains execution provenance; layout_migration records current sources")
             continue
-        if migration.get("baseline_commit") != BASELINE:
+        if project in MIGRATED_PROJECTS and migration.get("baseline_commit") != BASELINE:
             error(errors, "manifest_migration_baseline", manifest=relative(path))
         required = {relative(folder / driver)}
         if project == "task05_cyp_ddi":

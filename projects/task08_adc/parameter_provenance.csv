@@ -1,0 +1,45 @@
+parameter,default_value,unit,evidence_status,source,limitation
+seed,82026,integer,numerical design setting,Author-selected scenario,No product-specific experimental calibration
+reduction_rate_h,3.0,h^-1,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+reduction_time_h,1.0,h,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+conjugation_rate_per_equivalent_h,0.5,equivalent^-1 h^-1,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+steric_penalty,0.18,dimensionless,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+conjugation_time_h,8.0,h,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+payload_equivalents,"[2.0, 4.0, 6.0, 10.0]",linkers per initial antibody,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+downstream_payload_equivalents,4.0,linkers per initial antibody,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+ssa_antibodies,1000,antibodies per replicate,numerical design setting,Author-selected scenario,No product-specific experimental calibration
+ssa_replicates,24,replicates,numerical design setting,Author-selected scenario,No product-specific experimental calibration
+hic_gradient_min,35.0,min,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+hic_initial_salt_m,1.5,mol/L,"task-specified model condition, not measured",TASK.md,No product-specific experimental calibration
+hic_retention_base_min,2.0,min,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+hic_retention_scale_min,2.0,min,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+hic_hydrophobic_exponent,1.15,dimensionless,"task-specified model condition, not measured",TASK.md,No product-specific experimental calibration
+hic_sigma_min,0.35,min,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+hic_gamma_min,0.12,min,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+receptors_per_cell,1000000.0,receptors/cell,"task-specified model condition, not measured",TASK.md,No product-specific experimental calibration
+adc_bath_nm,10.0,nM,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+bath_volume_l_per_cell,1e-09,L/cell,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+cell_volume_um3,2000.0,um^3/cell,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+kon_per_nm_h,0.1,nM^-1 h^-1,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+koff_h,0.1,h^-1,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+internalization_h,0.05,h^-1,"task-specified model condition, not measured",TASK.md,No product-specific experimental calibration
+receptor_recycling_h,0.15,h^-1,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+endosome_sorting_h,0.15,h^-1,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+cleavage_vmax_adc_per_cell_h,50000.0,ADC molecules/cell/h,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+cleavage_km_adc_per_cell,50000.0,ADC molecules/cell,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+payload_metabolism_h,0.03,h^-1,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+high_permeability_h,0.2,h^-1,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+low_permeability_h,0.002,h^-1,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+tissue_radius_um,200.0,um,"task-specified model condition, not measured",TASK.md,No product-specific experimental calibration
+core_radius_um,20.0,um,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+extracellular_fraction,0.3,volume fraction,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+diffusion_um2_h,300.0,um^2/h,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+extracellular_clearance_h,0.04,h^-1,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+pd_ec50_nm,50.0,nM,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+pd_max_kill_h,0.05,h^-1,hypothetical model assumption,Author-selected scenario,No product-specific experimental calibration
+horizon_h,72.0,h,"task-specified model condition, not measured",TASK.md,No product-specific experimental calibration
+radial_cells,80,shell count,numerical design setting,Author-selected scenario,No product-specific experimental calibration
+time_step_h,0.1,h,numerical design setting,Author-selected scenario,No product-specific experimental calibration
+output_interval_h,0.5,h,numerical design setting,Author-selected scenario,No product-specific experimental calibration
+Avogadro_constant,6.02214076e23,mol^-1,exact SI defining constant,SI definition,Used only for unit conversion
+interchain_disulfide_capacity,4 bonds / 8 thiols,per IgG1,structural modeling scope,TASK.md; SOURCES.md S8,Intrachain reduction and site differences omitted

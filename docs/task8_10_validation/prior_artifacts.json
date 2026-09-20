@@ -1,0 +1,858 @@
+{
+  "baseline_commit": "1748a84560e8bae0a6f86b9a1a95b6bb8d19d684",
+  "scope": "Every pre-existing Task 1-7 project file, compared with the previous delivered Git commit",
+  "files_checked": 170,
+  "all_preserved": true,
+  "files": [
+    {
+      "path": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_EN.md",
+      "sha256": "88731715c61090bb1d6d415c2d1372dbf6863ae67c2155dd89144f73f6b7f85c",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/DEVELOPABILITY_MPO_REPORT_ZH.md",
+      "sha256": "0ddd203f3f208eb578b65af27b6ddbf6effb3e52b659338b2df8b6e20d726381",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/MODEL_CARD.md",
+      "sha256": "9d8b57b17049bfca318ba76d72b8672a7bb6cbed934fb974f41f9c41019d4a3b",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/README.md",
+      "sha256": "00653bbb78db04a9f22216ea7707884fa3a38e9d02fe1f8d7277aa3fa639fcd5",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/VALIDATION.md",
+      "sha256": "77a626500bd16e470692916f25aee926f5b5bb4c13f300222c56bc7bb49b1939",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/data/CLINICAL_EVIDENCE.md",
+      "sha256": "b060dd6ecf0f6681c7cc3210e83963171f1382feb42643377659506feb357c67",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/data/reference_panel.json",
+      "sha256": "99bf7373cabca9a55c5e8e798224de1c0d0e6058f40e66a82c7a88975bf3a751",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/figures_task1/fig1_mpo_distribution_violin.png",
+      "sha256": "017abb3c3d45609beef6e092e71feca0d8c1aa44b0eb0c7dfedc65565f02aff1",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/figures_task1/fig1_mpo_distribution_violin.svg",
+      "sha256": "6cdf70d3ab32c50556cb0e2a9d2e481319a72ca3ef5d23c34649c7ad2f382168",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/figures_task1/fig2_admet_radar_profiles.png",
+      "sha256": "0fabf47564350569767839d2f20ed3eb0f7d0ef95a48cfb00d08582ce368d1be",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/figures_task1/fig2_admet_radar_profiles.svg",
+      "sha256": "227f07f54b8722f8db445a9a7d7fd0d86d05936e4ea6d37abaa45e5453349699",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/figures_task1/fig3_bro5_chemical_space_landscape.png",
+      "sha256": "9df46710f31d1522616ffc064bc1ef55f9a8ffdab98e075c6dac6cdcb5938c42",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/figures_task1/fig3_bro5_chemical_space_landscape.svg",
+      "sha256": "d48a1f6c0504207c3dd5c19b11460effc8dc740e6dc1f891a15b9f0becf5aede",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/requirements-observed.txt",
+      "sha256": "21ace5617d3bc5deafb629e999e5bc3982e498cd4ed43b7942d03806bfc01f92",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/results_task1/developability_results.csv",
+      "sha256": "b2e80c8bcc41ef288003890521e7195a805f759aad304100551d2f4dca857f06",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/results_task1/developability_results.json",
+      "sha256": "7c0f7b9ab724b0e9b4858e9f2cdaa71618fa3db847ce20c56fc691ab22b25f12",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/results_task1/group_summary.csv",
+      "sha256": "69ce0d31ac0d68d7820356576f4c8bf886273e85c497ec86f9333262999d727c",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/results_task1/run_manifest.json",
+      "sha256": "25098731352f525135beadce28f8283a5df74c000a6080f7bd7d668cc57b37b2",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task01_lead_developability/run_task1_mpo_admet_developability.py",
+      "sha256": "2d8e74cc974764d74c97437d33ac96c44ebbef0bf51e23fd3c34e46ab65f0287",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/README.md",
+      "sha256": "c5579507378226c9572acedc54aa57ae0212762ab132af0cde84a2b6bd7865e8",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_EN.md",
+      "sha256": "622c2d44ed132e44e24ddbe1ed69420efe3ae337e120752a40ce4b4c6710d1b1",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/TPD_TERNARY_COOPERATIVITY_REPORT_ZH.md",
+      "sha256": "ad7fae37a66ec07c8fb27129db6962b2680a3afdaa0906dc94a969b99dd51b04",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/affinity_cooperativity_heatmap.csv",
+      "sha256": "9a4a29db5264f977cbe8cc00cbfde3c1150fed549284b5ef8fdb57d1dbe1ebd9",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/degradation_metrics.csv",
+      "sha256": "1f3bc878065bac56b8d6d551349b992be475b02a8b6ac11629c7d2f8e8e354d5",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/degradation_timecourses.csv",
+      "sha256": "a7500ad0132088b571d41f495dc2e71c621824fd1080d9253f310a6843a2e13c",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/equilibrium_metrics.csv",
+      "sha256": "d2f60c4e7f00a6a38283a22f9d7979c405fd8c93cd4a4c7de5bff1eea36ae3a4",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/equilibrium_species.csv",
+      "sha256": "7a4a871dcd14b62fd84a39994ea507cb23c2c68caf94ecab94d894d8301ff4a0",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/flexible_peg_atom_rmsf.csv",
+      "sha256": "3cd011ed77d07213a8bcf284b38958ac081bc277e1156e8e172bb69828ee7345",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/flexible_peg_conformers.sdf",
+      "sha256": "3fc8975184ec2521f4f0e385cd31cfa464ebb7e0302ab6c884d38e01a2674345",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/hibit_hill_fit.json",
+      "sha256": "ecd9976d8615afe7f7379397e98dcb70df3635febd9f2d6b7859fdc9e03c00d2",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/linker_conformers.csv",
+      "sha256": "56bc54fbc6206208587f64c837292d53c0cd499f58cd50b658ef0f62e682ed17",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/linker_summary.csv",
+      "sha256": "fdb2291f6102dcfc22f5668ba32b6e329c30aaa823937fb7b340c4ed881e04ce",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/rigid_alkynyl_atom_rmsf.csv",
+      "sha256": "321f6325bae79ba3f0ebb270f909604d351d424f1dff134c0c030f0b5046b1c1",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/rigid_alkynyl_conformers.sdf",
+      "sha256": "b07fa9df026230a0fc33f9e5d16fcd4bf75e4a0f882f19ab461b065930a1699e",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/synthetic_hibit_replicates.csv",
+      "sha256": "64afd64d5c59ba953f4d606ae7390ba3a3fc106431ff550947c09ef85ea45fd0",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/data_task2/synthetic_western_lanes.csv",
+      "sha256": "5a5e95a7d18c85b4e9efc037f0c95769b44cb0aa91578648093035183b0634c0",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/figures_task2/fig1_ternary_hook_effect_curves.png",
+      "sha256": "398327089085df8f249f09d65ddb3cfc5a935da49dd976e60984e3979d3d773d",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/figures_task2/fig2_cooperativity_alpha_heatmap.png",
+      "sha256": "a7b7fd0321d4e7ca803c01a7294dee239a750a3f7469137f8a741b104cc6a671",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/figures_task2/fig3_linker_conformational_histogram.png",
+      "sha256": "ca3ae9e5612bd8b537739a33419f81814f5c4ca5b453504f724b7d92c467a619",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/figures_task2/fig4_synthetic_western_blot_hibit.png",
+      "sha256": "9c9fcc0ce5e3dab7e0f0af785bc6a9b6c437628e092f1ffd8c11598cc0ec8f51",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/manifest_task2.json",
+      "sha256": "062e75064f7fd8171520ecf2a32609c71600ddcd70a22b0aca3908076d70b478",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/requirements_task2.txt",
+      "sha256": "80f2bb4fd804d10f11f18dd31206be2c0d653dd6feaa1bccb495d40b25f2b157",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/run_task2.log",
+      "sha256": "a5b22fa22091c0e7b8a96ec6296fe309b91e5c73b2bde041cc702b8744f51ccc",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/run_task2_tpd_ternary_cooperativity.py",
+      "sha256": "bbee25c68bc79ef45e288637e858f00bec8679c7976b6ae197848c2b7dc2b579",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task02_tpd/validation_task2.json",
+      "sha256": "801e069d37bd0d731ee2204539776392b7cb4e608f93e746dca7dda986cdb335",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/COVALENT_DRUG_KINETICS_REPORT_EN.md",
+      "sha256": "4838b2a1e25ae89222f8944d9a758f2402aa05fbfe7fe4513f4c567e1f429974",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/COVALENT_DRUG_KINETICS_REPORT_ZH.md",
+      "sha256": "c7f387b6e76a20cdde7232648bdbba80c5b0fb699df4119158f1fa571113bf68",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/README.md",
+      "sha256": "187a20b7249630ca4660893bf939f144868c3fe3b087f8b6bfb23bcd72385159",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/atomic_frontier_descriptors.csv",
+      "sha256": "63264e5012c43a5eda831344e42181a540414c60804df9c723832dc6b39dfa9f",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/clamped_concentration_trajectories.csv",
+      "sha256": "b94ce835b13d1b958dc4b45a8b0dafc51223d096ad760f01b66354d5c6fdf11c",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/dynamic_drug_exposure.csv",
+      "sha256": "b61f1d29c2756a65af9b39afac301c2dbff21e8bc0bcc93e95f112d303030504",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/gsh_conjugation.csv",
+      "sha256": "5199204828ffc8c6be183ea6e8720fce45e74bac6a6b3a9581b829ce4c6abf25",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/kobs_concentration.csv",
+      "sha256": "a711603e19a91734da10cda1ce51ef001b2160f5565fa8446c29f36bd4e6542f",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/lfer_regression.json",
+      "sha256": "ff5853c4a054ecd0047e7ce19cdaa8ebfa9f28f47fe56ffcb717bbd6e33eabd9",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/parameters_template.json",
+      "sha256": "d5ee6db5be0bea923e2eba6f3e870dceef66e4800fbe97bcd550be8401bac71e",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/reduced_turnover_trajectories.csv",
+      "sha256": "585c6631308e6c4ae541a33301330999e67ad49fed42fdef023247059c204897",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/residence_summary.csv",
+      "sha256": "92eedd7e964716dfcb1308810ea464572dd5be851ee1d62057595e7cb80130da",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/run_manifest.json",
+      "sha256": "db607ac28608eb8ac7ac255d27a288d44c9fe00ebdb0a4cad8abd3d299dda4a8",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/structures/W01.xyz",
+      "sha256": "e7433181c58bcea4190386d483458c0c3d25311e602b789d0dec0f855bea059f",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/structures/W02.xyz",
+      "sha256": "d83df1856cd742d1d27ada57e295036b6529bf86ab479562c7af1ebb42a6a0e0",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/structures/W03.xyz",
+      "sha256": "30a044bd94f0fd8d7f67e14d3897a8cab1232340aeafd8cc77427c764776a9b0",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/structures/W04.xyz",
+      "sha256": "26415b4c1e842e3024616da071fb70ba7cacd83ac7e475087a53ea5d534d0451",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/structures/W05.xyz",
+      "sha256": "53f52c1f78a52cebefbbe21c90fe2c895f359a09dcc5e9b06e7cef4e0f77353b",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/structures/W06.xyz",
+      "sha256": "8589d450ec2eca1ea0b6b9b2de4865e405c27822022adeb4bdd0790277fc8aa9",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/structures/W07.xyz",
+      "sha256": "42b53a11a27910d3062e862d328bf93c17c70e9a6a4a0827fbbefbbd79f1344f",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/structures/W08.xyz",
+      "sha256": "b25ae045aa91d4a5009cf462eb82f4d82a25d91cab030439536c6b17414c3d01",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/structures/warhead_panel.sdf",
+      "sha256": "1fe639c91d32cad1db8ef6c81a34578c0d5f5513ab4077fb88c16bf678ab0bb0",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/validation.json",
+      "sha256": "2429a69f08620d14506968c1a4d29403279306b92b7069aa281276f13d93d1ce",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/warhead_results.csv",
+      "sha256": "6cbf65faa4361709998c3ed4e1bd9196c5d7f5f2d997591fe83647a7a9e30289",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/data_task3/washout_trajectories.csv",
+      "sha256": "c0b204f0a51051dfdbe0a795df4068aa96a129408ba5340624555a291fd81c05",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/figures_task3/fig1_kobs_concentration_hyperbola.png",
+      "sha256": "a0cd62b273be16651f2d979c443ccb1eebfa9fce1d12f845d01cf861633fac3b",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/figures_task3/fig2_target_recovery_washout.png",
+      "sha256": "0c535d4a8295c03223a214c54052cbcb7a8bd71f882679b0ed0856d2257f7eee",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/figures_task3/fig3_gsh_reactivity_safety_radar.png",
+      "sha256": "712d12490124283df6ae25d0d57bfce8725536f0b0b816bb78378b6f23544f56",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/figures_task3/fig4_warhead_lumo_reactivity_correlation.png",
+      "sha256": "b190fc6462dff8b819febc9ce63ada68f31192a420f9090642ede344145392ce",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task03_covalent_kinetics/run_task3_covalent_kinetics_residence_time.py",
+      "sha256": "a3e59f8c8b66b2bb72c0525bcbe2b8a7df486d5440b6c8566cf0c682f77bc056",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/PBPK_DOSE_PREDICTION_REPORT_EN.md",
+      "sha256": "5c14633fe843153406ac604fcaf2a87ad79a752a6aa58160bf24da02e4ed1c18",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/PBPK_DOSE_PREDICTION_REPORT_ZH.md",
+      "sha256": "14336de9bcf3a794e1e9533f437a1b15bfad6b377c1d697b244058b74b68cf69",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/README.md",
+      "sha256": "6c93af1a878a333f1a5b9eb24f6ab9d1c75789b8aac44752c4eb1ba5c5b7ee82",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/compound_example.json",
+      "sha256": "eae67b0c1835d8b068abd96d667009326eb5644061a5e0069d081f10c2d668f9",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/dose_titration.csv",
+      "sha256": "77423a6ffa64ffae6efbf2ad5d0b5eb694bd36a6e8e5886885ece0eeb5629238",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/figures_task4/fig1_pbpk_plasma_iv_vs_oral.png",
+      "sha256": "739991a452ae0916c633b642b058fcb19758454ecaac41207f21b30a704c1b73",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/figures_task4/fig2_tissue_distribution_biodistribution.png",
+      "sha256": "c70b3c1f9366be7283381915b1e4cbc911b316d966c13b3e6adc7b649629c927",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/figures_task4/fig3_multidose_steady_state_regimen.png",
+      "sha256": "2ef432691d12ae5decfcf60711890bd1962715f72543495c2a19454dedb3c516",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/figures_task4/fig4_dose_titration_target_coverage.png",
+      "sha256": "d17c2331a95d47605a14c2e80acecaa4aadeea1504b2ee4663d1892771d703aa",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/manifest.json",
+      "sha256": "0639a06b781516a3eca45b15e56eeff6e64040d6012e8e666282234a74dfae03",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/multidose_bid_7days.csv",
+      "sha256": "3b11f043c4f1b80f3a66d21bc3fb6c8bfc26cd143f9919f91f61ca334a87e553",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/parameters_used.json",
+      "sha256": "eae67b0c1835d8b068abd96d667009326eb5644061a5e0069d081f10c2d668f9",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/release_verification.json",
+      "sha256": "352a53d713393c7b0bbdb2d9c13a6ddff33967b7c358861c5b77eb8bf18fed44",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/requirements.txt",
+      "sha256": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/results_summary.json",
+      "sha256": "5340d98c585ed2d84ac1dfc3cd187b1346015880dd6304e88b44922658f8cafa",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/run_task4_pbpk_pharmacokinetics_dose_prediction.py",
+      "sha256": "a1df617d87698cdd37e98862a288d09eaba890fc45172102304641959ce73262",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/sensitivity_analysis.csv",
+      "sha256": "2c78e5e1e0c08f4187b1f2f9b648d786a6af5af92c9f098b03bb26ce8d42ecee",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/single_iv.csv",
+      "sha256": "703c7e67166981b3c9ea01225fee85adeba511b57970d4554bb17f192cdb893b",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/single_oral.csv",
+      "sha256": "d411c862c4332706b3c39d24a19cb5234144795f48343891e9e98bb929932294",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/steady_state_bid.csv",
+      "sha256": "8d0b3fcc69d7160f460ecd3da2c6832b7fd662093b1f69d66b64f0e847e0f874",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task04_pbpk/verification.json",
+      "sha256": "ffcf672eac854ad75ea3228002b4c88525403412716d4a8cc4c675ddbb7b9bff",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_EN.md",
+      "sha256": "1663aedbcd4846633fb9a0fc494fedb7b10f0f5daec1f189b467971080e55c02",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/CYP_DDI_KINETICS_REPORT_ZH.md",
+      "sha256": "43ea6006be373e9658eaf532a9d3769a6ee44b1548107f8c0d1e0b76d584b93d",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/README.md",
+      "sha256": "fa2b6066caff4db9cb8c5177eba2fedee403c9ea6c7154619f9105820c1f63fd",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/TASK.md",
+      "sha256": "ce1ee2bf43e800f35ac39dbcf5a42c278feb9429f95e9bb7c077a98d2c92a9b3",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/compound_panel_example.json",
+      "sha256": "83d952773584e376254237a5206eecf6e66c99daaec9a6ab6f5fa31d13a9f4ce",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/basic_regulatory_screen.csv",
+      "sha256": "d07cba14771f29c07e70a8ae94e2b589235a91efb2bc002def5f6e0cd77a5cf6",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/conditional_risk_grid.csv",
+      "sha256": "499e93d0cc6308f92b45f79e5d5105e115849d2e71cf59a6a910cab50bef3480",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/dynamic_static_comparison.csv",
+      "sha256": "2ad7c855cd7eb9b892db6cf0f3cbd14f4bdf4e3fea9a7c68e3f59bc3eae85303",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/enzyme_and_inhibitor_trajectories.csv",
+      "sha256": "8528cace2931eedb0e52a8702054c3cb39bf3f5b405541cf29dcf527816125ab",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/figures_task5/fig1_cyp_inactivation_curves.png",
+      "sha256": "5b33fdccd550e133cba1a981f66af97a414106410ccdb4ede495d3cae7d4ef4f",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/figures_task5/fig2_dynamic_ddi_midazolam_pk.png",
+      "sha256": "aa0cb8c4285d5ddbac158ddb8b9509d3b69f12c185529e20629baed4a507f390",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/figures_task5/fig3_fda_ddi_risk_heatmap.png",
+      "sha256": "2b41ec0c807ac19275e217fa5c205d3ff33edc863a3211d10184ca6e51673cfe",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/figures_task5/fig4_cyp3a4_resynthesis_timeline.png",
+      "sha256": "c2d2e9847c1dcf4df028cc5b761f257c739e29152fd30ff6402d30a7e09b0f9d",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/literature_parameter_reference.csv",
+      "sha256": "6a7b92ab07986b275a750e138c57d0e2af1c85441bbde59efb378954e77c5dc7",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/literature_parameter_response.csv",
+      "sha256": "8a0cc465b87e099bf3c8691d782d17c9430f1cddf93d593875bce43e8d5e75b3",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/manifest.json",
+      "sha256": "52a693ca79919dedd534c0f7555152f12d38fb97986eb043afa47f5b3578e75b",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/parameter_provenance.csv",
+      "sha256": "8db32b301d4a786a9426476e7a96dbb1ed2c65f5f1af3845fd2117ae8f826f9f",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/parameters_used.json",
+      "sha256": "6ef49353f04580fa960f09f5f0206e5db156e7ff8fe690f8d34cd2af2e58b650",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/probe_pk_curves.csv",
+      "sha256": "1e06e9a5284ccbbd93ba849ab3c60d981d18a51d35134ccb19dc1989434e3dca",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/results_summary.json",
+      "sha256": "dac2c343a317c282744609fcd6d4cd2e1c9119048306c3900295e53cbd06d193",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/sources.json",
+      "sha256": "5434f680827a47a99f3834f8710adc6a358c59baebfb1576c66fa21830ddd4d8",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/synthetic_kinetic_recovery.csv",
+      "sha256": "294ef1865147592dd5f5d1e99e317ce9ab2433a6e35eb79c87856373919e97f7",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/synthetic_preincubation.csv",
+      "sha256": "fafb53711edd48670a19a8d9c1fa0747762ab877f773d8a8d79c0615973c6c63",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/turnover_sensitivity.csv",
+      "sha256": "454b04417a8e13fcd52a77adcaa1c2aaf9f5289683180f8d0e3e36f962aea97b",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/results/washout_recovery.csv",
+      "sha256": "a3e65f7ab27bb6c2c4d7845667ce33cb5f26a6727b8889e91cc088b5c067eaec",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task05_cyp_ddi/run_task5_cyp_ddi_mechanism_based_inhibition.py",
+      "sha256": "3e58cf164c233a9edc6735784c6a7f75aa4aaba679ca539666e3eb0ef8a3d2d7",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_EN.md",
+      "sha256": "08041aecb98dbf6ac1f93ce5691a2fd965497d873d232315eae9c5db884ab9c3",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/ASD_FORMULATION_KINETICS_REPORT_ZH.md",
+      "sha256": "349553f7353127e6b1d434f2369dedb6658f5c52763a61b87ff1cdf05ffc1afd",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/README.md",
+      "sha256": "e08a21ffeed73df447ae24b7218091a77dfc3acc4a85728f44a41815b1273cb4",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/TASK.md",
+      "sha256": "4cb77a63be17fa01fc3237e21127091f01c76a426cc58e3f966d192e46816927",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/figures_task6/fig1_flory_huggins_miscibility_phase_diagram.png",
+      "sha256": "08936a9fccb63786e227725b49b8bc4880c3b36937c5d275d209d17110dba3b1",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/figures_task6/fig2_gordon_taylor_tg_depression.png",
+      "sha256": "6686bf9dc85b6ebdb1aab6eb09183300df3520dd2bc7156991ef2bc5dc7b1cd5",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/figures_task6/fig3_spring_and_parachute_dissolution.png",
+      "sha256": "cebb905951a04c5b7f2cb82f63eadc79ce215218b512185a8cb66a38ed207f1a",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/figures_task6/fig4_polymeric_precipitation_inhibition_efficiency.png",
+      "sha256": "8205400f51b4ef358a2b9a890aef2cfd35e75fdbf98a677120e303866606f359",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/inputs/parameters.json",
+      "sha256": "1c6838c7e683b1a74e31f4695290372fcc150c0adb859046146e9b1cff9e9f14",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/inputs/sources.json",
+      "sha256": "768072eba14f7a31acb50dd921daace9731b0746dab9090eaa34a8345f288b37",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/manifest.json",
+      "sha256": "7e110f5e698735f03eca86df5f04c5beebb0632831683d49174055e5459f6f85",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/results/concentration_mass_timeseries.csv",
+      "sha256": "5c26ad0913645d612324fd5b407e14a0d952ff9774a3af55f5de9ba2818d22e0",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/results/formulation_summary.csv",
+      "sha256": "0fe1b0047c94e93a0da2b1eebf053a1f8ac54a8de71084da8b4b76d1bf4e28a8",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/results/loading_summary.csv",
+      "sha256": "51eb7390fbf66ecbabc4b7d2ce351686a5b4515be76adcbfe02b74615f68a5a4",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/results/phase_boundaries.csv",
+      "sha256": "cc41ad8b2678a0f9dc3aa99309a2f26782a3bab431778ccb213bfa924c230269",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/results/sensitivity_27_scenarios.csv",
+      "sha256": "2b592faf49326b2cd935f900d233a72c39d0b1f0623fbc8cc901e92825e6709d",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/results/solver_refinement.csv",
+      "sha256": "53eeca4099f51cefc684ce67f97771beade00ac2a4f8f26f5cc67beb0df5f691",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/results/storage_scenarios.csv",
+      "sha256": "739299c27799cf4e9451d1f09365178a2670ce0a99221bdfe71c30a5ebaf5f8e",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/results/summary.json",
+      "sha256": "bab0c06da41d40fde2512f4b53fdc6f0f091f0279f6b21bd60934fb679072019",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/run_task6_asd_formulation_supersaturation_kinetics.py",
+      "sha256": "1ab4810796786cb61b09e041e1e0d20a95fd966ae3241157de7c188962f97207",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task06_asd/validation_task6.json",
+      "sha256": "01a5dc5a74086e7926a309cef103e651f9ecf772f86e9588863df4ca54ea60da",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/.gitignore",
+      "sha256": "ec7d35a3ad2a5338afc8370c5d23e3f74234bb8973c7ddc81e70639e139a3441",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_EN.md",
+      "sha256": "c6101066fc20b261a7434624445ca0338071f1c02dd64353fc765e278188adaa",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/QSP_IMMUNO_ONCOLOGY_REPORT_ZH.md",
+      "sha256": "a92291674113391487e3c585e53b38d7cf41af6ccf2552284a998333e1aaad8d",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/README.md",
+      "sha256": "5e25ff0aaa00c17cff0f4ef5b5454e3d9c188ed679d6610e7a3cdafbbc0903ed",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/TASK.md",
+      "sha256": "4a9ff8d2f5a4503c546dee61ddb291a3d1fc8dcf9d184d978c0f8a406093a613",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/bliss_timecourse.csv",
+      "sha256": "1e63b7a628295c64d0416fc116a73a86896404665a4b3feab7163c5de9741d30",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/dose_synergy_matrix.csv",
+      "sha256": "8d1ac88c8da847f04643962a336cc97612f1cbf957bd13ea3034173eb94376cf",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/figures_task7/fig1_simeoni_tgi_monotherapy_vs_combo.png",
+      "sha256": "caab2d90c06bb40a11fec11dbf3d24ff1d64cd6ca480ef0a3c878431bcd589ae",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/figures_task7/fig2_ctl_immune_infiltration_dynamics.png",
+      "sha256": "9225b65fc6fc01324aeda06af0a18aa8ca29ed089fc8ae300572368c4813620b",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/figures_task7/fig3_bliss_synergy_matrix_heatmap.png",
+      "sha256": "e1a66d63b502ea065a7f97988c8e149466327888e05dd11a5c89477d0b47c7be",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/figures_task7/fig4_virtual_cohort_kaplan_meier_pfs.png",
+      "sha256": "c9ae20f095ff89317009f13b65131bf07baacdc566470fd09c1ca4ec7aaf5b5c",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/kaplan_meier.csv",
+      "sha256": "494952236d9107d6aa96fa883738f8fb2b1f0c23283f067586c3d382b71024fd",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/loewe_monotherapy_support.csv",
+      "sha256": "60b0ac7a7326aabdd21f07bf4be7b6f7618c1a52ae52f73742f8686d060ba856",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/manifest.json",
+      "sha256": "c6bf08ebab406c954a2b80f26c7e4c2a1cdfe0b9e242500c3e1dd98607956b18",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/parameters_used.json",
+      "sha256": "3ce2a3c7115627a40102842c044b80ecb1fd3949b2aa6577d88086dae5a85def",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/pk_exposure.csv",
+      "sha256": "a4a049601ba1eca945aa6ad4cb0c1baefc25304e67387a1f48a38a2cea850990",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/progression_endpoints.csv",
+      "sha256": "50b399299174de05bc14e479e1734097e1247b831f15e8ba5a4255ee475ae609",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/results_summary.json",
+      "sha256": "e8ecfd053a513a000aacc6d51e8c8ca4220e544284a5a491255e002a6eece8c1",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/run_log.json",
+      "sha256": "b526a589b2375e06a264586a320bf6570722e7c354dd74ee2628b4c5405a7ad6",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/run_task7_qsp_tumor_immune_pkpd_synergy.py",
+      "sha256": "72a4d365777c68f88845ec651eef2d2b98ec74a1f30c96a2bafaff1cc657de1f",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/sources.json",
+      "sha256": "2de4b9defbc2995b58309fad9e06b61b97d9eee4cccf1d1ca0e509659cf2fbeb",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/survival_statistics.json",
+      "sha256": "832ef73835c6d4b9a76a625edb80f06ba06c73b388d25db33369f03e00f96d47",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/trajectories.csv",
+      "sha256": "a404c139073b25712588ef2680b0ebc80f0c70c987c744e7d7de49bf7e65049c",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/validation_custom_run.txt",
+      "sha256": "839ed67d91847f4b837c7e08e75d502bf9dde6c6ba60aed684dbcb6964b3f209",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/verification.json",
+      "sha256": "ecfc69f6acaf6fc4821375cde4a880aff0b43a0f726e91f72ba551ff66eb0634",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/virtual_patients.csv",
+      "sha256": "787d0887f494e0542f8cff7db9c41627ab7ae2f1dab4d3adfb5512f7dc22e0ec",
+      "byte_identical": true
+    },
+    {
+      "path": "projects/task07_qsp/visual_review.json",
+      "sha256": "ba38aa6246b9b57316f823765fb487b01cc89150decd8b8581becd8da3c5d801",
+      "byte_identical": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "runtime_seconds": 29.73130260000471,
+  "python": "3.12.14 | packaged by conda-forge | (main, Sep  2 2026, 23:18:20) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "matplotlib": "3.11.1"
+}

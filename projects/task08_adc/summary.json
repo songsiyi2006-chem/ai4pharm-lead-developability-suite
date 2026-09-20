@@ -1,0 +1,97 @@
+{
+  "evidence_status": "executed synthetic calculation; no clinical validation",
+  "mean_dar_by_equivalents": {
+    "2.0": 1.9999999153183805,
+    "4.0": 3.9993196626296785,
+    "6.0": 5.9125159290709695,
+    "10.0": 7.52395795771198
+  },
+  "downstream_mean_dar": 3.9993196626296785,
+  "reduced_bond_probability": 0.950212931632136,
+  "downstream_final_dar_fractions": [
+    0.0006301916668642737,
+    0.012198113044368021,
+    0.08133552718487361,
+    0.2384577865476537,
+    0.33655780593754747,
+    0.23614935847034635,
+    0.0812930317610017,
+    0.012684554194089072,
+    0.0006936311932558062
+  ],
+  "gillespie": {
+    "antibodies_per_replicate": 1000,
+    "replicates": 24,
+    "mean_dar": 3.9995,
+    "standard_error": 0.00014744195615490273,
+    "absolute_ode_difference": 0.00018033737032130404,
+    "fraction_max_absolute_difference": 0.005599472604214173
+  },
+  "hic": {
+    "dar4_window_min": [
+      10.462020590423764,
+      13.28982823111178
+    ],
+    "dar4_purity": 0.9691468116731817,
+    "dar4_recovery": 0.9462902819034108,
+    "adjacent_gaussian_equivalent_resolution": [
+      1.2421052631578944,
+      1.510324361238964,
+      1.6288991744836896,
+      1.713946560498394,
+      1.780098482445962,
+      1.8346551117212682,
+      1.8813031500860466,
+      1.9221824104833556
+    ],
+    "noiseless_known_basis_max_fraction_error": 1.1102230246251565e-16
+  },
+  "cell_conservation": {
+    "High permeability": {
+      "adc_relative_error": 7.098423613540787e-14,
+      "receptor_relative_error": 4.2584724724292753e-13,
+      "payload_relative_error": 7.099631149637436e-14,
+      "min_species": 0.0
+    },
+    "Low permeability": {
+      "adc_relative_error": 5.520996143865056e-14,
+      "receptor_relative_error": 3.293389454483986e-13,
+      "payload_relative_error": 5.53740294459739e-14,
+      "min_species": 0.0
+    }
+  },
+  "tissue": {
+    "High permeability": {
+      "bystander_survival_at_horizon": 0.9588004806873632,
+      "source_survival_at_horizon": 0.049318111749527646,
+      "threshold_radius_um": 23.75,
+      "mass_relative_error": 1.3627550456985367e-14,
+      "minimum_amount": 0.0
+    },
+    "Low permeability": {
+      "bystander_survival_at_horizon": 0.9998478374194819,
+      "source_survival_at_horizon": 0.03833416477276003,
+      "threshold_radius_um": null,
+      "mass_relative_error": 4.199157355979432e-15,
+      "minimum_amount": 0.0
+    }
+  },
+  "refinement": {
+    "time_step_halving_survival_absolute_change": 7.0451044967834164e-06,
+    "spatial_doubling_at_fine_time_survival_absolute_change": 2.1217277295093595e-06,
+    "fine_time_step_h": 0.05,
+    "fine_radial_cells": 160,
+    "extracellular_profile_max_error_normalized_by_peak": 0.0032057539528484295
+  },
+  "computation_counts": {
+    "conjugation_conditions": 4,
+    "gillespie_replicates": 24,
+    "nominal_cell_conditions": 2,
+    "nominal_tissue_conditions": 2,
+    "refinement_tissue_conditions": 2,
+    "one_at_a_time_tissue_sensitivities": 4,
+    "radial_data_rows": 23200
+  },
+  "verification_passed": true,
+  "horizon_h": 72.0
+}

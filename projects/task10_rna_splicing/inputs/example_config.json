@@ -1,0 +1,78 @@
+{
+  "temperature_C": 37.0,
+  "salt_M": 0.15,
+  "sequence": "AUACUUACCUGUUCGGGAGUAAGUCU",
+  "mutant_position_1based": 18,
+  "mutant_base": "C",
+  "temperature_scan_C": [
+    20,
+    25,
+    30,
+    37,
+    42,
+    50,
+    60
+  ],
+  "sequence_status": "Engineered tethered hairpin: 6HMI A + UUCG + B; PSU replaced by U. Not native SMN2 pre-mRNA.",
+  "rna_target_total_M": 2e-09,
+  "rna_offtarget_total_M": 3e-08,
+  "u1_total_M": 1e-07,
+  "u1_kd_M": 2e-06,
+  "dose_min_M": 1e-10,
+  "dose_max_M": 0.01,
+  "dose_points": 121,
+  "ligands": [
+    {
+      "name": "Risdiplam-like model",
+      "conf_kcal": 5.5,
+      "stack": -7.0,
+      "hbond": -4.0,
+      "electrostatic": -3.0,
+      "desolvation": 1.0,
+      "entropy": 1.0,
+      "closed_kd_M": 0.05,
+      "splice_kcal": -3.5,
+      "offtarget_kd_factor": 100.0,
+      "offtarget_splice_kcal": -1.0
+    },
+    {
+      "name": "Aminoglycoside-like model",
+      "conf_kcal": 4.0,
+      "stack": -3.0,
+      "hbond": -3.0,
+      "electrostatic": -8.0,
+      "desolvation": 3.0,
+      "entropy": 2.0,
+      "closed_kd_M": 0.005,
+      "splice_kcal": -2.0,
+      "offtarget_kd_factor": 2.0,
+      "offtarget_splice_kcal": -2.0
+    },
+    {
+      "name": "Inactive mismatch model",
+      "conf_kcal": 5.5,
+      "stack": -2.0,
+      "hbond": -1.0,
+      "electrostatic": -1.0,
+      "desolvation": 1.0,
+      "entropy": 1.0,
+      "closed_kd_M": 1.0,
+      "splice_kcal": 0.0,
+      "offtarget_kd_factor": 1.0,
+      "offtarget_splice_kcal": 0.0
+    },
+    {
+      "name": "Flexible bis-intercalator model",
+      "conf_kcal": 6.5,
+      "stack": -9.0,
+      "hbond": -4.0,
+      "electrostatic": -2.0,
+      "desolvation": 1.5,
+      "entropy": 3.5,
+      "closed_kd_M": 0.01,
+      "splice_kcal": -3.0,
+      "offtarget_kd_factor": 5.0,
+      "offtarget_splice_kcal": -2.5
+    }
+  ]
+}

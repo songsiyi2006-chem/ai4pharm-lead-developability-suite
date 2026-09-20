@@ -1,0 +1,19 @@
+test_anm_tetrahedron_pseudoinverse_and_prs (test_task9.TestTask9.test_anm_tetrahedron_pseudoinverse_and_prs) ... ok
+test_boundary_cavity_has_unknown_full_volume (test_task9.TestTask9.test_boundary_cavity_has_unknown_full_volume) ... ok
+test_cli_refuses_archived_output_overwrite (test_task9.TestTask9.test_cli_refuses_archived_output_overwrite) ... ok
+test_config_validation (test_task9.TestTask9.test_config_validation) ... ok
+test_empty_cavity_is_finite_and_zero (test_task9.TestTask9.test_empty_cavity_is_finite_and_zero) ... ok
+test_estimator_balance_and_observed_counts (test_task9.TestTask9.test_estimator_balance_and_observed_counts) ... ok
+test_generator_detailed_balance (test_task9.TestTask9.test_generator_detailed_balance) ... ok
+test_hessian_translation_zero (test_task9.TestTask9.test_hessian_translation_zero) ... ok
+test_mfpt_bellman_equation (test_task9.TestTask9.test_mfpt_bellman_equation) ... ok
+test_mfpt_two_state_analytic (test_task9.TestTask9.test_mfpt_two_state_analytic) ... ok
+test_pdb_matching_and_ligand_excluded (test_task9.TestTask9.test_pdb_matching_and_ligand_excluded) ... ok
+test_sasa_isolated_sphere (test_task9.TestTask9.test_sasa_isolated_sphere) ... ok
+test_surface_distance_accounts_for_radii (test_task9.TestTask9.test_surface_distance_accounts_for_radii) ... ok
+test_synthetic_state_reproducibility (test_task9.TestTask9.test_synthetic_state_reproducibility) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.074s
+
+OK

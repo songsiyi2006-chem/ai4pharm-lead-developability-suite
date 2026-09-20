@@ -1,0 +1,9 @@
+{
+  "seconds": 3.2237625000125263,
+  "python": "3.12.14",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "matplotlib": "3.11.1",
+  "ViennaRNA": "2.7.2",
+  "source_script_sha256": "77f6662ec2dc2d835c9cdde393af74097cd563bb3925fcc7174d8cc8630ae881"
+}
