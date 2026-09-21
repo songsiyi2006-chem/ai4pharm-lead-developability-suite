@@ -1,0 +1,5 @@
+# Rerun the archived complete all-atom system; preparation stack is optional.
+numpy>=2.0,<3
+scipy>=1.12,<2
+matplotlib>=3.8,<4
+openmm>=8.6,<8.7

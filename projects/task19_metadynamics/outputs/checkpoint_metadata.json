@@ -1,0 +1,42 @@
+{
+  "stage": "biased",
+  "step": 1200,
+  "config": {
+    "seed": 190921,
+    "temperature_K": 300.0,
+    "timestep_ps": 0.001,
+    "equilibration_steps": 200,
+    "metadynamics_steps": 1000,
+    "hill_frequency_steps": 50,
+    "initial_hill_kJ_mol": 0.25,
+    "bias_factor": 10.0,
+    "distance_sigma_nm": 0.05,
+    "angle_sigma_rad": 0.15,
+    "solvent_padding_nm": 1.0,
+    "ionic_strength_M": 0.15,
+    "cutoff_nm": 0.9,
+    "cpu_threads": 1,
+    "protein_forcefield": "amber14-all.xml",
+    "water_forcefield": "amber14/tip3p.xml",
+    "ligand_forcefield": "openff-2.3.0.offxml",
+    "ligand_charge_method": "openff-gnn-am1bcc-1.0.0.pt",
+    "distance_min_nm": 1.5,
+    "distance_max_nm": 8.0,
+    "distance_grid": 96,
+    "angle_grid": 96,
+    "minimization_max_iterations": 50
+  },
+  "prepared_manifest_sha256": "86e0bb5371877007af1da0bf051c1aafa209c4cc979bb4340d0e4d57d1846916",
+  "files_sha256": {
+    "latest.checkpoint.gz": "dc8369e3127dcfba8aaa3ac2c986e94e9cab453cbe80ef29494f7d92dfcceba3",
+    "minimization.csv": "881696b765d738e89192604f54fddf8f221a9e79634cd1d2269f18c2727abc8e",
+    "minimization_energies.json": "fc82a3976642d0bbe1470a10e3d420c9f3c32e9edb9bff4556a08e5b48157539",
+    "thermal_reference.npz": "b8f06cd283d9336e0ff621993716c7e429637b40503b439555ea525feafb1812",
+    "atomistic_cv_trajectory.csv": "6f659489971ea955667be77506c244a51ffc0db17f412a074a74500aa7c81cc4",
+    "hill_history.csv": "2324400f02b8631c4b733ecf09686e37ce17458353e842266ed7fac35ba6a159",
+    "solute_trajectory.npz": "72bcecd3e1f714cd2afe532bcf794049a22e25d0d5a4f8067ea02c8b3223034d",
+    "unconverged_bias_free_energy.npz": "26f1eca9054c84607a4a6a7566f5f61de84b5099f3ad36cca91185440b49a4db"
+  },
+  "updated_utc": "2026-09-21T04:04:11.276234+00:00",
+  "portability": "OpenMM binary checkpoint: same OpenMM version, CPU platform and compatible hardware required"
+}

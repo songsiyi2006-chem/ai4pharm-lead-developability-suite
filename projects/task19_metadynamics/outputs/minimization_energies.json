@@ -1,0 +1,6 @@
+{
+  "initial_energy_kJ_mol": -1406165.7027321875,
+  "minimized_energy_kJ_mol": -2010957.5986066116,
+  "minimization_callbacks": 300,
+  "max_iterations_per_constraint_stage": 50
+}

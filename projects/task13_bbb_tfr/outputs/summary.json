@@ -1,0 +1,12 @@
+{
+  "task": 13,
+  "evidence": "executed finite-pool, uncalibrated antibody trafficking",
+  "grid_runs": 328,
+  "nominal_Kp_extravascular_0_72h": 0.002272416580156587,
+  "nominal_Kp_with_vascular_contamination": 0.05227241658015659,
+  "nominal_brain_AUC_nM_h": 6.699542444906776,
+  "nominal_best_KD_nM_in_grid": 13.33521432163324,
+  "best_at_grid_boundary": false,
+  "best_within_requested_50_500_nM": false,
+  "limitation": "No species-specific receptor abundance, endogenous transferrin competition, avidity or brain target binding. All brain antibody is free; no Kp,uu inference for a target-binding antibody."
+}

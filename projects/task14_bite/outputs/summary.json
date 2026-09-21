@@ -1,0 +1,12 @@
+{
+  "task": 14,
+  "evidence": "executed closed receptor equilibrium with clamped BiTE exposure and phenomenological lysis",
+  "binding_grid_points": 981,
+  "lysis_ode_runs": 270,
+  "nominal_peak_BiTE_nM_in_grid": 26.10157215682533,
+  "peak_trimer_complexes_per_target": 572.7522191152134,
+  "high_dose_100uM_fraction_of_peak": 0.0014481510527292617,
+  "hook_detected_in_nominal_grid": true,
+  "10nM_surviving_fraction_48h": 0.03823313305184699,
+  "limitation": "The hook follows this reversible bispecific equilibrium under fixed totals; not universal across TCE architectures or clinical exposure windows. No cytokine toxicity, serial killing kinetics, exhaustion or calibrated clinical response."
+}

@@ -1,0 +1,19 @@
+{
+  "target_nM": 100.0,
+  "e3_nM": 20.0,
+  "degrader_nM": 100.0,
+  "free_target_initial_nM": 30.0,
+  "chromatin_target_initial_nM": 70.0,
+  "KD_E_nM": 50.0,
+  "KD_T_nM": 100.0,
+  "kon_per_nM_h": 0.01,
+  "alpha_free": 10.0,
+  "chromatin_penalty_kcal_per_mol": 2.0,
+  "RT_kcal_per_mol": 0.61633,
+  "chromatin_capture_per_h": 0.14,
+  "chromatin_release_per_h": 0.06,
+  "target_turnover_per_h": 0.025,
+  "ternary_degradation_per_h": 0.5,
+  "horizon_h": 48.0,
+  "evidence": "All numerical biological parameters are hypothetical; no fitted BRD4/EZH2/HDAC dataset."
+}

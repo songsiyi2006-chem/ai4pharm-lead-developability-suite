@@ -1,0 +1,11 @@
+{
+  "degrader_balance_error_nM": 4.4575187985174125e-10,
+  "e3_balance_error_nM": 4.4585135583474766e-10,
+  "target_ledger_error_nM": 4.4586556668946287e-10,
+  "grid_max_balance_error_nM": 1.2834817653128994e-09,
+  "refinement_max_abs_difference_nM": 7.816381284442286e-07,
+  "no_degrader_total_deviation_nM": 2.842170943040401e-14,
+  "no_induced_degradation_total_deviation_nM": 8.147651442413917e-10,
+  "minimum_species_nM": 0.0,
+  "passed": true
+}

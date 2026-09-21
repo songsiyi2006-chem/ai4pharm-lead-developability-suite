@@ -1,0 +1,13 @@
+{
+  "figure": "outputs/figures/fig13_bbb_tfr_transcytosis_affinity_paradox.png",
+  "pixels": [
+    3600,
+    2400
+  ],
+  "dpi": [
+    299.9994,
+    299.9994
+  ],
+  "visually_reviewed": true,
+  "review": "All four panels inspected; axes, units, legends and titles readable; no cropped labels observed. Scientific caveats are visible in titles/reports."
+}

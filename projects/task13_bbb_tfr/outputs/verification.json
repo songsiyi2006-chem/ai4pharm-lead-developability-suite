@@ -1,0 +1,12 @@
+{
+  "antibody_ledger_max_error_nmol": 2.8421709430404007e-13,
+  "receptor_balance_max_error_nmol": 1.9085774627392027e-13,
+  "grid_antibody_max_error_nmol": 3.8266989577095956e-10,
+  "grid_receptor_max_error_nmol": 7.1377660726401615e-12,
+  "refinement_relative_state_error": 1.335409118989143e-08,
+  "zero_receptor_brain_nmol": 0.0,
+  "no_internalization_brain_nmol": 0.0,
+  "minimum_state_nmol": 0.0,
+  "vascular_Kp_increment_error": 0.0,
+  "passed": true
+}

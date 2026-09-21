@@ -1,0 +1,102 @@
+{
+  "task": 16,
+  "evidence": "synthetic extended PBPK with explicit mass conservation",
+  "scenarios": [
+    {
+      "route": "IV",
+      "I_over_Ki": 0.0,
+      "AUC_0_96_mg_h_l": 7.2658270551640225,
+      "Cmax_mg_l": 20.0,
+      "remaining_amount_mg": 3.735471848931912,
+      "metabolism_mg": 17.845113454819515,
+      "urinary_mg": 14.849272984842992,
+      "fecal_biliary_mg": 63.57014171311233,
+      "AUCR_0_96": 1.0
+    },
+    {
+      "route": "IV",
+      "I_over_Ki": 1.0,
+      "AUC_0_96_mg_h_l": 10.249974343786679,
+      "Cmax_mg_l": 20.0,
+      "remaining_amount_mg": 12.36249571115274,
+      "metabolism_mg": 12.414586514790713,
+      "urinary_mg": 21.04191517832031,
+      "fecal_biliary_mg": 54.18100259746895,
+      "AUCR_0_96": 1.410709925513812
+    },
+    {
+      "route": "IV",
+      "I_over_Ki": 10.0,
+      "AUC_0_96_mg_h_l": 16.39915854256904,
+      "Cmax_mg_l": 20.0,
+      "remaining_amount_mg": 41.87844523765845,
+      "metabolism_mg": 3.79764330007286,
+      "urinary_mg": 33.48692150489936,
+      "fecal_biliary_mg": 20.83698995911327,
+      "AUCR_0_96": 2.2570257202741577
+    },
+    {
+      "route": "IV",
+      "I_over_Ki": 100.0,
+      "AUC_0_96_mg_h_l": 18.686739334517657,
+      "Cmax_mg_l": 20.0,
+      "remaining_amount_mg": 55.72347715165988,
+      "metabolism_mg": 0.915033670079222,
+      "urinary_mg": 37.98910408630067,
+      "fecal_biliary_mg": 5.372385093704735,
+      "AUCR_0_96": 2.5718667940542956
+    },
+    {
+      "route": "oral",
+      "I_over_Ki": 0.0,
+      "AUC_0_96_mg_h_l": 5.470505730094297,
+      "Cmax_mg_l": 0.2146620319502114,
+      "remaining_amount_mg": 3.0033109132529643,
+      "metabolism_mg": 17.0058771154043,
+      "urinary_mg": 11.581840847749843,
+      "fecal_biliary_mg": 68.40897112358785,
+      "AUCR_0_96": 1.0
+    },
+    {
+      "route": "oral",
+      "I_over_Ki": 1.0,
+      "AUC_0_96_mg_h_l": 8.176091835777537,
+      "Cmax_mg_l": 0.2298932814853138,
+      "remaining_amount_mg": 10.36564472550271,
+      "metabolism_mg": 11.459826214978667,
+      "urinary_mg": 17.23543464090083,
+      "fecal_biliary_mg": 60.93909441862074,
+      "AUCR_0_96": 1.4945769621991791
+    },
+    {
+      "route": "oral",
+      "I_over_Ki": 10.0,
+      "AUC_0_96_mg_h_l": 13.854534307843508,
+      "Cmax_mg_l": 0.25030522287393453,
+      "remaining_amount_mg": 36.59567485934215,
+      "metabolism_mg": 3.4304368940146897,
+      "urinary_mg": 28.835702053529197,
+      "fecal_biliary_mg": 31.138186193110997,
+      "AUCR_0_96": 2.5325874775392463
+    },
+    {
+      "route": "oral",
+      "I_over_Ki": 100.0,
+      "AUC_0_96_mg_h_l": 15.968155761021242,
+      "Cmax_mg_l": 0.25606867946953327,
+      "remaining_amount_mg": 49.054376672505704,
+      "metabolism_mg": 0.8283908164724744,
+      "urinary_mg": 33.04574788519445,
+      "fecal_biliary_mg": 17.071484625825587,
+      "AUCR_0_96": 2.9189542153620947
+    }
+  ],
+  "clinical_recommendations": null,
+  "reused_module": "run_task4_pbpk_pharmacokinetics_dose_prediction.py",
+  "limitations": [
+    "No measured transporter kinetics or tissue calibration.",
+    "Inhibitor is a constant imposed unbound I/Ki ratio, not perpetrator PK.",
+    "Inherited tissue volumes are effective exchange volumes; added cell volumes are an unvalidated split.",
+    "AUC is truncated at 96 hours; no patient dose prediction."
+  ]
+}

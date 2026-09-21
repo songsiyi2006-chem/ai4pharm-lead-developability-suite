@@ -1,0 +1,38 @@
+{
+  "task": 15,
+  "evidence": "uncalibrated mechanistic scenario",
+  "runs": [
+    {
+      "initial_C_over_KD": 0.0,
+      "IL6_peak_normalized": 5.10818710305805,
+      "IL6R_signal_AUC_h": 75.2013975642549,
+      "macrophage_peak_fraction": 0.810944176419443
+    },
+    {
+      "initial_C_over_KD": 1.0,
+      "IL6_peak_normalized": 5.9441321802018,
+      "IL6R_signal_AUC_h": 51.158239972428206,
+      "macrophage_peak_fraction": 0.7865728479687204
+    },
+    {
+      "initial_C_over_KD": 10.0,
+      "IL6_peak_normalized": 7.186465780226393,
+      "IL6R_signal_AUC_h": 17.106469434153198,
+      "macrophage_peak_fraction": 0.7740280886069745
+    },
+    {
+      "initial_C_over_KD": 100.0,
+      "IL6_peak_normalized": 7.587136827888482,
+      "IL6R_signal_AUC_h": 6.781300944439286,
+      "macrophage_peak_fraction": 0.7740280886069745
+    }
+  ],
+  "target_to_self_C5_ratio": 59.49901826619861,
+  "clinical_recommendations": null,
+  "homeostasis_restoration_established": null,
+  "limitations": [
+    "No measured homeostatic set point or patient cytokine calibration.",
+    "Anti-IL6R exposure is dimensionless C/KD, not a tocilizumab dose.",
+    "Receptor mass conserved; antigen is an imposed reservoir."
+  ]
+}

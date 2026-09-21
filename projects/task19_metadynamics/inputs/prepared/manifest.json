@@ -1,0 +1,9 @@
+{
+  "files_sha256": {
+    "ligand_parameterization.json": "d012f9f786764f45c66238aa889692f8da2d5a3730239f38b42e369a0f8d26df",
+    "MZ1_prepared.sdf": "2fe7afaf5b404e6cca305129de427aded385c62af01fbc34435feedfafcfa6f6",
+    "preparation.json": "1642852e59a46b986c819ddf4b7e5c7f81770b093df51eed8177ddc306777a42",
+    "prepared_explicit.pdb.gz": "13b09f51b7c828428de61106d7b3104ad60693a906f67cc542bae554988721a3",
+    "unbiased_system.xml.gz": "b31a8349cebf1288341a62afe4ae4e177b6a93d1a75cc5450a506c2faf94ae05"
+  }
+}

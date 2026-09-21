@@ -1,0 +1,10 @@
+gene,diplotype,activity_score,phenotype,assumed_PK_factor,factor_evidence
+CYP2D6,*4/*4,0.0,PM,0.0,"assumed PK factor, not AS-to-clearance calibration"
+CYP2D6,*1/*4,1.0,IM,0.35,"assumed PK factor, not AS-to-clearance calibration"
+CYP2D6,*1/*1,2.0,NM,1.0,"assumed PK factor, not AS-to-clearance calibration"
+CYP2D6,*1x2/*1,3.0,UM,1.8,"assumed PK factor, not AS-to-clearance calibration"
+CYP2C19,*2/*2,,PM,0.0,"assumed PK factor, not AS-to-clearance calibration"
+CYP2C19,*1/*2,,IM,0.35,"assumed PK factor, not AS-to-clearance calibration"
+CYP2C19,*1/*1,,NM,1.0,"assumed PK factor, not AS-to-clearance calibration"
+CYP2C19,*1/*17,,RM,1.4,"assumed PK factor, not AS-to-clearance calibration"
+CYP2C19,*17/*17,,UM,1.8,"assumed PK factor, not AS-to-clearance calibration"

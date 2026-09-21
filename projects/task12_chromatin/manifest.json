@@ -1,0 +1,26 @@
+{
+  "task": 12,
+  "kind": "artifact integrity snapshot after executed local CPU calculations",
+  "script_sha256": "0bbbea5bc048dfc6d243a9abc2dd89572d0b2afdf020374de7a52496bfd20496",
+  "runtime": {
+    "python": "3.14.6",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  },
+  "files_sha256": {
+    "driver.py": "0bbbea5bc048dfc6d243a9abc2dd89572d0b2afdf020374de7a52496bfd20496",
+    "outputs/binding_equilibria.csv": "7d16070d2b25a991e3cd88039e6c7190ef2501a69b903bf506df3b5a5f419b11",
+    "outputs/config.json": "bd21e48cc9d0166cfada8300c5a3999fcde3d0b0ccf59c588e66a6087ee6415f",
+    "outputs/dose_penalty_grid.csv": "6affe210a3b1299a55d43799b2e21e19f0a1144b2312199bcf37286f6c866bef",
+    "outputs/figures/fig12_epigenetic_chromatin_degradation.png": "df706fb744a164cd089f3b468acc96959038c26e6ba7b0a29b7df537be0080cb",
+    "outputs/summary.json": "632a5ec4222ec562b07061f6fc81ff58cb86a102f1433821a92b547b938cbc3a",
+    "outputs/trajectories.csv": "824c99872aad3201022dfb45d39cf82c91f164d7147aee83f3afc6901c3f99cb",
+    "outputs/verification.json": "ea959528792eedad6f98e15acfd93a7b41e4b91d43346c66a27fa433c11047c7",
+    "README.md": "2994db0f27cd2c48724cfda598196ea45c1accf2fd1b3d797a03716751550277",
+    "REPORT_EN.md": "150e2c2a57540b897704a8e194f1bcdd6dd43c7226868e3440413f46510efac2",
+    "REPORT_ZH.md": "c97a0aab35823787d4484b46495b1f86011523023d14a66af6cc7311019f81e3",
+    "sources.md": "42d4a93ed5bcc4b0a185e12a9f574bff550bbaa40619f62b4b8a9e5de6fb4266",
+    "visual_review.json": "308a08055d091d984d553b659f9da64c967f5714159474da51a8732b54c3f301"
+  }
+}

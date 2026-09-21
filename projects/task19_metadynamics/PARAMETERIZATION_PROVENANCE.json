@@ -1,0 +1,33 @@
+{
+  "audit_utc": "2026-09-21T03:57:12.969613+00:00",
+  "files": {
+    "Amber ff14SB": {
+      "basename": "protein.ff14SB.xml",
+      "sha256": "d9f9779c09d67cd5f8bc657692f174ffab14c469dfd06d560ac1899fa7e976b8"
+    },
+    "Amber TIP3P": {
+      "basename": "tip3p.xml",
+      "sha256": "3f4b188dbcb6c02863230eaca231e927fb6bf3307ce947d8a50d0f46f6dd83d9"
+    },
+    "Sage 2.3": {
+      "basename": "openff-2.3.0.offxml",
+      "sha256": "7a0d7195a4b717e29fe14aa2cf1bc3203e87ce4aef9cc2ef10fb5145b7edcf63"
+    },
+    "Ash NAGL 1.0": {
+      "basename": "openff-gnn-am1bcc-1.0.0.pt",
+      "sha256": "7981e7f5b0b1e424c9e10a40d9e7606d96dcd3dd2b095cb4eeff6829f92238ee"
+    }
+  },
+  "packages": {
+    "OpenMM": "8.6.0",
+    "openff-toolkit": "0.19.0",
+    "openff-interchange": "0.5.4",
+    "rdkit": "2026.3.5",
+    "pdbfixer": "1.12.0",
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1"
+  },
+  "cached_preparation_randomness": "PDBFixer missing-atom seed was fixed. The initial cached preparation global RNG seed was not recorded, including hydrogen initialization and salt placement; exact cached coordinates, ions and parameters are archived and hash verified. Current rebuild code seeds both Python and NumPy.",
+  "MD_randomness": "Velocities and Langevin integrator use seed 190921. Checkpoint files retain simulator state."
+}

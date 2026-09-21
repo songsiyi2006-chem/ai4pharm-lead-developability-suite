@@ -1,0 +1,43 @@
+{
+  "production_free_energy_status": "not_executed; convergence and complete binding-cycle gates remain unmet",
+  "local_pilot_status_source": "outputs/summary.json",
+  "local_pilot": {
+    "entrypoint": "driver.py --out NEW_DIRECTORY",
+    "atomistic_system": "5T35 A/B/C/D plus MZ1, explicit TIP3P, Amber ff14SB and Sage 2.3",
+    "temperature_K": 300,
+    "cpu_threads": 1,
+    "biased_steps": 1000,
+    "timestep_ps": 0.001,
+    "finite_analytic_hills_limit": 100,
+    "production_bias_engine_required": "Scalable mixed periodic/nonperiodic bias implementation, validated against this analytic short-pilot kernel"
+  },
+  "standard_state": {
+    "concentration_M": 1.0,
+    "required_corrections": [
+      "translational and orientational restraint release",
+      "radial and angular coordinate measure/Jacobians",
+      "reference volume and standard concentration",
+      "consistent protonation and ion conditions",
+      "periodic-image avoidance and whole-molecule imaging"
+    ]
+  },
+  "binding_cycle_legs": [
+    {"name": "ligase_binds_degrader", "reaction": "E + P -> EP", "delta_G_standard_kJ_mol": null},
+    {"name": "ligase_binds_target_degrader", "reaction": "E + PT -> EPT", "delta_G_standard_kJ_mol": null},
+    {"name": "target_binds_degrader", "reaction": "T + P -> PT", "delta_G_standard_kJ_mol": null},
+    {"name": "target_binds_ligase_degrader", "reaction": "T + EP -> EPT", "delta_G_standard_kJ_mol": null}
+  ],
+  "free_energy_acceptance": {
+    "independent_replicates": false,
+    "reversible_interbasin_sampling": false,
+    "time_block_convergence": false,
+    "hidden_slow_variable_assessment": false,
+    "standard_state_and_restraint_corrections": false,
+    "thermodynamic_cycle_closure": false,
+    "uncertainty_and_forcefield_sensitivity": false,
+    "experimental_binding_validation": false
+  },
+  "productive_degradation_basins": "not_identified; VCB/BRD4 geometry alone does not establish productive ubiquitination or cellular degradation",
+  "cooperativity_alpha": null,
+  "cooperativity_delta_delta_G_kJ_mol": null
+}

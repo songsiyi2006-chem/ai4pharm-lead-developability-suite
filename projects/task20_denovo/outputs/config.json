@@ -1,0 +1,14 @@
+{
+  "seed": 20260921,
+  "population": 100,
+  "generations": 20,
+  "poses_per_candidate": 40,
+  "crossover_probability": 0.8,
+  "mutation_probability": 0.4,
+  "vina_subset": 12,
+  "vina_exhaustiveness": 4,
+  "vina_timeout_s": 180,
+  "box_size_A": 24.0,
+  "score_status": "uncalibrated dimensionless geometry; no nanomolar conversion",
+  "reference": "6W63 X77 redocking, 6YB7 unliganded active site as generation target"
+}

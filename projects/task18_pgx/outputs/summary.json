@@ -1,0 +1,312 @@
+{
+  "task": 18,
+  "evidence": "source-backed phenotype labels; hypothetical substrate PK",
+  "classification_date": "2026-09-21",
+  "scenarios": [
+    {
+      "gene": "CYP2D6",
+      "diplotype": "*4/*4",
+      "genetic_phenotype": "PM",
+      "I_over_Ki": 0.0,
+      "simulated_CYP_factor": 0.0,
+      "parent_AUC_0_168_nM_h": 2700.646735534957,
+      "active_metabolite_AUC_0_168_nM_h": 0.0,
+      "parent_Cmax_nM": 24.543534185336007,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2D6",
+      "diplotype": "*4/*4",
+      "genetic_phenotype": "PM",
+      "I_over_Ki": 1.0,
+      "simulated_CYP_factor": 0.0,
+      "parent_AUC_0_168_nM_h": 2700.646735534957,
+      "active_metabolite_AUC_0_168_nM_h": 0.0,
+      "parent_Cmax_nM": 24.543534185336007,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2D6",
+      "diplotype": "*4/*4",
+      "genetic_phenotype": "PM",
+      "I_over_Ki": 100.0,
+      "simulated_CYP_factor": 0.0,
+      "parent_AUC_0_168_nM_h": 2700.646735534957,
+      "active_metabolite_AUC_0_168_nM_h": 0.0,
+      "parent_Cmax_nM": 24.543534185336007,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2D6",
+      "diplotype": "*1/*4",
+      "genetic_phenotype": "IM",
+      "I_over_Ki": 0.0,
+      "simulated_CYP_factor": 0.35,
+      "parent_AUC_0_168_nM_h": 1217.8521189374737,
+      "active_metabolite_AUC_0_168_nM_h": 663.20738847866,
+      "parent_Cmax_nM": 14.890205639835932,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2D6",
+      "diplotype": "*1/*4",
+      "genetic_phenotype": "IM",
+      "I_over_Ki": 1.0,
+      "simulated_CYP_factor": 0.175,
+      "parent_AUC_0_168_nM_h": 1684.8003479311606,
+      "active_metabolite_AUC_0_168_nM_h": 456.31538470458065,
+      "parent_Cmax_nM": 17.64050916334029,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2D6",
+      "diplotype": "*1/*4",
+      "genetic_phenotype": "IM",
+      "I_over_Ki": 100.0,
+      "simulated_CYP_factor": 0.003465346534653465,
+      "parent_AUC_0_168_nM_h": 2669.291603339661,
+      "active_metabolite_AUC_0_168_nM_h": 14.20751536766149,
+      "parent_Cmax_nM": 24.312634799167437,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2D6",
+      "diplotype": "*1/*1",
+      "genetic_phenotype": "NM",
+      "I_over_Ki": 0.0,
+      "simulated_CYP_factor": 1.0,
+      "parent_AUC_0_168_nM_h": 594.118333484432,
+      "active_metabolite_AUC_0_168_nM_h": 934.816291883874,
+      "parent_Cmax_nM": 11.486625957338916,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2D6",
+      "diplotype": "*1/*1",
+      "genetic_phenotype": "NM",
+      "I_over_Ki": 1.0,
+      "simulated_CYP_factor": 0.5,
+      "parent_AUC_0_168_nM_h": 982.0923694924631,
+      "active_metabolite_AUC_0_168_nM_h": 766.7515583545676,
+      "parent_Cmax_nM": 13.588041114634517,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2D6",
+      "diplotype": "*1/*1",
+      "genetic_phenotype": "NM",
+      "I_over_Ki": 100.0,
+      "simulated_CYP_factor": 0.009900990099009901,
+      "parent_AUC_0_168_nM_h": 2612.8771061361226,
+      "active_metabolite_AUC_0_168_nM_h": 39.74972504029895,
+      "parent_Cmax_nM": 23.90006981801759,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2D6",
+      "diplotype": "*1x2/*1",
+      "genetic_phenotype": "UM",
+      "I_over_Ki": 0.0,
+      "simulated_CYP_factor": 1.8,
+      "parent_AUC_0_168_nM_h": 362.7754605838457,
+      "active_metabolite_AUC_0_168_nM_h": 1032.604203184368,
+      "parent_Cmax_nM": 9.858703530104325,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2D6",
+      "diplotype": "*1x2/*1",
+      "genetic_phenotype": "UM",
+      "I_over_Ki": 1.0,
+      "simulated_CYP_factor": 0.9,
+      "parent_AUC_0_168_nM_h": 645.3543662785654,
+      "active_metabolite_AUC_0_168_nM_h": 912.8616950636672,
+      "parent_Cmax_nM": 11.775971992391648,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2D6",
+      "diplotype": "*1x2/*1",
+      "genetic_phenotype": "UM",
+      "I_over_Ki": 100.0,
+      "simulated_CYP_factor": 0.017821782178217824,
+      "parent_AUC_0_168_nM_h": 2546.514379129866,
+      "active_metabolite_AUC_0_168_nM_h": 69.76314486086041,
+      "parent_Cmax_nM": 23.41948334388647,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*2/*2",
+      "genetic_phenotype": "PM",
+      "I_over_Ki": 0.0,
+      "simulated_CYP_factor": 0.0,
+      "parent_AUC_0_168_nM_h": 2700.646735534957,
+      "active_metabolite_AUC_0_168_nM_h": 0.0,
+      "parent_Cmax_nM": 24.543534185336007,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*2/*2",
+      "genetic_phenotype": "PM",
+      "I_over_Ki": 1.0,
+      "simulated_CYP_factor": 0.0,
+      "parent_AUC_0_168_nM_h": 2700.646735534957,
+      "active_metabolite_AUC_0_168_nM_h": 0.0,
+      "parent_Cmax_nM": 24.543534185336007,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*2/*2",
+      "genetic_phenotype": "PM",
+      "I_over_Ki": 100.0,
+      "simulated_CYP_factor": 0.0,
+      "parent_AUC_0_168_nM_h": 2700.646735534957,
+      "active_metabolite_AUC_0_168_nM_h": 0.0,
+      "parent_Cmax_nM": 24.543534185336007,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*1/*2",
+      "genetic_phenotype": "IM",
+      "I_over_Ki": 0.0,
+      "simulated_CYP_factor": 0.35,
+      "parent_AUC_0_168_nM_h": 1217.8521189374737,
+      "active_metabolite_AUC_0_168_nM_h": 663.20738847866,
+      "parent_Cmax_nM": 14.890205639835932,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*1/*2",
+      "genetic_phenotype": "IM",
+      "I_over_Ki": 1.0,
+      "simulated_CYP_factor": 0.175,
+      "parent_AUC_0_168_nM_h": 1684.8003479311606,
+      "active_metabolite_AUC_0_168_nM_h": 456.31538470458065,
+      "parent_Cmax_nM": 17.64050916334029,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*1/*2",
+      "genetic_phenotype": "IM",
+      "I_over_Ki": 100.0,
+      "simulated_CYP_factor": 0.003465346534653465,
+      "parent_AUC_0_168_nM_h": 2669.291603339661,
+      "active_metabolite_AUC_0_168_nM_h": 14.20751536766149,
+      "parent_Cmax_nM": 24.312634799167437,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*1/*1",
+      "genetic_phenotype": "NM",
+      "I_over_Ki": 0.0,
+      "simulated_CYP_factor": 1.0,
+      "parent_AUC_0_168_nM_h": 594.118333484432,
+      "active_metabolite_AUC_0_168_nM_h": 934.816291883874,
+      "parent_Cmax_nM": 11.486625957338916,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*1/*1",
+      "genetic_phenotype": "NM",
+      "I_over_Ki": 1.0,
+      "simulated_CYP_factor": 0.5,
+      "parent_AUC_0_168_nM_h": 982.0923694924631,
+      "active_metabolite_AUC_0_168_nM_h": 766.7515583545676,
+      "parent_Cmax_nM": 13.588041114634517,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*1/*1",
+      "genetic_phenotype": "NM",
+      "I_over_Ki": 100.0,
+      "simulated_CYP_factor": 0.009900990099009901,
+      "parent_AUC_0_168_nM_h": 2612.8771061361226,
+      "active_metabolite_AUC_0_168_nM_h": 39.74972504029895,
+      "parent_Cmax_nM": 23.90006981801759,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*1/*17",
+      "genetic_phenotype": "RM",
+      "I_over_Ki": 0.0,
+      "simulated_CYP_factor": 1.4,
+      "parent_AUC_0_168_nM_h": 450.60232014099324,
+      "active_metabolite_AUC_0_168_nM_h": 995.7625247020577,
+      "parent_Cmax_nM": 10.564169144414269,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*1/*17",
+      "genetic_phenotype": "RM",
+      "I_over_Ki": 1.0,
+      "simulated_CYP_factor": 0.7,
+      "parent_AUC_0_168_nM_h": 779.3680775850676,
+      "active_metabolite_AUC_0_168_nM_h": 855.0427769046051,
+      "parent_Cmax_nM": 12.50829865500712,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*1/*17",
+      "genetic_phenotype": "RM",
+      "I_over_Ki": 100.0,
+      "simulated_CYP_factor": 0.01386138613861386,
+      "parent_AUC_0_168_nM_h": 2579.2854511649684,
+      "active_metabolite_AUC_0_168_nM_h": 54.9464349360429,
+      "parent_Cmax_nM": 23.656165797115655,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*17/*17",
+      "genetic_phenotype": "UM",
+      "I_over_Ki": 0.0,
+      "simulated_CYP_factor": 1.8,
+      "parent_AUC_0_168_nM_h": 362.7754605838457,
+      "active_metabolite_AUC_0_168_nM_h": 1032.604203184368,
+      "parent_Cmax_nM": 9.858703530104325,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*17/*17",
+      "genetic_phenotype": "UM",
+      "I_over_Ki": 1.0,
+      "simulated_CYP_factor": 0.9,
+      "parent_AUC_0_168_nM_h": 645.3543662785654,
+      "active_metabolite_AUC_0_168_nM_h": 912.8616950636672,
+      "parent_Cmax_nM": 11.775971992391648,
+      "clinical_recommendations": null
+    },
+    {
+      "gene": "CYP2C19",
+      "diplotype": "*17/*17",
+      "genetic_phenotype": "UM",
+      "I_over_Ki": 100.0,
+      "simulated_CYP_factor": 0.017821782178217824,
+      "parent_AUC_0_168_nM_h": 2546.514379129866,
+      "active_metabolite_AUC_0_168_nM_h": 69.76314486086041,
+      "parent_Cmax_nM": 23.41948334388647,
+      "clinical_recommendations": null
+    }
+  ],
+  "clinical_recommendations": null,
+  "limitations": [
+    "No real patient genotype or drug-specific dose model.",
+    "Activity score classifies CYP2D6; clearance factors are independent assumptions.",
+    "CYP2C19 uses allele-function combinations, including a separate rapid phenotype.",
+    "Inhibitor changes model clearance without rewriting inherited genotype.",
+    "Active parent and bioactivated metabolite can imply opposite exposure changes."
+  ]
+}

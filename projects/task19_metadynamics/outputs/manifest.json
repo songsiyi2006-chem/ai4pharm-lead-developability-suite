@@ -1,0 +1,33 @@
+{
+  "files_sha256": {
+    "atomistic_cv_trajectory.csv": "6f659489971ea955667be77506c244a51ffc0db17f412a074a74500aa7c81cc4",
+    "bias_archive_audit.json": "b4389aa973276fd91549aa79c227a445f20b64e21f9bef75216e0014f815e430",
+    "biased_system.xml.gz": "b4d5cde47a592e1b6a22b6c0073f7f7e88d417997b2bd52a424871471c32da15",
+    "checkpoint_metadata.json": "4c541131c4940b2bf4d5e7768aeb6ab2019ddf88e79acdacb5ecbabf9e65e10d",
+    "config.json": "94d98f43ada0f564f58fa2fe21bd8297a5f26839b6f9301f64026e49f5199a91",
+    "crystal_interface.npz": "dec01e5561504d4f04dc10644e67d43e75985d2f791c207eef9c817c4b196ad3",
+    "cv_definition.json": "ad185dc44902c071ec58db539b620b0817031f66e98b2b731332012a64432a4e",
+    "executed_driver.py": "b8078551a4774d35aebf6576709f2d24c84914e344abb1881ca8d473a0f19ef3",
+    "figures/fig19_ternary_metadynamics_pmf_landscape.png": "1693b1d1a0d5bf9b3f6dbfe4e9c5596df59117dfcd944d3c1845057759092652",
+    "final_explicit.pdb.gz": "e0aa26e3fca363a2b35e7378a7a5013a00d9e009d55bfe511878cb7b8c840dd2",
+    "hill_history.csv": "2324400f02b8631c4b733ecf09686e37ce17458353e842266ed7fac35ba6a159",
+    "integrator.xml": "cdb82d7b8f159905b6e18831fac5a6209c35b9f00e44962e19be7d60625c8585",
+    "interface_atom_contacts.csv": "41e3920d31af5c4cbcab54a98e89ba7d7d498df4613a7abf5ddfea95e2427a82",
+    "interface_residue_contacts.csv": "471e219dd5260b6688662356b67764f87bd723cccbfc53babde0f21ebae0c99d",
+    "latest.checkpoint.gz": "dc8369e3127dcfba8aaa3ac2c986e94e9cab453cbe80ef29494f7d92dfcceba3",
+    "ligand_parameterization.json": "d012f9f786764f45c66238aa889692f8da2d5a3730239f38b42e369a0f8d26df",
+    "minimization.csv": "881696b765d738e89192604f54fddf8f221a9e79634cd1d2269f18c2727abc8e",
+    "minimization_energies.json": "fc82a3976642d0bbe1470a10e3d420c9f3c32e9edb9bff4556a08e5b48157539",
+    "minimized.checkpoint.gz": "adad36684eb950e38cd43cd5c38e655783d51e00f671813393ee87f89f61369e",
+    "MZ1_prepared.sdf": "2fe7afaf5b404e6cca305129de427aded385c62af01fbc34435feedfafcfa6f6",
+    "preparation.json": "1642852e59a46b986c819ddf4b7e5c7f81770b093df51eed8177ddc306777a42",
+    "preparation_reuse.json": "820e6c14f0afe37641e712f147ea790cb26df8f7acee20dd56265c03bf6bcec6",
+    "run_metadata.json": "48ba4895e61559cc096bd47d33376fbd584c2ef13507cd86ea907af4581c58ea",
+    "solute_trajectory.npz": "72bcecd3e1f714cd2afe532bcf794049a22e25d0d5a4f8067ea02c8b3223034d",
+    "structure_audit.json": "eccdfc832df3aab6cf0b1569df8cff749efbc2c92686b978b0b6e9a26cd83a14",
+    "summary.json": "c91145c380bbe29a74636e53f80aac23f57992635b171c0bc1b8bd55cc472d3c",
+    "thermal_reference.npz": "b8f06cd283d9336e0ff621993716c7e429637b40503b439555ea525feafb1812",
+    "unconverged_bias_free_energy.npz": "26f1eca9054c84607a4a6a7566f5f61de84b5099f3ad36cca91185440b49a4db",
+    "verification.json": "72194bd4eaf2bed03e01533f45db075243c44cf2cc3ae02d4c200da510ddfa3c"
+  }
+}

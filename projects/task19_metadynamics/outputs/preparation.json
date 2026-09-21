@@ -1,0 +1,94 @@
+{
+  "particles": 150838,
+  "constraints": 146783,
+  "solvent_removed_overlapping_ligand": 17,
+  "missing_residues_detected": {
+    "(0, 0)": [
+      "SER",
+      "MET",
+      "LYS",
+      "ASP",
+      "VAL",
+      "PRO",
+      "ASP",
+      "SER",
+      "GLN",
+      "GLN",
+      "HIS",
+      "PRO",
+      "ALA",
+      "PRO",
+      "GLU",
+      "LYS",
+      "SER",
+      "SER"
+    ],
+    "(0, 111)": [
+      "GLU"
+    ],
+    "(2, 32)": [
+      "GLY",
+      "PRO",
+      "GLY",
+      "GLN",
+      "PHE",
+      "ALA",
+      "GLU",
+      "ASN",
+      "GLU",
+      "THR"
+    ],
+    "(3, 0)": [
+      "GLY",
+      "SER",
+      "MET",
+      "GLU",
+      "ALA",
+      "GLY",
+      "ARG",
+      "PRO",
+      "ARG"
+    ],
+    "(3, 149)": [
+      "ARG",
+      "MET",
+      "GLY",
+      "ASP"
+    ]
+  },
+  "internal_missing_residues_modeled": {
+    "(2, 32)": [
+      "GLY",
+      "PRO",
+      "GLY",
+      "GLN",
+      "PHE",
+      "ALA",
+      "GLU",
+      "ASN",
+      "GLU",
+      "THR"
+    ]
+  },
+  "hydrogens": "PDBFixer pH 7 default variants; not a pKa calculation",
+  "protein_construct": "Resolved A/B/C/D with missing atoms repaired; terminal tails omitted",
+  "periodic_box_nm": [
+    [
+      13.041412114225203,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      13.041412114225203,
+      0.0
+    ],
+    [
+      6.520706057112601,
+      6.520706057112601,
+      9.221670942217031
+    ]
+  ],
+  "neutralization": "Protein-based neutralization with 0.15 M NaCl; MZ1 net charge verified zero",
+  "missing_atom_reconstruction": "PDBFixer modeled geometry, not experimental observation"
+}

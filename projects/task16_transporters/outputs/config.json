@@ -1,0 +1,38 @@
+{
+  "dose_mg": 100.0,
+  "horizon_h": 96.0,
+  "OATP1B1_Vmax_mg_h": 12.0,
+  "OATP1B3_Vmax_mg_h": 4.0,
+  "OATP_Km_mg_l": 0.1,
+  "hepatic_passive_l_h": 2.0,
+  "hepatocyte_volume_l": 1.3,
+  "intracellular_fu": 0.2,
+  "hepatic_metabolic_CL_l_h": 5.0,
+  "biliary_Vmax_mg_h": 3.0,
+  "biliary_Km_mg_l": 0.1,
+  "renal_cell_volume_l": 0.15,
+  "renal_uptake_Vmax_mg_h": 3.0,
+  "renal_uptake_Km_mg_l": 0.2,
+  "renal_passive_l_h": 0.5,
+  "renal_Pgp_BCRP_Vmax_mg_h": [
+    0.8,
+    0.6
+  ],
+  "renal_efflux_Km_mg_l": 0.15,
+  "enterocyte_volume_l": 0.25,
+  "enterocyte_basolateral_h": 0.8,
+  "gut_Pgp_BCRP_Vmax_mg_h": [
+    2.0,
+    1.0
+  ],
+  "gut_efflux_Km_mg_l": 0.2,
+  "gut_fecal_transit_h": 0.1,
+  "inhibitor_I_over_Ki": [
+    0.0,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "provenance": "transporter and cell parameters assumed; inherited Task4 physiology is scenario data",
+  "clinical_recommendations": null
+}

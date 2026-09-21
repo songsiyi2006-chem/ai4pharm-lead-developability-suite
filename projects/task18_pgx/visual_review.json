@@ -1,0 +1,18 @@
+{
+  "review_date": "2026-09-21",
+  "method": "actual view_image inspection of rendered figure",
+  "figure": "outputs/figures/fig18_pgx_cyp2d6_phenotype_kinetics.png",
+  "pixels": [
+    3600,
+    2550
+  ],
+  "dpi": [
+    299.9994,
+    299.9994
+  ],
+  "readable_axes_titles_legends": true,
+  "no_detected_clipping_of_text": true,
+  "current_request_scope": "therapeutic advanced biopharmaceutics; Task17 pulmonary aerosol",
+  "notes": "Task15 signal modulation is not guaranteed cytokine homeostasis; Task17 shows distinct FPF denominators and instrument/PK domains.",
+  "sha256": "40315c47454ac3b69e41acdc040b3366d2bb194352b9a0e80df224fc5c84869a"
+}

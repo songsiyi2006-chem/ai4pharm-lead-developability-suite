@@ -1,0 +1,7 @@
+{
+  "mode": "verified precomputed atomistic parameterization",
+  "source": "inputs/prepared",
+  "manifest_sha256": "86e0bb5371877007af1da0bf051c1aafa209c4cc979bb4340d0e4d57d1846916",
+  "coordinates_precision": "PDB restart, 0.001 angstrom",
+  "configuration_compatibility": "Cached preparation is fixed to the archived force fields, box and ion parameters."
+}

@@ -1,0 +1,10 @@
+{
+  "binding_grid_max_balance_error_nM": 8.616396485194855e-11,
+  "cell_ledger_max_error": 4.440892098500626e-16,
+  "refinement_max_fraction_difference": 5.670040175154156e-07,
+  "zero_BiTE_lysis": 0.0,
+  "zero_effector_lysis": 0.0,
+  "zero_cooperativity_lysis": 0.0,
+  "minimum_cell_fraction": 0.0,
+  "passed": true
+}

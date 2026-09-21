@@ -1,0 +1,222 @@
+[
+  {
+    "genes": "[1, 8, 4]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[4, 8, 3]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[6, 8, 7]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[3, 8, 5]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[4, 9, 2]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[2, 10, 2]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 8, 3]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[3, 9, 5]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[1, 5, 2]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 8, 4]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[3, 8, 7]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[5, 0, 2]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 9, 2]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[3, 10, 4]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[2, 8, 3]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[7, 8, 2]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[1, 9, 1]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[1, 8, 0]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[5, 10, 2]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 9, 7]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 8, 11]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[3, 8, 2]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[5, 10, 5]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[1, 8, 0]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[5, 10, 5]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[5, 10, 3]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 8, 2]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[1, 9, 4]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[3, 9, 5]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[4, 8, 3]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[2, 9, 0]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[4, 9, 1]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[5, 9, 1]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 9, 3]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 10, 2]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 9, 4]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 9, 2]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[7, 10, 0]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 5, 2]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[6, 9, 0]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[5, 9, 3]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 9, 4]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[4, 10, 0]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 10, 2]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[1, 8, 2]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 9, 11]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 9, 3]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 10, 0]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[2, 9, 2]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[4, 9, 0]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[2, 9, 3]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[0, 9, 11]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[1, 9, 11]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[2, 8, 11]",
+    "reason": "Outside prespecified molecular weight domain"
+  },
+  {
+    "genes": "[5, 9, 1]",
+    "reason": "Outside prespecified molecular weight domain"
+  }
+]

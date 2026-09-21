@@ -1,0 +1,25 @@
+{
+  "task": 13,
+  "kind": "artifact integrity snapshot after executed local CPU calculations",
+  "script_sha256": "9d47166d15e19a6205d0020e3c637247e200d6dc8d5de99b65b2778468352dff",
+  "runtime": {
+    "python": "3.14.6",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  },
+  "files_sha256": {
+    "driver.py": "9d47166d15e19a6205d0020e3c637247e200d6dc8d5de99b65b2778468352dff",
+    "outputs/affinity_sensitivity.csv": "d7a6ba6df114d2f0a65d3432e6057760a36744989fb5d94d9ce200006c510a97",
+    "outputs/config.json": "b9652dbad4274dc5ac93f94d6cda7a79ebda9649dbff049f58514b4c8fe58daf",
+    "outputs/figures/fig13_bbb_tfr_transcytosis_affinity_paradox.png": "02008d783b3241576c802597dc121d3956f3e2c8f5489e4b10605ffcb0aeb66f",
+    "outputs/summary.json": "32c209fb416b62c48eab9502d1c73085ca857b2b8b6f8e7934571219da91e664",
+    "outputs/trajectories.csv": "6899b509ecaa1ed900691104a705f06f46e6eebaeb4d02750db6ad10ed939087",
+    "outputs/verification.json": "f89ee7fad29608caeb7ef5d44175f7c0b7746ff8d499cadf8fa3d97178c1c588",
+    "README.md": "9b0f02ff9a3b3d4fa8b0b14749b29a605f98bc641bcd1ce09517bdf946597407",
+    "REPORT_EN.md": "919ceef5781ae76d5eb5107d118bcfd2412460fc4442ea85bb386ddfaf40826f",
+    "REPORT_ZH.md": "355bea56861de76e326bc659cf486a27c9c97b027a86140ebdb7e0aaa6c02e10",
+    "sources.md": "2769bc5a9468b13268101fbfeb7e23444ba5fb4957cb8ff88fedc368de4e9cc9",
+    "visual_review.json": "18d83784b33f4dec9fb7d738b9b62e94a7807b4d983410baf74ca1c06858d2a6"
+  }
+}

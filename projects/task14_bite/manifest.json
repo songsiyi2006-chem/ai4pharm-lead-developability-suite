@@ -1,0 +1,26 @@
+{
+  "task": 14,
+  "kind": "artifact integrity snapshot after executed local CPU calculations",
+  "script_sha256": "32ae31ad9ec9847834924063fcd55b35ab5fb22796616b3188c71d227a1e701a",
+  "runtime": {
+    "python": "3.14.6",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  },
+  "files_sha256": {
+    "driver.py": "32ae31ad9ec9847834924063fcd55b35ab5fb22796616b3188c71d227a1e701a",
+    "outputs/binding_grid.csv": "9b8bb70cbcec7edb8e7bcfb435409d763424752ece7fb648ea3922fa9b2a0b63",
+    "outputs/config.json": "944e754bc3e013916e62c1a55b764b2649812c2420045fbb599113c7c88658bd",
+    "outputs/figures/fig14_bite_synapse_crosslinking_bell_curve.png": "29ff775fdb42b687e1394ed4984f4bc773f5129f274073f0feef6a3562a99424",
+    "outputs/lysis_grid.csv": "3c45e0a3088940db0d6a71de537afbc565f4bd0682e9e69b5cbaf031dd6b6eef",
+    "outputs/summary.json": "50eeabbd4bc4aea24346ad06112fd8b15f73ad5c34bb734b2836db41f59599fb",
+    "outputs/trajectories.csv": "45e2cc94a24ba1d3ed4c6f634d30fcba6ea0086a058a7c35645864782eb9de59",
+    "outputs/verification.json": "0ee3d74e8f8664bf77b2ab16a5b776826fb79824840f4fbe75480f08fca27bde",
+    "README.md": "84948d54085daafb95fbbceb8cfb78b407094de7893b9d9551d4a0468b71150f",
+    "REPORT_EN.md": "e1c15bdb12c524cccacdd1e04589d0d83be74ce0ca236f9a6f68a3863b05ae6e",
+    "REPORT_ZH.md": "7f3f24f95b6389782f2570ea6fe8eb9874bc4c867eb1e068a99099abde7374bc",
+    "sources.md": "eccf76c42449aa99af22c139bc1d3119ad71a8cd4b9b1624b564893e2cb87d67",
+    "visual_review.json": "ec36591ea9aee29a4d9cd9d9ebb5b039cead14cf61b4830136392b4697f8ac22"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "proofreading_steps": 5,
+  "kp_h": 720.0,
+  "kon_L_h": [
+    90.0,
+    90.0
+  ],
+  "koff_h": [
+    36.0,
+    360.0
+  ],
+  "antigen_decay_start_h": 24.0,
+  "antigen_decay_h": 0.08,
+  "antagonist_start_h": 12.0,
+  "antagonist_half_life_h": 48.0,
+  "antagonist_initial_C_over_KD": [
+    0.0,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "horizon_h": 96.0,
+  "kinetics_provenance": "all numerical kinetic values are scenario assumptions",
+  "cytokine_unit": "normalized model concentration; no patient calibration",
+  "clinical_recommendations": null
+}

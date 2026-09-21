@@ -1,0 +1,19 @@
+UTC 2026-09-21T04:07:02.252411+00:00
+test_bias_archive_retains_recorded_nonzero_hills (test_advanced_19.AtomisticMechanics.test_bias_archive_retains_recorded_nonzero_hills) ... ok
+test_bias_configuration_gates (test_advanced_19.AtomisticMechanics.test_bias_configuration_gates) ... ok
+test_checkpoint_continues_positions_and_random_state (test_advanced_19.AtomisticMechanics.test_checkpoint_continues_positions_and_random_state) ... ok
+test_corrupted_or_incompatible_checkpoint_is_rejected (test_advanced_19.AtomisticMechanics.test_corrupted_or_incompatible_checkpoint_is_rejected) ... ok
+test_merge_preserves_full_cross_coulomb_energy (test_advanced_19.AtomisticMechanics.test_merge_preserves_full_cross_coulomb_energy) ... ok
+test_real_centroid_force_matches_manual_value_and_gradient (test_advanced_19.AtomisticMechanics.test_real_centroid_force_matches_manual_value_and_gradient) ... ok
+test_actual_structure_identity_and_internal_gap (test_advanced_19.StructureAndEvidence.test_actual_structure_identity_and_internal_gap) ... ok
+test_cached_parameters_are_hash_verified (test_advanced_19.StructureAndEvidence.test_cached_parameters_are_hash_verified) ... ok
+test_orientation_rigid_motion_invariance (test_advanced_19.StructureAndEvidence.test_orientation_rigid_motion_invariance) ... ok
+test_output_overwrite_guard (test_advanced_19.StructureAndEvidence.test_output_overwrite_guard) ... ok
+test_undefined_orientation_rejected (test_advanced_19.StructureAndEvidence.test_undefined_orientation_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.300s
+
+OK
+
+Exit code: 0

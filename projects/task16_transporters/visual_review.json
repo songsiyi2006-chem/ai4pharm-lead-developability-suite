@@ -1,0 +1,18 @@
+{
+  "review_date": "2026-09-21",
+  "method": "actual view_image inspection of rendered figure",
+  "figure": "outputs/figures/fig16_transporter_oatp_pgp_kinetics.png",
+  "pixels": [
+    3600,
+    2550
+  ],
+  "dpi": [
+    299.9994,
+    299.9994
+  ],
+  "readable_axes_titles_legends": true,
+  "no_detected_clipping_of_text": true,
+  "current_request_scope": "therapeutic advanced biopharmaceutics; Task17 pulmonary aerosol",
+  "notes": "Task15 signal modulation is not guaranteed cytokine homeostasis; Task17 shows distinct FPF denominators and instrument/PK domains.",
+  "sha256": "14bfe39ff6e02bb7fd77fb701d09af97c22798c4ad0db23b69017bf46d7068b1"
+}

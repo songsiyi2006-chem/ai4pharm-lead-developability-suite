@@ -1,0 +1,15 @@
+{
+  "KD_CD3_nM": 100.0,
+  "KD_TAA_nM": 1.0,
+  "cooperativity": 1.0,
+  "accessible_CD3_per_effector": 5000.0,
+  "accessible_TAA_per_target": 10000.0,
+  "effective_contact_volume_L_per_initial_target": 1e-12,
+  "initial_target_cells": 100000.0,
+  "effector_target_ratio": 1.0,
+  "lysis_max_per_h": 0.12,
+  "synapse_half_effect_complexes_per_cell": 500.0,
+  "hill_exponent": 2.0,
+  "horizon_h": 48.0,
+  "evidence": "All biological parameters are illustrative assumptions; contact volume is a coarse-graining convention, not measured cleft geometry."
+}

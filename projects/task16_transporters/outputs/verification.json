@@ -1,0 +1,8 @@
+{
+  "mass_balance_error_mg": 1.7447092659494956e-09,
+  "minimum_state": 0.0,
+  "refinement_scaled_error": 9.292766378621309e-10,
+  "task4_derivative_reused": true,
+  "old_hepatic_flux_removed_before_extension": true,
+  "passed": true
+}

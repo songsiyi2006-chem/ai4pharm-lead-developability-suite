@@ -1,0 +1,45 @@
+{
+  "CYP2D6_allele_subset_activity": {
+    "*1": 1.0,
+    "*2": 1.0,
+    "*4": 0.0,
+    "*5": 0.0,
+    "*10": 0.25,
+    "*17": 0.5,
+    "*41": 0.25
+  },
+  "CYP2C19_allele_subset_function": {
+    "*1": "normal",
+    "*2": "none",
+    "*3": "none",
+    "*17": "increased",
+    "*9": "decreased",
+    "*12": "unknown"
+  },
+  "hypothetical_substrate_phenotype_clearance_factors": {
+    "PM": 0.0,
+    "IM": 0.35,
+    "NM": 1.0,
+    "RM": 1.4,
+    "UM": 1.8
+  },
+  "parent_volume_l": 50.0,
+  "metabolite_volume_l": 30.0,
+  "non_CYP_clearance_l_h": 2.0,
+  "NM_CYP_clearance_l_h": 8.0,
+  "metabolite_clearance_l_h": 4.0,
+  "metabolite_molar_yield": 0.8,
+  "oral_bioavailability": 0.85,
+  "absorption_h": 1.0,
+  "dose_nmol": 1000.0,
+  "dose_interval_h": 24.0,
+  "number_doses": 7,
+  "phenoconversion_inhibitor_I_over_Ki": [
+    0.0,
+    1.0,
+    100.0
+  ],
+  "classification_source": "CPIC CYP2D6 2026 update; CYP2C19 2022 clopidogrel guideline",
+  "PK_provenance": "all PK parameters and factor mapping assumed; not CPIC dosing recommendations",
+  "clinical_recommendations": null
+}

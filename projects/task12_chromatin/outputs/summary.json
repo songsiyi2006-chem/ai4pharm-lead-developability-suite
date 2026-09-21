@@ -1,0 +1,12 @@
+{
+  "task": 12,
+  "evidence": "executed competitive mass-action hypothesis; no measured chromatin occlusion energies",
+  "grid_runs": 152,
+  "free_pool_48h_nM": 22.788855127540476,
+  "chromatin_pool_48h_nM": 28.46682158294154,
+  "total_remaining_fraction_48h": 0.5125567671048202,
+  "no_drug_free_pool_48h_nM": 37.77761876957275,
+  "no_drug_chromatin_pool_48h_nM": 62.222381230427246,
+  "alpha_chromatin": 0.389679858364975,
+  "limitation": "No nucleosome structure or measured binding/degradation rates; energy penalty is an exposed assumption. Compare treated pools to matched untreated trajectories."
+}

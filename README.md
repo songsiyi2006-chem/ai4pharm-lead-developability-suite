@@ -104,6 +104,25 @@ Task 10 使用 ViennaRNA 2.7.2 执行 RNA 最近邻热力学配分函数计算�
 
 ## 项目关系与证据范围
 
+## Advanced modalities · 本次发布范围
+
+本次追加发布保留 8 个可执行模块：Task 12 染色质靶向降解、Task 13 BBB–TfR、Task 14 BiTE、Task 15 受体信号、Task 16 转运体 PBPK、Task 18 PGx、Task 19 三元界面原子模拟、Task 20 三维口袋分子生成。Task 11 与 Task 17 按本轮发布要求跳过，不进入代码、数据、图和计算入口；其编号保留用于路线图连续性。
+
+统一入口：[run_ai4pharm_advanced_modalities_suite.py](run_ai4pharm_advanced_modalities_suite.py)。它默认运行上述 8 个任务，使用新输出目录，并生成 `data_advanced/`、`figures_advanced/`、执行记录和哈希清单；`tools/validate_advanced.py` 检查文件、图像 DPI、任务覆盖和关键证据字段。
+
+| 任务 | 项目 | 300 DPI 图 |
+|---|---|---|
+| 12 | [染色质降解](projects/task12_chromatin/) | `fig12_epigenetic_chromatin_depletion.png` |
+| 13 | [BBB–TfR](projects/task13_bbb_tfr/) | `fig13_bbb_tfr_transcytosis_profile.png` |
+| 14 | [BiTE](projects/task14_bite/) | `fig14_bite_synapse_crosslinking_curve.png` |
+| 15 | [受体信号](projects/task15_receptor_signaling/) | `fig15_receptor_proofreading_cytokine_balance.png` |
+| 16 | [转运体 PBPK](projects/task16_transporters/) | `fig16_transporter_oatp_pgp_kinetics.png` |
+| 18 | [PGx](projects/task18_pgx/) | `fig18_pgx_cyp2d6_phenotype_kinetics.png` |
+| 19 | [三元界面](projects/task19_metadynamics/) | `fig19_ternary_metadynamics_pmf_landscape.png` |
+| 20 | [三维口袋生成](projects/task20_denovo/) | `fig20_denovo_pareto_lead_optimization.png` |
+
+Task 19 的 150,838 原子计算是短程 CPU pilot，PMF 和协同性仍为 `null`；Task 20 完成 100×20 演化、等预算随机对照和 12 个 Vina 子集对接，但不输出已校准 nM 亲和力、临床建议或合成证明。
+
 ```mermaid
 flowchart LR
     A[01 先导可开发性] -. 待实测校准 .-> D[04 PBPK]
